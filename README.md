@@ -1453,6 +1453,7 @@ El usuario puede elegir la opción de “Compartir” dentro de la sección de P
 ![alt text](assets/images/Mockups/46.png)
 
 ![alt text](assets/images/Mockups/123.png)
+
 ### 4.4.3. Web Applications User Flow Diagrams
 
 * #### Goal: El usuario se registra en la aplicación:

@@ -1140,7 +1140,6 @@ EPICS:
 |TS-40|Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|Dado que el usuario tiene habilitadas las notificaciones push, cuando hay una actualización sobre un pedido o una nueva publicación, entonces el sistema debe enviar una notificación push al dispositivo del usuario.|EP-09|
 |TS-41|Optimizar el Rendimiento de la Carga de Imágenes|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|Dado que el usuario accede a una publicación con imágenes, cuando la página carga, entonces las imágenes deben cargarse de manera rápida y eficiente, utilizando técnicas como lazy loading y compresión de imágenes.|EP-09|
 
-
 ### 3.3. Impact Mapping
 
 ![alt text](assets/images/TB1/impactmaping.jpg)
@@ -1191,6 +1190,8 @@ EPICS:
 |39|TS39 |Implementar Funcionalidad de Favoritos|Como desarrollador, quiero permitir que los usuarios marquen a cocineros como favoritos para que puedan encontrarlos fácilmente en futuras ocasiones. |3|
 |40|TS40 |Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|8|
 |41|TS41 |Optimizar el Rendimiento de la Carga de Imágene|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|8|
+
+Link de Pivotal tracker: https://www.pivotaltracker.com/n/projects/2723742 
 
 ## Capítulo IV: Product Design
 

@@ -237,14 +237,14 @@ TP:<br>
     - [Resumen de Acciones del Equipo](#resumen-de-acciones-del-equipo)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.1. Sprint 2](#521-sprint-2)
-    - [5.2.1.1. Sprint Planning 2](#5211-sprint-planning-2)
-    - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
-    - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review-1)
-    - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review-1)
-    - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review-1)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review-1)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+    - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+    - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+    - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+    - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+    - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
     - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
@@ -2089,8 +2089,8 @@ Además, el diseño principal del proyecto lo hemos desarrollado y revisado en c
 La participación de cada miembro será clave para el éxito de las siguientes fases, y esperamos que esta colaboración se refleje en los commits y en el progreso general del proyecto.
 
 
-### 5.2.1. Sprint 2
-### 5.2.1.1. Sprint Planning 2
+### 5.2.2. Sprint 2
+### 5.2.2.1. Sprint Planning 2
 El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto
 tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo
 determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
@@ -2109,7 +2109,7 @@ En este Sprint 2 realizaremos la separacion del bounded context y la implementac
 |Sprint 2 Velocity|11(US05,US15,US16,US04,US06,US03,US21,US19,US30)|
 |Sum of story points|49|
 
-### 5.2.1.2. Sprint Backlog 2
+### 5.2.2.2. Sprint Backlog 2
 En el segundo sprint backlog, nos centramos en las historias de usuario relacionadas con la funcionalidad de publicación y gestión de recetas, así como la personalización de pedidos y la visualización de cocineros. Dividimos las historias en tareas más pequeñas y asignamos cada una de ellas a los miembros del equipo, asegurándonos de mantener un flujo de trabajo eficiente y colaborativo.
 
 Entre las principales funcionalidades desarrolladas en este sprint, se incluyó la implementación de características clave como la opción de añadir, editar y eliminar recetas, la visualización y edición de pedidos, y la comparación de cocineros con base en reseñas y ratings. El progreso de las tareas fue monitoreado regularmente, lo que nos permitió cumplir con la mayoría de los objetivos establecidos para este sprint.
@@ -2149,7 +2149,7 @@ Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba1033
 | US03 | Visualización de reseñas | *TA026* | Editar filtros para la comparación de cocineros | Programar la opción de editar los filtros de comparación para incluir más criterios como tipo de cocina, experiencia, y disponibilidad. | 4 horas | Real Calderón, Sebastián Omar | Done |
 
 
-### 5.2.1.3. Development Evidence for Sprint Review
+### 5.2.2.3. Development Evidence for Sprint Review
 Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clave relacionadas con la publicación de recetas, gestión de pedidos y la mejora de la experiencia del usuario. El desarrollo se llevó a cabo en múltiples ramas del repositorio, con un enfoque colaborativo en la gestión de commits para asegurar un flujo de trabajo ágil y organizado. A continuación, se presenta un resumen de los commits realizados durante este sprint, que evidencian los avances alcanzados en el desarrollo del proyecto.
 
 | **Repository** | **Branch**       | **Commit Id** | **Commit Message**       | **Commit Message Body**                                    | **Committed on (Date)** |
@@ -2167,7 +2167,7 @@ Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clav
 | `Landing-page`      | `main`         | `06c098c`  | `Fix: link images`          | `Corrected the links for images on the landing page.` | `2024-09-07`             |
 
 
-### 5.2.1.4. Testing Suite Evidence for Sprint Review
+### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
 En esta sección se presenta la evidencia de las pruebas automatizadas desarrolladas durante el sprint, que incluyen Unit Tests, Integration Tests y Acceptance Tests, todos alineados con los User Stories especificados en el backlog del sprint. Se ha utilizado el lenguaje Gherkin para elaborar los archivos .feature que describen el comportamiento del sistema en base a las pruebas de Desarrollo Dirigido por el Comportamiento (BDD).
 
@@ -2188,7 +2188,7 @@ Se diseñaron y automatizaron pruebas para un total de 21/35 archivos .feature, 
 | Rampart-SaboresCercanos/Rampart | feature/TP | 12aee7b49a5647a81e956d6e7201558611d4eeac |feature: added US04 gherkin  | Agregué la US04.feature | 26/09/2024|
 | Rampart-SaboresCercanos/Rampart | feature/TP | 30d8350233d2e2d2445d58cdcfde16dfe2f252d0 |feature: added US06 gherkin  | Agregué US06.feature | 26/09/2024|
 
-### 5.2.1.5. Execution Evidence for Sprint Review
+### 5.2.2.5. Execution Evidence for Sprint Review
 
 En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la landing page. Nos hemos enfocado en implementar el diseño y la funcionalidad básica, incluyendo las principales vistas y elementos interactivos. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado, junto con un enlace a un video que muestra la visualización y navegación logradas durante este Sprint.
 
@@ -2235,11 +2235,11 @@ Link_Video_Cocineros: https://drive.google.com/drive/folders/1H70KFOuePRKs8zIt25
 
 Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint, nuestro enfoque principal ha sido el desarrollo y diseño de la landing page. Debido a que aún no hemos implementado Web Services, no contamos con documentación de endpoints en esta fase. En lugar de eso, hemos documentado el desarrollo y diseño de la landing page.
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 **Resumen**
 Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.

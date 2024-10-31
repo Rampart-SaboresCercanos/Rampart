@@ -1160,48 +1160,52 @@ EPICS:
 |5|US05|Política de Privacidad Clara|Como visitante preocupado por la seguridad de mis datos personales, quiero tener acceso visible a la política de privacidad desde la landing page, para entender cómo se recopilan, usan y protegen mis datos. |2|
 |EP02|||||
 |6|US06|Búsqueda Personalizada de Platos por Preferencias Dietéticas|Como usuario, quiero poder buscar platos de comida basados en mis preferencias dietéticas (vegetariano, vegano, sin gluten, etc.) y restricciones alimentarias, para encontrar opciones que se adapten a mis necesidades.|3|
-|7|US07|Filtrado de Resultados de Búsqueda por Ubicación, Precio y Popularidad|Como usuario, quiero poder filtrar los resultados de búsqueda por ubicación, precio y popularidad, para encontrar opciones cercanas a mí y que se ajusten a mi presupuesto.|3|
-|8|US08|Filtrado de Prepublicaciones para Pedidos Anticipados|Como usuario, quiero poder filtrar los resultados de búsqueda de las prepublicaciones, para poder visualizarlas y realizar mis pedidos con anticipación.|3|
+|7|US07|Filtrado de Resultados de Búsqueda por Ubicación, Precio y Popularidad|Como usuario, quiero poder filtrar los resultados de búsqueda por ubicación, precio y popularidad, para encontrar opciones cercanas a mí y que se ajusten a mi presupuesto.|6|
+|8|US08|Filtrado de Prepublicaciones para Pedidos Anticipados|Como usuario, quiero poder filtrar los resultados de búsqueda de las prepublicaciones, para poder visualizarlas y realizar mis pedidos con anticipación.|6|
 |EP03|||||
-|9|US11|Cancelar Programación de Pedido|Como usuario, quiero poder cancelar la programación de mi pedido, para poder anular la entrega si ya no deseo recibirlo.|5|
-|10|US10|Programar Pedido desde una Prepublicación|Como usuario, quiero poder programar un pedido desde una prepublicación, para poder seleccionar la hora en la que deseo recibir el pedido el día de su publicación.|5|
-|11|US09|Realizar Pedidos con Anticipación|Como usuario, quiero poder realizar mi pedido con días de anticipación , para poder  ahorrar mi tiempo. |5|
+|9|US11|Cancelar Programación de Pedido|Como usuario, quiero poder cancelar la programación de mi pedido, para poder anular la entrega si ya no deseo recibirlo.|10|
+|10|US10|Programar Pedido desde una Prepublicación|Como usuario, quiero poder programar un pedido desde una prepublicación, para poder seleccionar la hora en la que deseo recibir el pedido el día de su publicación.|10|
+|11|US09|Realizar Pedidos con Anticipación|Como usuario, quiero poder realizar mi pedido con días de anticipación , para poder  ahorrar mi tiempo. |13|
 |EP04|||||
-|12|US16|Filtracion de Pedidos por Método de Pago|Como usuario, quiero filtrar mis pedidos por el método de pago utilizado para poder revisar aquellos que hice con un pago específico (tarjeta, efectivo, monedero digital).|8|
-|13|US17|Filtracion de Pedidos por Intervalo de Fechas|Como usuario, quiero filtrar mis pedidos por un intervalo de fechas para ver qué órdenes realicé entre fechas específicas.|8|
-|14|US15|Visualización de información detallada del plato en el Pedido|Como usuario, quiero ver la foto del plato de cada pedido para recordar visualmente qué platillo pedí.|8|
-|15|US14|Filtros por Estado de Pedido (Entregados, En proceso y Cancelados)| Como usuario, quiero poder filtrar mis pedidos por estado (Pendiente, En preparacion o Completado) para encontrar rápidamente el pedido que busco.|8|
-|16|US13|Visualización de Historial de Pedidos|Como usuario, quiero ver mi historial de pedidos para revisar las comidas que he pedido en el pasado.|5|
+|12|US15|Filtracion de Pedidos por Método de Pago|Como usuario, quiero filtrar mis pedidos por el método de pago utilizado para poder revisar aquellos que hice con un pago específico (tarjeta, efectivo, monedero digital).|13|
+|13|US16|Filtracion de Pedidos por Intervalo de Fechas|Como usuario, quiero filtrar mis pedidos por un intervalo de fechas para ver qué órdenes realicé entre fechas específicas.|8|
+|14|US14|Visualización de información detallada del plato en el Pedido|Como usuario, quiero ver la foto del plato de cada pedido para recordar visualmente qué platillo pedí.|8|
+|15|US13|Filtros por Estado de Pedido (Entregados, En proceso y Cancelados)| Como usuario, quiero poder filtrar mis pedidos por estado (Pendiente, En preparacion o Completado) para encontrar rápidamente el pedido que busco.|13|
+|16|US12|Visualización de Historial de Pedidos|Como usuario, quiero ver mi historial de pedidos para revisar las comidas que he pedido en el pasado.|13|
 |EP05|||||
-|17|US19|Edicion de Perfil de Usuario|Como usuario, quiero poder editar mi perfil y actualizar mi información personal en cualquier momento.|8|
-|18|US18|Creación Perfil Personalizado|Como usuario, quiero poder crear un perfil personalizado, indicando mis preferencias alimentarias, direcciones de entrega y métodos de pago preferidos.|8|
+|17|US18|Edicion de Perfil de Usuario|Como usuario, quiero poder editar mi perfil y actualizar mi información personal en cualquier momento.|8|
+|18|US17|Creación Perfil Personalizado|Como usuario, quiero poder crear un perfil personalizado, indicando mis preferencias alimentarias, direcciones de entrega y métodos de pago preferidos.|8|
 |EP06|||||
-|19|US23|Buscar Recetas por Nombre o Ingredientes|Como cocinero o usuario de la comunidad,Quiero poder buscar recetas por el nombre del plato o por ingredientes,para que pueda encontrar fácilmente recetas que se ajusten a mis preferencias o necesidades culinarias.|8|
-|20|US22|Eliminar Recetas|Como cocinero,Quiero poder eliminar mis recetas publicadas,Para que pueda eliminar aquellas que ya no deseo compartir con la comunidad.|5|
-|21|US21|Editar Recetas|Como cocinero,Quiero poder editar mis recetas publicadas,Para que pueda actualizar la información, corregir errores o modificar ingredientes.|5|
-|22|US20|Crear recetas|Como cocinero, quiero poder publicar mis recetas y compartir mis conocimientos culinarios con la comunidad.|5|
-|23|US12|Guardar Recetas Favoritas|Como usuario, quiero poder guardar mis recetas favoritas para encontrarlas fácilmente en el futuro.|5|
+|19|US22|Buscar Recetas por Nombre o Ingredientes|Como cocinero o usuario de la comunidad,Quiero poder buscar recetas por el nombre del plato o por ingredientes,para que pueda encontrar fácilmente recetas que se ajusten a mis preferencias o necesidades culinarias.|13|
+|20|US21|Eliminar Recetas|Como cocinero,Quiero poder eliminar mis recetas publicadas,Para que pueda eliminar aquellas que ya no deseo compartir con la comunidad.|13|
+|21|US20|Editar Recetas|Como cocinero,Quiero poder editar mis recetas publicadas,Para que pueda actualizar la información, corregir errores o modificar ingredientes.|12|
+|22|US19|Crear recetas|Como cocinero, quiero poder publicar mis recetas y compartir mis conocimientos culinarios con la comunidad.|12|
 |EP07|||||
-|24|US25|Mostrar Platos Populares en la Vista Home|Como usuario, quiero ver una lista de platos populares en la vista Home para poder elegir entre las opciones más solicitadas.|2|
-|25|US24|Mostrar Mensaje de Bienvenida|Como usuario, quiero recibir un mensaje de bienvenida en la vista Home para sentirme bienvenido y motivado a explorar los platos.|1|
+|23|US24|Mostrar Platos Populares en la Vista Home|Como usuario, quiero ver una lista de platos populares en la vista Home para poder elegir entre las opciones más solicitadas.|12|
+|24|US23|Mostrar Mensaje de Bienvenida|Como usuario, quiero recibir un mensaje de bienvenida en la vista Home para sentirme bienvenido y motivado a explorar los platos.|10|
 |EP08|||||
-|26|US30|Escalabilidad y Rendimiento de la Plataforma|Como administrador del sistema, quiero que la plataforma maneje un aumento significativo en el número de usuarios durante una promoción, para asegurarme de que la carga adicional no disminuya la velocidad de respuesta ni afecte la experiencia del usuario.|8|
-|27|US29|Auditoría y Monitoreo de Seguridad del Sistema|Como administrador del sistema, quiero tener acceso a un panel de monitoreo que me permita detectar actividades sospechosas en la plataforma, para recibir alertas en tiempo real y acceder a detalles sobre la actividad para tomar medidas adecuadas.|8|
-|28|US27|Verificación de Identidad de Cocineros|Como cocinero registrado en la plataforma, quiero enviar la documentación requerida para la verificación de mi identidad, para que el sistema pueda revisar y verificar mi identidad.|8|
-|29|US26|Proteger Datos Personales y Financieros con Encriptación|Como usuario, quiero que mis datos personales y financieros estén protegidos mediante encriptación de alta seguridad, para garantizar la confidencialidad de mi información.|8|
-|30|US28|Gestión Segura de Transacciones Financieras|Como cocinero, quiero revisar la sección de pagos en la plataforma después de completar una transacción con un cliente, para ver un resumen que incluya el monto recibido, la fecha y el estado del pago.|8|
+|25|US29|Escalabilidad y Rendimiento de la Plataforma|Como administrador del sistema, quiero que la plataforma maneje un aumento significativo en el número de usuarios durante una promoción, para asegurarme de que la carga adicional no disminuya la velocidad de respuesta ni afecte la experiencia del usuario.|10|
+|26|US28|Auditoría y Monitoreo de Seguridad del Sistema|Como administrador del sistema, quiero tener acceso a un panel de monitoreo que me permita detectar actividades sospechosas en la plataforma, para recibir alertas en tiempo real y acceder a detalles sobre la actividad para tomar medidas adecuadas.|8|
+|27|US27|Gestión Segura de Transacciones Financieras|Como cocinero, quiero revisar la sección de pagos en la plataforma después de completar una transacción con un cliente, para ver un resumen que incluya el monto recibido, la fecha y el estado del pago.|8|
+|28|US26|Verificación de Identidad de Cocineros|Como cocinero registrado en la plataforma, quiero enviar la documentación requerida para la verificación de mi identidad, para que el sistema pueda revisar y verificar mi identidad.|8|
+|29|US25|Proteger Datos Personales y Financieros con Encriptación|Como usuario, quiero que mis datos personales y financieros estén protegidos mediante encriptación de alta seguridad, para garantizar la confidencialidad de mi información.|15|
 |EP09|||||
-|31|TS41|Optimizar el Rendimiento de la Carga de Imágenes|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|8|
-|32|TS40|Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|8|
-|33|TS39|Implementar Funcionalidad de Favoritos|Como desarrollador, quiero permitir que los usuarios marquen a cocineros como favoritos para que puedan encontrarlos fácilmente en futuras ocasiones. |3|
-|34|TS38|Implementar Perfil del Usuario|Como desarrollador, quiero implementar un perfil de usuario donde pueda ver y editar su información personal, incluyendo preferencias, direcciones, y métodos de pago preferidos.|5|
-|35|TS37|Implementar Historial de Pedidos del Usuario|Como desarrollador, quiero implementar un historial de pedidos para que los usuarios puedan ver sus pedidos anteriores, con detalles como el chef, el costo, y el método de pago.|5|
-|36|TS36| Implementar Sección de Recetas Compartidas|Como desarrollador, quiero permitir que los chefs compartan sus recetas con los usuarios para fomentar la interacción y la comunidad en la plataforma.|5|
-|37|TS35| Implementar Programación de Pedido |Como desarrollador, quiero implementar la funcionalidad de programación de pedidos para que los usuarios elijan la fecha y hora de entrega de su pedido. |5|
-|38|TS34|Implementar Botón para Solicitar un Plato|Como desarrollador, quiero implementar un botón para que los usuarios puedan solicitar un plato y ser redirigidos a los métodos de pago.|3|
-|39|TS33|Implementar Funcionalidad de Publicaciones de Platos|Como desarrollador, quiero implementar la funcionalidad de publicaciones para que los chefs puedan mostrar sus platos, incluyendo la imagen, el stock disponible y el precio.|5|
-|40|TS32|Implementar Landing Page| Como desarrollador, quiero implementar la landing page que muestre la información de la plataforma y guíe al usuario a descargar la app o acceder al sitio web.|5|
-|41|TS31|Configurar Entorno de Desarrollo|Como desarrollador, quiero configurar mi entorno de desarrollo para poder comenzar a trabajar en el proyecto de Sabores Cercanos.|2|
+|30|US32|Pagina de favoritos|Como usuario, quiero una página dedicada de "Favoritos" a la que pueda acceder desde el menú principal, para encontrar fácilmente las recetas y cocineros que he guardado como favoritos.|15|
+|31|US31|Guardar Cocineros Favoritas|Como usuario, quiero poder guardar a mis cocineros favoritos, desde mi página de Chefs, haciendo clic en un icono de corazón, para acceder fácilmente a sus perfiles en el futuro.|15|
+|32|US30|Guardar Recetas Favoritas|Como usuario, quiero poder guardar mis recetas favoritas haciendo click en el ícono de corazón, para encontrarlas fácilmente en el futuro.|15|
+|EP10|||||
+|33|TS43|Optimizar el Rendimiento de la Carga de Imágenes|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|12|
+|34|TS42|Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|12|
+|35|TS41|Implementar Funcionalidad de Favoritos|Como desarrollador, quiero permitir que los usuarios marquen a cocineros como favoritos para que puedan encontrarlos fácilmente en futuras ocasiones. |12|
+|36|TS40|Implementar Perfil del Usuario|Como desarrollador, quiero implementar un perfil de usuario donde pueda ver y editar su información personal, incluyendo preferencias, direcciones, y métodos de pago preferidos.|12|
+|37|TS39|Implementar Historial de Pedidos del Usuario|Como desarrollador, quiero implementar un historial de pedidos para que los usuarios puedan ver sus pedidos anteriores, con detalles como el chef, el costo, y el método de pago.|9|
+|38|TS38|Implementar Sección de Recetas Compartidas|Como desarrollador, quiero permitir que los chefs compartan sus recetas con los usuarios para fomentar la interacción y la comunidad en la plataforma.|9|
+|39|TS37|Implementar Programación de Pedido |Como desarrollador, quiero implementar la funcionalidad de programación de pedidos para que los usuarios elijan la fecha y hora de entrega de su pedido. |9|
+|40|TS36|Implementar Botón para Solicitar un Plato|Como desarrollador, quiero implementar un botón para que los usuarios puedan solicitar un plato y ser redirigidos a los métodos de pago.|11|
+|41|TS35|Implementar Funcionalidad de Publicaciones de Platos|Como desarrollador, quiero implementar la funcionalidad de publicaciones para que los chefs puedan mostrar sus platos, incluyendo la imagen, el stock disponible y el precio.|11|
+|42|TS34|Implementar Landing Page| Como desarrollador, quiero implementar la landing page que muestre la información de la plataforma y guíe al usuario a descargar la app o acceder al sitio web.|11|
+|43|TS33|Configurar Entorno de Desarrollo|Como desarrollador, quiero configurar mi entorno de desarrollo para poder comenzar a trabajar en el proyecto de Sabores Cercanos.|5|
+
 
 
 Link de Pivotal tracker: https://www.pivotaltracker.com/n/projects/2723742 

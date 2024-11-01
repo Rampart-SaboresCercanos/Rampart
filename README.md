@@ -1967,18 +1967,18 @@ completa, con un diseño atractivo e intuitivo para los usuarios. Gracias a nues
 |-|-|-|-|-|-|-|-|
 |User<br>Story| |Work-Item /Task| | | | | |
 |ID|Title|ID|Title|Description|Estimation<br>(Hours)|Assigned<br>To|Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done)|
-|US-01|Inicio de "Sabores Cercanos"|TA001|Mensaje Informativo|Redactar mensaje informativo para la landing page|4hrs|Estefano Jaque|Done|
-|US-01|Inicio de "Sabores Cercanos"|TA002|Diseño de la Sección Introductoria|Diseñar la sección de la landing page donde se mostrará el mensaje informativo|5|Diego Rosado|Done|
-|US-01|Inicio de "Sabores Cercanos"|TA003|Ejemplos de Beneficios|Crear ejemplos de beneficios destacados|5|Jose Alejo|Done|
-|US-02|Proceso de Registro Eficiente|TA004|Diseño del Formulario de Registro|Diseñar formulario de registro simple|4|Sebastian Real|Done|
-|US-02|Proceso de Registro Eficiente|TA005|Implementación del Proceso de Registro|Implementar el proceso de registro|6|Maria Jose Pezo|Done|
-|US-02|Proceso de Registro Eficiente|TA006|Mensaje de Confirmación|Implementar mensaje de confirmación de registro|4|Estefano Jaque|Done|
-|US-03|Visualización de Platos Populares y Reseñas|TA007|Diseño de Galería de Platos|Diseñar galería de platos populares|4|Diego Rosado|Done|
-|US-03|Visualización de Platos Populares y Reseñas|TA008|Implementación de Reseñas|Crear sección para mostrar reseñas de usuarios|5|Jose Alejo|Done|
-|US-04|Sección de Preguntas Frecuentes Accesible|TA009|Diseño de la Sección de Preguntas|Diseñar la sección de preguntas frecuentes|4| Sebastian Real|Done|
-|US-04|Sección de Preguntas Frecuentes Accesible|TA010|Implementación de la Sección de Preguntas|Implementar la sección de preguntas frecuentes|4|Maria Jose Pezo|Done|
-|US-05|Política de Privacidad Clara |TA011|Redacción de la Política de Privacidad|Redactar política de privacidad|4|Estefano Jaque|Done|
-|US-05|Política de Privacidad Clara |TA012|Implementación del Enlace a la Política|Implementar enlace a la política de privacidad en la landing page|4|Diego Rosado|Done|
+|US-01|Inicio de "Sabores Cercanos"|TA001|Mensaje Informativo|Redactar mensaje informativo para la landing page|4 horas|Estefano Jaque|Done|
+|US-01|Inicio de "Sabores Cercanos"|TA002|Diseño de la Sección Introductoria|Diseñar la sección de la landing page donde se mostrará el mensaje informativo|5 horas|Diego Rosado|Done|
+|US-01|Inicio de "Sabores Cercanos"|TA003|Ejemplos de Beneficios|Crear ejemplos de beneficios destacados|5 horas|Jose Alejo|Done|
+|US-02|Proceso de Registro Eficiente|TA004|Diseño del Formulario de Registro|Diseñar formulario de registro simple|4 horas|Sebastian Real|Done|
+|US-02|Proceso de Registro Eficiente|TA005|Implementación del Proceso de Registro|Implementar el proceso de registro|6 horas|Maria Jose Pezo|Done|
+|US-02|Proceso de Registro Eficiente|TA006|Mensaje de Confirmación|Implementar mensaje de confirmación de registro|4 horas|Estefano Jaque|Done|
+|US-03|Visualización de Platos Populares y Reseñas|TA007|Diseño de Galería de Platos|Diseñar galería de platos populares|4 horas|Diego Rosado|Done|
+|US-03|Visualización de Platos Populares y Reseñas|TA008|Implementación de Reseñas|Crear sección para mostrar reseñas de usuarios|5 horas|Jose Alejo|Done|
+|US-04|Sección de Preguntas Frecuentes Accesible|TA009|Diseño de la Sección de Preguntas|Diseñar la sección de preguntas frecuentes|4 horas| Sebastian Real|Done|
+|US-04|Sección de Preguntas Frecuentes Accesible|TA010|Implementación de la Sección de Preguntas|Implementar la sección de preguntas frecuentes|4 horas|Maria Jose Pezo|Done|
+|US-05|Política de Privacidad Clara |TA011|Redacción de la Política de Privacidad|Redactar política de privacidad|4 horas|Estefano Jaque|Done|
+|US-05|Política de Privacidad Clara |TA012|Implementación del Enlace a la Política|Implementar enlace a la política de privacidad en la landing page|4 horas|Diego Rosado|Done|
 
 
 
@@ -2117,9 +2117,9 @@ En este Sprint 2 realizaremos la separacion del bounded context y la implementac
 |Sum of story points|49|
 
 ### 5.2.2.2. Sprint Backlog 2
-En el segundo sprint backlog, nos centramos en las historias de usuario relacionadas con la funcionalidad de publicación y gestión de recetas, así como la personalización de pedidos y la visualización de cocineros. Dividimos las historias en tareas más pequeñas y asignamos cada una de ellas a los miembros del equipo, asegurándonos de mantener un flujo de trabajo eficiente y colaborativo.
+En el segundo sprint backlog, enfocamos los esfuerzos en historias de usuario relacionadas con la personalización de búsqueda y filtros avanzados, la gestión de pedidos anticipados y programados, la optimización de seguridad y escalabilidad de la plataforma, y el desarrollo de funcionalidades de favoritos y perfil personalizado. Estas historias se desglosaron en tareas más pequeñas, asignando cada una a los miembros del equipo para asegurar un flujo de trabajo ordenado y colaborativo.
 
-Entre las principales funcionalidades desarrolladas en este sprint, se incluyó la implementación de características clave como la opción de añadir, editar y eliminar recetas, la visualización y edición de pedidos, y la comparación de cocineros con base en reseñas y ratings. El progreso de las tareas fue monitoreado regularmente, lo que nos permitió cumplir con la mayoría de los objetivos establecidos para este sprint.
+Entre las principales funcionalidades desarrolladas en este sprint, destacamos la implementación de filtros avanzados para la búsqueda de platos según ubicación, precio, popularidad y preferencias dietéticas, además de la habilitación de pedidos anticipados y la programación de entregas desde prepublicaciones. También se trabajó en la seguridad de datos mediante encriptación y en la creación de un sistema de verificación de cocineros, así como en la gestión segura de transacciones. A nivel de experiencia del usuario, se desarrollaron las opciones de guardar recetas y cocineros en favoritos, y se implementaron ajustes en el perfil para facilitar la personalización. El progreso se monitoreó regularmente, permitiéndonos alcanzar los objetivos trazados para este sprint y optimizar el rendimiento general de la plataforma.
 
 Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba103332d73ab459b9c9963c0ade138D7652/mi-tablero-de-trello
 
@@ -2128,32 +2128,45 @@ Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba1033
 |-|-|-|-|-|-|-|-|
 |User<br>Story| |Work-Item /Task| | | | | |
 |ID|Title|ID|Title|Description|Estimation<br>(Hours)|Assigned<br>To|Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done)|
-| US19 | Publicar Recetas | *TA001* | Crear Bounded Context de recetas | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 6 horas | Jaque Peña, Estefano Oscar | Done |
-| US19 | Publicar Recetas | *TA002* | Implementar funcionalidad de añadir recetas | Implementar la funcionalidad que permite a los usuarios añadir nuevas recetas. | 4 horas | Jaque Peña, Estefano Oscar | Done |
-| US19 | Publicar Recetas | *TA003* | Implementar funcionalidad de editar recetas | Implementar la funcionalidad para editar recetas, permitiendo a los usuarios modificar el título, la descripción, los ingredientes y los pasos de preparación. | 6 horas | Jaque Peña, Estefano Oscar | Done |
-| US19 | Publicar Recetas | *TA004* | Implementar funcionalidad de eliminar recetas | Desarrollar la funcionalidad que permita a los usuarios eliminar recetas mediante una interfaz. | 5 horas | Jaque Peña, Estefano Oscar | Done |
-| US21 | Guardar Recetas  | *TA005* | Añadir recetas a favoritas |  Implementar la funcionalidad que permita a los usuarios agregar recetas a su lista de favoritas. | 6 horas | Jaque Peña, Estefano Oscar | Done |
-| US21 | Guardar Recetas  | *TA006* | Mostrar recetas guardadas | Implementar una vista en la que los usuarios puedan ver todas las recetas que han guardado. | 5 horas | Jaque Peña, Estefano Oscar | Done |
-| US05 | Programacion de entrega | *TA007* | Crear Bounded Context de pedidos | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 6 horas | Alejo Cardenas,Jose | Done |
-| US05| Programacion de entrega| *TA008*| Editar pedido | Implementar la funcionalidad para que el usuario pueda modificar los detalles de un pedido, tales como la cantidad de productos, la dirección y la fecha de entrega.| 4 horas| Alejo Cardenas,Jose | Done|
-| US15| Programación de pedidos |*TA009*| Mostrar pedidos | Diseñar la interfaz de usuario que muestre los detalles del pedido con la información de productos, dirección, fecha de entrega y estado actual. | 4 horas | Alejo Cardenas,Jose|Done|
-| US16| Métodos de pago |*TA010*| Crear pedido | Implementar la lógica para crear un pedido en la base de datos, incluyendo la confirmación de los detalles ingresados, como productos, dirección y método de pago. | 5 horas | Alejo Cardenas,Jose |Done|
-| US16| Programación de pedidos |*TA011*| Eliminar pedido | Implementar la funcionalidad para que el usuario pueda eliminar un pedido de la base de datos y reflejar el cambio en la interfaz de usuario. | 5 horas | Alejo Cardenas,Jose |Done|
-| US04 | Visualización de información nutricional | *TA012* | Crear Bounded Context de platillos | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 8 horas | Pezo Castilla, Maria Jose | Done |
-| US04| Visualización de información nutricional  | *TA013* |Mostrar la descripción e información del plato| Mostrar la descripción del plato y datos informativos como el nombre del plato, precio promedio y la cantidad de ordenes realizadas durante el mes.  | 5 horas | Pezo Castilla, Maria Jose| Done      
-| US06| Experiencia personalizada  | *TA014* | Eliminar platos de la lista personalizada | Desarrollar la eliminación de platos de la lista personalizada. | 6 horas | Pezo Castilla, Maria Jose | Done|
-| US06| Experiencia personalizada | *TA015*  | Actualizar lista de platos | Implementar la actualización de la lista de platos personalizada.| 7 horas| Pezo Castilla, Maria Jose | Done |
-| US06| Experiencia personalizada | *TA016* |Añadir platos a la lista personalizada| Desarrollar la agregacion de nuevos platos a la lista personalizada.| 6 horas| Pezo Castilla, Maria Jose | Done |
-| US30 | Programación de entrega | *TA017* | Crear Bounded Context de plan nutricional | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 7 horas | Rosado Iporre, Diego | Done |
-| US30 | Programación de entrega | *TA018* | Agregar nutrientes | Consiste en permitir al usuario añadir información nutricional a un pedido, como calorías, proteínas, y otros nutrientes importantes. | 4 horas | Rosado Iporre, Diego | Done | 
-| US30 | Programación de pedidos | *TA019* | Mostrar nutrientes | Esta tarea permite al usuario visualizar la información nutricional de un pedido existente, asegurando una elección informada. | 4 horas | Rosado Iporre, Diego | Done |
-| US30 | Métodos de pago | *TA020* | Editar nutrientes | Esta tarea permite al usuario modificar la información nutricional de un pedido, como actualizar las cantidades de cada nutriente. | 5 horas | Rosado Iporre, Diego | Done | 
-| US30 | Programación de pedidos | *TA021* | Eliminar nutrientes | Esta tarea permite al usuario eliminar la información nutricional de un pedido, si así lo desea. | 5 horas | Rosado Iporre, Diego | Done |
-| US03 | Visualización de reseñas | *TA022* | Crear Bounded Context de cocineros | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 6 horas | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas  | *TA023* | Añadir una lista de cocineros para permitir la comparación | Programar la funcionalidad del bounded context cocineros que permita ver los perfiles para poder compararlos en base a sus ratings y reseñas | 5 horas  | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas | *TA024* | Añadir lista de cocineros para comparación | Programar la funcionalidad del bounded context "cocineros" que permita ver los perfiles y compararlos en base a sus ratings y reseñas. | 5 horas | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas | *TA025* | Actualizar lista de cocineros en base a reseñas recientes | Implementar la actualización automática de la lista de cocineros cada vez que haya una nueva reseña o actualización de ratings. | 4 horas | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas | *TA026* | Editar filtros para la comparación de cocineros | Programar la opción de editar los filtros de comparación para incluir más criterios como tipo de cocina, experiencia, y disponibilidad. | 4 horas | Real Calderón, Sebastián Omar | Done |
+| US06 | Búsqueda personalizada | *TA001* | Implementar filtro por preferencias dietéticas | Crear filtros de preferencias dietéticas en el buscador de platos | 6 horas | Equipo | Done |
+| US07 | Filtrado de búsqueda | *TA002* | Filtrar por ubicación | Implementar filtro que permita ordenar platos por cercanía | 5 horas | Equipo | Done |
+| US07 | Filtrado de búsqueda | *TA003* | Filtrar por precio | Crear filtro de búsqueda basado en rango de precios | 5 horas | Equipo | Done |
+| US08 | Prepublicaciones | *TA004* | Crear Bounded Context de prepublicaciones | Diseñar la estructura y configuración de prepublicaciones de pedidos anticipados | 7 horas | Equipo | Done |
+| US09 | Realizar pedidos anticipados | *TA005* | Implementar pedido anticipado | Permitir realizar pedidos antes de la fecha de entrega programada | 6 horas | Equipo | Done |
+| US10 | Programar pedido | *TA006* | Programar desde una prepublicación | Habilitar opción para programar pedidos basados en una prepublicación | 5 horas | Equipo | Done |
+| US11 | Cancelar pedido | *TA007* | Cancelar programación de pedido | Implementar funcionalidad para cancelar pedidos programados | 4 horas | Equipo | Done |
+| US12 | Historial de pedidos | *TA008* | Visualización del historial | Crear página de historial que muestre pedidos anteriores | 5 horas | Equipo | Done |
+| US13 | Filtrar historial | *TA009* | Filtrar por estado de pedido | Implementar filtros de pedidos por estado: entregados, en proceso y cancelados | 5 horas | Equipo | Done |
+| US14 | Información detallada | *TA010* | Mostrar información de platos en pedido | Mostrar nombre, descripción, ingredientes y datos nutricionales de cada plato en el pedido | 5 horas | Equipo | Done |
+| US15 | Filtrar pedidos | *TA011* | Filtrar por método de pago | Añadir filtro de pedidos según método de pago seleccionado | 4 horas | Equipo | Done |
+| US16 | Filtrar pedidos por fecha | *TA012* | Filtrar por intervalo de fechas | Implementar filtro que permita visualizar pedidos en un rango de fechas específico | 5 horas | Equipo | Done |
+| US17 | Perfil personalizado | *TA013* | Crear perfil de usuario | Crear estructura de perfil con campos personalizados | 6 horas | Equipo | Done |
+| US18 | Edición de perfil | *TA014* | Editar perfil | Permitir a los usuarios modificar su perfil, incluyendo preferencias y datos personales | 5 horas | Equipo | Done |
+| US19 | Recetas | *TA015* | Crear receta | Implementar funcionalidad para que el usuario publique una receta | 5 horas | Equipo | Done |
+| US20 | Editar receta | *TA016* | Editar recetas existentes | Habilitar edición de recetas creadas por el usuario | 5 horas | Equipo | Done |
+| US21 | Eliminar receta | *TA017* | Borrar receta | Permitir al usuario eliminar una receta de su perfil | 5 horas | Equipo | Done |
+| US22 | Buscar recetas | *TA018* | Filtrar recetas por ingredientes | Crear un filtro de búsqueda de recetas por ingrediente principal | 4 horas | Equipo | Done |
+| US23 | Bienvenida | *TA019* | Mostrar mensaje de bienvenida | Configurar mensaje de bienvenida personalizado en el perfil del usuario | 4 horas | Equipo | Done |
+| US24 | Platos populares | *TA020* | Mostrar platos en home | Mostrar en la página principal los platos más populares | 4 horas | Equipo | Done |
+| US25 | Seguridad de datos | *TA021* | Encriptación de datos | Asegurar la protección de datos personales y financieros mediante encriptación | 6 horas | Equipo | Done |
+| US26 | Verificación de cocineros | *TA022* | Identidad de cocineros | Implementar sistema de verificación de identidad para cocineros registrados | 6 horas | Maria Jose Pezo Castilla | Done |
+| US27 | Transacciones seguras | *TA023* | Protección de transacciones | Implementar medidas de seguridad para transacciones financieras | 6 horas | Equipo | Done |
+| US28 | Seguridad | *TA024* | Auditoría y monitoreo | Implementar auditoría y monitoreo para seguridad de la plataforma | 6 horas | Equipo | Done |
+| US29 | Rendimiento | *TA025* | Escalabilidad de la plataforma | Mejorar la arquitectura para soportar escalabilidad | 6 horas | Equipo | Done |
+| US30 | Recetas favoritas | *TA026* | Guardar recetas | Permitir a los usuarios agregar recetas a favoritos | 5 horas | Maria Jose Pezo Castilla | Done |
+| US31 | Cocineros favoritos | *TA027* | Guardar cocineros | Habilitar la opción de agregar cocineros a favoritos | 5 horas | Maria Jose Pezo Castilla | Done |
+| US32 | Página de favoritos | *TA028* | Crear página de favoritos | Crear vista de favoritos con las recetas y cocineros guardados | 6 horas | Maria Jose Pezo Castilla | Done |
+| TS33 | Configurar entorno | *TA029* | Configuración de desarrollo | Configurar entorno y dependencias para facilitar el desarrollo | 6 horas | Equipo | Done |
+| TS34 | Landing page | *TA030* | Implementar landing page | Diseñar y crear una página de inicio de bienvenida | 6 horas | Equipo | Done |
+| TS35 | Publicación de platos | *TA031* | Añadir funcionalidad de publicaciones | Implementar funcionalidad para publicar platos en la plataforma | 6 horas | Equipo | Done |
+| TS36 | Botón de solicitud | *TA032* | Implementar solicitud de plato | Añadir un botón para que los usuarios soliciten platos de cocineros | 5 horas | Equipo | Done |
+| TS37 | Programación de pedidos | *TA033* | Funcionalidad de programación | Crear funcionalidad para programar la entrega de pedidos | 6 horas | Equipo | Done |
+| TS38 | Recetas compartidas | *TA034* | Sección de recetas compartidas | Añadir una sección donde se puedan compartir y ver recetas | 6 horas | Equipo | Done |
+| TS39 | Historial de pedidos | *TA035* | Historial de pedidos de usuario | Permitir al usuario ver sus pedidos anteriores en su perfil | 6 horas | Equipo | Done |
+| TS40 | Perfil del usuario | *TA036* | Configurar perfil de usuario | Implementar página de perfil del usuario con información relevante | 6 horas | Equipo | Done |
+| TS41 | Favoritos | *TA037* | Añadir favoritos a perfil | Permitir a los usuarios agregar recetas y cocineros a favoritos desde su perfil | 5 horas | Maria Jose Pezo Castilla | Done |
+| TS42 | Notificaciones push | *TA038* | Configurar notificaciones | Habilitar notificaciones push para nuevos platos, pedidos y recordatorios | 6 horas | Equipo | Done |
+| TS43 | Rendimiento de imágenes | *TA039* | Optimización de carga de imágenes | Optimizar carga de imágenes para mejorar la experiencia del usuario | 6 horas | Maria Jose Pezo Castilla | Done |
 
 
 ### 5.2.2.3. Development Evidence for Sprint Review

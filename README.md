@@ -275,12 +275,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
    La propuesta de valor de "Sabores Cercanos" se centra en proporcionar comida casera de calidad, personalizada y a precios asequibles, mientras que ofrece a los cocineros una vía para generar ingresos adicionales de forma flexible. A través de una interfaz intuitiva y procesos eficientes, "Sabores Cercanos" crea un ecosistema donde la pasión por la cocina y la necesidad de comidas prácticas y saludables se encuentran.
 
-###### Misión:
+**Misión:**  
 
    La misión de "Sabores Cercanos" es transformar la forma en que las personas acceden a la comida casera, conectando a cocineros apasionados con consumidores que buscan opciones de alimentación saludable y conveniente. Aspiramos a empoderar a los cocineros caseros, brindándoles la oportunidad de monetizar sus habilidades culinarias, mientras mejoramos la calidad de vida de nuestros consumidores a través de alimentos nutritivos y sabrosos. Fomentamos una comunidad en la que compartir la pasión por la cocina se convierte en una experiencia enriquecedora para todos.
 
 
-###### Visión:
+**Visión:**  
 
    Nuestra visión es ser la plataforma líder en conectar cocineros caseros y consumidores en América Latina, reconocida por ofrecer calidad, confianza y una experiencia gastronómica única. Queremos crear un movimiento que celebre la comida casera y las tradiciones culinarias locales, mientras promovemos estilos de vida saludables y sostenibles. Buscamos establecer un estándar en la economía colaborativa del sector alimentario, donde la comida casera se convierta en una opción accesible y preferida para todos, y donde cada cocinero tenga la oportunidad de compartir su talento y mejorar su vida.
 
@@ -290,25 +290,27 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 - Estefano Oscar Jaque Peña - U202225466
 
 | <p align="center"><img width="auto" height="auto" src="assets/images/TB1/Estefanoprofile.jpg"> </p> | Soy Estefano Oscar Jaque Peña, tengo 23 años y soy estudiante de la carrera de Ingeniería de Software,<br> una disciplina enfocada en el diseño, desarrollo y gestión de software para solucionar problemas <br>complejos. Desde temprana edad, he sentido fascinación por la tecnología y he buscado aprender <br>constantemente sobre las últimas tendencias en programación. He ampliado mis conocimientos a <br>través de cursos en Python, SQL, y C++, así como también explorando otros lenguajes de programación <br>por mi cuenta. Además, tengo habilidades en el uso avanzado de Excel para análisis de datos y gestión<br> de información. Mi experiencia trabajando en equipos me ha brindado habilidades de comunicación y <br>colaboración que considero fundamentales para contribuir de manera efectiva a proyectos innovadores en el área de la Ingeniería de Software. |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--|:--|
 
 - Diego Alonso Rosado Iporre -   u201620127
 
 | <p align="center"><img width="auto" height="auto" src="assets/images/TB1/Diegoprofile.jpg"> </p> | Mi nombre es Diego Rosado, tengo 24 años. Mi interés en las base de datos y arquitectura de páginas web me impulsó a estudiar Ingeniería de Software. Tengo conocimiento de lenguajes como C#, C++, JavaScript, Python, base de datos como MySQL y me atrae el diseño de páginas web con HTML y CSS. Me considero una persona positiva, tolerante y creativa. Mi aporte al grupo es mi total compromiso, apoyo mutuo y el esfuerzo por asegurar que todos tengamos una visión compartida del proyecto a elaborar. Mis habilidades son resolución de problemas, adaptabilidad, trabajo en equipo y toma de decisiones.  |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+|--|:--|
 
 - Maria Jose Pezo Castilla - u20221c590
 
 | <p align="center"><img width="3400" src="assets/images/TB1/Majoprofile.png"> </p> | Mi nombre es Maria Jose Pezo Castilla tengo 22 años, actualmente curso el quinto ciclo de la carrera de Ingeniería de Software. Soy una persona responsable, disciplinada y dedicada, tengo gran capacidad para adaptarme a diversos entornos y aportar siempre lo mejor de mi. Me caracterizo por mi facilidad para el trabajo en equipo y mi entusiasmo por aprender y desarrollar mis habilidades. He estudiado lenguajes de programación como C++, C# y HTML; y bases de datos como Microsoft SQL Server y Mongo DB.Asimismo, me considero una persona asertiva y empática con predisposición al aprendizaje continuo. Poseo habilidades para la programación y elaboracion de algoritmos que brinden soluciones efectivas a necesidades o problemáticas específicas.Mis principales hobbies son bailar, entrenar y lee. Para el desarrollo eficiente del presente proyecto pondre en práctica todos mis conocimientos aprendidos, brindare apoyo y entablare una comunicación efectiva. 
-|-|-|
+|--|:--|
+
 - José Antonio Alejo Cárdenas - U202122484
 
 | <p align="center"><img width="3000" height="auto" src="assets/images/TB1/Joseprofile.jpg"> | Soy José Alejo Cárdenas tengo 23 años soy estudiante de la carrera de Ingeniería de Software del quinto ciclo. Desde pequeño he sentido facinacion por la tecnologia en general sobretodo por el funcionamiento, desarrollo y proteccion del software. He estudiado lenguajes de programacion (java, python y C++), bases de datos (Microsoft SQL Server y Mongo DB) y Sistemas Operativos (Kali Linux y Windows). Asi mismo, tengo experiencia con hardware a nivel de esamblamiento de equipos y funcionamiento del mismo con sus especificaciones tecnicas. Además, mi constante comunicacion y organizacion durante cualquier trabajo grupal aportara mucho dinamismo al proyecto. Mis principales hobbies son entrenar en el gimnasio, jugar videojuegos con mis amigos y salir a conversar con estos ultimos durante algun almuerzo o cena. Para el proyecto aportare organizacion, comunicacion e inspiracion durante todo el transcurso del mismo.
-|-|-|
+|--|:--|
+
 - Sebastián Omar Real Calderón - U20221D964
 
 | <p align="center"><img width="1000" src="assets/images/TB1/Sebastianprofile.jpg"> </p> | Soy Sebastián Real Calderón, tengo 19 años y soy estudiante de la carrera de Ingeniería de Software. Tengo conocimientos sobre lenguajes de programación como C++, C# y Java. Principalmente me dedico al desarrollo de proyectos que me permitan desarrollar mis habilidades de programación, tales como videojuegos o programas sencillos, ya que apunto a volverme desarrollador. Dentro de mis hobbies están los videojuegos, las series, el baile y el fútbol.
-|-|-|
+|--|:--|
 
 ### 1.2. Solution Profile
 
@@ -316,7 +318,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
-###### What?
+**What?**
 
 - _¿Qué problema hay?_
 
@@ -330,7 +332,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
-###### When?
+**When?**
 
 - _¿Cuándo sucede el problema?_
 
@@ -344,7 +346,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
-###### Where?
+**Where?**
 
 - _¿Dónde el cliente usara el producto?_
 
@@ -358,7 +360,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
-###### Who?
+**Who?**
 
 - _¿Quiénes van a involucrarse con nuestra aplicación?_
 
@@ -378,7 +380,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
-###### Why?
+**Why?**
 
 - _¿Por qué ocurre el problema?_
 
@@ -397,7 +399,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
    Las personas estarán motivadas por la conveniencia de recibir comida casera y saludable, la variedad de opciones disponibles, y la conexión con su comunidad. Para los cocineros, la motivación proviene de la oportunidad de ganar dinero haciendo lo que aman, sin los costos y riesgos asociados con un negocio de restauración tradicional.
 
 
-###### How?
+**How?**
 
 - _¿Cómo nos descubren nuestros clientes?_
 
@@ -407,25 +409,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 - _¿Cómo pueden los clientes acceder a nuestro contenido?_
 
-   Los clientes pueden acceder al contenido a través de la aplicación móvil o el sitio web de "Sabores Cercanos". Además, recibirán notificaciones y alertas sobre nuevas ofertas y publicaciones de recetas.
-
-
+   Los clientes pueden acceder al contenido a través de la aplicación móvil o el sitio web de "Sabores Cercanos". Además, recibirán notificaciones y publicaciones de recetas.
 
 - _¿Qué factores llevan a los clientes a elegirnos?_
 
    Factores como la conveniencia, la personalización de los pedidos, la calidad y la frescura de los ingredientes, la posibilidad de apoyar a cocineros locales, y la interacción dentro de una comunidad culinaria atractiva son claves para que los clientes elijan "Sabores Cercanos".
 
 
-###### How much?
+**How much?**
 
-   La aplicación generará ingresos principalmente a través de comisiones por transacción. Los cocineros pueden usar la plataforma de forma gratuita, pero se retendrá un porcentaje de cada pedido realizado. Los consumidores pagan por los pedidos que realicen, con precios establecidos por los cocineros. Además, podría haber modelos de suscripción para acceder a recetas exclusivas o servicios premium.
+   La aplicación generará ingresos principalmente a través de comisiones por transacción. Los cocineros pueden usar la plataforma de forma gratuita, pero se retendrá un porcentaje de cada pedido realizado. Los consumidores pagan por los pedidos que realicen, con precios establecidos por los cocineros. 
 
 
 
 ### 1.2.2. Lean UX Process
 El proceso Lean UX se adapta especialmente bien a startups como SSVR que buscan crear soluciones innovadoras y efectivas en el mercado. Este enfoque se caracteriza por su agilidad y centrado en el usuario, lo que significa que estamos constantemente buscando validar nuestras ideas y prototipos con los usuarios para garantizar que estamos abordando sus necesidades de manera adecuada. 
 ### 1.2.2.1. Lean UX Problem Statements
-La aplicación generará ingresos principalmente a través de comisiones por transacción. Los cocineros pueden usar la plataforma de forma gratuita, pero se retendrá un porcentaje de cada pedido realizado. Los consumidores pagan por los pedidos que realicen, con precios establecidos por los cocineros. Además, podría haber modelos de suscripción para acceder a recetas exclusivas o servicios premium.
+La aplicación generará ingresos principalmente a través de comisiones por transacción. Los cocineros pueden usar la plataforma de forma gratuita, pero se retendrá un porcentaje de cada pedido realizado. Los consumidores pagan por los pedidos que realicen, con precios establecidos por los cocineros.
 
 Hemos identificado un desafío significativo para los consumidores, quienes a menudo recurren a comida rápida o de baja calidad debido a la falta de tiempo para cocinar. Esto impacta negativamente su salud y bienestar. Simultáneamente, existen cocineros caseros que buscan oportunidades para monetizar sus habilidades culinarias, pero no tienen acceso a una plataforma que les permita hacerlo de manera flexible y sin grandes inversiones.
 
@@ -436,15 +436,16 @@ Hemos identificado un desafío significativo para los consumidores, quienes a me
 1. Creo que mis clientes necesitan una opción accesible y saludable de comida casera que se adapte a su estilo de vida ocupado.
 2. Estas necesidades se pueden resolver con una plataforma que conecte a consumidores con cocineros caseros locales.
 3. Mis clientes iniciales son (o serán) universitarios y profesionales que tienen poco tiempo para cocinar.
-4. El valor #1 que un cliente quiere de mi servicio es la conveniencia de recibir comida casera y personalizada.
-5. El cliente también puede obtener estos beneficios adicionales apoyo a la economía local, la posibilidad de personalizar sus pedidos, y el acceso a una comunidad culinaria.
+4. El valor #1 que un cliente quiere de mi servicio es la conveniencia de recibir comida casera y con una entrega personalizada.
+5. El cliente también puede obtener estos beneficios adicionales: apoyo a la economía local, la posibilidad de personalizar la entrega de sus pedidos, y el acceso a una comunidad culinaria.
 6. Voy a adquirir la mayoría de mis clientes a través de marketing digital, redes sociales, y colaboraciones con universidades y espacios de trabajo.
 7. Haré dinero a través de comisiones por transacción en los pedidos realizados a través de la plataforma.
 8. Mi competencia principal en el mercado será servicios de comida rápida y aplicaciones de delivery.
-9. Los venceremos debido a la personalización, la calidad de la comida casera, y la conexión con la comunidad local.
-10. Mi mayor riesgo de producto es que los cocineros no puedan cumplir con la demanda o que los consumidores no encuentren suficiente variedad.
+9. Los venceremos debido a la personalización en las entregas, la calidad de la comida casera, y la conexión con la comunidad local.
+10. Mi mayor riesgo de producto es que los cocineros no puedan cumplir con la demanda o que los consumidores no encuentren suficiente variedad de platos.
 11. Resolveremos esto a través de una cuidadosa gestión de la oferta y la demanda, y mediante incentivos para atraer a más cocineros a la plataforma.
-Aquí tienes un conjunto de **assumptions (supuestos)** para "Sabores Cercanos":
+
+**Assumptions (supuestos)**
 
 1) **¿Quién es el usuario?**
    - Universitarios y profesionales ocupados que buscan opciones de comida casera y saludable.
@@ -459,7 +460,7 @@ Aquí tienes un conjunto de **assumptions (supuestos)** para "Sabores Cercanos":
    - Solución: Implementar filtros avanzados y opciones de personalización en la plataforma para adaptarse a las necesidades específicas de los usuarios.
 
 4) **¿Cuándo y cómo es usado nuestro producto?**
-   - El producto se usa principalmente durante las horas de comida, cuando los consumidores necesitan una solución rápida y saludable. Se accede a través de dispositivos móviles o computadoras.
+   - El producto se usa principalmente durante las horas de comida, cuando quieren planificar la entrega de su pedido,y cuando los consumidores necesitan una solución rápida y saludable. Se accede a través de dispositivos móviles o computadoras.
 
 5) **¿Qué características son importantes?**
    - Facilidad de uso, personalización de menús, comunicación fluida entre cocineros y consumidores, y un sistema de notificaciones eficaz para pedidos y promociones.
@@ -477,7 +478,7 @@ Aquí tienes un conjunto de **assumptions (supuestos)** para "Sabores Cercanos":
 
 **User Outcomes:**
 
-1. Los consumidores obtendrán acceso rápido a comidas caseras personalizadas según sus preferencias dietéticas.
+1. Los consumidores obtendrán acceso rápido a comidas caseras según sus preferencias dietéticas y podran personalizar las entregas de sus pedidos.
 2. Los cocineros podrán generar ingresos adicionales sin complicaciones, ofreciendo sus menús a través de la plataforma.
 3. Los usuarios disfrutarán de notificaciones oportunas sobre ofertas y promociones que se adapten a sus necesidades.
 4. Facilitar la planificación de comidas diarias para profesionales ocupados con una experiencia de usuario intuitiva.
@@ -487,36 +488,29 @@ Aquí tienes un conjunto de **assumptions (supuestos)** para "Sabores Cercanos":
 
 1. Creemos que mejorar la interfaz de búsqueda para encontrar cocineros cercanos incrementará la frecuencia con la que los usuarios realizan pedidos. Sabremos que hemos tenido éxito cuando veamos un aumento del 10% en la tasa de pedidos repetidos en un mes.
 
-2. Creemos que añadir perfiles detallados de los cocineros con su historia y especialidades aumentará la confianza de los consumidores. Sabremos que esto es cierto cuando veamos que el 15% de los nuevos usuarios eligen cocineros con perfiles completos sobre los que no tienen esa información.
+2. Creemos que implementar un sistema de reseñas y calificaciones para los cocineros aumentará la confianza en la plataforma. Sabremos que esto es cierto cuando veamos un incremento del 25% en el número de nuevos clientes que completan su primer pedido.
 
-3. Creemos que ofrecer una opción de chat directo entre cocineros y clientes mejorará la personalización de los pedidos. Sabremos que hemos tenido éxito cuando veamos un aumento del 20% en la satisfacción del cliente en los pedidos personalizados.
+3. Creemos que incluir platos segun la preferencia del cliente incrementará el interés de los consumidores en la app debido a que le ofrece lo que se pide. Sabremos que esto es cierto cuando veamos un aumento del 40% en los pedidos de menús etiquetados como saludables.
 
-4. Creemos que implementar un sistema de reseñas y calificaciones para los cocineros aumentará la confianza en la plataforma. Sabremos que esto es cierto cuando veamos un incremento del 25% en el número de nuevos clientes que completan su primer pedido.
+4. Creemos que añadir un orden de las publicaciones de platos facilitará la planificación de comidas para los usuarios. Sabremos que hemos tenido éxito cuando veamos un 15% de usuarios configurando pedidos recurrentes en sus cuentas.
 
-5. Creemos que ofrecer descuentos para los primeros tres pedidos atraerá a nuevos usuarios a la plataforma. Sabremos que hemos tenido éxito cuando veamos un aumento del 30% en las inscripciones y los pedidos dentro del primer mes de uso.
+5. Creemos que destacar los platos más populares con respecto a pedidos y su cocinero en la página de inicio incentivará a más cocineros a registrarse en la plataforma. Sabremos que esto es cierto cuando veamos un aumento del 20% en el número de cocineros que se inscriben mensualmente.
 
-6. Creemos que incluir una opción de "menú saludable" incrementará el interés de los consumidores en opciones de comida nutritiva. Sabremos que esto es cierto cuando veamos un aumento del 40% en los pedidos de menús etiquetados como saludables.
+7. Creemos que implementar un sistema de notificaciones para recordar a los usuarios sobre promociones y nuevos cocineros incrementará la actividad en la plataforma. Sabremos que esto es cierto cuando veamos un aumento del 15% en la interacción con las notificaciones y el consiguiente aumento de pedidos.
 
-7. Creemos que añadir una función de “pedido recurrente” facilitará la planificación de comidas para los usuarios. Sabremos que hemos tenido éxito cuando veamos un 15% de usuarios configurando pedidos recurrentes en sus cuentas.
-
-8. Creemos que destacar las cocinas más populares en la página de inicio incentivará a más cocineros a registrarse en la plataforma. Sabremos que esto es cierto cuando veamos un aumento del 20% en el número de cocineros que se inscriben mensualmente.
-
-9. Creemos que ofrecer recetas exclusivas y consejos de cocina a través de la plataforma aumentará la fidelidad de los cocineros y usuarios. Sabremos que hemos tenido éxito cuando veamos una disminución del 10% en la tasa de cancelación de cuentas en los siguientes 6 meses.
-
-10. Creemos que implementar un sistema de notificaciones para recordar a los usuarios sobre promociones y nuevos cocineros incrementará la actividad en la plataforma. Sabremos que esto es cierto cuando veamos un aumento del 15% en la interacción con las notificaciones y el consiguiente aumento de pedidos.
+8. Creemos que ofrecer recetas exclusivas y consejos de cocina a través de la plataforma aumentará la fidelidad de los cocineros y usuarios. Sabremos que hemos tenido éxito cuando veamos una disminución del 10% en la tasa de cancelación de cuentas en los siguientes 6 meses.
 
 ### 1.2.2.4. Lean UX Canvas
 
-| Sección                                                                                             | Contenido                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Business Problem**                                                                                | Problema que se trata de resolver: Las personas que buscan opciones de comida saludable y conveniente a menudo se enfrentan a una oferta limitada y estandarizada, mientras que los cocineros caseros tienen pocas oportunidades de monetizar sus habilidades culinarias y llegar a un público más amplio. Por lo tanto, existe una falta de conexión entre consumidores que desean comida casera y saludable y cocineros apasionados.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **Business Outcomes**                                                                               | - Aumento del 30% en la tasa de adquisición de nuevos usuarios (cocineros y consumidores) en los primeros 6 meses. <br> - Incremento del 20% en la retención mensual de usuarios activos. <br> - Generar un aumento del 25% en los ingresos provenientes de comisiones por transacciones.                                                                                                                                                                                                                                                                                                                 |
-| **Users and Customers**                                                                             | Nos enfocaremos principalmente en : <br>* Cocineros Caseros: Personas apasionadas por la cocina, con habilidades culinarias que desean monetizar y compartir con una comunidad más amplia.<br>* Consumidores Ocupados: Universitarios y profesionales con poco tiempo para cocinar, pero que buscan opciones de comida casera, saludable y conveniente.<br> Nos enfocaremos secundariamente en:   <br> * Familias: Grupos familiares que buscan una alternativa saludable y casera para sus comidas diarias. <br> * Personas con necesidades dietéticas específicas: Usuarios que requieren opciones alimenticias personalizadas debido a alergias, preferencias o restricciones dietéticas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **User Benefits**                                                                                   | * Cocineros Caseros: <br>- Outcomes: Monetizar sus habilidades culinarias, alcanzar a un público más amplio, recibir reconocimiento y satisfacción personal por compartir su pasión.<br>- Benefits: Ingresos adicionales, mayor autoestima y oportunidades de crecimiento dentro de una comunidad culinaria.<br>* Consumidores Ocupados: <br>- Outcomes: Acceder a comidas caseras, saludables y convenientes de manera rápida y sin esfuerzo.<br> - Benefits: Mejor calidad de vida, ahorro de tiempo, y satisfacción por consumir alimentos nutritivos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Solution Ideas**                                                                                  | Consideramos los siguientes medios para resolver el problema principal y conocer las necesidades de nuestros clientes: <br>- Plataforma de Conexión: Crear una plataforma que permita a los cocineros caseros registrarse, publicar sus menús, y gestionar pedidos de manera sencilla.<br>- Personalización de Pedidos: Implementar una opción que permita a los consumidores personalizar sus pedidos según sus preferencias dietéticas y necesidades.<br>- Sistema de Reseñas y Recomendaciones: Desarrollar un sistema de reseñas y recomendaciones para que los consumidores puedan elegir con confianza a los cocineros.<br>- Ofertas y Promociones: Crear ofertas especiales para nuevos usuarios y promociones para incentivar la fidelidad y la repetición de pedidos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Hypotheses**                                                                                      | - Ejemplo 1: Creemos que mejorar la interfaz de búsqueda para encontrar cocineros cercanos incrementará la frecuencia con la que los usuarios realizan pedidos.<br> -Ejemplo 2: Creemos que añadir perfiles detallados de los cocineros con su historia y especialidades aumentará la confianza de los consumidores.<br> -Ejemplo 3: Creemos que implementar un sistema de notificaciones personalizadas aumentará la actividad en la plataforma. |
-| **What's the most important <br> thing we need to learn first?**                                    | ¿Los consumidores están dispuestos a probar y pagar por comida casera hecha por cocineros locales en lugar de opciones más comerciales? <br> Con esta pregunta podemos identificar los principales riesgos a conocer como conocer el ingreso de los clientes, la calidad de la comida, el tiempo de espera, etc.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| **What's the least amount of <br> work we need to do to learn <br> the next most important thing?** | MVP : Lanzar una versión beta de la plataforma con un grupo reducido de cocineros y consumidores, centrada en una sola ciudad o área geográfica, para validar la demanda y obtener feedback directo sobre la experiencia de usuario.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|Sección| Contenido|
+|--|--|
+|**Business Problem**| Problema que se trata de resolver: Las personas que buscan opciones de comida saludable y conveniente a menudo se enfrentan a una oferta limitada y estandarizada, mientras que los cocineros caseros tienen pocas oportunidades de monetizar sus habilidades culinarias y llegar a un público más amplio. Por lo tanto, existe una falta de conexión entre consumidores que desean comida casera y saludable y cocineros apasionados.|
+|**Business Outcomes**| - Aumento del 30% en la tasa de adquisición de nuevos usuarios (cocineros y consumidores) en los primeros 6 meses. <br> - Incremento del 20% en la retención mensual de usuarios activos. <br> - Generar un aumento del 25% en los ingresos provenientes de comisiones por transacciones.|
+|**Users and Customers**| Nos enfocaremos principalmente en : <br>* Cocineros Caseros: Personas apasionadas por la cocina, con habilidades culinarias que desean monetizar y compartir con una comunidad más amplia.<br>* Consumidores Ocupados: Universitarios y profesionales con poco tiempo para cocinar, pero que buscan opciones de comida casera, saludable y conveniente.<br> Nos enfocaremos secundariamente en:   <br> * Familias: Grupos familiares que buscan una alternativa saludable y casera para sus comidas diarias.|
+|**User Benefits**| * Cocineros Caseros: <br>- Outcomes: Monetizar sus habilidades culinarias, alcanzar a un público más amplio, recibir reconocimiento y satisfacción personal por compartir su pasión.<br>- Benefits: Ingresos adicionales, mayor autoestima y oportunidades de crecimiento dentro de una comunidad culinaria.<br>* Consumidores Ocupados: <br>- Outcomes: Acceder a comidas caseras, saludables y convenientes de manera rápida y sin esfuerzo.<br> - Benefits: Mejor calidad de vida, ahorro de tiempo, y satisfacción por consumir alimentos nutritivos.|Consideramos los siguientes medios para resolver el problema principal y conocer las necesidades de nuestros clientes: <br>- Plataforma de Conexión: Crear una plataforma que permita a los cocineros caseros registrarse, publicar sus menús, y gestionar pedidos de manera sencilla.<br>- Personalización de Pedidos: Implementar una opción que permita a los consumidores personalizar sus pedidos según sus preferencias dietéticas y necesidades.<br>- Sistema de Reseñas y Recomendaciones: Desarrollar un sistema de reseñas y recomendaciones para que los consumidores puedan elegir con confianza a los cocineros.|
+|**Hypotheses**|- Ejemplo 1: Creemos que mejorar la interfaz de búsqueda para encontrar cocineros cercanos incrementará la frecuencia con la que los usuarios realizan pedidos. Sabremos que hemos tenido éxito cuando veamos un aumento del 10% en la tasa de pedidos repetidos en un mes.<br>-Ejemplo 2: Creemos que implementar un sistema de reseñas y calificaciones para los cocineros aumentará la confianza en la plataforma. Sabremos que esto es cierto cuando veamos un incremento del 25% en el número de nuevos clientes que completan su primer pedido.<br>-Ejemplo 3:  Creemos que incluir platos segun la preferencia del cliente incrementará el interés de los consumidores en la app debido a que le ofrece lo que se pide. Sabremos que esto es cierto cuando veamos un aumento del 40% en los pedidos de menús etiquetados como saludables. |
+|**What's the most important <br> thing we need to learn first?**| ¿Los consumidores están dispuestos a probar y pagar por comida casera hecha por cocineros locales en lugar de opciones más comerciales? <br> Con esta pregunta podemos identificar los principales riesgos a conocer como conocer el ingreso de los clientes, la calidad de la comida, el tiempo de espera, etc.|
+| **What's the least amount of <br> work we need to do to learn <br> the next most important thing?**| MVP : Lanzar una versión beta de la plataforma con un grupo reducido de cocineros y consumidores, centrada en una sola ciudad o área geográfica, para validar la demanda y obtener feedback directo sobre la experiencia de usuario.|
 
 ### 1.3. Segmentos objetivo
 
@@ -668,7 +662,7 @@ En esta sección del informe se realizará el diseño, registro y análisis de l
 
 Antes de poder realizar las entrevistas, consideramos prudente poder concretar un análisis previo para poder realizar las entrevistas de una mejor manera. Es por ello, que para cada uno de nuestros segmentos proponemos estas preguntas para poder conocer un poco más sobre nuestro público objetivo.
 
-### Preguntas para Entrevistar a Estudiantes/Profesionales Ocupados
+<h3>Preguntas para Entrevistar a Estudiantes/Profesionales Ocupados</h3>
 
 **Preguntas principales:**
 
@@ -692,7 +686,7 @@ Antes de poder realizar las entrevistas, consideramos prudente poder concretar u
 15. ¿Cómo te sentirías si pudieras planificar tus comidas semanales con antelación a través de una plataforma?
 16. ¿Alguna vez has utilizado servicios de comida a domicilio? ¿Cómo ha sido tu experiencia con ellos en cuanto a calidad y conveniencia?
 
-### Preguntas para Entrevistar a Cocineros Caseros
+<h3>Preguntas para Entrevistar a Cocineros Caseros</h3>
 
 **Preguntas principales:**
 
@@ -769,7 +763,7 @@ Antes de poder realizar las entrevistas, consideramos prudente poder concretar u
    De la entrevista con Alejandro sabemos que Alejandro trabaja en Rustica, donde ha desarrollado y perfeccionado sus habilidades culinarias mientras explora diversas recetas. Cocinar es una parte importante de su vida, tanto en el trabajo como en casa, y disfruta de cada momento en la cocina. Alejandro está interesado en monetizar sus habilidades culinarias, ya que cocina a diario y cree que podría ser rentable. Sin embargo, ha enfrentado barreras como la falta de tiempo y la falta de permisos para vender. Hubo una ocasión en la que intentó vender comida, pero no contaba con los medios necesarios. Alejandro considera que vender comida casera a través de una plataforma en línea sería una excelente manera de llegar a más clientes sin grandes inversiones. La flexibilidad de trabajar desde casa y gestionar sus tiempos y pedidos sin descuidar su trabajo en Rustica es fundamental para él. También ha notado una demanda real de comida casera, ya que muchas personas buscan opciones más auténticas y diferentes de las ofrecidas por los restaurantes. Los comentarios positivos que ha recibido de amigos y familiares sobre su cocina lo han motivado a considerar seriamente esta opción. Alejandro está entusiasmado con la idea de formar parte de una comunidad de cocineros caseros, donde podría compartir experiencias y aprender nuevas recetas.
 
   2. Entrevista 2:<br>
-   ![Captura entrevista 5](/assets/images/TB1/Entrevista_Alberto.png)
+![alt text](assets/images/TB1/enalber.png)
    <br>Nombre: Alberto<br>
    Apellidos: Bringas <br>
    Edad: 25 <br>
@@ -781,7 +775,7 @@ Antes de poder realizar las entrevistas, consideramos prudente poder concretar u
    De la entrevista con Alberto sabemos que es una persona aficionada por la cocina, cocina 3 veces por semana para su familia, la dificultad que encuentra al momento de iniciar un negocio de cocina es que no calcula la cantidad correcta de sal para muchas personas, pero si se tratara de un circulo pequeño de consumidores si podría preparar unos buenos platillos. Opina que muchas veces las comidas que ha preparado ha sido del agrado de sus familiares, es por eso que ve nuestra aplicación como una gran oportunidad para ganarse un dinerito ya que le gusta la idea de poder vender desde su hogar sin tener que viajar hasta un restaurante para ofrecer sus platillos. También nos comenta que la demanda de menús sigue vigente hasta la actualidad ya que hay muchas personas que no tienen tiempo de trabajar y por eso que van al puesto más cercano para comprar un menú cuando llega la hora del almuerzo.
    
   3. Entrevista 3:<br>
-   ![Captura entrevista 6](/assets/images/TB1/Entrevista_Candice.png)
+   ![alt text](assets/images/TB1/encandice.png)
    <br>Nombre: Candice<br>
    Apellidos: Zegarra <br>
    Edad: 29 <br>
@@ -846,7 +840,7 @@ Tras la identificación de los segmentos objetivo (cocineros caseros y estudiant
 
 ### 2.3.1. User Personas
 
-#### 2.3.1.1. **User Persona del Segmento Objetivo 1: Cocineros Caseros**
+**User Persona del Segmento Objetivo 1: Cocineros Caseros**
 ---
 | Attributes | <p align="center">Values</p> |
 |--|--|
@@ -867,7 +861,7 @@ Tras la identificación de los segmentos objetivo (cocineros caseros y estudiant
 | Technology | <p><ul><li>IT and Internet: **50 de 100**<li>Software: **50 de 100**<li>Mobile Apps: **60 de 100**<li>Social Networks: **60 de 100** |
 | Brands | <p><ul><li>Facebook<li>Youtube |
 
-#### 2.3.1.2. **User Persona del Segmento Objetivo 2: Estudiantes/Profesionales Ocupados**
+**User Persona del Segmento Objetivo 2: Estudiantes/Profesionales Ocupados**
 ---
 | Attributes | <p align="center">Values</p> |
 |--|--|
@@ -906,7 +900,7 @@ Tras la identificación de los segmentos objetivo (cocineros caseros y estudiant
 
 ### 2.3.3. User Journey Mapping
 
-#### **User Persona 1: María**
+**User Persona 1: María**
 
 | **Journey Phases** | **Necesidad Inicial** | **Búsqueda de Opciones** | **Preparación para la Venta** | **Promoción del servicio** | **Gestión de Pedidos** | **Entrega y Servicio al Cliente** | **Retroalimentación y Repetición** |
 |-|-|-|-|-|-|-|-|
@@ -916,7 +910,7 @@ Tras la identificación de los segmentos objetivo (cocineros caseros y estudiant
 | **Pains** | Falta de conocimiento sobre como iniciar un negocio. | Dificultad para encontrar modelos confiables. | Inversión inicial. | Proceso manual. | No recibir tantos pedidos. | Cansancio y logística de entregas. | Dificultad para obtener retroalimentación detallada. |
 | **Emotion** | 🟡 (Neutra) | 🟢 (Positiva) | 🟡 (Neutra) | 🟠 (Levemente Negativa) | 🟢 (Positiva) | 🟠 (Levemente Negativa) | 🟢 (Positiva) |
 
-#### **User Persona 2: Ricardo**
+**User Persona 2: Ricardo**
 
 | **Journey Phases** | **Necesidad Inicial** | **Búsqueda de Opciones** | **Selección de Comida** | **Espera de Entrega** | **Recepción de Comida y Consumo** | **Evaluación y decisión** |
 |-|-|-|-|-|-|-| 
@@ -928,12 +922,12 @@ Tras la identificación de los segmentos objetivo (cocineros caseros y estudiant
 
 ### 2.3.4. Empathy Mapping
 
-#### **User Persona 1: María**
+**User Persona 1: María**
 | <p align="center">Think and Feel | <p align="center">Hear | <p align="center">See | <p align="center">Say and Do | <p align="center">Pain | <p align="center">Gain |
 |-|-|-|-|-|-|
 | <p align="center" justify-content="center"><ul><li>Piensa en como aportar ingresos a su hogar para apoyar a su familia.<li>Siente orgullo por sus habilidades culinarias y quiere compartirlas con su comunidad. | <p align="center"><ul><li>Escucha los comentarios positivos de su familia y consumidores.<li>Oye historias de otros cocineros que lograron monetizar su pasión. | <p align="center"><ul><li>Observa que otros cocineros locales mejoraron sus ventas gracias a los negocios online.<li>Nota que otros cocineros tienen presentaciones más profesionales, lo que les otorga mayor visibilidad.  | <p align="center"><ul><li>Ofrece menús variados e intenta adaptarse a sus clientes.<li>Publica fotos de sus platos en internet. | <p align="center"><ul><li>La competencia online le parece abrumadora.<li>Le cuesta gestionar los pedidos durante horas pico. | <p align="center"><ul><li>Una plataforma que le permita manejarse de manera sencilla en el ámbito de las ventas online.<li>Retroalimentación directa de los clientes para mejorar sus platillos y servicio. |
 
-#### **User Persona 2: Ricardo**
+**User Persona 2: Ricardo**
 | <p align="center">Think and Feel | <p align="center">Hear | <p align="center">See | <p align="center">Say and Do | <p align="center">Pain | <p align="center">Gain |
 |-|-|-|-|-|-|
 | <p align="center" justify-content="center"><ul><li>Piensa en como gestionar su tiempo con sus estudios.<li>Siente que su salud se ve afectada por la falta de una dieta balanceada. | <p align="center" justify-content="center"><ul><li>Oye recomendaciones de amigos sobre comprar comida online.<li>Escucha a sus compañeros quejarse de la falta de opciones de comida saludable en el mercado. | <p align="center" justify-content="center"><ul><li>Ve a muchos estudiantes dependiendo de la comida rápida.<li>Observa a algunos compañeros aprendiendo a cocinar, pero él no tiene tiempo para ello. | <p align="center" justify-content="center"><ul><li>Suele usar aplicaciones de comida rápida, pero siente que no son buenas para su salud a largo plazo<li>Investiga sobre formas de ordenar comida saludable a través de internet. | <p align="center" justify-content="center"><ul><li>No tener opciones de comida saludable, o que estás estén fuera de su presupuesto.<li>No tener tiempo para aprender a cocinar por si mismo. | <p align="center" justify-content="center"><ul><li>Una plataforma que ofrezca una variedad de platos sin tener que invertir demasiado tiempo.<li>Una experiencia de compra fluida que se adapte a sus horarios ajustados. |
@@ -960,7 +954,7 @@ Tras la identificación de los segmentos objetivo (cocineros caseros y estudiant
 
 En Sabores Cercanos, utilizamos un lenguaje común para asegurar una comunicación clara y efectiva entre todos los miembros del equipo, cocineros, y usuarios. A continuación, se describen algunos de los términos clave:
 
-### Términos generales
+**Términos generales**
 
 - Cocinero Casero: Persona que prepara comidas en su hogar para ofrecerlas a través de la plataforma. Este término abarca tanto a quienes cocinan de manera ocasional como a aquellos que lo hacen regularmente.
 
@@ -976,7 +970,7 @@ En Sabores Cercanos, utilizamos un lenguaje común para asegurar una comunicaci�
 
 - Comunicación en Tiempo Real: Canal dentro de la plataforma para que cocineros y usuarios se comuniquen directamente sobre detalles del pedido.
 
-### Perfiles de Usuario
+**Perfiles de Usuario**
 
 Para el Consumidor:
 
@@ -1016,7 +1010,7 @@ Para el Cocinero Casero:
 
 - Receta Estrella: Recetas destacadas que han recibido las mejores valoraciones de la comunidad y que son promovidas en la plataforma.
 
-### Proceso de Pedido y Entrega
+**Proceso de Pedido y Entrega**
 
 - Pedido: Transacción realizada por un consumidor para adquirir uno o más platos del menú de un cocinero casero.
 
@@ -1026,7 +1020,7 @@ Para el Cocinero Casero:
 
 - Tiempo de Llegada: Tiempo estimado que tarda un pedido en llegar a su destino desde el momento en que se completa la preparación.
 
-### Gestión y Administración
+**Gestión y Administración**
 
 Para Administradores:
 
@@ -1048,11 +1042,11 @@ Para Cocineros Caseros:
 
 - Horario de Disponibilidad: Períodos en los que un cocinero casero está disponible para preparar y vender comidas a través de la plataforma.
 
-### Datos y Análisis
+**Datos y Análisis**
 
 - Tendencia de Consumo: Datos y patrones sobre las preferencias de comida de los usuarios, utilizados para mejorar la oferta de platos y servicios.
 
-### Disponibilidad y Programación
+**Disponibilidad y Programación**
 
 - Horario de Disponibilidad: Períodos en los que un cocinero casero está disponible para preparar y vender comidas a través de la plataforma.
 
@@ -1469,20 +1463,19 @@ El usuario puede elegir la opción de “Compartir” dentro de la sección de P
 
 ### 4.4.2. Web Applications Mock-ups
 
-![Pantalla de Inicio](/assets/images/Mockups/inicio.jpg)
+![alt text](assets/images/Mockups/1.png)
 
-![Publicaciones](/assets/images/Mockups/publicaciones.jpg)
+![alt text](assets/images/Mockups/2.png)
 
-![Prepublicaciones](/assets/images/Mockups/prepublicaciones.jpg)
+![alt text](assets/images/Mockups/3.png)
 
-![Perfil](/assets/images/Mockups/perfil.jpg)
+![alt text](assets/images/Mockups/4.png)
 
-![Mis Pedidos](/assets/images/Mockups/mispedidos.jpg)
+![alt text](assets/images/Mockups/5.png)
 
-![Favoritos](/assets/images/Mockups/favoritos.jpg)
+![alt text](assets/images/Mockups/46.png)
 
-![Recetas](/assets/images/Mockups/recetas.jpg)
-
+![alt text](assets/images/Mockups/123.png)
 ### 4.4.3. Web Applications User Flow Diagrams
 
 * #### Goal: El usuario se registra en la aplicación:

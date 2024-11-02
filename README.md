@@ -1573,58 +1573,43 @@ Este diagrama desglosa los componentes internos clave, como el Order Controller,
 ### 4.7. Software Object-Oriented Design
 s
 ### 4.7.1. Class Diagrams
-
-![alt text](assets/images/TB1/diagamaclassright.png)
-![alt text](assets/images/TB1/diagramaclassleft.png)
+![alt text](assets/images/TB1/classdiagram.png)
 LINK:  
 https://lucid.app/lucidchart/c228e218-6d6b-484c-8557-0fae7cba2738/edit?viewport_loc=-216%2C49%2C4474%2C2081%2CHWEp-vi-RSFO&invitationId=inv_387afe2d-3886-4d53-a6e8-c42b2ae376e3
 
 ### 4.8. Database Design
 
 ### 4.8.1. Database Diagram
-![alt text](assets/images/TB1/basedatosdiagram.png)
+![alt text](assets/images/TB1/databasediagram.png)
 LINK:
 https://lucid.app/lucidchart/de7494c8-ca20-4b78-8732-fb0986780e5e/edit?viewport_loc=-5%2C469%2C2982%2C1387%2C0_0&invitationId=inv_df6f46c5-10c8-405e-8b2b-2a1a52ca42fa
+
 ### 4.8.2. Database Dictionary
 
 #### User
 
 | Campo | Tipo de Dato | Descripción |
 |-|-|-|
-| Usuario_ID | int | Identificador del usuario. |
-| First_name | TEXT | Primer nombre del usuario. |
-| Last_name | TEXT | Apellido del usuario. |
-| address | TEXT | Dirección del usuario. |
-| password | VARCHAR | Contraseña del usuario. |
-| email | VARCHAR | Correo electrónico del usuario. |
+| UserId(PK) | int | Identificador del usuario. |
+| name | text | nombre del usuario. |
+| rating | text | Correo electrónico del usuario. |
+
 
 #### Chef
 | Campo | Tipo de Dato | Descripción |
 |-|-|-|
-| Chef_ID | int | Identificador del cocinero. |
-| First_name | TEXT | Primer nombre del cocinero. |
-| Last_name | TEXT | Apellido del cocinero. |
-| address | TEXT | Dirección del cocinero. |
-| password | VARCHAR | Contraseña del cocinero. |
-| email | VARCHAR | Correo electrónico del cocinero. |
-
-#### Menu
-| Campo | Tipo de Dato | Descripción |
-|-|-|-|
-| Chef_ID | int | Llave Foranea - Identificador del chef al que le pertenece el menú. |
-| menu_id | INT | Identificador del Menú. |
-| menu_name | VARCHAR | Nombre del Menú. |
-| Menu_description | TEXT | Descripción del Menú. |
+| UserId(PK)(FK) | int | Identificador del cocinero. |
 
 #### Order
 | Campo | Tipo de Dato | Descripción |
 |-|-|-|
-| id_order | int | Identificador de la orden. |
-| Customer_ID | int | Llave Foranea - Identificador del cliente que realizó la orden. |
-| Chef_ID | int | Llave Foranea - Identificador del cocinero que recibió la orden. |
-| total-orders_id | INT | Llave Foranea - Identificador del voucher al que pertenece la orden. |
-| item_name | VARCHAR | Nombre del item que se ordenó. |
-| price | DECIMAL | Precio de la orden. |
+| orderId(PK) | int | Identificador de la orden. |
+| customerId(FK) | int | Llave Foranea - Identificador del cliente que realizó la orden. |
+| Chef_ID(FK) | int | Llave Foranea - Identificador del cocinero que recibió la orden. |
+| postId(FK) ||
+| deliveryTime | INT | Llave Foranea - Identificador del voucher al que pertenece la orden. |
+| statusId | VARCHAR | Nombre del item que se ordenó. |
+| totalAmount | DECIMAL | Precio de la orden. |
 | address | TEXT | Dirección a la que va dirigida la orden. |
 
 #### Order-Details

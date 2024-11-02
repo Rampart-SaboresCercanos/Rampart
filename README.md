@@ -237,14 +237,14 @@ TP:<br>
     - [Resumen de Acciones del Equipo](#resumen-de-acciones-del-equipo)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.1. Sprint 2](#521-sprint-2)
-    - [5.2.1.1. Sprint Planning 2](#5211-sprint-planning-2)
-    - [5.2.1.2. Sprint Backlog 2](#5212-sprint-backlog-2)
-    - [5.2.1.3. Development Evidence for Sprint Review](#5213-development-evidence-for-sprint-review-1)
-    - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review-1)
-    - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review-1)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review-1)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+    - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+    - [5.2.2.2. Sprint Backlog 2](#5222-sprint-backlog-2)
+    - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+    - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+    - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
     - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
@@ -1078,88 +1078,131 @@ Estos son los términos identificados hasta el avance de esta primera entrega de
 
 EPICS:
 |EPIC(ID)|Titulo|Descripcion|
-|--------|------|-----------|
-|EP01|Registro y Búsqueda de Comida|Como usuario ocupado, quiero poder registrarme fácilmente en la plataforma y buscar comida según mis preferencias dietéticas, para ahorrar tiempo en la preparación de comidas y encontrar opciones adecuadas rápidamente.|
-|EP02|Gestión y Personalización de Pedidos|Como usuario de la plataforma, quiero tener la capacidad de gestionar y personalizar mis pedidos para adaptarlos a mis horarios y preferencias, asegurando una experiencia de compra eficiente y adaptada a mis necesidades.|
-|EP03|Mejoras en la Experiencia de Pedido y Gestión en Sabores Cercanos.|Como usuario, quiero que hacer y gestionar pedidos sea más fácil y rápido, con opciones personalizadas, programación de entregas y métodos de pago flexibles, para que todo el proceso sea cómodo y se ajuste a mis necesidades diarias.|
-|EP04| Interacción con la comunidad.|Como usuario de la plataforma, quiero interactuar con otros usuarios para compartir recetas y tips de cocina. |
-|EP05|Gestión de Perfiles y Seguridad|Como usuario, quiero gestionar fácilmente mi perfil, controlar mis datos personales, actualizar mis métodos de pago y configurar mis preferencias de seguridad para sentirme seguro y cómodo al usar la plataforma.|
+|-|-|-|
+|01|Experiencia del Usuario en la Landing Page|Como visitante de la plataforma "Sabores Cercanos", quiero tener una experiencia de usuario fluida y agradable al interactuar con la landing page, para que pueda comprender rápidamente los beneficios de la plataforma, registrarme sin complicaciones, explorar platos populares y acceder a información útil, incluyendo preguntas frecuentes y políticas de privacidad.|
+|02|Búsqueda y Filtrado de Platos|Como usuario, quiero poder buscar y filtrar platos basados en varios criterios como preferencias dietéticas, ubicación, precio, popularidad, y otros factores, para encontrar opciones que se adapten mejor a mis necesidades culinarias y restricciones personales.|
+|03|Gestión Avanzada de Programación y Cancelación|Como usuario, quiero tener control total sobre la programación de mis pedidos, con la opción de modificar y cancelar mis pedidos programados, para asegurarme de que siempre reciba mi comida en el momento que más me convenga y bajo mis condiciones preferidas.|
+|04|Gestión de Pedidos|Como usuario, quiero poder gestionar y visualizar el historial de mis pedidos de manera efectiva, para recordar mis compras anteriores y encontrar rápidamente la información que necesito sobre mis órdenes.|
+|05|Gestión del Perfil de Usuario|Como usuario, quiero poder crear un perfil personalizado que incluya mis preferencias alimentarias, direcciones de entrega y métodos de pago preferidos, para que pueda disfrutar de una experiencia de compra más adaptada a mis necesidades y facilitar el proceso de realizar pedidos en el futuro.|
+|06|Gestión de Recetas|Como cocinero, quiero tener la capacidad de crear, editar, eliminar y buscar recetas en la plataforma, para poder compartir mis conocimientos culinarios con la comunidad y facilitar que otros encuentren recetas que se ajusten a sus preferencias y necesidades.|
+|07|Interacción en la Vista Home|Como usuario, quiero que la vista Home ofrezca un mensaje de bienvenida personalizado y una lista de platos populares, para sentirse bienvenido y motivado a explorar y elegir entre las opciones más solicitadas.|
+|08|Seguridad y Protección de Datos|Como usuario, quiero que la plataforma garantice la seguridad de mis datos personales, financieros y las transacciones, para tener confianza en que mi información está protegida y que mis interacciones son seguras.|
+|09|Gestión de Favoritos|Como usuario de Sabores Cercanos, quiero una sección de favoritos donde pueda acceder rápidamente a mis recetas favoritas, así como a los cocineros que más me gustan, para poder encontrarlos y realizar pedidos con mayor facilidad.|
+|10|Desarrollo de Funcionalidades de la Aplicación|Como equipo de desarrollo, queremos implementar una serie de funcionalidades clave en la aplicación, para mejorar la experiencia de los usuarios, permitir una interacción fluida y ofrecer características que les faciliten la búsqueda, gestión y consumo de contenido dentro de la plataforma.|
 
 
 |Story ID|Título|Descripción|Criterios de Aceptación|Epic ID|
 |-|-|-|-|-|
-|US01|Registro de usuario|Como usuario ocupado, quiero poder acceder al servicio para ahorar tiempo en la preparacion de comidas diarias y semanales. |-Escenario 1: Registro rápido<br>Dado que el usuario es un profesional ocupado que necesita acceder rápidamente a la plataforma,<br>Cuando el usuario introduce su correo electrónico y una contraseña para registrarse,<br>Entonces el aplicativo completa el proceso de registro en menos de 2 minutos, permitiéndole explorar de inmediato las opciones de comida disponibles.<br><br>-Escenario 2: Registro con redes sociales<br>Dado que el usuario prefiere utilizar sus cuentas de redes sociales para registrarse rápidamente,<br>Cuando el usuario selecciona la opción de registrarse con Google o Facebook,<br>Entonces el aplicativo realiza el registro automáticamente y lo redirige a la página de inicio en cuestión de segundos.|EP01|
-|US02|Busqueda por preferencias|Como usuario ocupado, quiero poder filtrar las opciones de comida según mis preferencias dietéticas, para encontrar rápidamente algo que se ajuste a mi dieta.|-Escenario 1: Filtro por dieta vegetariana<br>Dado que el usuario sigue una dieta vegetariana y quiere encontrar opciones que se ajusten a sus necesidades,<br>Cuando el usuario aplica el filtro de comida vegetariana en la búsqueda,<br>Entonces el aplicativo muestra solo opciones de comidas vegetarianas, facilitando la selección rápida de un plato adecuado.<br><br>-Escenario 2: Búsqueda por preferencias de bajo contenido calórico<br>Dado que el usuario está cuidando su ingesta calórica,<br>Cuando el usuario aplica el filtro de “bajo en calorías”,<br>Entonces el aplicativo presenta únicamente las opciones que cumplen con este criterio, ayudando al usuario a hacer una elección informada.<br>|EP01|
-|US03|Visualización de reseñas|Como usuario, quiero poder ver reseñas detalladas y perfiles de cocineros, para sentirme seguro de que estoy eligiendo la mejor opción.|-Escenario 1: Ver reseñas antes de hacer un pedido<br>Dado que el usuario quiere asegurarse de que el cocinero ofrece comida de calidad,<br>Cuando el usuario revisa las reseñas y calificaciones de otros clientes,<br>Entonces el aplicativo muestra de forma clara y detallada las opiniones y calificaciones, permitiéndole tomar una decisión informada.<br><br>-Escenario 2: Comparar cocineros antes de elegir<br>Dado que el usuario tiene varias opciones de cocineros y quiere elegir la mejor,<br>Cuando el usuario compara las reseñas y perfiles de varios cocineros,<br>Entonces el aplicativo facilita la comparación lado a lado, ayudando al usuario a seleccionar el cocinero que mejor se ajusta a sus expectativas.<br>|EP01|
-|US04|Visualizacion de informacion nutricional|Como usuario, quiero ver información nutricional detallada de cada plato, para poder tomar decisiones informadas sobre mi alimentación y elegir opciones que se adapten a mis necesidades nutricionales.|-Escenario 1: Revisión de información nutricional para una comida específica<br>Dado que el usuario está preocupado por la cantidad de calorías y nutrientes en su comida,<br>Cuando el usuario revisa la información nutricional detallada de un plato antes de pedirlo,<br>Entonces el aplicativo despliega la información de manera clara y comprensible, permitiéndole tomar una decisión basada en sus objetivos de salud.<br><br>-Escenario 2: Comparación de platos por contenido nutricional<br>Dado que el usuario está tratando de elegir entre dos opciones de platos,<br>Cuando el usuario compara la información nutricional de ambos platos,<br>Entonces el aplicativo facilita la comparación, ayudándole a elegir la opción que mejor se ajuste a sus necesidades dietéticas.<br>|EP01|
-|US05|Programacion de entrega|Como usuario, quiero poder programar la entrega de mi pedido para que llegue en un momento conveniente, ajustándose a mi agenda.|-Escenario 1: Programación para recibir la comida después del trabajo<br>Dado que el usuario tiene un horario de trabajo ocupado y quiere cenar a una hora específica,<br>Cuando el usuario programa la entrega para que llegue justo después de que termine su jornada laboral,<br>Entonces el aplicativo asegura que la comida sea entregada puntualmente, sin interrupciones en su rutina diaria.<br><br>-Escenario 2: Entrega programada durante un descanso corto<br>Dado que el usuario tiene un breve periodo de descanso para comer,<br>Cuando el usuario programa la entrega para que coincida con el inicio de su descanso,<br>Entonces el aplicativo gestiona la entrega para que llegue en el momento preciso, permitiéndole disfrutar de su comida sin retrasos.<br>|EP01|
-|US06|Experiencia personalizada|Como usuario ocupado, quiero recibir recomendaciones personalizadas de comidas basadas en mis pedidos anteriores y preferencias, para ahorrar tiempo en la selección de opciones que se ajusten a mis gustos.|-Escenario 1: Recomendaciones basadas en pedidos anteriores<br>Dado que el usuario suele pedir comidas similares cada semana,<br>Cuando el usuario recibe recomendaciones basadas en sus pedidos anteriores,<br>Entonces el aplicativo sugiere opciones que se alinean con sus preferencias, facilitando la selección de sus comidas habituales.<br><br>-Escenario 2: Recomendaciones basadas en preferencias dietéticas<br>Dado que el usuario tiene preferencias dietéticas específicas (por ejemplo, bajo en carbohidratos),<br>Cuando el usuario recibe sugerencias de platos que cumplen con sus criterios,<br>Entonces el aplicativo presenta opciones personalizadas, ahorrándole tiempo y esfuerzo en la búsqueda de comidas adecuadas.|EP01|
-|US07|Personalización de Menús|Como usuario, quiero poder personalizar los menús según mis gustos y necesidades dietéticas para asegurarme de recibir comidas que cumplan con mis preferencias.|-Escenario 1: <br>Dado que el usuario quiere ajustar un menú,<br> cuando seleccione opciones de personalización,<br> entonces el sistema debe actualizar el menú de acuerdo con sus elecciones.<br>-Escenario 2: <br>Dado que el usuario tiene restricciones dietéticas,<br> cuando elija opciones específicas,<br> entonces el sistema debe mostrar sólo los platos que cumplen con esas restricciones. |EP02|
-|US08| Programación de Repetición de Pedidos|Como usuario frecuente, quiero poder programar la repetición de mis pedidos para recibir mis comidas favoritas de manera regular sin tener que hacer un pedido manualmente cada vez. |-Escenario 1: <br>Dado que el usuario selecciona un pedido recurrente,<br> cuando configure la frecuencia de repetición,<br> entonces el sistema debe automatizar el pedido según el intervalo seleccionado.<br><br>-Escenario 2: <br>Dado que el menú ha cambiado,<br> cuando el usuario programa la repetición, <br>entonces el sistema debe notificarle si el pedido ya no está disponible y ofrecer alternativas.|EP02|
-|US09| Recordatorios de Entrega|Como usuario, quiero recibir recordatorios antes de la entrega de mi pedido para asegurarme de estar disponible para recibirlo.|-Escenario 1: <br>Dado que el usuario ha programado una entrega,<br> cuando la fecha se acerque,<br> entonces el sistema debe enviar un recordatorio de la entrega programada.<br><br>-Escenario 2: <br>Dado que el usuario ha cambiado la hora de entrega,<br> cuando el nuevo horario se acerque,<br> entonces el sistema debe actualizar y enviar el recordatorio con la nueva hora. |EP02|
-|US10| Opción de Entrega en Múltiples Direcciones|Como usuario, quiero poder elegir diferentes direcciones de entrega para recibir mis pedidos en varios lugares según mi ubicación en el momento.|-Escenario 1: <br>Dado que el usuario quiere cambiar la dirección de entrega, <br>cuando seleccione una nueva dirección durante el proceso de pedido,<br> entonces el sistema debe actualizar la entrega para esa dirección.<br><br>-Escenario 2: <br>Dado que el usuario tiene varias direcciones guardadas, <br>cuando elija una dirección de su lista,<br> entonces el sistema debe usar esa dirección para la entrega del pedido. |EP02|
-|US11|Confirmación de Recepción de Pedido|Como usuario, quiero confirmar la recepción de mi pedido para asegurarme de que el servicio ha sido entregado correctamente y para actualizar el estado del pedido.|-Escenario 1: <br>Dado que el usuario recibe su pedido, <br>cuando confirme la recepción a través de la aplicación<br>, entonces el sistema debe marcar el pedido como entregado.<br><br>-Escenario 2: <br>Dado que el usuario no confirma la recepción,<br> cuando el cocinero notifique la entrega,<br> entonces el sistema debe solicitar confirmación del usuario antes de completar el pedido. |EP02|
-|US12|Opciones de Suscripción para Ofertas Exclusivas|Como usuario, quiero poder suscribirme a ofertas y menús exclusivos para recibir descuentos y acceso anticipado a nuevas opciones.|-Escenario 1: <br>Dado que el usuario se suscribe a una oferta exclusiva,<br> cuando se publiquen nuevas ofertas,<br> entonces el sistema debe notificar al usuario y aplicar los descuentos automáticamente.<br><br>-Escenario 2: <br>Dado que el usuario no desea recibir ofertas exclusivas, <br>cuando cancele la suscripción,<br> entonces el sistema debe detener el envío de notificaciones y ofertas exclusivas.|EP02|
-|US13|Notificaciones de nuevo menús|Como profesional ocupado, quiero recibir notificaciones sobre nuevos menús cerca de mi ubicación para aprovechar las ofertas más recientes. |-Escenario 1: <br>Dado que el usuario está suscrito a notificaciones<br>Cuando se publique un nuevo menú,<br>Entonces el sistema debe enviar una alerta en tiempo real.<br><br>-Escenario 2: <br>Dado que el usuario no desea recibir notificaciones, <br>cuando cambie esta opción en su perfil,<br> entonces el sistema debe desactivar las alertas. |EP03|
-|US14|Repetición de pedidos|Como profesional ocupado, quiero tener la opción de repetir mis pedidos anteriores para ahorrar tiempo al hacer futuras compras.|-Escenario 1: <br>Dado que el menú ya no está disponible,<br> cuando el usuario intente repetir el pedido,<br> entonces el sistema debe sugerir una alternativa similar.<br>-Escenario 2: <br>Dado que el usuario repite el pedido,<br> cuando lo confirme,<br> entonces el sistema debe generar el nuevo pedido con los mismos detalles que el anterior.|EP03|
-|US15|Programación de pedidos|Como profesional ocupado, quiero programar la fecha y hora de entrega de mis pedidos para asegurarme de recibir la comida cuando la necesite.|-Escenario 1: <br>Dado que el usuario selecciona una fecha futura,<br> cuando confirme el pedido,<br> entonces el sistema debe agendar la entrega para esa fecha.<br>-Escenario 2: <br>Dado que el cocinero no está disponible para la fecha seleccionada,<br> cuando el usuario intente programar,<br> entonces el sistema debe sugerir una nueva fecha.|EP03|
-|US16|Métodos de pago|Como profesional ocupado, quiero pagar mi pedido a través de múltiples métodos de pago para tener más flexibilidad.|-Escenario 1: <br>Dado que el usuario selecciona tarjeta de crédito,<br> cuando confirme el pago,<br> entonces el sistema debe procesarlo de manera segura.<br>-Escenario 2: <br>Dado que el usuario selecciona una transferencia bancaria,<br> cuando seleccione esta opción, <br>entonces el sistema debe mostrar las instrucciones de pago correspondientes.|EP03|
-|US17|Confirmación de entrega|Como profesional ocupado, quiero confirmar la recepción de mi pedido para asegurarme de que el servicio fue exitoso.|-Escenario 1: <br> Dado que el usuario recibe su pedido,<br> cuando lo confirme, <br>entonces el sistema debe marcar el pedido como completado.<br>-Escenario 2: <br>Dado que el usuario no confirma la entrega,<br> cuando el cocinero notifique la entrega, <br>entonces el sistema debe esperar confirmación del cliente.|EP03|
-|US18| Gestión de favoritos|Como profesional ocupado, quiero poder guardar mis cocineros y menús favoritos para acceder fácilmente a ellos en el futuro|-Escenario 1: <br>Dado que el usuario selecciona un cocinero favorito,<br> cuando lo haga, <br>entonces el sistema debe guardarlo en su perfil de favoritos.<br>-Escenario 2: <br>Dado que el usuario guarda un menú, <br>cuando quiera acceder a él nuevamente, <br>entonces el sistema debe mostrarlo en su sección de favoritos.|EP03|
-|US19|Publicar Recetas|Como cocinero, quiero publicar recetas para compartir mis conocimientos culinarios con la comunidad.|-Escenario 1: <br>Dado que el cocinero está autenticado<br>Cuando sube una receta completa con título, ingredientes, instrucciones, y foto<br>Entonces la receta se publicará en la plataforma.<br><br>-Escenario 2: <br>Dado que el cocinero ha publicado una receta<br>Cuando otros usuarios visualicen la receta en el feed de la comunidad<br>Entonces podrán comentarla, calificarla, y guardarla. |EP04|
-|US20|Filtrar Recetas|Como usuario de la plataforma, quiero poder filtrar las recetas según varios criterios para encontrar la que más se ajuste a mis necesidades.|-Escenario 1: <br>Dado que el usuario está buscando una receta<br>Cuando selecciona filtros como "desayuno" o "fácil"<br>Entonces la plataforma muestra las recetas que coinciden con esos filtros.<br><br>-Escenario 2: <br>Dado que el usuario desea refinar la búsqueda<br>Cuando selecciona múltiples filtros, como "sin gluten" y "menos de 30 minutos"<br>Entonces la plataforma mostrará recetas que coincidan con todos esos criterios. |EP04|
-|US21|Guardar Recetas Favoritas|Como usuario, quiero poder guardar mis recetas favoritas para acceder a ellas fácilmente en el futuro.|-Escenario 1: <br>Dado que el usuario ha encontrado una receta de su interés<br>Cuando marca la receta como favorita<br>Entonces esta se almacenará en una sección personal de recetas guardadas.<br><br>-Escenario 2: <br>Dado que el usuario ha guardado varias recetas<br>Cuando accede a su perfil<br>Entonces puede ver sus recetas guardadas y organizarlas en colecciones personalizadas. |EP04|
-|US22|Comentarios en Recetas|Como usuario, quiero poder dejar comentarios en las recetas para compartir mis opiniones o sugerencias.|-Escenario 1: <br>Dado que el usuario ha visualizado una receta<br>Cuando escribe un comentario<br>Entonces este se mostrará en tiempo real en la sección de comentarios de la receta.<br><br>-Escenario 2: <br>Dado que la receta ha recibido un nuevo comentario<br>Cuando el cocinero recibe una notificación<br>Entonces puede responder directamente al comentario desde la plataforma. |EP04|
-|US23|Calificar Recetas|Como usuario, quiero poder calificar las recetas que preparo para dar feedback a los cocineros y ayudar a otros usuarios a encontrar las mejores opciones.|-Escenario 1: <br>Dado que el usuario ha preparado una receta<br>Cuando califica la receta con una puntuación de 1 a 5 estrellas<br>Entonces la calificación se reflejará en la página de la receta.<br><br>-Escenario 2: <br>Dado que la receta ha recibido varias calificaciones<br>Cuando se muestra en la plataforma<br>Entonces las recetas con mejor valoración aparecerán primero en las búsquedas. |EP04|
-|US24|Notificación de Nuevas Recetas|Como usuario, quiero recibir notificaciones cuando se publiquen nuevas recetas por cocineros que sigo para estar al tanto de sus últimas creaciones.|-Escenario 1: <br>Dado que el usuario sigue a un cocinero<br>Cuando el cocinero publica una nueva receta<br>Entonces el usuario recibirá una notificación con el nombre de la receta y una imagen.<br><br>-Escenario 2: <br>Dado que el usuario ha recibido una notificación<br>Cuando presiona la notificación<br>Entonces será redirigido a la página de la nueva receta en la plataforma. |EP04|
-|US25|Edición de perfil de usuario|Como usuario, quiero poder editar mis datos personales, como nombre, dirección y preferencias de contacto, para asegurarme de que la información esté actualizada.|-Escenario 1: <br>Dado que el usuario necesita actualizar su información,<br>cuando hace clic en la opción de editar perfil,<br>entonces el sistema permite modificar sus datos personales<br><br>-Escenario y: <br>Dado que <br>Cuando<br>Entonces |EP05|
-| US26 | Cambio de contraseña | Como usuario, quiero poder cambiar mi contraseña para mantener la seguridad de mi cuenta. | -Escenario 1: <br>Dado que el usuario desea aumentar la seguridad de su cuenta,<br>cuando accede a la opción de cambiar contraseña,<br>entonces el sistema permite ingresar la nueva contraseña y confirmarla.<br><br>-Escenario 2: <br>Dado que el usuario introduce una contraseña débil,<br>cuando intenta guardarla,<br>entonces el sistema muestra una advertencia de seguridad y sugiere una contraseña más segura. | EP05 |
-| US27 | Eliminación de cuenta | Como usuario, quiero poder eliminar mi cuenta si ya no deseo utilizar la plataforma, para tener control total sobre mi perfil. | -Escenario 1: <br>Dado que el usuario decide dejar de usar la plataforma,<br>cuando selecciona la opción de eliminar cuenta,<br>entonces el sistema elimina permanentemente su perfil y datos asociados.<br><br>-Escenario 2: <br>Dado que el usuario tiene pedidos en curso,<br>cuando intenta eliminar la cuenta,<br>entonces el sistema le informa que debe finalizar o cancelar los pedidos antes de proceder. | EP05 |
-| US28 | Configuración de seguridad en dos pasos | Como usuario, quiero activar la autenticación de dos factores para asegurar que mi cuenta esté protegida contra accesos no autorizados. | -Escenario 1: <br>Dado que el usuario quiere proteger su cuenta,<br>cuando habilita la autenticación en dos pasos,<br>entonces el sistema solicita un segundo método de verificación al iniciar sesión.<br><br>-Escenario 2: <br>Dado que el usuario no tiene acceso a su segundo factor,<br>cuando intenta iniciar sesión,<br>entonces el sistema proporciona un método alternativo para recuperar el acceso a la cuenta. | EP05 |
-| US29 | Gestión de métodos de pago | Como usuario, quiero poder añadir, editar o eliminar métodos de pago en mi cuenta, para tener flexibilidad al realizar mis pedidos. | -Escenario 1: <br>Dado que el usuario quiere agregar una nueva tarjeta de crédito,<br>cuando ingresa la información de la tarjeta,<br>entonces el sistema guarda el método de pago para futuras transacciones.<br><br>-Escenario 2: <br>Dado que el usuario desea eliminar un método de pago antiguo,<br>cuando selecciona la opción de eliminar,<br>entonces el sistema confirma la acción antes de eliminar el método de pago. | EP05 |
-| US30 | Recuperación de cuenta | Como usuario, quiero poder recuperar mi cuenta si olvido mis credenciales, para no perder acceso a la plataforma. | -Escenario 1: <br>Dado que el usuario olvida su contraseña,<br>cuando solicita la recuperación de cuenta,<br>entonces el sistema envía un enlace para restablecer la contraseña al correo electrónico registrado.<br><br>-Escenario 2: <br>Dado que el usuario no tiene acceso al correo registrado,<br>cuando intenta recuperar su cuenta,<br>entonces el sistema proporciona alternativas como preguntas de seguridad o verificación telefónica. | EP05 |
+|US-01|Inicio de "Sabores Cercanos"|Como visitante de "Sabores Cercanos", quiero encontrar un mensaje informativo en la landing page que me explique de forma clara y concisa qué es la plataforma y cómo puede beneficiarme, para poder comprender rápidamente su propósito.|Escenario 1: Mensaje Informativo en la Landing Page Dado que un visitante llega a la landing page,Cuando visualice la sección introductoria de "Sabores Cercanos",Entonces debe encontrar un ensaje claro y conciso que explique qué es la plataforma y cómo puede beneficiarlo.<br>Escenario 2: Ejemplos de Beneficios DestacadosDado que un visitante está leyendo sobre "Sabores Cercanos",Cuando vea la lista de beneficios,Entonces debe encontrar ejemplos específicos de cómo la plataforma mejora la experiencia culinaria y facilita el acceso a platos locales.|EP-01|
+|US-02|Proceso de Registro Eficiente|Como visitante interesado en registrarme en "Sabores Cercanos", quiero acceder a un proceso de registro rápido y sencillo a través de la landing page, que me permita completar mi registro en no más de tres pasos, para evitar complicaciones.|Escenario 1: Registro Rápido en la Landing Page Dado que un visitante decide registrarse,Cuando haga clic en el botón de registro,Entonces debe ser redirigido a un formulario simple y fácil de completar que no requiera más de tres pasos.<br>Escenario 2: Confirmación de Registro Dado que un visitante ha completado el registro,Cuando envíe su información,Entonces debe recibir un mensaje de confirmación que indique que su cuenta ha sido creada exitosamente y que puede iniciar sesión de inmediato.|EP-01|
+|US-03|Visualización de Platos Populares y Reseñas|Como visitante de la plataforma, quiero poder ver una galería con los platos más populares, incluyendo imágenes y descripciones, para tener una idea de los platos más solicitados.|Escenario 1: Sección de Platos Destacados Dado que un visitante está en la landing page, Cuando busque ejemplos de platos populares, Entonces debe encontrar una galería con imágenes y descripciones de los platos más solicitados. <br> Escenario 2: Reseñas de Usuarios Dado que un visitante está interesado en la calidad de la comida, Cuando revise la sección de reseñas, Entonces debe poder leer opiniones de otros usuarios que destacan la calidad y el sabor de los platos ofrecidos.|EP-01|
+|US-04|Sección de Preguntas Frecuentes Accesible|Como visitante que tiene dudas sobre el uso de la plataforma, quiero poder acceder fácilmente a una sección de preguntas frecuentes desde la landing page, para encontrar respuestas rápidas y claras a mis dudas.|Escenario 1:Dado que un visitante tiene dudas antes de registrarse,Cuando busque información en la landing page,Entonces debe encontrar un enlace claro y visible a la sección de preguntas frecuentes.<br>.Escenario 2: Resolución de DudasDado que un visitante está leyendo la sección de preguntas frecuentes,Cuando encuentre una pregunta relevante a su situación,Entonces debe leer una respuesta clara y concisa que resuelva su duda.|EP-01|
+|US-05|Política de Privacidad Clara|Como visitante preocupado por la seguridad de mis datos personales, quiero tener acceso visible a la política de privacidad desde la landing page, para entender cómo se recopilan, usan y protegen mis datos.|Escenario 1: Acceso a la Política de Privacidad Dado que un visitante está revisando la landing page,Cuando busque información sobre la seguridad de sus datos personales,Entonces debe encontrar un enlace visible a la política de privacidad.<br>.Escenario 2: Comprensión de la Política de Privacidad Dado que un visitante lee la política de privacidad,Cuando revise las secciones sobre la recopilación y uso de datos,Entonces debe entender claramente cómo se protegerán sus datos y cómo se utilizarán.|EP-01|
+|US-06|Búsqueda Personalizada de Platos por Preferencias Dietéticas|Como usuario, quiero poder buscar platos de comida basados en mis preferencias dietéticas (vegetariano, vegano, sin gluten, etc.) y restricciones alimentarias, para encontrar opciones que se adapten a mis necesidades.|Escenario 1:Dado que el usuario se encuentra en la página de publicaciones del día.Cuando seleccione filtros en la barra de búsqueda.Entonces el sistema debe filtrar las publicaciones del día para solo mostrar aquellas que coincidan con dichos filtros.<br>Escenario 2:Dado que el usuario ha aplicado filtros de preferencias dietéticas y restricciones alimentarias en la barra de búsqueda,Cuando el usuario haga clic en el botón para limpiar los filtros,Entonces el sistema debe eliminar todos los filtros aplicados y mostrar nuevamente todas las publicaciones del día sin restricciones.|EP-02|
+|US-07|Filtrado de Resultados de Búsqueda por Ubicación, Precio y Popularidad|Como usuario, quiero poder filtrar los resultados de búsqueda por ubicación, precio y popularidad, para encontrar opciones cercanas a mí y que se ajusten a mi presupuesto.|Escenario 1:Dado que el usuario se encuentra en la página de publicaciones del día.Cuando aplique filtros de búsqueda relacionados con ubicación, precio y popularidad.Entonces, el sistema debe mostrar los resultados que coincidan con dichos filtros.<br>Escenario 2:Dado que el usuario ha aplicado filtros de ubicación, precio y popularidad en la barra de búsqueda,Cuando el usuario haga clic en el botón para reiniciar los filtros,Entonces el sistema debe restablecer los resultados, eliminando los filtros y mostrando todas las publicaciones del día sin ningún criterio de ubicación, precio o popularidad.|EP-02|
+|US-08|Filtrado de Prepublicaciones para Pedidos Anticipados|Como usuario, quiero poder filtrar los resultados de búsqueda de las prepublicaciones, para poder visualizarlas y realizar mis pedidos con anticipación.|Escenario 1: Dado que el usuario está en la sección de prepublicaciones,Cuando ingrese un criterio de filtro (como fecha, tipo de comida, chef, etc.),Entonces el sistema debe mostrar solo las prepublicaciones que coincidan con los criterios ingresados.<br>Escenario 2 :Dado que el usuario no selecciona ningún criterio de filtro,Cuando realice la búsqueda,Entonces el sistema debe mostrar todas las prepublicaciones disponibles.|EP-02|
+|US-09|Realizar Pedidos con Anticipación|Como usuario, quiero poder realizar mi pedido con días de anticipación , para poder  ahorrar mi tiempo.|Escenario 1: Seleccionar la fecha de entrega en un pedido futuro.Dado que el usuario ha seleccionado un plato de una publicación futura,Cuando decida realizar un pedido,Entonces el sistema debe permitir seleccionar la fecha de entrega dentro de los días disponibles para pedido.<br>Escenario 2:  Confirmación del pedido anticipado Dado que el usuario completa el proceso de pedido,Cuando se confirma el pedido,Entonces el sistema debe enviar una confirmación con los detalles del pedido, incluyendo la fecha programada de entrega.|EP-03|
+|US-10|Programar Pedido desde una Prepublicación|Como usuario, quiero poder programar un pedido desde una prepublicación, para poder seleccionar la hora en la que deseo recibir el pedido el día de su publicación.|Escenario 1: Mostrar fecha y opciones de hora para la programación del pedido. Dado que el usuario está visualizando una prepublicación,Cuando seleccione la opción de "Programar Pedido",Entonces el sistema debe mostrar la fecha de la publicación del plato y permitir al usuario elegir una hora de entrega disponible.<br>Escenario 2: Confirmar la programación del pedidoDado que el usuario ha seleccionado una hora de entrega,Cuando confirme la programación del pedido,Entonces el sistema debe mostrar una confirmación con la fecha y la hora seleccionadas para el pedido.|EP-03|
+|US-11|Cancelar Programación de Pedido|Como usuario, quiero poder cancelar la programación de mi pedido, para poder anular la entrega si ya no deseo recibirlo.|Escenario 1: Mostrar opción de cancelar programación del pedido Dado que el usuario ha programado un pedido,Cuando acceda a la sección de "Mis Pedidos" o al detalle del pedido programado, Entonces el sistema debe mostrar la opción de cancelar la programación del pedido.<br>Escenario 2: Confirmar la cancelación del pedido programado Dado que el usuario desea cancelar el pedido programado,Cuando confirme la cancelación,Entonces el sistema debe eliminar la programación del pedido y enviar una notificación de que el pedido ha sido cancelado correctamente.|EP-03|
+|US-12|Visualización de Historial de Pedidos|Como usuario, quiero ver mi historial de pedidos para revisar las comidas que he pedido en el pasado.|Escenario 1: Dado que el usuario ha realizado pedidos previos, cuando acceda a la sección "Mis pedidos", entonces el sistema debe mostrar una lista con las órdenes pasadas.<br>Escenario 2: Dado que el usuario no ha realizado pedidos, cuando acceda a la sección "Mis pedidos", entonces el sistema debe mostrar un mensaje indicando que no tiene pedidos previos.|EP-04|
+|US-13|Filtros por Estado de Pedido (Entregados, En proceso y Cancelados)|Como usuario, quiero poder filtrar mis pedidos por estado (Pendiente, En preparacion o Completado) para encontrar rápidamente el pedido que busco.|Escenario 1: Dado que el usuario está en la sección "Mis pedidos", cuando aplique el filtro de estado "Pendiente", entonces el sistema debe mostrar solo los pedidos que ya han sido entregados. <br>Escenario 2: Dado que el usuario está en la sección "Mis pedidos", cuando aplique el filtro de estado "En preparación", entonces el sistema debe mostrar solo los pedidos en proceso.|EP-04|
+|US-14|Visualización de información detallada del plato en el Pedido|Como usuario, quiero ver la foto del plato de cada pedido para recordar visualmente qué platillo pedí.|Escenario 1: Dado que el usuario está viendo la lista de pedidos en la sección "Mis pedidos", cuando acceda a los detalles de un pedido, entonces el sistema debe mostrar la imagen del plato pedido,el nombre del plato,etc.|EP-04|
+|US-15|Filtracion de Pedidos por Método de Pago|Como usuario, quiero filtrar mis pedidos por el método de pago utilizado para poder revisar aquellos que hice con un pago específico (tarjeta, efectivo, monedero digital).|Escenario 1: Dado que el usuario está en la sección "Mis pedidos", cuando aplique el filtro por método de pago "Tarjeta", entonces el sistema debe mostrar solo los pedidos que fueron pagados con tarjeta.<br>Escenario 2: Dado que el usuario está en la sección "Mis pedidos", cuando aplique el filtro por método de pago "Efectivo", entonces el sistema debe mostrar solo los pedidos que fueron pagados en efectivo.|EP-04|
+|US-16|Filtracion de Pedidos por Intervalo de Fechas|Como usuario, quiero filtrar mis pedidos por un intervalo de fechas para ver qué órdenes realicé entre fechas específicas.|Escenario 1: Dado que el usuario está en la sección "Mis pedidos", cuando seleccione un intervalo de fechas del 1 de enero al 31 de enero, entonces el sistema debe mostrar solo los pedidos realizados durante ese período.<br>Escenario 2: Dado que el usuario está en la sección "Mis pedidos", cuando no haya pedidos realizados en el intervalo de fechas seleccionado, entonces el sistema no debe mostrar pedidos en ese rango de fechas.|EP-04|
+|US-17|Creación Perfil Personalizado|Como usuario, quiero poder crear un perfil personalizado, indicando mis preferencias alimentarias, direcciones de entrega y métodos de pago preferidos.|Dado que el usuario ha accedido a la vista de “Mi perfil”,Cuando se carga la página de perfil,Entonces el sistema debe mostrar la imagen de perfil del usuario, los datos personales guardados (nombre, correo electrónico, dirección, etc.), y las preferencias alimentarias (restricciones dietéticas o comidas favoritas).|EP-05|
+|US-18|Edicion de Perfil de Usuario|Como usuario, quiero poder editar mi perfil y actualizar mi información personal en cualquier momento.|Escenario 1: Dado que el usuario está en la vista de perfil, Cuando hace clic en el botón de "Guardar" y selecciona una nueva imagen de perfil,Entonces el sistema debe actualizar la imagen de perfil con la nueva imagen seleccionada.<br>Escenario 2: Editar los datos personales Dado que el usuario está en la vista de perfil, Cuando modifica sus datos personales (ej. nombre o dirección) y hace clic en el botón de "Guardar", Entonces el sistema debe actualizar los datos personales en la base de datos y confirmar la actualización.|EP-05|
+|US-19|Crear recetas|Como cocinero, quiero poder publicar mis recetas y compartir mis conocimientos culinarios con la comunidad.|Escenario 1: Dado que el cocinero está en la vista de publicación de recetas,Cuando ingresa todos los detalles de su receta (incluyendo nombre, ingredientes, instrucciones y tiempo de preparación) y hace clic en "Publicar",Entonces el sistema debe guardar la receta en la base de datos y mostrar un mensaje de confirmación de que la receta se ha publicado exitosamente.|EP-06|
+|US-20|Editar Recetas|Como cocinero,Quiero poder editar mis recetas publicadas,Para que pueda actualizar la información, corregir errores o modificar ingredientes.|Escenario 1:Dado que el cocinero está en la vista de mis recetas,Cuando selecciona una receta y hace clic en "Editar",Y realiza cambios en los detalles de la receta,Y hace clic en "Guardar",Entonces el sistema debe actualizar la receta en la base de datos y mostrar un mensaje de confirmación de que la receta ha sido actualizada exitosamente.|EP-06|
+|US-21|Eliminar Recetas|Como cocinero,Quiero poder eliminar mis recetas publicadas,Para que pueda eliminar aquellas que ya no deseo compartir con la comunidad.|Escenario 1: Dado que el cocinero está en la vista de mis recetas,Cuando selecciona una receta y hace clic en "Eliminar",Y confirma la acción en el mensaje de advertencia,Entonces el sistema debe eliminar la receta de la base de datos y mostrar un mensaje de confirmación de que la receta ha sido eliminada exitosamente.|EP-06|
+|US-22|Buscar Recetas por Nombre o Ingredientes|Como cocinero o usuario de la comunidad,Quiero poder buscar recetas por el nombre del plato o por ingredientes,para que pueda encontrar fácilmente recetas que se ajusten a mis preferencias o necesidades culinarias.|Escenario 1: Dado que el usuario está en la vista de búsqueda de recetas,Cuando ingresa un término de búsqueda (ya sea el nombre del plato o un ingrediente) y hace clic en "Buscar",Entonces el sistema debe mostrar una lista de recetas que coinciden con el término de búsqueda, incluyendo recetas que contengan el ingrediente especificado o que tengan un nombre similar.|EP-06|
+|US-23|Mostrar Mensaje de Bienvenida|Como usuario, quiero recibir un mensaje de bienvenida en la vista Home para sentirme bienvenido y motivado a explorar los platos.|Escenario 1: Dado que el usuario ha accedido a la vista Home,Cuando se carga la página,Entonces el sistema debe mostrar un mensaje de bienvenida que incluya el nombre del usuario y una invitación a explorar los platos.|EP-07|
+|US-24|Mostrar Platos Populares en la Vista Home|Como usuario, quiero ver una lista de platos populares en la vista Home para poder elegir entre las opciones más solicitadas.|Escenario 1: Dado que el usuario ha accedido a la vista Home,Cuando se carga la sección de "Platos Más Populares",Entonces el sistema debe mostrar una lista de platos populares con sus imágenes, nombres y cocineros.<br>Escenario 2: Dado que el usuario ha visto un plato popular que le gusta,Cuando hace clic en el botón "Hacer Pedido" de ese plato,Entonces el sistema debe redireccionarlo a la sección “Pedidos”.|EP-07|
+|US-25|Proteger Datos Personales y Financieros con Encriptación|Como usuario, quiero que mis datos personales y financieros estén protegidos mediante encriptación de alta seguridad, para garantizar la confidencialidad de mi información.|Escenario 1: Dado que el usuario está creando una cuenta en la plataforma,Cuando ingrese su información personal y financiera,Entonces el sistema debe encriptar automáticamente estos datos antes de almacenarlos en la base de datos,Y el usuario debe recibir un mensaje de confirmación indicando que su información está protegida.<br>Escenario 2: Dado que el usuario ha iniciado sesión en su cuenta,Cuando acceda a su perfil y solicite ver su información personal y financiera,Entonces el sistema debe desencriptar temporalmente los datos para mostrarlos en la interfaz,Y garantizar que la información se vuelva a encriptar inmediatamente después de la visualización.|EP-08|
+|US-26|Verificación de Identidad de Cocineros|Como cocinero registrado en la plataforma, quiero enviar la documentación requerida para la verificación de mi identidad, para que el sistema pueda revisar y verificar mi identidad.|Escenario 1: Dado que un cocinero se ha registrado en la plataforma,Cuando envíe la documentación requerida para la verificación de identidad,Entonces el sistema debe revisar la documentación y verificar la identidad del cocinero,Y el cocinero debe recibir una notificación de aprobación o rechazo dentro de un plazo determinado.<br>Escenario 2: Dado que un usuario está visualizando el perfil de un cocinero,Cuando el cocinero ha pasado el proceso de verificación de identidad,Entonces el sistema debe mostrar un indicador visual en el perfil del cocinero (por ejemplo, un ícono de verificación),Y el usuario debe poder hacer clic en el ícono para obtener más información sobre el proceso de verificación.|EP-08|
+|US-27|Gestión Segura de Transacciones Financieras|Como cocinero, quiero revisar la sección de pagos en la plataforma después de completar una transacción con un cliente, para ver un resumen que incluya el monto recibido, la fecha y el estado del pago. |Escenario 1: Dado que un cocinero ha completado una transacción con un cliente,Cuando el cocinero revise la sección de pagos en la plataforma,Entonces debe ver un resumen de la transacción, incluyendo el monto recibido, la fecha y el estado del pago.<br>Escenario 2: Dado que un cocinero quiere analizar su desempeño financiero,Cuando acceda a la herramienta de informes financieros en la plataforma,Entonces debe poder generar informes personalizados sobre sus ventas, ingresos y tendencias de pago a lo largo del tiempo.|EP-08|
+|US-28|Auditoría y Monitoreo de Seguridad del Sistema|Como administrador del sistema, quiero tener acceso a un panel de monitoreo que me permita detectar actividades sospechosas en la plataforma, para recibir alertas en tiempo real y acceder a detalles sobre la actividad para tomar medidas adecuadas.|Escenario 1: Detección de Amenazas Dado que el administrador del sistema está en el panel de monitoreo,Cuando se detecte una actividad sospechosa en la plataforma,Entonces debe recibir una alerta en tiempo real y tener acceso a detalles sobre la actividad para tomar medidas.<br>Escenario 2: Auditoría Periódica Dado que se programó una auditoría de seguridad,Cuando el administrador ejecute la auditoría,Entonces el sistema debe generar un informe que detalle las vulnerabilidades encontradas y las recomendaciones para mejorar la seguridad.|EP-08|
+|US-29|Escalabilidad y Rendimiento de la Plataforma|Como administrador del sistema, quiero que la plataforma maneje un aumento significativo en el número de usuarios durante una promoción, para asegurarme de que la carga adicional no disminuya la velocidad de respuesta ni afecte la experiencia del usuario.|Escenario 1: Manejo de Aumento de Usuarios Dado que se anticipa un aumento significativo en el número de usuarios durante una promoción,Cuando se inicie la promoción,Entonces la plataforma debe manejar la carga adicional sin disminuir la velocidad de respuesta ni afectar la experiencia del usuario.<br>Escenario 2: Optimización de RecursosDado que el administrador del sistema está revisando el rendimiento de la plataforma,Cuando identifique un uso ineficiente de recursos,Entonces debe poder implementar ajustes en la infraestructura para optimizar el rendimiento y la escalabilidad.|EP-08|
+|US-30|Guardar Recetas Favoritas|Como usuario, quiero poder guardar mis recetas favoritas haciendo click en el ícono de corazón, para encontrarlas fácilmente en el futuro.|Escenario 1: Dado que el usuario ha guardado recetas previamente, Cuando acceda a la sección "Favoritos", Entonces el sistema debe mostrar las recetas que el usuario ha marcado como favoritos.<br>Escenario 2: Dado que el usuario no ha guardado ninguna receta como favorito, Cuando acceda a la sección "Favoritos", Entonces el sistema debe mostrar un mensaje indicando que no tiene retas guardadas como favoritos.|EP-09|
+|US-31|Guardar Cocineros Favoritos|Como usuario, quiero poder guardar a mis cocineros favoritos, desde mi página de Chefs, haciendo clic en un icono de corazón, para acceder fácilmente a sus perfiles en el futuro.|Escenario 1: Dado que el usuario ha guardado cocineros previamente, Cuando acceda a la sección "Favoritos", Entonces el sistema debe mostrar los cocineros que el usuario ha marcado como favoritos.<br>Escenario 2: Dado que el usuario no ha guardado ningún cocinero como favorito, Cuando acceda a la sección "Favoritos", Entonces el sistema debe mostrar un mensaje indicando que no tiene cocineros guardados como favoritos.|EP-09|
+|US-32|Página de Favoritos|Como usuario, quiero una página dedicada de "Favoritos" a la que pueda acceder desde el menú principal, para encontrar fácilmente las recetas y cocineros que he guardado como favoritos.|Escenario 1: Dado que el usuario ha guardado recetas y/o cocineros como favoritos, Cuando acceda a la página de "Favoritos" desde el menú principal, Entonces el sistema debe mostrar una lista con las recetas y cocineros marcados como favoritos.<br>Escenario 2: Dado que el usuario tiene favoritos tanto de recetas como de cocineros, Cuando acceda a la página de "Favoritos", Entonces el sistema debe permitirle filtrar entre "Recetas" y "Cocineros" para facilitar su navegación.|EP-09|
+|TS-33|Configurar Entorno de Desarrollo|Como desarrollador, quiero configurar mi entorno de desarrollo para poder comenzar a trabajar en el proyecto de Sabores Cercanos. |Escenario 1: Dado que el desarrollador tiene acceso al repositorio del proyecto, cuando sigue las instrucciones de configuración, entonces debería poder ejecutar la aplicación localmente.|EP-10|
+|TS-34|Implementar Landing Page|Como desarrollador, quiero implementar la landing page que muestre la información de la plataforma y guíe al usuario a descargar la app o acceder al sitio web.|Escenario 1: Dado que el diseño de la landing page está aprobado, cuando el usuario accede a la página principal, entonces debería poder ver información sobre la plataforma y un botón para descargar la app o acceder a la versión web.|EP-10|
+|TS-35|Implementar Funcionalidad de Publicaciones de Platos|Como desarrollador, quiero implementar la funcionalidad de publicaciones para que los chefs puedan mostrar sus platos, incluyendo la imagen, el stock disponible y el precio.|Escenario 1: Dado que el chef crea una nueva publicación, cuando se publica el plato, entonces los usuarios pueden ver la foto del plato, el precio y el stock disponible.|EP-10|
+|TS-36|Implementar Botón para Solicitar un Plato|Como desarrollador, quiero implementar un botón para que los usuarios puedan solicitar un plato y ser redirigidos a los métodos de pago.|Escenario 1: Dado que el usuario ve una publicación, cuando pulsa el botón "Pedir plato", entonces debería ser redirigido a los métodos de pago disponibles.|EP-10|
+|TS-37|Implementar Programación de Pedido|Como desarrollador, quiero implementar la funcionalidad de programación de pedidos para que los usuarios elijan la fecha y hora de entrega de su pedido.|Escenario 1: Dado que el usuario selecciona un plato programado, cuando presiona el botón "Programar pedido", entonces debería poder elegir la fecha y hora de entrega y ser redirigido al pago.|EP-10|
+|TS-38|Implementar Sección de Recetas Compartidas|Como desarrollador, quiero permitir que los chefs compartan sus recetas con los usuarios para fomentar la interacción y la comunidad en la plataforma.|Escenario 1: Dado que el chef comparte una receta, cuando el usuario accede a la sección de recetas, entonces puede ver las recetas disponibles y compartirlas con otros.|EP-10|
+|TS-39|Implementar Historial de Pedidos del Usuario|Como desarrollador, quiero implementar un historial de pedidos para que los usuarios puedan ver sus pedidos anteriores, con detalles como el chef, el costo, y el método de pago.|Escenario 1: Dado que el usuario accede al historial de pedidos, cuando selecciona un pedido, entonces debería ver la foto, el nombre del chef, el día del pedido, el costo total y el método de pago.|EP-10|
+|TS-40|Implementar Perfil del Usuario|Como desarrollador, quiero implementar un perfil de usuario donde pueda ver y editar su información personal, incluyendo preferencias, direcciones, y métodos de pago preferidos.|Escenario 1: Dado que el usuario accede a su perfil, cuando selecciona un campo para editar, entonces debería poder modificar su foto, nombre, correo, fecha de nacimiento, direcciones y método de pago preferido.|EP-10|
+|TS-41|Implementar Funcionalidad de Favoritos|Como desarrollador, quiero permitir que los usuarios marquen a cocineros como favoritos para que puedan encontrarlos fácilmente en futuras ocasiones.|Dado que el usuario accede a la sección de favoritos, cuando selecciona un chef como favorito, entonces debería poder verlo en la lista de favoritos en futuras búsquedas.|EP-10|
+|TS-42|Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|Dado que el usuario tiene habilitadas las notificaciones push, cuando hay una actualización sobre un pedido o una nueva publicación, entonces el sistema debe enviar una notificación push al dispositivo del usuario.|EP-10|
+|TS-43|Optimizar el Rendimiento de la Carga de Imágenes|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|Dado que el usuario accede a una publicación con imágenes, cuando la página carga, entonces las imágenes deben cargarse de manera rápida y eficiente, utilizando técnicas como lazy loading y compresión de imágenes.|EP-10|
 
 ### 3.3. Impact Mapping
 
-![alt text](assets/images/TB1/impactmaping.jpg)
+![alt text](assets/images/TB1/impactmapping.jpg) <br>
 [Anexo A](#anexos)<br><br>
 
 
 ### 3.4. Product Backlog
-| #Orden | User Story ID | Título                                          | Descripción                                                                                                                                           | Story Points <br> (1/2/3/5/8) |
-| ------ | ------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |:-----------------------------:|
-|1|US01|Registro de usuario|Como usuario ocupado, quiero poder acceder al servicio para ahorar tiempo en la preparacion de comidas diarias y semanales.|3|
-|2|US02|Busqueda por preferencias|Como usuario ocupado, quiero poder filtrar las opciones de comida según mis preferencias dietéticas, para encontrar rápidamente algo que se ajuste a mi dieta.|5|
-|3|US03|Visualización de reseñas|Como usuario, quiero poder ver reseñas detalladas y perfiles de cocineros, para sentirme seguro de que estoy eligiendo la mejor opción.|5|
-|4|US04|Visualizacion de informacion nutricional|Proporcionar información nutricional detallada de cada plato para ayudar a los usuarios a tomar decisiones informadas sobre su alimentación.|5|
-|5|US05|Programacion de entrega|Como usuario, quiero poder programar la entrega de mi pedido para que llegue en un momento conveniente, ajustándose a mi agenda.|5|
-|6|US06|Experiencia personalizada|Como usuario ocupado, quiero recibir recomendaciones personalizadas de comidas basadas en mis pedidos anteriores y preferencias, para ahorrar tiempo en la selección de opciones que se ajusten a mis gustos.|8|
-|7|US07|Personalización de Menús|Como usuario, quiero poder personalizar los menús según mis gustos y necesidades dietéticas para asegurarme de recibir comidas que cumplan con mis preferencias. |5|
-|8|US08|Programación de Repetición de Pedidos|Como usuario frecuente, quiero poder programar la repetición de mis pedidos para recibir mis comidas favoritas de manera regular sin tener que hacer un pedido manualmente cada vez.|8|
-|9|US09|Recordatorios de Entrega|Como usuario, quiero recibir recordatorios antes de la entrega de mi pedido para asegurarme de estar disponible para recibirlo|3|
-|10|US10|Opción de Entrega en Múltiples Direcciones|Como usuario, quiero poder elegir diferentes direcciones de entrega para recibir mis pedidos en varios lugares según mi ubicación en el momento|5|
-|11|US11|Confirmación de Recepción de Pedido|Como usuario, quiero confirmar la recepción de mi pedido para asegurarme de que el servicio ha sido entregado correctamente y para actualizar el estado del pedido.|3|
-|12|US12|Opciones de Suscripción para Ofertas Exclusivas|Como usuario, quiero poder suscribirme a ofertas y menús exclusivos para recibir descuentos y acceso anticipado a nuevas opciones.|5|
-|13|US13|Notificaciones de nuevo menús|Como profesional ocupado, quiero recibir notificaciones sobre nuevos menús cerca de mi ubicación para aprovechar las ofertas más recientes. |5|
-|14|US14|Repetición de pedidos|Como profesional ocupado, quiero tener la opción de repetir mis pedidos anteriores para ahorrar tiempo al hacer futuras compras.|8|
-|15|US15|Programación de pedidos| Como profesional ocupado, quiero programar la fecha y hora de entrega de mis pedidos para asegurarme de recibir la comida cuando la necesite.|5|
-|16|US16|Métodos de pago|Como profesional ocupado, quiero pagar mi pedido a través de múltiples métodos de pago para tener más flexibilidad.|5|
-|17|US17| Confirmación de entrega|Como profesional ocupado, quiero confirmar la recepción de mi pedido para asegurarme de que el servicio fue exitoso.|3|
-|18|US18| Gestión de favoritos|Como profesional ocupado, quiero poder guardar mis cocineros y menús favoritos para acceder fácilmente a ellos en el futuro|5|
-|19|US19|Publicar Recetas|Como cocinero, quiero publicar recetas para compartir mis conocimientos culinarios con la comunidad.|5|
-|20|US20|Filtrar Recetas.|Como usuario de la plataforma, quiero poder filtrar las recetas según varios criterios para encontrar la que más se ajuste a mis necesidades.|5|
-|21|US21|Guardar Recetas Favoritas.|Como usuario, quiero poder guardar mis recetas favoritas para acceder a ellas fácilmente en el futuro.|3|
-|22|US22|Comentarios en Recetas.|Como usuario, quiero poder dejar comentarios en las recetas para compartir mis opiniones o sugerencias.|5|
-|23|US23|Calificar Recetas.|Como usuario, quiero poder calificar las recetas que preparo para dar feedback a los cocineros y ayudar a otros usuarios a encontrar las mejores opciones.|5|
-|24|US24|Notificación de Nuevas Recetas.|Como usuario, quiero recibir notificaciones cuando se publiquen nuevas recetas por cocineros que sigo para estar al tanto de sus últimas creaciones.|5|
-|25|US25|Edición de perfil de usuario|Como usuario, quiero poder editar mis datos personales, como nombre, dirección y preferencias de contacto, para asegurarme de que la información esté actualizada.|3|
-|26|US26|Cambio de contraseña y métodos de autenticación| Como usuario, quiero poder cambiar mi contraseña y gestionar métodos de autenticación adicionales para aumentar la seguridad de mi cuenta.|5|
-|27|US27|Actualización de métodos de pago|Como usuario, quiero poder agregar, editar o eliminar métodos de pago, para tener flexibilidad al realizar mis compras.|5|
-|28|US28|Alertas de actividad sospechosa|Como usuario, quiero recibir notificaciones en caso de actividad sospechosa en mi cuenta para tomar medidas inmediatas.|5|
-|29|US29|Cierre de cuenta|Como usuario, quiero poder eliminar mi cuenta y todos los datos asociados de manera definitiva, para tener control sobre mi información.|3|
-|30|US30|Gestión de consentimiento de datos|Como usuario, quiero gestionar el consentimiento de uso de mis datos personales para asegurarme de que se respeten mis preferencias de privacidad.|5|
+| #Orden | User Story ID | Título | Descripción | Story Points <br> (1/2/3/5/8) |
+|-|-|-|-|-|
+|EP01|||||
+|1|US01|Inicio de "Sabores Cercanos"|Como visitante de la plataforma "Sabores Cercanos", quiero tener una experiencia de usuario fluida y agradable al interactuar con la landing page, para que pueda comprender rápidamente los beneficios de la plataforma, registrarme sin complicaciones, explorar platos populares y acceder a información útil, incluyendo preguntas frecuentes y políticas de privacidad.|1|
+|2|US02|Proceso de Registro Eficiente|Como visitante interesado en registrarme en "Sabores Cercanos", quiero acceder a un proceso de registro rápido y sencillo a través de la landing page, que me permita completar mi registro en no más de tres pasos, para evitar complicaciones.|1|
+|3|US03|Visualización de Platos Populares y Reseñas|Como visitante de la plataforma, quiero poder ver una galería con los platos más populares, incluyendo imágenes y descripciones, para tener una idea de los platos más solicitados. |2|
+|4|US04|Sección de Preguntas Frecuentes Accesible|Como visitante que tiene dudas sobre el uso de la plataforma, quiero poder acceder fácilmente a una sección de preguntas frecuentes desde la landing page, para encontrar respuestas rápidas y claras a mis dudas.|2|
+|5|US05|Política de Privacidad Clara|Como visitante preocupado por la seguridad de mis datos personales, quiero tener acceso visible a la política de privacidad desde la landing page, para entender cómo se recopilan, usan y protegen mis datos. |2|
+|EP02|||||
+|6|US06|Búsqueda Personalizada de Platos por Preferencias Dietéticas|Como usuario, quiero poder buscar platos de comida basados en mis preferencias dietéticas (vegetariano, vegano, sin gluten, etc.) y restricciones alimentarias, para encontrar opciones que se adapten a mis necesidades.|3|
+|7|US07|Filtrado de Resultados de Búsqueda por Ubicación, Precio y Popularidad|Como usuario, quiero poder filtrar los resultados de búsqueda por ubicación, precio y popularidad, para encontrar opciones cercanas a mí y que se ajusten a mi presupuesto.|6|
+|8|US08|Filtrado de Prepublicaciones para Pedidos Anticipados|Como usuario, quiero poder filtrar los resultados de búsqueda de las prepublicaciones, para poder visualizarlas y realizar mis pedidos con anticipación.|6|
+|EP03|||||
+|9|US11|Cancelar Programación de Pedido|Como usuario, quiero poder cancelar la programación de mi pedido, para poder anular la entrega si ya no deseo recibirlo.|10|
+|10|US10|Programar Pedido desde una Prepublicación|Como usuario, quiero poder programar un pedido desde una prepublicación, para poder seleccionar la hora en la que deseo recibir el pedido el día de su publicación.|10|
+|11|US09|Realizar Pedidos con Anticipación|Como usuario, quiero poder realizar mi pedido con días de anticipación , para poder  ahorrar mi tiempo. |13|
+|EP04|||||
+|12|US15|Filtracion de Pedidos por Método de Pago|Como usuario, quiero filtrar mis pedidos por el método de pago utilizado para poder revisar aquellos que hice con un pago específico (tarjeta, efectivo, monedero digital).|13|
+|13|US16|Filtracion de Pedidos por Intervalo de Fechas|Como usuario, quiero filtrar mis pedidos por un intervalo de fechas para ver qué órdenes realicé entre fechas específicas.|8|
+|14|US14|Visualización de información detallada del plato en el Pedido|Como usuario, quiero ver la foto del plato de cada pedido para recordar visualmente qué platillo pedí.|8|
+|15|US13|Filtros por Estado de Pedido (Entregados, En proceso y Cancelados)| Como usuario, quiero poder filtrar mis pedidos por estado (Pendiente, En preparacion o Completado) para encontrar rápidamente el pedido que busco.|13|
+|16|US12|Visualización de Historial de Pedidos|Como usuario, quiero ver mi historial de pedidos para revisar las comidas que he pedido en el pasado.|13|
+|EP05|||||
+|17|US18|Edicion de Perfil de Usuario|Como usuario, quiero poder editar mi perfil y actualizar mi información personal en cualquier momento.|8|
+|18|US17|Creación Perfil Personalizado|Como usuario, quiero poder crear un perfil personalizado, indicando mis preferencias alimentarias, direcciones de entrega y métodos de pago preferidos.|8|
+|EP06|||||
+|19|US22|Buscar Recetas por Nombre o Ingredientes|Como cocinero o usuario de la comunidad,Quiero poder buscar recetas por el nombre del plato o por ingredientes,para que pueda encontrar fácilmente recetas que se ajusten a mis preferencias o necesidades culinarias.|13|
+|20|US21|Eliminar Recetas|Como cocinero,Quiero poder eliminar mis recetas publicadas,Para que pueda eliminar aquellas que ya no deseo compartir con la comunidad.|13|
+|21|US20|Editar Recetas|Como cocinero,Quiero poder editar mis recetas publicadas,Para que pueda actualizar la información, corregir errores o modificar ingredientes.|12|
+|22|US19|Crear recetas|Como cocinero, quiero poder publicar mis recetas y compartir mis conocimientos culinarios con la comunidad.|12|
+|EP07|||||
+|23|US24|Mostrar Platos Populares en la Vista Home|Como usuario, quiero ver una lista de platos populares en la vista Home para poder elegir entre las opciones más solicitadas.|12|
+|24|US23|Mostrar Mensaje de Bienvenida|Como usuario, quiero recibir un mensaje de bienvenida en la vista Home para sentirme bienvenido y motivado a explorar los platos.|10|
+|EP08|||||
+|25|US29|Escalabilidad y Rendimiento de la Plataforma|Como administrador del sistema, quiero que la plataforma maneje un aumento significativo en el número de usuarios durante una promoción, para asegurarme de que la carga adicional no disminuya la velocidad de respuesta ni afecte la experiencia del usuario.|10|
+|26|US28|Auditoría y Monitoreo de Seguridad del Sistema|Como administrador del sistema, quiero tener acceso a un panel de monitoreo que me permita detectar actividades sospechosas en la plataforma, para recibir alertas en tiempo real y acceder a detalles sobre la actividad para tomar medidas adecuadas.|8|
+|27|US27|Gestión Segura de Transacciones Financieras|Como cocinero, quiero revisar la sección de pagos en la plataforma después de completar una transacción con un cliente, para ver un resumen que incluya el monto recibido, la fecha y el estado del pago.|8|
+|28|US26|Verificación de Identidad de Cocineros|Como cocinero registrado en la plataforma, quiero enviar la documentación requerida para la verificación de mi identidad, para que el sistema pueda revisar y verificar mi identidad.|8|
+|29|US25|Proteger Datos Personales y Financieros con Encriptación|Como usuario, quiero que mis datos personales y financieros estén protegidos mediante encriptación de alta seguridad, para garantizar la confidencialidad de mi información.|15|
+|EP09|||||
+|30|US32|Pagina de favoritos|Como usuario, quiero una página dedicada de "Favoritos" a la que pueda acceder desde el menú principal, para encontrar fácilmente las recetas y cocineros que he guardado como favoritos.|15|
+|31|US31|Guardar Cocineros Favoritas|Como usuario, quiero poder guardar a mis cocineros favoritos, desde mi página de Chefs, haciendo clic en un icono de corazón, para acceder fácilmente a sus perfiles en el futuro.|15|
+|32|US30|Guardar Recetas Favoritas|Como usuario, quiero poder guardar mis recetas favoritas haciendo click en el ícono de corazón, para encontrarlas fácilmente en el futuro.|15|
+|EP10|||||
+|33|TS43|Optimizar el Rendimiento de la Carga de Imágenes|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|12|
+|34|TS42|Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|12|
+|35|TS41|Implementar Funcionalidad de Favoritos|Como desarrollador, quiero permitir que los usuarios marquen a cocineros como favoritos para que puedan encontrarlos fácilmente en futuras ocasiones. |12|
+|36|TS40|Implementar Perfil del Usuario|Como desarrollador, quiero implementar un perfil de usuario donde pueda ver y editar su información personal, incluyendo preferencias, direcciones, y métodos de pago preferidos.|12|
+|37|TS39|Implementar Historial de Pedidos del Usuario|Como desarrollador, quiero implementar un historial de pedidos para que los usuarios puedan ver sus pedidos anteriores, con detalles como el chef, el costo, y el método de pago.|9|
+|38|TS38|Implementar Sección de Recetas Compartidas|Como desarrollador, quiero permitir que los chefs compartan sus recetas con los usuarios para fomentar la interacción y la comunidad en la plataforma.|9|
+|39|TS37|Implementar Programación de Pedido |Como desarrollador, quiero implementar la funcionalidad de programación de pedidos para que los usuarios elijan la fecha y hora de entrega de su pedido. |9|
+|40|TS36|Implementar Botón para Solicitar un Plato|Como desarrollador, quiero implementar un botón para que los usuarios puedan solicitar un plato y ser redirigidos a los métodos de pago.|11|
+|41|TS35|Implementar Funcionalidad de Publicaciones de Platos|Como desarrollador, quiero implementar la funcionalidad de publicaciones para que los chefs puedan mostrar sus platos, incluyendo la imagen, el stock disponible y el precio.|11|
+|42|TS34|Implementar Landing Page| Como desarrollador, quiero implementar la landing page que muestre la información de la plataforma y guíe al usuario a descargar la app o acceder al sitio web.|11|
+|43|TS33|Configurar Entorno de Desarrollo|Como desarrollador, quiero configurar mi entorno de desarrollo para poder comenzar a trabajar en el proyecto de Sabores Cercanos.|5|
 
-Link Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2723742 
+
+
+Link de Pivotal tracker: https://www.pivotaltracker.com/n/projects/2723742 
 
 ## Capítulo IV: Product Design
 
@@ -1208,137 +1251,148 @@ Elegimos Lora para los párrafos debido a su legibilidad y estilo. Haciéndola p
 ### 4.2.1. Organization Systems
 
 Tenemos como objetivo proporcionar una experiencia de usuario coherente y eficiente tanto en nuestra página web como en nuestra aplicación móvil. A continuación, podemos ver la estructura visual, la cual fue diseñada para adaptarse a nuestros dos segmentos objetivos.<br> <br>
-Para nuestro primer segmento enfocado en Universitarios/Profesionales ocupados para cocinar, el proceso inicia accediendo a la plataforma y registrándose. El usuario accede a la plataforma y es recibido en una página de bienvenida con opciones claras para el registro. Los botones de registro están organizados secuencialmente para facilitar el proceso: “Regístrate con tu correo electrónico” o “Regístrate con redes sociales”. El usuario selecciona el método de registro preferido, ingresa la información requerida y es guiado paso a paso a través del proceso. Se utiliza un diseño de organización secuencial para asegurar que cada paso esté claramente definido y que el usuario pueda completar el registro de manera rápida y sin complicaciones. Una vez registrado, el usuario es dirigido a una página para configurar sus preferencias dietéticas y de comida. Aquí se utiliza una organización visual jerárquica para destacar las opciones más importantes (como tipo de dieta y alergias) en la parte superior de la página, con opciones menos críticas ubicadas en niveles inferiores. El usuario elige sus preferencias principales de una lista desplegable y completa un breve cuestionario para personalizar aún más su experiencia. Este enfoque jerárquico permite al usuario enfocar su atención en las opciones más relevantes primero. En la pantalla principal de la búsqueda, se presentan diferentes categorías de comida (como "Vegetariana", "Sin Gluten", "Bajo en Calorías") organizadas jerárquicamente en un menú lateral. Dentro de cada categoría, las opciones se presentan en un formato con tarjetas visuales que muestran platos individuales. El usuario explora las categorías según sus preferencias dietéticas y visualiza los platos en una cuadrícula. Puede aplicar filtros adicionales y ordenar las opciones por relevancia, precio o calificación. 
-Al seleccionar un plato, el usuario accede a una página detallada con información del plato, incluyendo una sección de reseñas y perfil del cocinero. La información está organizada jerárquicamente, con datos esenciales como la descripción del plato y la información nutricional en la parte superior, seguidos por reseñas y calificaciones en secciones inferiores. El usuario lee la descripción del plato, consulta la información nutricional y revisa las reseñas antes de tomar una decisión. La organización jerárquica facilita una navegación lógica desde los detalles del plato hasta la información de los usuarios. El usuario llega a la página de programación de entrega, donde se le presenta un calendario y opciones de horarios. La interfaz está organizada secuencialmente para guiar al usuario a través del proceso de selección de fecha y hora de entrega. El usuario selecciona la fecha y hora deseada para la entrega, revisa la información y confirma la programación. El diseño secuencial asegura que cada etapa del proceso de programación sea clara y fácil de completar.
-Después de realizar su primera compra, en la página de inicio o en una sección dedicada a recomendaciones, el usuario recibe sugerencias de platos basadas en sus pedidos anteriores y preferencias. Las recomendaciones se organizan jerárquicamente por categorías como "Recomendados para Ti" y "Nuevos en la Plataforma". El usuario explora las recomendaciones personalizadas presentadas en una vista de cuadrícula o lista. Puede ver las opciones sugeridas y decidir rápidamente cuáles le interesan. La organización jerárquica y matricial ayuda a destacar las opciones más relevantes y personalizadas.<br> <br>
+Este segmento está diseñado para adaptarse al estilo de vida de usuarios con agendas ocupadas, ofreciendo soluciones rápidas y prácticas en cada sección. En Inicio, los usuarios encuentran una selección de platillos recomendados, acompañados de información detallada sobre el chef responsable y opciones de programación de pedidos, para que puedan planificar sus comidas con antelación. Además, se incluyen promociones exprés que buscan incentivar la elección rápida de platillos, ideal para quienes buscan alternativas prácticas y accesibles. En Prepublicaciones, se brinda información en tiempo real sobre la disponibilidad de ingredientes necesarios para cada platillo y un resumen de solicitud de pedidos, que incluye el tiempo estimado de entrega para facilitar la planificación diaria de las comidas. La sección de Recetas está pensada para quienes requieren rapidez en la preparación, permitiéndoles acceder a recetas de chefs especializados en platillos rápidos. Incluye filtros para identificar recetas que pueden realizarse en menos de 30 minutos, con una simplificación tanto en ingredientes como en métodos de preparación, optimizando así el proceso de cocina. En Pedidos, el historial permite revisar órdenes pasadas y organizarlas según intervalos de fechas y métodos de pago, con una opción de “Reordenar” para facilitar la repetición de platillos favoritos, ideal para quienes tienen preferencias establecidas o buscan constancia en sus opciones. En Publicaciones, los usuarios pueden realizar búsquedas personalizadas, ajustando los resultados según sus preferencias de rapidez y simplicidad, accediendo a chefs que destacan en la preparación de platillos fáciles y rápidos de preparar. Finalmente, en el Perfil pueden gestionar notificaciones para recibir alertas sobre ofertas exprés y actualizar sus preferencias alimentarias, orientadas a requerimientos específicos como opciones nutritivas y de rápida preparación. También pueden configurar métodos de pago exprés que agilicen el proceso de compra, permitiendo una experiencia de usuario fluida y eficiente.<br><br>
 
-![alt text](assets/images/TB1/organizationsystems1.png)
+![alt text](assets/images/TB1/organizationsystemsousuarioscupados.png)
 [Anexo B](#anexos)<br><br>
-Para nuestro segundo segmento enfocado en Cocineros Caseros, el proceso inicia al registrarse y configurar su perfil. El cocinero casero inicia su viaje en la plataforma mediante un proceso de registro. La interfaz está organizada secuencialmente, comenzando con el registro básico y luego avanzando a la configuración del perfil. El cocinero completa su registro, proporcionando detalles básicos como nombre y contacto. Luego, avanza a la configuración del perfil, donde debe ingresar información sobre sus especialidades culinarias, fotografías de sus platos y detalles de su cocina. Cada etapa del proceso está claramente definida para facilitar la finalización del registro y configuración. Una vez configurado el perfil, el cocinero accede a una sección para crear y gestionar sus menús. La interfaz utiliza una organización jerárquica para presentar opciones como “Añadir Nuevo Plato” y “Gestionar Menús Actuales”. Dentro de estas opciones, el contenido se organiza de forma matricial, mostrando platos individuales con detalles visuales. El cocinero selecciona “Añadir Nuevo Plato”, completa los detalles del plato, incluyendo nombre, descripción, precio y fotos. Luego puede ver y editar los menús existentes. La organización visual permite al cocinero gestionar sus menús de manera eficiente, con un enfoque en las tareas más importantes primero. En la sección de gestión de pedidos, el cocinero puede ver y procesar los pedidos recibidos. La interfaz está organizada secuencialmente por estados del pedido (por ejemplo, “Nuevo”, “En Proceso”, “Completado”), y los pedidos se presentan en un formato cronológico. El cocinero revisa los nuevos pedidos, los procesa según la secuencia establecida, y actualiza el estado de los pedidos en función del progreso. La organización secuencial y cronológica asegura que los pedidos se manejen de manera ordenada y eficiente. El cocinero puede acceder a una sección para revisar las reseñas y calificaciones de sus platos. La interfaz está organizada jerárquicamente, mostrando primero las reseñas más recientes y destacadas, seguidas de las reseñas más antiguas y menos relevantes. El cocinero lee las reseñas y calificaciones recibidas, prestando especial atención a los comentarios destacados para mejorar sus platos y servicios. La organización jerárquica facilita el enfoque en los comentarios más importantes y recientes. En la sección de configuración de perfil, el cocinero puede actualizar su información personal y de menú. La interfaz está organizada jerárquicamente con secciones principales como “Información del Perfil”, “Fotos de Platos”, y “Detalles de Cocina”. Dentro de cada sección, la información se presenta de manera alfabética para una fácil navegación. El cocinero actualiza su perfil y la información de los platos, navegando a través de las secciones y sub-secciones organizadas alfabéticamente para facilitar la búsqueda de elementos específicos. El cocinero tiene acceso a un panel de estadísticas que muestra el rendimiento de sus platos, incluyendo ventas y popularidad. La organización visual se utiliza para presentar gráficos y datos en un formato jerárquico, mientras que los datos se presentan cronológicamente. El cocinero revisa los informes y gráficos, analizando el rendimiento de sus platos a lo largo del tiempo. La organización visual y cronológica ayuda a identificar tendencias y patrones en las ventas y la popularidad de los platos.
 
-![alt text](assets/images/TB1/organizationsystems2.png)
+Este segmento está diseñado para apoyar a quienes disfrutan de cocinar en casa y desean explorar nuevas recetas y platillos. En Inicio, los usuarios tienen acceso a una selección de los principales platillos, donde se muestra información relevante sobre el chef detrás de cada creación, lo que añade un toque personal y auténtico a su experiencia culinaria. En Prepublicaciones, se proporciona información sobre la disponibilidad de ingredientes, lo que ayuda a los cocineros a asegurarse de que tienen todo lo necesario antes de comenzar a cocinar. También se incluyen los ingredientes del platillo y la opción de realizar solicitudes de pedido, lo que facilita la adquisición de productos frescos. La Gestión de prepublicaciones permite a los usuarios organizar y planificar sus pedidos con anticipación, asegurando que siempre estén preparados para sus aventuras culinarias. En la sección de Recetas, se ofrece información detallada sobre la preparación de cada platillo, incluyendo los ingredientes necesarios, lo que permite a los usuarios seguir las instrucciones con facilidad. Esta sección también incluye la Gestión de recetas, donde los cocineros pueden guardar, personalizar y ajustar las recetas a su gusto, creando un recurso valioso en su cocina. En Pedidos, los usuarios pueden seguir el estado de sus órdenes y gestionar detalles como el método de pago, así como seleccionar intervalos de fechas para la entrega, asegurando que sus platillos lleguen a tiempo. También se proporciona un detalle completo de los platillos, junto con la Gestión de pedidos, que facilita la organización de las órdenes y permite a los cocineros volver a pedir fácilmente sus platillos favoritos. La sección de Publicaciones resalta la información del chef, los ingredientes utilizados y un desglose exhaustivo de los platillos disponibles, además de incluir la Gestión de publicaciones, para que los usuarios estén al tanto de las últimas novedades y ajusten sus elecciones según sus preferencias. Finalmente, en el Perfil, los cocineros pueden gestionar su foto de perfil e información personal, recibir notificaciones sobre actualizaciones y promociones relevantes, y administrar sus métodos de pago, lo que garantiza una experiencia de usuario integral y personalizada.
+
+![alt text](assets/images/TB1/organizationsystemsococineroscaseros.png)
 [Anexo C](#anexos)<br><br>
 
 ### 4.2.2. Labeling Systems
 
 El equipo de "Sabores Cercanos" opto por usar etiquetas simples, claras y que están diseñadas para minimizar la confusión, garantizando una navegación intuitiva y fluida para todos los usuarios de la plataforma "Sabores Cercanos". Acontinuacion las mencionaremos y sus relaciones:
 
-* Preferencias:<br>La sección de Preferencias permite a los usuarios personalizar su experiencia en la plataforma ajustando diversas opciones según sus necesidades. Esto incluye configuraciones dietéticas, como la selección de tipos de dieta (vegetariana, vegana, sin gluten, etc.), preferencias de ingredientes, y opciones de notificaciones. Esta área asegura que los usuarios reciban recomendaciones y filtros que se alineen con sus gustos y necesidades alimenticias.<br>
-* Reseñas y Calificaciones:<br>La sección de Reseñas y Calificaciones es donde los usuarios pueden ver y dejar comentarios sobre sus experiencias con los cocineros y sus platos. Esta área incluye una calificación numérica o en estrellas, junto con comentarios escritos que otros usuarios han proporcionado, ayudando a tomar decisiones informadas al elegir qué comida ordenar. Es un espacio crucial para la transparencia y confianza dentro de la comunidad.<br>
-* Pedidos:<br>La etiqueta Pedidos representa la sección donde los usuarios pueden visualizar y gestionar todas las órdenes de comida realizadas. Incluye información sobre el estado del pedido (nuevo, en proceso, completado), detalles del plato ordenado, y opciones para modificar o cancelar el pedido antes de que sea procesado.<br>
-* Recomendaciones:<br>Recomendaciones es la sección dedicada a sugerir platos o cocineros basados en el historial de pedidos y preferencias de los usuarios. Esta área muestra una lista curada de opciones que se alinean con las preferencias dietéticas del usuario y sus elecciones anteriores, facilitando la búsqueda de nuevas comidas que puedan ser de su agrado.<br>
-* Medios de pagos:<br>La sección de Medios de Pago permite a los usuarios gestionar sus opciones de pago dentro de la plataforma. Aquí, los usuarios pueden añadir, actualizar o eliminar métodos de pago como tarjetas de crédito, débito, o cuentas de pago en línea. También es donde pueden seleccionar su método de pago preferido para futuras compras.<br>
-* Configuración:<br>Configuración es la sección donde los usuarios pueden personalizar aspectos generales de su cuenta, incluyendo opciones de privacidad, ajustes de notificaciones, y preferencias de idioma. También es el área donde los usuarios pueden acceder a la configuración de seguridad, como cambiar contraseñas y activar la autenticación de dos factores.<br>
-* Estadísticas y Rendimiento:<br>La etiqueta Estadísticas y Rendimiento se refiere a un panel de control accesible principalmente por los cocineros caseros. Aquí, los cocineros pueden revisar datos analíticos sobre sus ventas, popularidad de los platos, y otros indicadores clave de rendimiento. Esta información es esencial para entender el comportamiento del mercado y hacer ajustes necesarios para mejorar la oferta culinaria.<br>
-* Revisión de reseñas y calificaciones:<br>Revisión de Reseñas y Calificaciones es una subsección dentro de la plataforma donde los cocineros pueden ver y gestionar los comentarios y calificaciones que han recibido. Esto les permite responder a los comentarios, entender mejor las necesidades de los clientes, y hacer ajustes en sus menús para mejorar la satisfacción del usuario.<br>
-* Recepción y gestión de pedidos:<br>La sección Recepción y Gestión de Pedidos es donde los cocineros caseros gestionan los pedidos que reciben de los consumidores. Esta área permite a los cocineros aceptar, rechazar, o modificar pedidos, así como actualizar el estado de cada pedido a medida que se procesa (nuevo, en preparación, listo para entrega).<br>
-* Creación y gestión de menús:<br>Creación y Gestión de Menús es la sección dedicada a que los cocineros diseñen, editen y organicen sus ofertas culinarias. Aquí pueden añadir nuevos platos, ajustar precios, y organizar los menús de acuerdo con la demanda o las estaciones del año. Esta área permite una gestión ágil y efectiva de las opciones que los cocineros ofrecen a los consumidores.<br>
-* Medios de pagos recibidos:<br>En la sección de Medios de Pago Recibidos, los cocineros caseros pueden gestionar las formas en que reciben los pagos de los consumidores. Aquí se configura qué métodos de pago aceptan, como tarjetas de crédito, transferencias bancarias, o billeteras electrónicas, y pueden hacer un seguimiento de los pagos recibidos.<br>
-* Promociones:<br>La sección de Promociones está diseñada para que tanto los cocineros como los administradores de la plataforma creen y gestionen ofertas especiales, descuentos, o paquetes promocionales. Estas promociones pueden estar vinculadas a fechas especiales, temporadas, o para incentivar la compra de ciertos platos, atrayendo así más clientes a la plataforma.<br>
+* Inicio:<br>
+Esta sección presenta una selección de platillos recomendados, destacando aquellos que se adaptan mejor a las necesidades de los usuarios. Incluye información del chef responsable de cada creación, brindando un toque personal y autenticidad a las opciones. También se ofrecen opciones de programación de pedidos para facilitar la planificación de las comidas y promociones exprés que incentivan elecciones rápidas, perfectas para aquellos con agendas ocupadas.<br><br>
+
+* Prepublicaciones:<br>
+En esta sección, los usuarios pueden acceder a la disponibilidad de ingredientes necesarios para cada platillo, asegurando que tengan todo lo requerido antes de cocinar. Se proporciona un resumen de solicitudes de pedidos, que incluye información sobre la gestión de prepublicaciones, facilitando la planificación y organización de los pedidos anticipadamente. Además, el tiempo estimado de entrega ayuda a los usuarios a coordinar mejor su preparación culinaria.<br><br>
+
+* Recetas:<br>
+Aquí se ofrecen recetas de preparación rápida, que incluyen información detallada sobre la preparación de cada platillo y la lista de ingredientes necesarios. Esta sección está diseñada para facilitar el acceso a recetas que pueden realizarse en menos de 30 minutos, con filtros de tiempo que permiten a los usuarios seleccionar opciones según su disponibilidad. También incluye la gestión de recetas, donde los usuarios pueden guardar y personalizar recetas según sus preferencias.<br><br>
+
+* Pedidos:<br>
+En esta sección, los usuarios pueden consultar su historial de órdenes, organizando sus pedidos anteriores por intervalos de fechas y métodos de pago. La opción de “Reordenar” facilita la repetición de platillos favoritos. Además, se proporciona un detalle completo de los platillos, permitiendo a los cocineros volver a pedir fácilmente sus selecciones anteriores. La gestión de pedidos ayuda a organizar y administrar las órdenes de manera eficiente.<br><br>
+
+* Publicaciones:<br>
+Esta sección permite a los usuarios realizar una búsqueda personalizada de platillos, ajustando los resultados según sus preferencias. Proporciona información del chef, así como una lista de los ingredientes utilizados en cada platillo, ofreciendo un desglose exhaustivo de las opciones disponibles. La gestión de publicaciones permite a los usuarios estar al tanto de las novedades y ajustes en su selección de platillos.<br><br>
+
+* Perfil:<br>
+En esta sección, los usuarios pueden gestionar su foto de perfil y su información personal, personalizando su experiencia. También pueden recibir notificaciones sobre actualizaciones y promociones relevantes, asegurándose de estar al tanto de las mejores ofertas. La gestión de métodos de pago exprés facilita un proceso de compra más rápido y eficiente, mientras que las preferencias alimentarias permiten ajustes según requerimientos específicos, creando una experiencia más personalizada.<br><br>
+
+
 
 ### 4.2.3. SEO Tags and Meta Tags
 
 Para mejorar la visibilidad de "Sabores Cercanos" en los motores de búsqueda y atraer a los usuarios adecuados se ha optado por definir los siguientes datos:
 
-* Landing Page
-   * Title: Sabores Cercanos 
+* Inicio
 
-   * Meta Description:
-   Descubre Sabores Cercanos, una plataforma que conecta a cocineros apasionados con consumidores que buscan opciones de comida casera saludable y conveniente.
+  * Title: Sabores Cercanos
+  * Meta Description: Descubre los mejores platillos recomendados por chefs, con información detallada y opciones de programación de pedidos. Aprovecha nuestras promociones exprés para una elección rápida.
+  * Keywords: platillos recomendados, información del chef, programación de pedidos, promociones exprés, comida rápida, recetas fáciles
+  * Author: Equipo de Sabores Cercanos
 
-   * Keywords:
-   comida casera, cocineros locales,entrega de comida y platos caseros.
+* Prepublicaciones
 
-   * Author:
-   El equipo de Sabores Cercanos
+  * Title: Disponibilidad de Ingredientes y Gestión de Prepublicaciones
+  * Meta Description: Mantente al día con la disponibilidad de ingredientes y gestiona tus solicitudes de pedidos de manera eficiente. Consulta el tiempo estimado de entrega para una mejor planificación.
+  * Keywords: disponibilidad de ingredientes, gestión de prepublicaciones, solicitudes de pedidos, tiempo de entrega, comida a domicilio
+  * Author: Equipo de Sabores Cercanos
 
-* Página de Categorías
-   * Title:
-   Explora Categorías de Comida 
+* Recetas
 
-   * Meta Description:
-   Explora una amplia variedad de categorías de comida en Sabores Cercanos, desde opciones vegetarianas hasta cocina casera.
+  * Title: Recetas Rápidas y Fáciles para Cocinar en Casa
+  * Meta Description: Accede a recetas de preparación rápida con ingredientes simplificados. Filtra tus opciones y guarda tus recetas favoritas para cocinar en menos de 30 minutos.
+  * Keywords: recetas rápidas, cocina en casa, preparación fácil, ingredientes simplificados, recetas en menos de 30 minutos
+  * Author: Equipo de Sabores Cercanos
 
-   * Keywords:
-   categorías de comida,explorar comida y tipos de cocina.
+* Pedidos
 
-   * Author:
-   El equipo de Sabores Cercanos
+  * Title: Gestión de Pedidos
+  * Meta Description: Consulta tu historial de pedidos y organiza tus órdenes fácilmente. Aprovecha la opción de reordenar tus platillos favoritos y selecciona métodos de pago convenientes.
+  * Keywords: gestión de pedidos, historial de órdenes, reordenar platillos, métodos de pago, pedidos a domicilio
+  * Author: Equipo de Sabores Cercanos
 
-* Página de Detalle de Plato
-   * Title:
-   [Nombre del Plato] por [Nombre del Cocinero]
+* Publicaciones
 
-   * Meta Description:
-   Disfruta de [Nombre del Plato], una deliciosa creación de [Nombre del Cocinero] en Sabores Cercanos.
+  * Title: Publicaciones de Platillos
+  * Meta Description: Realiza búsquedas personalizadas de platillos, accediendo a información detallada sobre chefs y ingredientes. Mantente actualizado con nuestras últimas novedades.
+  * Keywords: publicaciones de platillos, información del chef, ingredientes, búsquedas personalizadas, novedades gastronómicas
+  * Author: Equipo de Sabores Cercanos
 
-   * Keywords:
-   [nombre del plato], comida casera y cocineros caseros.
+* Perfil
 
-   * Author:
-   El equipo de Sabores Cercanos
+  * Title: Tu Perfil en Sabores Cercanos
+  * Meta Description: Gestiona tu foto de perfil, información personal y preferencias alimentarias. Recibe notificaciones sobre ofertas relevantes y simplifica tu experiencia de compra.
+  * Keywords: perfil de usuario, personalización, notificaciones, preferencias alimentarias, métodos de pago exprés
+  * Author: Equipo de Sabores Cercanos
 
-* Página de Reseñas y Calificaciones
-   * Title:
-   Reseñas de Platos y Cocineros
-
-   * Meta Description:
-   Lee reseñas detalladas y calificaciones de platos y cocineros en Sabores Cercanos.
-
-   * Keywords:
-    calificaciones de cocineros, opiniones de usuarios, reseñas de platos y valoraciones de comida.
-
-   * Author:
-   El equipo de Sabores Cercanos
-
-* Página de Carrito y Pago
-   * Title:
-   Carrito de Compras
-
-   * Meta Description:
-   Revisa tu carrito de compras en Sabores Cercanos y finaliza tu pedido de comida casera. Opciones de pago seguras y entrega rápida disponibles.
-
-   * Keywords:
-   carrito de compras, finalizar compra, pago seguro y entrega de comida.
-
-   * Author:
-   El equipo de Sabores Cercanos
-
-* Página de Promociones
-   * Title:
-   Promociones Especiales
-
-   * Meta Description:
-   Descubre promociones y ofertas exclusivas en Sabores Cercanos. Ahorra en tus platos caseros favoritos y disfruta de descuentos especiales.
-
-   * Keywords:
-   ofertas especiales, descuentos en comida y promociones de platos.
-
-   * Author:
-   El equipo de Sabores Cercanos
-
+Estos tags están diseñados para mejorar el SEO y facilitar la visibilidad de cada página en los motores de búsqueda, asegurando que los usuarios encuentren fácilmente la información que necesitan.
 
 
 ### 4.2.4. Searching Systems
 
 Nuestro sistema de búsqueda está diseñado para ofrecer a los usuarios una herramienta poderosa y eficiente que les permita navegar a través de grandes cantidades de información sin sentirse perdidos o abrumados. Aquí explicamos las opciones que tenemos con una breve descripción de la misma.<br>
-1. Barra de Búsqueda General:<br>Esta barara estara ubicada en la parte superior de la pantalla en todas las secciones de la plataforma, permitiendo a los usuarios realizar búsquedas rápidas y globales. Al comenzar a escribir en la barra de búsqueda, se mostrarán sugerencias automáticas basadas en las entradas más comunes o recientes. Esto ayudará a guiar al usuario hacia los resultados más relevantes antes de que terminen de escribir.<br>
-2. Filtros de Búsqueda:<br>Los filtros estarán disponibles en un menú desplegable o lateral, permitiendo al usuario seleccionar múltiples criterios simultáneamente. Los resultados de la búsqueda se actualizarán en tiempo real a medida que se seleccionen los filtros. Entre estos filtros podemos encontrar opciones generales, tales como rango de precio, distancia, tiempo de demora y calificación.<br>
-3. Visualización de Resultados:<br>Los resultados de la búsqueda se mostrarán en una lista que incluye una miniatura de la imagen del plato. Además, los usuarios pueden cambiar entre diferentes modos de visualización, como "Lista" o "Cuadrícula". Así mismo, los usuarios podrán ordenar los resultados de menor a mayor respecto al precio o calificación. <br>
-4. Búsqueda Avanzada:<br>Para los usuarios que necesitan realizar búsquedas más específicas, se ofrecerá una opción de "Búsqueda Avanzada". El cual permitirá colocar datos precisos como, nombre del cocinero, nombre de la promoción, fecha de publicación,etc.<br>
+
+* Opciones de Búsqueda Generales
+  * Barra de Búsqueda: Una barra de búsqueda prominente estará presente en todas las secciones del sitio, permitiendo a los usuarios ingresar palabras clave relacionadas con platillos, ingredientes, recetas, pedidos o chefs.
+  * Búsqueda Avanzada: Posibilidad de realizar búsquedas más específicas utilizando criterios como tipo de platillo, tiempo de preparación, ingredientes disponibles o el chef responsable.
+
+* Filtros por Sección
+    
+  * Prepublicaciones:
+
+    * Filtros: Nombre de ingredientes, chef o platillo.
+    * Resultados: Listado de ingredientes con información de disponibilidad y enlaces para realizar solicitudes de pedido.
+  
+  * Recetas:
+
+    * Filtros: Busqueda de por nombre de la receta.
+    * Resultados: Las recetas con los detalles de autor,ingredientes y preparacion.
+  
+  * Pedidos:
+
+    * Filtros: Estado del pedido (pendiente, entregado, cancelado), método de pago y rango de fechas.
+    * Resultados: Un historial organizado de pedidos con detalles como platillos, precios y opción para reordenar.
+
+  * Publicaciones:
+
+    * Filtros: Busqueda por nombre del chef, del platillo e ingredientes.
+    * Resultados: Tarjetas de publicaciones que muestran el platillo, el chef, y detalles sobre los ingredientes, junto con enlaces a las recetas relacionadas.
+
+  * Perfil:
+
+    * Filtros: Notificaciones específicas (promociones, actualizaciones) y favoritos.
+    * Resultados: Visualización clara de las preferencias y notificaciones, con enlaces para editar información personal o preferencias de pago.
+
+* Presentación de Datos Tras la Búsqueda
+  * Diseño de Resultados: Los resultados se mostrarán en un formato limpio y organizado, utilizando tarjetas o listas con imágenes para cada elemento (platillo, receta, etc.) que faciliten la identificación visual.
+  * Interactividad: Al hacer clic en un resultado, los usuarios accederán a una pequeña salida de datos detallada con información completa, como preparación de la receta, ingredientes, o detalles del pedido.
 
 
 ### 4.2.5. Navigation Systems
 
 Estas configuraciones aseguran que los usuarios de "Sabores Cercanos" puedan moverse fácilmente por la plataforma, encontrar lo que buscan y realizar sus acciones deseadas sin complicaciones, mejorando así la satisfacción general y la eficiencia del servicio.
 
-1. Tutorial para nuevos usuarios:<br> Al registrarse por primera vez, los usuarios recibirán una navegación guiada por las principales funciones de la plataforma. Este tutorial interactivo destacará cómo buscar platos, realizar pedidos, y personalizar su perfil. Este se podra saltar o repetir desde cualquier momento desde configuracion del perfil <br>
+1. Estructura de Navegación Principal
+   * Menú de Navegación Superior: En la parte superior de cada página, se incluirá un menú de navegación que contenga enlaces directos a las secciones principales: Inicio, Prepublicaciones, Recetas, Pedidos, Publicaciones y Perfil. Este menú será fijo para que los usuarios puedan acceder a cualquier sección en cualquier momento sin necesidad de retroceder.
 
-2. Navegación Principal:<br>Cada enlace en la barra de navegación llevará al usuario directamente a la sección correspondiente. Al pasar el cursor sobre las opciones de la barra, se mostrarán menús desplegables con subcategorías o accesos directos a funciones específicas, como "Recomendados para Ti" en "Recomendados" o "Historial de pedidos" en "Pedidos".<br>
+  * Iconos de Navegación: Junto a los textos del menú, se utilizarán iconos representativos (como un plato para Recetas o un carrito para Pedidos) que facilitarán la identificación visual y harán la navegación más intuitiva.
 
-3. Navegación Secuencial: <br> La navegación secuencial guiará a los usuarios a través de procesos que requieren múltiples pasos, como realizar un pedido. Por ejemplo: Selección del plato,Personalización del pedido,Selección de métodos de pago,Programación de la entrega y Confirmación del pedido.<br>
+1. Accesibilidad y Efectividad en la Navegación
+  * Navegación por Card : Cada sección presentará su contenido en un formato de tarjetas , permitiendo a los usuarios ver múltiples elementos a la vez. Al hacer clic en una tarjeta , se abrirá una vista detallada del contenido, manteniendo la navegación sencilla y eficiente.
 
-4. Navegación de Pie de Página: <br> El pie de página incluirá enlaces a secciones importantes como "Términos y Condiciones", "Política de Privacidad", "Contacto", "Redes Sociales", y "Blog". <br>
+2. Navegación Contextual y Ayuda Visual
+  * Navegación Contextual: Dentro de cada sección, se incluirán enlaces relevantes y sugerencias de navegación que dirijan a los usuarios a contenido relacionado. Por ejemplo, al visualizar una receta, se pueden ofrecer enlaces a ingredientes o platillos similares.
+
+3. Opciones de Búsqueda y Filtrado Avanzadas
+  * Filtros en la Navegación: En secciones como Recetas y Prepublicaciones, se integrarán filtros desplegables que permitan a los usuarios ajustar su búsqueda según preferencias específicas (como tiempo de cocción o disponibilidad de ingredientes). Estos filtros estarán claramente visibles y accesibles, garantizando que los usuarios puedan personalizar su experiencia de navegación.
+
+  * Búsqueda Rápida: Una barra de búsqueda estará disponible en casi todas las páginas, permitiendo a los usuarios buscar contenido específico de forma rápida. Los resultados se mostrarán en una lista desplegable, facilitando el acceso a la información deseada sin necesidad de navegar a través de varias secciones.
 
 ### 4.3. Landing Page UI Design
 
@@ -1906,18 +1960,19 @@ completa, con un diseño atractivo e intuitivo para los usuarios. Gracias a nues
 |-|-|-|-|-|-|-|-|
 |User<br>Story| |Work-Item /Task| | | | | |
 |ID|Title|ID|Title|Description|Estimation<br>(Hours)|Assigned<br>To|Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done)|
-|US01|Registro de usuario|TA001|Diseño y validación del formulario|Crear y estilizar un formulario de registro, implementando validaciones básicas (campos obligatorios, email válido).|5 horas|Estefano Jaque|Done|
-|US01|Registro de usuario|TA002|Validación avanzada del formulario|Implementar validaciones avanzadas para el formulario de registro.|5 horas|Estefano Jaque|Done|
-|US02|Búsqueda por preferencias|TA005|Implementar filtros de búsqueda|Crear filtros por tipo de comida, precio y ubicación en la página de búsqueda.|7 horas|Maria Jose Pezo |Done|
-|US02|Búsqueda por preferencias|TA006|Mejorar la interfaz de usuario en filtros|Estilizar los filtros de búsqueda para mejorar la experiencia del usuario.|6 horas|Maria Jose Pezo |Done|
-|US03|Visualización de reseñas|TA007|Mostrar reseñas|Desarrollar sección de visualización de reseñas de cocineros, con puntuación y comentarios de usuarios.|5 horas|Jose Alejo|Done|
-|US03|Visualización de reseñas|TA008|Implementar paginación para reseñas|Añadir paginación o scroll infinito en la sección de reseñas.|6 horas|Jose Alejo|Done|
-|US03|Visualización de reseñas|TA009|Agregar opción para ordenar reseñas|Permitir a los usuarios ordenar reseñas por fecha, puntuación o comentarios más útiles.|5 horas|Jose Alejo|Done|
-|US04|Visualización de información nutricional|TA010|Mostrar datos nutricionales|Agregar una sección con los valores nutricionales de los platos ofrecidos en el menú.|6 horas|Diego Rosado |Done|
-|US04|Visualización de información nutricional|TA011|Agregar filtro de búsqueda por nutrientes|Permitir a los usuarios filtrar los platos en el menú según sus preferencias nutricionales (por ejemplo, bajo en calorías o alto en proteínas).|5 horas|Diego Rosado |Done|
-|US25|Gestión de perfil de usuario|TA012|Diseño de edición de perfil|Crear una interfaz donde los usuarios puedan editar su información personal y preferencias.|4 horas|Sebastian Real|Done|
-|US25|Gestión de perfil de usuario|TA013|Permitir a los usuarios cambiar su contraseña desde la página de edición de perfil.|4 horas|Sebastian Real|Done|
-|US25|Gestión de perfil de usuario|TA014|Implementar opción para cambiar foto de perfil|Permitir a los usuarios subir o cambiar su foto de perfil desde la página de edición de perfil.|4 horas|Sebastian Real|Done|
+|US-01|Inicio de "Sabores Cercanos"|TA001|Mensaje Informativo|Redactar mensaje informativo para la landing page|4 horas|Estefano Jaque|Done|
+|US-01|Inicio de "Sabores Cercanos"|TA002|Diseño de la Sección Introductoria|Diseñar la sección de la landing page donde se mostrará el mensaje informativo|5 horas|Diego Rosado|Done|
+|US-01|Inicio de "Sabores Cercanos"|TA003|Ejemplos de Beneficios|Crear ejemplos de beneficios destacados|5 horas|Jose Alejo|Done|
+|US-02|Proceso de Registro Eficiente|TA004|Diseño del Formulario de Registro|Diseñar formulario de registro simple|4 horas|Sebastian Real|Done|
+|US-02|Proceso de Registro Eficiente|TA005|Implementación del Proceso de Registro|Implementar el proceso de registro|6 horas|Maria Jose Pezo|Done|
+|US-02|Proceso de Registro Eficiente|TA006|Mensaje de Confirmación|Implementar mensaje de confirmación de registro|4 horas|Estefano Jaque|Done|
+|US-03|Visualización de Platos Populares y Reseñas|TA007|Diseño de Galería de Platos|Diseñar galería de platos populares|4 horas|Diego Rosado|Done|
+|US-03|Visualización de Platos Populares y Reseñas|TA008|Implementación de Reseñas|Crear sección para mostrar reseñas de usuarios|5 horas|Jose Alejo|Done|
+|US-04|Sección de Preguntas Frecuentes Accesible|TA009|Diseño de la Sección de Preguntas|Diseñar la sección de preguntas frecuentes|4 horas| Sebastian Real|Done|
+|US-04|Sección de Preguntas Frecuentes Accesible|TA010|Implementación de la Sección de Preguntas|Implementar la sección de preguntas frecuentes|4 horas|Maria Jose Pezo|Done|
+|US-05|Política de Privacidad Clara |TA011|Redacción de la Política de Privacidad|Redactar política de privacidad|4 horas|Estefano Jaque|Done|
+|US-05|Política de Privacidad Clara |TA012|Implementación del Enlace a la Política|Implementar enlace a la política de privacidad en la landing page|4 horas|Diego Rosado|Done|
+
 
 
 ### 5.2.1.3. Development Evidence for Sprint Review
@@ -1937,18 +1992,11 @@ En esta fase del proyecto, hemos estado concentrados en el desarrollo de la land
 
 | **Repository**| **Branch**| **Commit Id**| **Commit Message** | **Commit Message Body**| **Committed on (Date)** |
 |-|-|-|-|-|-|
-| Rampart-SaboresCercanos/Rampart | feature/TP | 1f707b6c836010e3c39e5749d089f17c1c5cf710 |Initial commit  | Initial commit | 24/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | f606937a71942bacf10be6b9df5cfb364d7f431e |feature: added US05 gherkin  | Se agregaron los features de las User Story 05 | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | f606937a71942bacf10be6b9df5cfb364d7f431e |feature: added US15 gherkin  | Se agregaron los features de las User Story 15 | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | f606937a71942bacf10be6b9df5cfb364d7f431e |feature: added US16 gherkin  | Se agregaron los features de las User Story 16 | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | 4eab30cf9eb74de34a070db9d64d742fecb89e68 |feature: added US29 gherkin  | Creacion del US29 feature | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | e7e266119cb91e8cd3b36b1182427f8df41d248a |feature: added US30 gherkin  | Creacion del US30 feature| 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | b8090e41aec3c0d3314b9f63b242889320057ec7 |feature: added user 03 gherkin  | feature: added user 03 gherkin | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | c915c9b8d7831bb2060282af2cc583655b60eb06 |feature: added US19 gherkin  | Se creo el US19 para recetas | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | cecbe8d2165d6fb86c1092f5742365905ba81b38 |feature: added US20 gherkin  | Se creo es US20.feature para recetas | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | 4dc04ec922dc1331993e7454a333b52f3b21b976 |feature: added US21 gherkin  | Se creo es US21.feature para recetas | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | 12aee7b49a5647a81e956d6e7201558611d4eeac |feature: added US04 gherkin  | Agregué la US04.feature | 26/09/2024|
-| Rampart-SaboresCercanos/Rampart | feature/TP | 30d8350233d2e2d2445d58cdcfde16dfe2f252d0 |feature: added US06 gherkin  | Agregué US06.feature | 26/09/2024|
+| Rampart-SaboresCercanos/Testing | feature/TP | a0bfc640954c5b2a40fdefd84c1f48e87c3e3fca |feature: added US01 gherkin  | Se agregaron los features de las User Story 01 | 24/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TP | 1ae1fb624709e78483782f6e6884a0424fd079d7 |feature: added US02 gherkin  | Se agregaron los features de las User Story 02 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TP | 3d92aba25307021e123c596dcb5dd717bf45de86 |feature: added US03 gherkin  | Se agregaron los features de las User Story 03 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TP | 433eb4e259c2aa4985e33230987f6a88116a4009 |feature: added US04 gherkin  | Se agregaron los features de las User Story 04 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TP | 1a85a26fe091c969719ec15fd0a8ea7ce16bcf42 |feature: added US05 gherkin  | Se agregaron los features de las User Story 05 | 26/10/2024|
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -2041,8 +2089,8 @@ Además, el diseño principal del proyecto lo hemos desarrollado y revisado en c
 La participación de cada miembro será clave para el éxito de las siguientes fases, y esperamos que esta colaboración se refleje en los commits y en el progreso general del proyecto.
 
 
-### 5.2.1. Sprint 2
-### 5.2.1.1. Sprint Planning 2
+### 5.2.2. Sprint 2
+### 5.2.2.1. Sprint Planning 2
 El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto
 tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo
 determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
@@ -2061,10 +2109,10 @@ En este Sprint 2 realizaremos la separacion del bounded context y la implementac
 |Sprint 2 Velocity|11(US05,US15,US16,US04,US06,US03,US21,US19,US30)|
 |Sum of story points|49|
 
-### 5.2.1.2. Sprint Backlog 2
-En el segundo sprint backlog, nos centramos en las historias de usuario relacionadas con la funcionalidad de publicación y gestión de recetas, así como la personalización de pedidos y la visualización de cocineros. Dividimos las historias en tareas más pequeñas y asignamos cada una de ellas a los miembros del equipo, asegurándonos de mantener un flujo de trabajo eficiente y colaborativo.
+### 5.2.2.2. Sprint Backlog 2
+En el segundo sprint backlog, enfocamos los esfuerzos en historias de usuario relacionadas con la personalización de búsqueda y filtros avanzados, la gestión de pedidos anticipados y programados, la optimización de seguridad y escalabilidad de la plataforma, y el desarrollo de funcionalidades de favoritos y perfil personalizado. Estas historias se desglosaron en tareas más pequeñas, asignando cada una a los miembros del equipo para asegurar un flujo de trabajo ordenado y colaborativo.
 
-Entre las principales funcionalidades desarrolladas en este sprint, se incluyó la implementación de características clave como la opción de añadir, editar y eliminar recetas, la visualización y edición de pedidos, y la comparación de cocineros con base en reseñas y ratings. El progreso de las tareas fue monitoreado regularmente, lo que nos permitió cumplir con la mayoría de los objetivos establecidos para este sprint.
+Entre las principales funcionalidades desarrolladas en este sprint, destacamos la implementación de filtros avanzados para la búsqueda de platos según ubicación, precio, popularidad y preferencias dietéticas, además de la habilitación de pedidos anticipados y la programación de entregas desde prepublicaciones. También se trabajó en la seguridad de datos mediante encriptación y en la creación de un sistema de verificación de cocineros, así como en la gestión segura de transacciones. A nivel de experiencia del usuario, se desarrollaron las opciones de guardar recetas y cocineros en favoritos, y se implementaron ajustes en el perfil para facilitar la personalización. El progreso se monitoreó regularmente, permitiéndonos alcanzar los objetivos trazados para este sprint y optimizar el rendimiento general de la plataforma.
 
 Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba103332d73ab459b9c9963c0ade138D7652/mi-tablero-de-trello
 
@@ -2073,35 +2121,48 @@ Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba1033
 |-|-|-|-|-|-|-|-|
 |User<br>Story| |Work-Item /Task| | | | | |
 |ID|Title|ID|Title|Description|Estimation<br>(Hours)|Assigned<br>To|Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done)|
-| US19 | Publicar Recetas | *TA001* | Crear Bounded Context de recetas | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 6 horas | Jaque Peña, Estefano Oscar | Done |
-| US19 | Publicar Recetas | *TA002* | Implementar funcionalidad de añadir recetas | Implementar la funcionalidad que permite a los usuarios añadir nuevas recetas. | 4 horas | Jaque Peña, Estefano Oscar | Done |
-| US19 | Publicar Recetas | *TA003* | Implementar funcionalidad de editar recetas | Implementar la funcionalidad para editar recetas, permitiendo a los usuarios modificar el título, la descripción, los ingredientes y los pasos de preparación. | 6 horas | Jaque Peña, Estefano Oscar | Done |
-| US19 | Publicar Recetas | *TA004* | Implementar funcionalidad de eliminar recetas | Desarrollar la funcionalidad que permita a los usuarios eliminar recetas mediante una interfaz. | 5 horas | Jaque Peña, Estefano Oscar | Done |
-| US21 | Guardar Recetas  | *TA005* | Añadir recetas a favoritas |  Implementar la funcionalidad que permita a los usuarios agregar recetas a su lista de favoritas. | 6 horas | Jaque Peña, Estefano Oscar | Done |
-| US21 | Guardar Recetas  | *TA006* | Mostrar recetas guardadas | Implementar una vista en la que los usuarios puedan ver todas las recetas que han guardado. | 5 horas | Jaque Peña, Estefano Oscar | Done |
-| US05 | Programacion de entrega | *TA007* | Crear Bounded Context de pedidos | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 6 horas | Alejo Cardenas,Jose | Done |
-| US05| Programacion de entrega| *TA008*| Editar pedido | Implementar la funcionalidad para que el usuario pueda modificar los detalles de un pedido, tales como la cantidad de productos, la dirección y la fecha de entrega.| 4 horas| Alejo Cardenas,Jose | Done|
-| US15| Programación de pedidos |*TA009*| Mostrar pedidos | Diseñar la interfaz de usuario que muestre los detalles del pedido con la información de productos, dirección, fecha de entrega y estado actual. | 4 horas | Alejo Cardenas,Jose|Done|
-| US16| Métodos de pago |*TA010*| Crear pedido | Implementar la lógica para crear un pedido en la base de datos, incluyendo la confirmación de los detalles ingresados, como productos, dirección y método de pago. | 5 horas | Alejo Cardenas,Jose |Done|
-| US16| Programación de pedidos |*TA011*| Eliminar pedido | Implementar la funcionalidad para que el usuario pueda eliminar un pedido de la base de datos y reflejar el cambio en la interfaz de usuario. | 5 horas | Alejo Cardenas,Jose |Done|
-| US04 | Visualización de información nutricional | *TA012* | Crear Bounded Context de platillos | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 8 horas | Pezo Castilla, Maria Jose | Done |
-| US04| Visualización de información nutricional  | *TA013* |Mostrar la descripción e información del plato| Mostrar la descripción del plato y datos informativos como el nombre del plato, precio promedio y la cantidad de ordenes realizadas durante el mes.  | 5 horas | Pezo Castilla, Maria Jose| Done      
-| US06| Experiencia personalizada  | *TA014* | Eliminar platos de la lista personalizada | Desarrollar la eliminación de platos de la lista personalizada. | 6 horas | Pezo Castilla, Maria Jose | Done|
-| US06| Experiencia personalizada | *TA015*  | Actualizar lista de platos | Implementar la actualización de la lista de platos personalizada.| 7 horas| Pezo Castilla, Maria Jose | Done |
-| US06| Experiencia personalizada | *TA016* |Añadir platos a la lista personalizada| Desarrollar la agregacion de nuevos platos a la lista personalizada.| 6 horas| Pezo Castilla, Maria Jose | Done |
-| US30 | Programación de entrega | *TA017* | Crear Bounded Context de plan nutricional | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 7 horas | Rosado Iporre, Diego | Done |
-| US30 | Programación de entrega | *TA018* | Agregar nutrientes | Consiste en permitir al usuario añadir información nutricional a un pedido, como calorías, proteínas, y otros nutrientes importantes. | 4 horas | Rosado Iporre, Diego | Done | 
-| US30 | Programación de pedidos | *TA019* | Mostrar nutrientes | Esta tarea permite al usuario visualizar la información nutricional de un pedido existente, asegurando una elección informada. | 4 horas | Rosado Iporre, Diego | Done |
-| US30 | Métodos de pago | *TA020* | Editar nutrientes | Esta tarea permite al usuario modificar la información nutricional de un pedido, como actualizar las cantidades de cada nutriente. | 5 horas | Rosado Iporre, Diego | Done | 
-| US30 | Programación de pedidos | *TA021* | Eliminar nutrientes | Esta tarea permite al usuario eliminar la información nutricional de un pedido, si así lo desea. | 5 horas | Rosado Iporre, Diego | Done |
-| US03 | Visualización de reseñas | *TA022* | Crear Bounded Context de cocineros | Diseñar la estructura del bounded context que incluye la creación de entidades, servicios, componentes y un page que permita añadir, eliminar y editar. | 6 horas | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas  | *TA023* | Añadir una lista de cocineros para permitir la comparación | Programar la funcionalidad del bounded context cocineros que permita ver los perfiles para poder compararlos en base a sus ratings y reseñas | 5 horas  | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas | *TA024* | Añadir lista de cocineros para comparación | Programar la funcionalidad del bounded context "cocineros" que permita ver los perfiles y compararlos en base a sus ratings y reseñas. | 5 horas | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas | *TA025* | Actualizar lista de cocineros en base a reseñas recientes | Implementar la actualización automática de la lista de cocineros cada vez que haya una nueva reseña o actualización de ratings. | 4 horas | Real Calderón, Sebastián Omar | Done |
-| US03 | Visualización de reseñas | *TA026* | Editar filtros para la comparación de cocineros | Programar la opción de editar los filtros de comparación para incluir más criterios como tipo de cocina, experiencia, y disponibilidad. | 4 horas | Real Calderón, Sebastián Omar | Done |
+| US06 | Búsqueda personalizada | *TA001* | Implementar filtro por preferencias dietéticas | Crear filtros de preferencias dietéticas en el buscador de platos | 6 horas | Equipo | Done |
+| US07 | Filtrado de búsqueda | *TA002* | Filtrar por ubicación | Implementar filtro que permita ordenar platos por cercanía | 5 horas | Equipo | Done |
+| US07 | Filtrado de búsqueda | *TA003* | Filtrar por precio | Crear filtro de búsqueda basado en rango de precios | 5 horas | Equipo | Done |
+| US08 | Prepublicaciones | *TA004* | Crear Bounded Context de prepublicaciones | Diseñar la estructura y configuración de prepublicaciones de pedidos anticipados | 7 horas | Equipo | Done |
+| US09 | Realizar pedidos anticipados | *TA005* | Implementar pedido anticipado | Permitir realizar pedidos antes de la fecha de entrega programada | 6 horas | Equipo | Done |
+| US10 | Programar pedido | *TA006* | Programar desde una prepublicación | Habilitar opción para programar pedidos basados en una prepublicación | 5 horas | Equipo | Done |
+| US11 | Cancelar pedido | *TA007* | Cancelar programación de pedido | Implementar funcionalidad para cancelar pedidos programados | 4 horas | Equipo | Done |
+| US12 | Historial de pedidos | *TA008* | Visualización del historial | Crear página de historial que muestre pedidos anteriores | 5 horas | Equipo | Done |
+| US13 | Filtrar historial | *TA009* | Filtrar por estado de pedido | Implementar filtros de pedidos por estado: entregados, en proceso y cancelados | 5 horas | Equipo | Done |
+| US14 | Información detallada | *TA010* | Mostrar información de platos en pedido | Mostrar nombre, descripción, ingredientes y datos nutricionales de cada plato en el pedido | 5 horas | Equipo | Done |
+| US15 | Filtrar pedidos | *TA011* | Filtrar por método de pago | Añadir filtro de pedidos según método de pago seleccionado | 4 horas | Equipo | Done |
+| US16 | Filtrar pedidos por fecha | *TA012* | Filtrar por intervalo de fechas | Implementar filtro que permita visualizar pedidos en un rango de fechas específico | 5 horas | Equipo | Done |
+| US17 | Perfil personalizado | *TA013* | Crear perfil de usuario | Crear estructura de perfil con campos personalizados | 6 horas | Equipo | Done |
+| US18 | Edición de perfil | *TA014* | Editar perfil | Permitir a los usuarios modificar su perfil, incluyendo preferencias y datos personales | 5 horas | Equipo | Done |
+| US19 | Recetas | *TA015* | Crear receta | Implementar funcionalidad para que el usuario publique una receta | 5 horas | Equipo | Done |
+| US20 | Editar receta | *TA016* | Editar recetas existentes | Habilitar edición de recetas creadas por el usuario | 5 horas | Equipo | Done |
+| US21 | Eliminar receta | *TA017* | Borrar receta | Permitir al usuario eliminar una receta de su perfil | 5 horas | Equipo | Done |
+| US22 | Buscar recetas | *TA018* | Filtrar recetas por ingredientes | Crear un filtro de búsqueda de recetas por ingrediente principal | 4 horas | Equipo | Done |
+| US23 | Bienvenida | *TA019* | Mostrar mensaje de bienvenida | Configurar mensaje de bienvenida personalizado en el perfil del usuario | 4 horas | Equipo | Done |
+| US24 | Platos populares | *TA020* | Mostrar platos en home | Mostrar en la página principal los platos más populares | 4 horas | Equipo | Done |
+| US25 | Seguridad de datos | *TA021* | Encriptación de datos | Asegurar la protección de datos personales y financieros mediante encriptación | 6 horas | Equipo | Done |
+| US26 | Verificación de cocineros | *TA022* | Identidad de cocineros | Implementar sistema de verificación de identidad para cocineros registrados | 6 horas | Maria Jose Pezo Castilla | Done |
+| US27 | Transacciones seguras | *TA023* | Protección de transacciones | Implementar medidas de seguridad para transacciones financieras | 6 horas | Equipo | Done |
+| US28 | Seguridad | *TA024* | Auditoría y monitoreo | Implementar auditoría y monitoreo para seguridad de la plataforma | 6 horas | Equipo | Done |
+| US29 | Rendimiento | *TA025* | Escalabilidad de la plataforma | Mejorar la arquitectura para soportar escalabilidad | 6 horas | Equipo | Done |
+| US30 | Recetas favoritas | *TA026* | Guardar recetas | Permitir a los usuarios agregar recetas a favoritos | 5 horas | Maria Jose Pezo Castilla | Done |
+| US31 | Cocineros favoritos | *TA027* | Guardar cocineros | Habilitar la opción de agregar cocineros a favoritos | 5 horas | Maria Jose Pezo Castilla | Done |
+| US32 | Página de favoritos | *TA028* | Crear página de favoritos | Crear vista de favoritos con las recetas y cocineros guardados | 6 horas | Maria Jose Pezo Castilla | Done |
+| TS33 | Configurar entorno | *TA029* | Configuración de desarrollo | Configurar entorno y dependencias para facilitar el desarrollo | 6 horas | Equipo | Done |
+| TS34 | Landing page | *TA030* | Implementar landing page | Diseñar y crear una página de inicio de bienvenida | 6 horas | Equipo | Done |
+| TS35 | Publicación de platos | *TA031* | Añadir funcionalidad de publicaciones | Implementar funcionalidad para publicar platos en la plataforma | 6 horas | Equipo | Done |
+| TS36 | Botón de solicitud | *TA032* | Implementar solicitud de plato | Añadir un botón para que los usuarios soliciten platos de cocineros | 5 horas | Equipo | Done |
+| TS37 | Programación de pedidos | *TA033* | Funcionalidad de programación | Crear funcionalidad para programar la entrega de pedidos | 6 horas | Equipo | Done |
+| TS38 | Recetas compartidas | *TA034* | Sección de recetas compartidas | Añadir una sección donde se puedan compartir y ver recetas | 6 horas | Equipo | Done |
+| TS39 | Historial de pedidos | *TA035* | Historial de pedidos de usuario | Permitir al usuario ver sus pedidos anteriores en su perfil | 6 horas | Equipo | Done |
+| TS40 | Perfil del usuario | *TA036* | Configurar perfil de usuario | Implementar página de perfil del usuario con información relevante | 6 horas | Equipo | Done |
+| TS41 | Favoritos | *TA037* | Añadir favoritos a perfil | Permitir a los usuarios agregar recetas y cocineros a favoritos desde su perfil | 5 horas | Maria Jose Pezo Castilla | Done |
+| TS42 | Notificaciones push | *TA038* | Configurar notificaciones | Habilitar notificaciones push para nuevos platos, pedidos y recordatorios | 6 horas | Equipo | Done |
+| TS43 | Rendimiento de imágenes | *TA039* | Optimización de carga de imágenes | Optimizar carga de imágenes para mejorar la experiencia del usuario | 6 horas | Maria Jose Pezo Castilla | Done |
 
 
-### 5.2.1.3. Development Evidence for Sprint Review
+### 5.2.2.3. Development Evidence for Sprint Review
 Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clave relacionadas con la publicación de recetas, gestión de pedidos y la mejora de la experiencia del usuario. El desarrollo se llevó a cabo en múltiples ramas del repositorio, con un enfoque colaborativo en la gestión de commits para asegurar un flujo de trabajo ágil y organizado. A continuación, se presenta un resumen de los commits realizados durante este sprint, que evidencian los avances alcanzados en el desarrollo del proyecto.
 
 | **Repository** | **Branch**       | **Commit Id** | **Commit Message**       | **Commit Message Body**                                    | **Committed on (Date)** |
@@ -2119,7 +2180,7 @@ Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clav
 | `Landing-page`      | `main`         | `06c098c`  | `Fix: link images`          | `Corrected the links for images on the landing page.` | `2024-09-07`             |
 
 
-### 5.2.1.4. Testing Suite Evidence for Sprint Review
+### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
 En esta sección se presenta la evidencia de las pruebas automatizadas desarrolladas durante el sprint, que incluyen Unit Tests, Integration Tests y Acceptance Tests, todos alineados con los User Stories especificados en el backlog del sprint. Se ha utilizado el lenguaje Gherkin para elaborar los archivos .feature que describen el comportamiento del sistema en base a las pruebas de Desarrollo Dirigido por el Comportamiento (BDD).
 
@@ -2140,7 +2201,7 @@ Se diseñaron y automatizaron pruebas para un total de 21/35 archivos .feature, 
 | Rampart-SaboresCercanos/Rampart | feature/TP | 12aee7b49a5647a81e956d6e7201558611d4eeac |feature: added US04 gherkin  | Agregué la US04.feature | 26/09/2024|
 | Rampart-SaboresCercanos/Rampart | feature/TP | 30d8350233d2e2d2445d58cdcfde16dfe2f252d0 |feature: added US06 gherkin  | Agregué US06.feature | 26/09/2024|
 
-### 5.2.1.5. Execution Evidence for Sprint Review
+### 5.2.2.5. Execution Evidence for Sprint Review
 
 En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la landing page. Nos hemos enfocado en implementar el diseño y la funcionalidad básica, incluyendo las principales vistas y elementos interactivos. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado, junto con un enlace a un video que muestra la visualización y navegación logradas durante este Sprint.
 
@@ -2187,11 +2248,11 @@ Link_Video_Cocineros: https://drive.google.com/drive/folders/1H70KFOuePRKs8zIt25
 
 Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint, nuestro enfoque principal ha sido el desarrollo y diseño de la landing page. Debido a que aún no hemos implementado Web Services, no contamos con documentación de endpoints en esta fase. En lugar de eso, hemos documentado el desarrollo y diseño de la landing page.
 
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 **Resumen**
 Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
@@ -2298,7 +2359,7 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
 ## Anexos
 
-Anexo A: https://miro.com/welcomeonboard/RTA3b0ZrRzFmckk5Z3BneTVwc3d5Z1BBYko4c3d4SmpUaVMwTG93c0JjUmc2cERSNzJ5ZkxjOTZDWG5CbThHd3wzNDU4NzY0NTQzNjk5MTEyMTEwfDI=?share_link_id=280755829967
+Anexo A: https://miro.com/welcomeonboard/OUlZbW1uR09XMWtSc0plSTJvdnlhOXUyZmdTTDZ1MkR1UTNxalRnQW1WMnJzR0ExYzg3blFQbG0zYW9oZGdFbnwzNDU4NzY0NTQzNjk5MTEyMTEwfDI=?share_link_id=824100007857
 
 Anexo B:https://lucid.app/lucidchart/434db23b-883c-43b4-98ea-2da63e5366d5/edit?viewport_loc=-854%2C-13081%2C4706%2C2108%2C0_0&invitationId=inv_f9b021da-b3ba-42f7-b73a-b5085b472ce8
 

@@ -1938,7 +1938,7 @@ git commit -m “<type>[optional scope]: <title>“ -m “<description”
 |Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Maria Jose Pezo Castillam, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
 |Sprint Goal & User<br>stories|---------|
 |Sprint 1 Goal|Construir y diseñar una landing page interactiva, llamativa, profesional e informativa para la aplicación web "Sabores Cercanos".|
-|Sprint 1 Velocity|5(US01,US02,US03,US04,US05)|
+|Sprint 1 Velocity|------|
 |Sum of story points|8|
 
 ### 5.2.1.2. Sprint Backlog 1

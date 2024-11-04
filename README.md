@@ -165,17 +165,6 @@ TP:<br>
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
     - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-      - [Happy path:](#happy-path)
-      - [Unhappy path:](#unhappy-path)
-      - [Happy path:](#happy-path-1)
-      - [Happy path:](#happy-path-2)
-      - [Happy path:](#happy-path-3)
-      - [Unhappy path:](#unhappy-path-1)
-      - [Happy path:](#happy-path-4)
-      - [Unhappy path:](#unhappy-path-2)
-      - [Happy path:](#happy-path-5)
-      - [Unhappy path:](#unhappy-path-3)
-      - [Happy path:](#happy-path-6)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
@@ -224,6 +213,15 @@ TP:<br>
     - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
     - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
     - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 3](#522-sprint-3)
+    - [5.2.2.1. Sprint Planning 3](#5221-sprint-planning-3)
+    - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+    - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+    - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+    - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+    - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+    - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+    - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
   - [Anexos](#anexos)
@@ -2006,14 +2004,14 @@ En este Sprint 2 realizaremos la separacion del bounded context y la implementac
 |:--|:--|
 |Sprint Planning Background|---------|
 |Date|2024-09-06|
-|Time|10:10 PM|
-|Location|Reunión virtual en Google Meet|
-|Prepared by|Maria Jose Pezo Castillam|
-|Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Maria Jose Pezo Castillam, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
+|Time|11:11 PM|
+|Location|Reunión virtual en Discord|
+|Prepared by|José Antonio Alejo Cárdenas|
+|Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Maria Jose Pezo Castilla, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
 |Sprint Goal & User<br>stories|---------|
 |Sprint 2 Goal|Nuestro enfoque está en separar las tareas para cada integrante respecto al bounded context que elijan y finalizar el informe detallando el trabajo realizado por cada integrantepara para la aplicación web "Sabores Cercanos".|
-|Sprint 2 Velocity|11(US05,US15,US16,US04,US06,US03,US21,US19,US30)|
-|Sum of story points|49|
+|Sprint 2 Velocity|(US17,US22,US30,US31,US32,US10,US09,US23,US24,US14,US12,US25,US28,TS42,TS41,TS39,TS37,TS36,TS35,TS34,TS33)|
+|Sum of story points|95|
 
 ### 5.2.2.2. Sprint Backlog 2
 En el segundo sprint backlog, enfocamos los esfuerzos en historias de usuario relacionadas con la personalización de búsqueda y filtros avanzados, la gestión de pedidos anticipados y programados, la optimización de seguridad y escalabilidad de la plataforma, y el desarrollo de funcionalidades de favoritos y perfil personalizado. Estas historias se desglosaron en tareas más pequeñas, asignando cada una a los miembros del equipo para asegurar un flujo de trabajo ordenado y colaborativo.
@@ -2027,46 +2025,27 @@ Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba1033
 |-|-|-|-|-|-|-|-|
 |User<br>Story| |Work-Item /Task| | | | | |
 |ID|Title|ID|Title|Description|Estimation<br>(Hours)|Assigned<br>To|Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done)|
-| US06 | Búsqueda personalizada | *TA001* | Implementar filtro por preferencias dietéticas | Crear filtros de preferencias dietéticas en el buscador de platos | 6 horas | Equipo | Done |
-| US07 | Filtrado de búsqueda | *TA002* | Filtrar por ubicación | Implementar filtro que permita ordenar platos por cercanía | 5 horas | Equipo | Done |
-| US07 | Filtrado de búsqueda | *TA003* | Filtrar por precio | Crear filtro de búsqueda basado en rango de precios | 5 horas | Equipo | Done |
-| US08 | Prepublicaciones | *TA004* | Crear Bounded Context de prepublicaciones | Diseñar la estructura y configuración de prepublicaciones de pedidos anticipados | 7 horas | Equipo | Done |
-| US09 | Realizar pedidos anticipados | *TA005* | Implementar pedido anticipado | Permitir realizar pedidos antes de la fecha de entrega programada | 6 horas | Equipo | Done |
-| US10 | Programar pedido | *TA006* | Programar desde una prepublicación | Habilitar opción para programar pedidos basados en una prepublicación | 5 horas | Equipo | Done |
-| US11 | Cancelar pedido | *TA007* | Cancelar programación de pedido | Implementar funcionalidad para cancelar pedidos programados | 4 horas | Equipo | Done |
-| US12 | Historial de pedidos | *TA008* | Visualización del historial | Crear página de historial que muestre pedidos anteriores | 5 horas | Equipo | Done |
-| US13 | Filtrar historial | *TA009* | Filtrar por estado de pedido | Implementar filtros de pedidos por estado: entregados, en proceso y cancelados | 5 horas | Equipo | Done |
-| US14 | Información detallada | *TA010* | Mostrar información de platos en pedido | Mostrar nombre, descripción, ingredientes y datos nutricionales de cada plato en el pedido | 5 horas | Equipo | Done |
-| US15 | Filtrar pedidos | *TA011* | Filtrar por método de pago | Añadir filtro de pedidos según método de pago seleccionado | 4 horas | Equipo | Done |
-| US16 | Filtrar pedidos por fecha | *TA012* | Filtrar por intervalo de fechas | Implementar filtro que permita visualizar pedidos en un rango de fechas específico | 5 horas | Equipo | Done |
-| US17 | Perfil personalizado | *TA013* | Crear perfil de usuario | Crear estructura de perfil con campos personalizados | 6 horas | Equipo | Done |
-| US18 | Edición de perfil | *TA014* | Editar perfil | Permitir a los usuarios modificar su perfil, incluyendo preferencias y datos personales | 5 horas | Equipo | Done |
-| US19 | Recetas | *TA015* | Crear receta | Implementar funcionalidad para que el usuario publique una receta | 5 horas | Equipo | Done |
-| US20 | Editar receta | *TA016* | Editar recetas existentes | Habilitar edición de recetas creadas por el usuario | 5 horas | Equipo | Done |
-| US21 | Eliminar receta | *TA017* | Borrar receta | Permitir al usuario eliminar una receta de su perfil | 5 horas | Equipo | Done |
-| US22 | Buscar recetas | *TA018* | Filtrar recetas por ingredientes | Crear un filtro de búsqueda de recetas por ingrediente principal | 4 horas | Equipo | Done |
-| US23 | Bienvenida | *TA019* | Mostrar mensaje de bienvenida | Configurar mensaje de bienvenida personalizado en el perfil del usuario | 4 horas | Equipo | Done |
-| US24 | Platos populares | *TA020* | Mostrar platos en home | Mostrar en la página principal los platos más populares | 4 horas | Equipo | Done |
-| US25 | Seguridad de datos | *TA021* | Encriptación de datos | Asegurar la protección de datos personales y financieros mediante encriptación | 6 horas | Equipo | Done |
-| US26 | Verificación de cocineros | *TA022* | Identidad de cocineros | Implementar sistema de verificación de identidad para cocineros registrados | 6 horas | Maria Jose Pezo Castilla | Done |
-| US27 | Transacciones seguras | *TA023* | Protección de transacciones | Implementar medidas de seguridad para transacciones financieras | 6 horas | Equipo | Done |
-| US28 | Seguridad | *TA024* | Auditoría y monitoreo | Implementar auditoría y monitoreo para seguridad de la plataforma | 6 horas | Equipo | Done |
-| US29 | Rendimiento | *TA025* | Escalabilidad de la plataforma | Mejorar la arquitectura para soportar escalabilidad | 6 horas | Equipo | Done |
-| US30 | Recetas favoritas | *TA026* | Guardar recetas | Permitir a los usuarios agregar recetas a favoritos | 5 horas | Maria Jose Pezo Castilla | Done |
-| US31 | Cocineros favoritos | *TA027* | Guardar cocineros | Habilitar la opción de agregar cocineros a favoritos | 5 horas | Maria Jose Pezo Castilla | Done |
-| US32 | Página de favoritos | *TA028* | Crear página de favoritos | Crear vista de favoritos con las recetas y cocineros guardados | 6 horas | Maria Jose Pezo Castilla | Done |
-| TS33 | Configurar entorno | *TA029* | Configuración de desarrollo | Configurar entorno y dependencias para facilitar el desarrollo | 6 horas | Equipo | Done |
-| TS34 | Landing page | *TA030* | Implementar landing page | Diseñar y crear una página de inicio de bienvenida | 6 horas | Equipo | Done |
-| TS35 | Publicación de platos | *TA031* | Añadir funcionalidad de publicaciones | Implementar funcionalidad para publicar platos en la plataforma | 6 horas | Equipo | Done |
-| TS36 | Botón de solicitud | *TA032* | Implementar solicitud de plato | Añadir un botón para que los usuarios soliciten platos de cocineros | 5 horas | Equipo | Done |
-| TS37 | Programación de pedidos | *TA033* | Funcionalidad de programación | Crear funcionalidad para programar la entrega de pedidos | 6 horas | Equipo | Done |
-| TS38 | Recetas compartidas | *TA034* | Sección de recetas compartidas | Añadir una sección donde se puedan compartir y ver recetas | 6 horas | Equipo | Done |
-| TS39 | Historial de pedidos | *TA035* | Historial de pedidos de usuario | Permitir al usuario ver sus pedidos anteriores en su perfil | 6 horas | Equipo | Done |
-| TS40 | Perfil del usuario | *TA036* | Configurar perfil de usuario | Implementar página de perfil del usuario con información relevante | 6 horas | Equipo | Done |
-| TS41 | Favoritos | *TA037* | Añadir favoritos a perfil | Permitir a los usuarios agregar recetas y cocineros a favoritos desde su perfil | 5 horas | Maria Jose Pezo Castilla | Done |
-| TS42 | Notificaciones push | *TA038* | Configurar notificaciones | Habilitar notificaciones push para nuevos platos, pedidos y recordatorios | 6 horas | Equipo | Done |
-| TS43 | Rendimiento de imágenes | *TA039* | Optimización de carga de imágenes | Optimizar carga de imágenes para mejorar la experiencia del usuario | 6 horas | Maria Jose Pezo Castilla | Done |
-
+| US17 | Creación Perfil Personalizado | *TA001* | Implementar Vista de Perfil Personalizado | Implementar la vista de perfil que muestre imagen, datos personales y preferencias alimentarias del usuario. | 6 horas | Diego Rosado | Done |
+| US22 | Buscar Recetas por Nombre o Ingredientes | *TA002* | Implementar Búsqueda de Recetas por Nombre o Ingredientes | Crear una barra de búsqueda en la interfaz que permita al usuario encontrar recetas filtrando por nombre o ingredientes. | 6 horas | Estefano Jaque | Done |
+| US30 | Guardar Recetas Favoritas | *TA003* | Implementar Funcionalidad de Guardar Recetas como Favoritas | Añadir un ícono de corazón para guardar recetas en favoritos y mostrar la lista de recetas favoritas o un mensaje cuando esté vacía. | 5 horas | Maria Jose | Done |
+| US31 | Guardar Cocineros Favoritos | *TA004* | Implementar Funcionalidad de Guardar Cocineros como Favoritos | Añadir un ícono de corazón para guardar cocineros en favoritos y mostrar la lista de cocineros favoritos o un mensaje cuando esté vacía. | 7 horas | Maria Jose | Done |
+| US32 | Página de Favoritos | *TA005* | Implementar Página de Favoritos con Filtrado | Crear una página de "Favoritos" accesible desde el menú, que muestre recetas y cocineros guardados y permita filtrar entre ellos. | 6 horas | Maria Jose | Done |
+| US10 | Programar Pedido desde una Prepublicación | *TA006* | Implementar Programación de Pedido desde Prepublicación | Crear la interfaz que permita al usuario seleccionar fecha y hora para un pedido programado y mostrar una confirmación con los detalles seleccionados. | 5 horas | José Alejo | Done |
+| US09 | Realizar Pedidos con Anticipación | *TA007* | Implementar Realización de Pedidos con Anticipación | Desarrollar la interfaz que permita a los usuarios seleccionar una fecha de entrega para pedidos futuros y mostrar una confirmación con los detalles del pedido una vez completado. | 4 horas | José Alejo | Done |
+| US23 | Mostrar Mensaje de Bienvenida | *TA008* | Implementar Mensaje de Bienvenida en la Vista Home | Crear un mensaje de bienvenida que se muestre al cargar la página Home, incluyendo el nombre del usuario y una invitación a explorar los platos. | 5 horas | Estefano Jaque | Done |
+| US24 | Mostrar Platos Populares en la Vista Home | *TA009* | Implementar Visualización de Platos Populares en la Vista Home | Desarrollar la sección "Platos Más Populares" en la vista Home que muestre una lista con imágenes, nombres y cocineros, y redirigir al usuario a la sección “Pedidos” al hacer clic en "Hacer Pedido". | 5 horas | Diego Rosado | Done |
+| US14 | Visualización de información detallada del plato en el Pedido | *TA010* | Implementar Visualización de Detalles del Plato en la Sección de Pedidos | Desarrollar la interfaz para mostrar la imagen y el nombre del plato en los detalles de cada pedido en la sección "Mis pedidos". | 5 horas | José Alejo | Done |
+| US12 | Visualización de Historial de Pedidos | *TA011* | Implementar Visualización del Historial de Pedidos | Desarrollar la sección "Mis pedidos" para mostrar una lista de órdenes pasadas si el usuario tiene pedidos previos, o un mensaje indicando que no hay pedidos si está vacío. | 4 horas | José Alejo | Done |
+| US25 | Proteger Datos Personales y Financieros con Encriptación | *TA012* | Implementar Encriptación de Datos Personales y Financieros | Desarrollar el proceso de encriptación automática de datos personales y financieros al crear una cuenta y asegurar la desencriptación temporal para la visualización en el perfil, garantizando su re-encriptación posterior. | 6 horas | Diego Rosado | Done |
+| US28 | Auditoría y Monitoreo de Seguridad del Sistema | *TA013* | Implementar Panel de Monitoreo y Auditoría de Seguridad | Desarrollar un panel de monitoreo para el administrador que muestre alertas en tiempo real sobre actividades sospechosas y permita la generación de informes de auditoría con vulnerabilidades y recomendaciones de seguridad. | 6 horas | Sebastian Calderon | Done |
+| TS42 | Implementar Funcionalidad de Notificaciones Push | *TA014* | Implementar Funcionalidad de Notificaciones Push | Desarrollar la funcionalidad de notificaciones push que envíe alertas a los usuarios sobre actualizaciones de pedidos, nuevas publicaciones y ofertas especiales en sus dispositivos. | 5 horas | Sebastian Calderon | Done |
+| TS41 | Implementar Funcionalidad de Favoritos | *TA015* | Implementar Funcionalidad de Favoritos para Cocineros | Desarrollar la capacidad para que los usuarios marquen cocineros como favoritos y actualicen la lista de favoritos para fácil acceso en futuras búsquedas. | 5 horas | Diego Rosado | Done |
+| TS39 | Implementar Historial de Pedidos del Usuario | *TA016* | Implementar Funcionalidad de Historial de Pedidos del Usuario | Desarrollar la funcionalidad para que los usuarios accedan a su historial de pedidos, mostrando detalles como la foto del plato, el nombre del chef, la fecha del pedido, el costo total y el método de pago. | 5 horas | José Alejo | Done |
+| TS37 | Implementar Programación de Pedido | *TA017* | Implementar Funcionalidad de Programación de Pedido | Desarrollar la opción para que los usuarios seleccionen la fecha y hora de entrega al programar un pedido, y asegurar la redirección al proceso de pago después de la selección. | 5 horas | José Alejo | Done |
+| TS36 | Implementar Botón para Solicitar un Plato | *TA018* | Implementar Botón de Solicitud de Plato | Desarrollar un botón en las publicaciones que permita a los usuarios solicitar un plato y los redirija a los métodos de pago disponibles. | 4 horas | Sebastian Calderon | Done |
+| TS35 | Implementar Funcionalidad de Publicaciones de Platos | *TA019* | Implementar Funcionalidad de Publicaciones de Platos | Desarrollar la funcionalidad que permita a los chefs crear publicaciones de sus platos, mostrando la imagen, el stock disponible y el precio para que los usuarios puedan visualizarlos. | 5 horas | Sebastian Calderon | Done |
+| TS34 | Implementar Landing Page | *TA020* | Implementar Landing Page | Desarrollar la landing page que muestre información sobre la plataforma y proporcione un botón para descargar la aplicación o acceder a la versión web. | 5 horas | Sebastian Calderon | Done |
+| TS33 | Configurar Entorno de Desarrollo | *TA021* | Configurar Entorno de Desarrollo | Establecer el entorno de desarrollo siguiendo las instrucciones de configuración del repositorio del proyecto para ejecutar la aplicación localmente. | 5 horas | Sebastian Calderon | Done |
 
 ### 5.2.2.3. Development Evidence for Sprint Review
 Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clave relacionadas con la publicación de recetas, gestión de pedidos y la mejora de la experiencia del usuario. El desarrollo se llevó a cabo en múltiples ramas del repositorio, con un enfoque colaborativo en la gestión de commits para asegurar un flujo de trabajo ágil y organizado. A continuación, se presenta un resumen de los commits realizados durante este sprint, que evidencian los avances alcanzados en el desarrollo del proyecto.
@@ -2208,6 +2187,209 @@ Bounded context:
 Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
+
+| Integrante | Acciones realizadas durante el sprint |
+|-|-|
+| Estefano Oscar Jaque Peña | Desarrollo del bounded context de Recetas |
+| Maria Jose Pezo Castilla | Desarrollo del bounded context de Platillos |
+| Diego Alonso Rosado Iporre | Desarrollo del bounded context de Plan Alimenticio |
+| Sebastián Omar Real Calderón | Desarrollo del bounded context de Cocineros |
+| Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Pedidos |
+
+![Project Insights De La Landing Page](assets/TP_images/1insightsSprint2.png)
+
+![Project Insights Del Frontend](assets/TP_images/2insightsSprint2.png)
+
+### 5.2.2. Sprint 3
+### 5.2.2.1. Sprint Planning 3
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto
+tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo
+determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+En este Sprint 3 realizaremos la separacion del bounded context y la implementacion de lo aprendido en clase a cada uno de ellos.
+
+|Sprint#|Srint 3|
+|:--|:--|
+|Sprint Planning Background|---------|
+|Date|2024-11-03|
+|Time|11:11 PM|
+|Location|Reunión virtual en Discord|
+|Prepared by|José Antonio Alejo Cárdenas|
+|Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
+|Sprint Goal & User<br>stories|---------|
+|Sprint 3 Goal|Nuestro enfoque está en separar las tareas para cada integrante respecto al bounded context que elijan y finalizar el informe detallando el trabajo realizado por cada integrantepara para la aplicación web "Sabores Cercanos".|
+|Sprint 3 Velocity|(US18,US21,US20,US19,US11,US06,US07,US08,US15,US16,US13,US27,US26,US29,TS43,TS40,TS38)|
+|Sum of story points|94|
+
+### 5.2.3.2. Sprint Backlog 3
+En el segundo sprint backlog, enfocamos los esfuerzos en historias de usuario relacionadas con la personalización de búsqueda y filtros avanzados, la gestión de pedidos anticipados y programados, la optimización de seguridad y escalabilidad de la plataforma, y el desarrollo de funcionalidades de favoritos y perfil personalizado. Estas historias se desglosaron en tareas más pequeñas, asignando cada una a los miembros del equipo para asegurar un flujo de trabajo ordenado y colaborativo.
+
+Entre las principales funcionalidades desarrolladas en este sprint, destacamos la implementación de filtros avanzados para la búsqueda de platos según ubicación, precio, popularidad y preferencias dietéticas, además de la habilitación de pedidos anticipados y la programación de entregas desde prepublicaciones. También se trabajó en la seguridad de datos mediante encriptación y en la creación de un sistema de verificación de cocineros, así como en la gestión segura de transacciones. A nivel de experiencia del usuario, se desarrollaron las opciones de guardar recetas y cocineros en favoritos, y se implementaron ajustes en el perfil para facilitar la personalización. El progreso se monitoreó regularmente, permitiéndonos alcanzar los objetivos trazados para este sprint y optimizar el rendimiento general de la plataforma.
+
+Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba103332d73ab459b9c9963c0ade138D7652/mi-tablero-de-trello
+
+
+| sprint # | Sprint 3 | | | | | | |
+|-|-|-|-|-|-|-|-|
+|User<br>Story| |Work-Item /Task| | | | | |
+|ID|Title|ID|Title|Description|Estimation<br>(Hours)|Assigned<br>To|Status<br>(To-do <br>/InProcess<br>/ To-Review <br>/Done)|
+| US18 | Edicion de Perfil de Usuario | *TA001* | Gestion de Perfil de Usuario | Implementar la funcionalidad para que los usuarios puedan actualizar su información personal mediante una solicitud PUT y cambiar su imagen de perfil, asegurando la correcta persistencia en la base de datos. | 6 horas | Diego Rosado | Done |
+| US21  | Eliminar Recetas | *TA002* | Gestión de Recetas | Implementar la funcionalidad para que los cocineros puedan eliminar sus recetas mediante un método DELETE, asegurando que las recetas sean eliminadas de la base de datos y que se notifique al usuario con un mensaje de confirmación. | 6 horas | Estefano Jaque | Done |
+| US20  | Editar Recetas | *TA003* | Implementar Edición de Recetas | Crear un endpoint que maneje las solicitudes PUT para editar recetas, actualizando los detalles en la base de datos y asegurando que se devuelva un mensaje de confirmación tras la actualización exitosa. | 5 horas | Estefano Jaque | Done |
+| US19  | Crear recetas | *TA004* | Implementar Creación de Recetas | Desarrollar un endpoint POST para recibir los detalles de las recetas, almacenarlos en la base de datos y devolver un mensaje de confirmación tras la publicación exitosa. | 7 horas | Estefano Jaque | Done |
+| US11  | Cancelar Programación de Pedido | *TA005* | Implementar Cancelación de Programación de Pedido | Desarrollar un endpoint DELETE que permita eliminar la programación de un pedido, asegurando que el sistema envíe una notificación de confirmación de la cancelación. | 6 horas | José Alejo | Done |
+| US06  | Búsqueda Personalizada de Platos por Preferencias Dietéticas | *TA006* | Implementar Búsqueda Personalizada de Platos | Desarrollar un endpoint GET que permita filtrar las publicaciones de platos según las preferencias dietéticas del usuario, y otro endpoint para restablecer los filtros aplicados. | 5 horas | Diego Rosado | Done |
+| US07  | Filtrado de Resultados de Búsqueda por Ubicación, Precio y Popularidad | *TA007* | Implementar Filtrado de Búsqueda | Desarrollar un endpoint GET que permita filtrar las publicaciones según ubicación, precio y popularidad, y otro endpoint para restablecer los filtros aplicados. | 4 horas | Sebastian Calderon | Done |
+| US08  | Filtrado de Prepublicaciones para Pedidos Anticipados | *TA008* | Implementar Filtrado de Prepublicaciones | Desarrollar un endpoint GET que permita filtrar las prepublicaciones según criterios como fecha, tipo de comida y chef, y asegurar que un request sin filtros muestre todas las prepublicaciones disponibles. | 5 horas | Estefano Jaque | Done |
+| US15  | Filtracion de Pedidos por Método de Pago | *TA009* | Implementar Filtrado de Pedidos por Método de Pago | Desarrollar un endpoint GET que permita filtrar los pedidos en la sección "Mis pedidos" según el método de pago seleccionado, mostrando únicamente aquellos pedidos que coincidan con el criterio especificado. | 6 horas | José Alejo | Done |
+| US16  | Filtracion de Pedidos por Intervalo de Fechas | *TA010* | Implementar Filtrado de Pedidos por Intervalo de Fechas | Desarrollar un endpoint GET que permita filtrar los pedidos en la sección "Mis pedidos" según un intervalo de fechas específico, mostrando únicamente aquellos pedidos que fueron realizados dentro del rango seleccionado. | 6 horas | José Alejo | Done |
+| US13  | Filtros por Estado de Pedido (Entregados, En proceso y Cancelados) | *TA011* | Implementar Filtrado de Pedidos por Estado | Crear un endpoint GET que permita filtrar los pedidos en la sección "Mis pedidos" por estado (Pendiente, En preparación o Completado), mostrando únicamente los pedidos que coincidan con el estado seleccionado. | 6 horas | José Alejo | Done |
+| US27  | Gestión Segura de Transacciones Financieras | *TA012* | Implementar Resumen de Transacciones Financieras | Crear un endpoint GET que permita a los cocineros acceder a la sección de pagos en la plataforma, mostrando un resumen de las transacciones completadas, incluyendo monto recibido, fecha y estado del pago.  | 6 horas | Diego Rosado | Done |
+| US26  | Verificación de Identidad de Cocineros | *TA013* | Implementar Verificación de Identidad de Cocineros | Crear un endpoint POST para que los cocineros envíen la documentación requerida para la verificación de su identidad. El sistema debe revisar la documentación y utilizar un endpoint GET para notificar al cocinero sobre la aprobación o rechazo. | 6 horas | Diego Rosado | Done |
+| US29  | Escalabilidad y Rendimiento de la Plataforma | *TA014* | Optimización de Rendimiento y Escalabilidad | El sistema debe permitir ajustes en la infraestructura a través de endpoints PUT para optimizar el rendimiento y la escalabilidad, garantizando una experiencia de usuario fluida durante promociones. | 6 horas | Sebastian Calderon | Done |
+| TS43  | Optimizar el Rendimiento de la Carga de Imágenes | *TA015* | Mejora en la Carga de Imágenes | Asegurar que las imágenes se sirvan de manera eficiente, mejorando la experiencia del usuario y reduciendo los tiempos de carga mediante el uso de solicitudes GET optimizadas. | 3 horas | Sebastian Calderon | Done |
+| TS40  | Implementar Perfil del Usuario | *TA016* | Implementación del Perfil de Usuario | Desarrollar la funcionalidad del perfil de usuario, permitiendo visualizar y editar la información personal, incluyendo foto, nombre, correo, fecha de nacimiento, direcciones y método de pago preferido. | 3 horas | Diego Rosado | Done |
+| TS38  | Implementar Sección de Recetas Compartidas | *TA017* | Implementación de Recetas Compartidas | Implicar solicitudes GET para recuperar las recetas compartidas y solicitudes POST para permitir a los chefs añadir nuevas recetas a la plataforma. | 3 horas | Estefano Jaque | Done |
+
+### 5.2.3.3. Development Evidence for Sprint Review
+Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clave relacionadas con la publicación de recetas, gestión de pedidos y la mejora de la experiencia del usuario. El desarrollo se llevó a cabo en múltiples ramas del repositorio, con un enfoque colaborativo en la gestión de commits para asegurar un flujo de trabajo ágil y organizado. A continuación, se presenta un resumen de los commits realizados durante este sprint, que evidencian los avances alcanzados en el desarrollo del proyecto.
+
+| **Repository** | **Branch**       | **Commit Id** | **Commit Message**       | **Commit Message Body**                                    | **Committed on (Date)** |
+|----------------|------------------|---------------|--------------------------|------------------------------------------------------------|--------------------------|
+|`Rampart-SaboresCercanos`|`feature/sprintBacklog2`|`bb4c62652ffae7438109c1a3971d372e5e03f80f`|`feature: Add SprintBacklog and ExecutionEvidence`|`feature: Add SprintBacklog and ExecutionEvidence`|`28/09/2024`|
+|`Rampart-SaboresCercanos`|`development`|`380b432ec4048c6eaebe9a2869507af1f470bf54`|`fix:Project Report Collaboration Insights`|`fix:Project Report Collaboration Insights`|`28/09/2024`|
+|`Rampart-SaboresCercanos`|`docs/team-collaboration-insights-during-sprint`|`b1f28545277d89fc097889260457c20205d2b039`|`feature: added content to team collaboration insights durign sprint section`|`feature: added content to team collaboration insights durign sprint section`|`28/09/2024`|
+|`Rampart-SaboresCercanos`|`Feature/Update-landing-page`|`4125fe74fdf0a07f1749faa291d21d2e9f3842bd`|`Updating Landing Page Commits`|`Updating Landing Page Commits`|`28/09/2024`|
+|`Rampart-SaboresCercanos`|`development`|`279e28fb8a1702bd5e83bf0924ea5d3a38566f6f`|`feature:Testing Suite Evidence for Sprint Review`|`feature:Testing Suite Evidence for Sprint Review`|`28/09/2024`|
+|`Rampart-SaboresCercanos`|`Feature/Update-landing-page`|`b0a481d8a7a38556ae0095cdbde7247e9f2ad934`|`Updating Landing Page images`|`Actualizando imagenes de la nueva landing page y video de demostracion`|`28/09/2024`|
+| `Landing-page`      | `main`           | `6b31206`  | `Initial commit`          | `Created the README file.`        | `2024-09-06`             |
+| `Landing-page`      | `main` | `9286067`  | `Added initial project files and structured the repository.`| `Implemented user authentication with JWT.`               | `2024-09-06`             |
+| `Landing-page`      | `main`         | `27eda4a`  | `Feat: add landing page design`          | `Added initial project files and structured the repository.` | `2024-09-06`             |
+| `Landing-page`      | `main`         | `k1l2m3n4o5`  | `Feat: add files and repository structure`          | `Implemented the design for the landing page, including layout and styles.` | `2024-09-07`             |
+| `Landing-page`      | `main`         | `06c098c`  | `Fix: link images`          | `Corrected the links for images on the landing page.` | `2024-09-07`             |
+
+
+### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de las pruebas automatizadas desarrolladas durante el sprint, que incluyen Unit Tests, Integration Tests y Acceptance Tests, todos alineados con los User Stories especificados en el backlog del sprint. Se ha utilizado el lenguaje Gherkin para elaborar los archivos .feature que describen el comportamiento del sistema en base a las pruebas de Desarrollo Dirigido por el Comportamiento (BDD).
+
+Se diseñaron y automatizaron pruebas para un total de 21/35 archivos .feature, en los cuales se cubrieron User Stories como la US05, US15, US16, entre otras. En la siguiente tabla se muestran los commits relacionados con la creación y actualización de las pruebas para cada User Story, junto con las ramas y los IDs de commits asociados.
+
+| **Repository**| **Branch**| **Commit Id**| **Commit Message** | **Commit Message Body**| **Committed on (Date)** |
+|-|-|-|-|-|-|
+| Rampart-SaboresCercanos/Rampart | feature/TP | 1f707b6c836010e3c39e5749d089f17c1c5cf710 |Initial commit  | Initial commit | 24/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | f606937a71942bacf10be6b9df5cfb364d7f431e |feature: added US05 gherkin  | Se agregaron los features de las User Story 05 | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | f606937a71942bacf10be6b9df5cfb364d7f431e |feature: added US15 gherkin  | Se agregaron los features de las User Story 15 | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | f606937a71942bacf10be6b9df5cfb364d7f431e |feature: added US16 gherkin  | Se agregaron los features de las User Story 16 | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | 4eab30cf9eb74de34a070db9d64d742fecb89e68 |feature: added US29 gherkin  | Creacion del US29 feature | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | e7e266119cb91e8cd3b36b1182427f8df41d248a |feature: added US30 gherkin  | Creacion del US30 feature| 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | b8090e41aec3c0d3314b9f63b242889320057ec7 |feature: added user 03 gherkin  | feature: added user 03 gherkin | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | c915c9b8d7831bb2060282af2cc583655b60eb06 |feature: added US19 gherkin  | Se creo el US19 para recetas | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | cecbe8d2165d6fb86c1092f5742365905ba81b38 |feature: added US20 gherkin  | Se creo es US20.feature para recetas | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | 4dc04ec922dc1331993e7454a333b52f3b21b976 |feature: added US21 gherkin  | Se creo es US21.feature para recetas | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | 12aee7b49a5647a81e956d6e7201558611d4eeac |feature: added US04 gherkin  | Agregué la US04.feature | 26/09/2024|
+| Rampart-SaboresCercanos/Rampart | feature/TP | 30d8350233d2e2d2445d58cdcfde16dfe2f252d0 |feature: added US06 gherkin  | Agregué US06.feature | 26/09/2024|
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la landing page. Nos hemos enfocado en implementar el diseño y la funcionalidad básica, incluyendo las principales vistas y elementos interactivos. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado, junto con un enlace a un video que muestra la visualización y navegación logradas durante este Sprint.
+
+**Capturas de Pantalla**
+- Seccion navbar: ![Screenshot1](assets/images/Landingpage/Navbar.png)
+- Seccion home: ![Screenshot2](assets/images/Landingpage/Home.png)
+- Seccion about us: ![Screenshot3](assets/images/Landingpage/About_us.png)
+- Seccion services: ![Screenshot5](assets/images/Landingpage/Services.png)
+- Seccion contact us: ![Screenshot6](assets/images/Landingpage/Contact_us.png)
+- Seccion footer: ![Screenshot7](assets/images/Landingpage/Footer.png)
+
+**Enlace a Video**
+[Visualización y Navegación de Landing Page](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Bounded context:  
+
+* Jose Alejo    
+![alt text](assets/TP_images/ALEJOBC.png)
+
+Link_video_Orders: https://drive.google.com/file/d/1RpMsI-kr2CqZcSMzFNyIAyT0LErAnYm5/view?usp=sharing
+
+* Estefano Jaque   
+![alt text](assets/TP_images/JAQUEBC.png)
+
+Link_Video_Recetas: https://drive.google.com/drive/folders/141kHB31hOD-6zzTjcswAdu-bNQJYvzDN?usp=sharing 
+
+* Maria Jose Pezo  
+![alt text](assets/TP_images/MAJOBC.jpg)
+
+Link_Video_Platos: https://drive.google.com/drive/folders/10TSidDpkkNhTG6r1WnQEyWYK6RtaF3Nh?usp=drive_link 
+
+* Diego Rosado  
+
+![alt text](assets/TP_images/DIEGOBC.jpg)
+
+Link_Video_Informacion_Nutricional: https://drive.google.com/drive/folders/1ZY1xnS6dxgx5AG8TgEjwMiySludq87qI
+
+
+* Sebastian Caderon  
+![alt text](assets/TP_images/SEBASBC.jpg)
+
+Link_Video_Cocineros: https://drive.google.com/drive/folders/1H70KFOuePRKs8zIt25T2UNWOX__KWu1q?usp=sharing
+
+
+Deploy evidence: https://saborescercanos-78ff1.web.app/orders
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, nuestro enfoque principal ha sido el desarrollo y diseño de la landing page. Debido a que aún no hemos implementado Web Services, no contamos con documentación de endpoints en esta fase. En lugar de eso, hemos documentado el desarrollo y diseño de la landing page.
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+**Resumen**
+Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
+
+**Actividades Realizadas**
+- Creación de Cuentas y Configuración de Recursos:
+
+Proveedor de Hosting: Selección y configuración de la cuenta en el proveedor de hosting para desplegar la landing page.
+Configuración del Entorno: Establecimiento del entorno de desarrollo y producción para la landing page.
+
+- Configuración de Proyectos para Integración:
+
+Repositorio de Código: Configuración del repositorio en GitHub para la integración continua y despliegue automático.
+Automatización: Configuración de scripts y herramientas para la automatización del despliegue.
+
+- Despliegue de la Landing Page:
+
+Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
+Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
+
+**Capturas de Pantalla**
+- Repositorio de Landing Page: ![Screenshot8](assets/images/Landingpage/Repository.png)
+- Demostración de despliegue en Github: ![Screenshot9](assets/images/Landingpage/Landing_page_deployment.png)
+- Landing Page desplegado: ![Screenshot10](assets/images/Landingpage/Deployment.png)
+
+**Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/Landing-page
+
+**Link de landing page**: https://rampart-saborescercanos.github.io/Landing-page/
+
+Bounded context:  
+
+* Jose Alejo    
+![alt text](assets/TP_images/ALEJOBC.png)
+
+* Estefano Jaque   
+![alt text](assets/TP_images/JAQUEBC.png)
+
+* Maria Jose Pezo  
+![alt text](assets/TP_images/MAJOBC.jpg)
+
+* Diego Rosado  
+![alt text](assets/TP_images/DIEGOBC.jpg)
+
+* Sebastian Caderon  
+![alt text](assets/TP_images/SEBASBC.jpg)
+
+Deploy evidence: https://saborescercanos-78ff1.web.app/orders
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
 
 | Integrante | Acciones realizadas durante el sprint |
 |-|-|

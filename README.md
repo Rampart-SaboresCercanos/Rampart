@@ -47,10 +47,10 @@ Product: Sabores Cercanos
 |TB1|18/08/2024|Sebastián Omar Real Calderón| Desarrollé el Needfinding, User Personas, User Task Matrix, User Journey Mapping, Empathy Mapping y As-Is Scenario Mapping. |
 |TB1|3/09/2024|Sebastián Omar Real Calderón| Realicé los General y Web Style Guidelines. Realicé la documentación de los entornos de trabajo.|
 |TP|28/09/2024|Estefano Oscar Jaque Peña| Realice el Sprint Planing, ademas de la implementacion de mi bounded context recetas para Sabores Cercanos y otros apartados que fueron grupales como el Product Backlog |
-| TP | 26/09/2024 | Diego Alonso Rosado Iporre | Trabajé en Project Report Collaboration Insights, Sprint Backlog 1, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Bounded Context Plan Alimenticio y Conclusiones. |
-| TP | 26/09/2024 | Sebastián Omar Real Calderón | Re alice el Team Collaboration Insights during Sprint, ademas de la implementacion de mi bounded context Cocineros para Sabores Cercanos|
+|TP| 26/09/2024 | Diego Alonso Rosado Iporre | Trabajé en Project Report Collaboration Insights, Sprint Backlog 1, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Bounded Context Plan Alimenticio y Conclusiones. |
+|TP| 26/09/2024 | Sebastián Omar Real Calderón | Re alice el Team Collaboration Insights during Sprint, ademas de la implementacion de mi bounded context Cocineros para Sabores Cercanos|
 |TP|26/09/2024|Jose Antonio Alejo Cardenas|Bounded Context de Pedidos,Sprint Backlog 1, Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review y Software Deployment Evidence for Sprint Review|
-| TP | 26/09/2024 | Maria Jose Pezo | Desarrollé el Sprint Backlog 1, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Bounded Context de Platos, Bibliografía y Conclusiones. |
+|TP| 26/09/2024 | Maria Jose Pezo | Desarrollé el Sprint Backlog 1, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Bounded Context de Platos, Bibliografía y Conclusiones. |
 
 
 ## Project Report Collaboration Insights
@@ -222,6 +222,13 @@ TP:<br>
     - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
     - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
     - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews.](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
+    - [TABLA RESUMEN:](#tabla-resumen)
+    - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
   - [Anexos](#anexos)
@@ -1896,11 +1903,11 @@ En esta fase del proyecto, hemos estado concentrados en el desarrollo de la land
 
 | **Repository**| **Branch**| **Commit Id**| **Commit Message** | **Commit Message Body**| **Committed on (Date)** |
 |-|-|-|-|-|-|
-| Rampart-SaboresCercanos/Testing | feature/TB2 | a0bfc640954c5b2a40fdefd84c1f48e87c3e3fca |feature: added US01 gherkin  | Se agregaron los features de las User Story 01 | 24/10/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB2 | 1ae1fb624709e78483782f6e6884a0424fd079d7 |feature: added US02 gherkin  | Se agregaron los features de las User Story 02 | 26/10/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB2 | 3d92aba25307021e123c596dcb5dd717bf45de86 |feature: added US03 gherkin  | Se agregaron los features de las User Story 03 | 26/10/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB2 | 433eb4e259c2aa4985e33230987f6a88116a4009 |feature: added US04 gherkin  | Se agregaron los features de las User Story 04 | 26/10/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB2 | 1a85a26fe091c969719ec15fd0a8ea7ce16bcf42 |feature: added US05 gherkin  | Se agregaron los features de las User Story 05 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB1 | a0bfc640954c5b2a40fdefd84c1f48e87c3e3fca |feature: added US01 gherkin  | Se agregaron los features de las User Story 01 | 24/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB1 | 1ae1fb624709e78483782f6e6884a0424fd079d7 |feature: added US02 gherkin  | Se agregaron los features de las User Story 02 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB1 | 3d92aba25307021e123c596dcb5dd717bf45de86 |feature: added US03 gherkin  | Se agregaron los features de las User Story 03 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB1 | 433eb4e259c2aa4985e33230987f6a88116a4009 |feature: added US04 gherkin  | Se agregaron los features de las User Story 04 | 26/10/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB1 | 1a85a26fe091c969719ec15fd0a8ea7ce16bcf42 |feature: added US05 gherkin  | Se agregaron los features de las User Story 05 | 26/10/2024|
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -1927,7 +1934,6 @@ En este Sprint, nuestro enfoque principal ha sido el desarrollo y diseño de la 
 
 | Integrante        | Acciones Realizadas                            |
 |-------------------|------------------------------------------------|
-| Maria Jose Pezo   | Diseño e implementación de bounded context Platos |
 | Sebastian Real    | Diseño e implementación de bounded context Cocineros |
 | Jose Alejo        | Diseño e implementación de bounded context Pedidos |
 | Estefano Jaque    | Diseño e implementación de bounded context Recetas |
@@ -2286,24 +2292,24 @@ Se diseñaron y automatizaron pruebas para los archivos .feature, en los cuales 
 
 | **Repository**| **Branch**| **Commit Id**| **Commit Message** | **Commit Message Body**| **Committed on (Date)** |
 |-|-|-|-|-|-|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |Initial commit  | Initial commit | 24/09/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added TS38 gherkin  | Se agregaron los features de las Technical Story 38 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added TS40 gherkin  | Se agregaron los features de las Technical Story 40 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added TS43 gherkin  | Se agregaron los features de las Technical Story 43 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US06 gherkin  | Se agregaron los features de las User Story 06 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US07 gherkin  | Se agregaron los features de las User Story 07 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US08 gherkin  | Se agregaron los features de las User Story 08 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US11 gherkin  | Se agregaron los features de las User Story 11 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US13 gherkin  | Se agregaron los features de las User Story 13 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US15 gherkin  | Se agregaron los features de las User Story 15 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US16 gherkin  | Se agregaron los features de las User Story 16 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US18 gherkin  | Se agregaron los features de las User Story 18 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US19 gherkin  | Se agregaron los features de las User Story 19 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US20 gherkin  | Se agregaron los features de las User Story 20 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US21 gherkin  | Se agregaron los features de las User Story 21 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US26 gherkin  | Se agregaron los features de las User Story 26 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US27 gherkin  | Se agregaron los features de las User Story 27 | 03/11/2024|
-| Rampart-SaboresCercanos/Testing | feature/TB3 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US29 gherkin  | Se agregaron los features de las User Story 29 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |Initial commit  | Initial commit | 24/09/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added TS38 gherkin  | Se agregaron los features de las Technical Story 38 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added TS40 gherkin  | Se agregaron los features de las Technical Story 40 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added TS43 gherkin  | Se agregaron los features de las Technical Story 43 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US06 gherkin  | Se agregaron los features de las User Story 06 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US07 gherkin  | Se agregaron los features de las User Story 07 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US08 gherkin  | Se agregaron los features de las User Story 08 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US11 gherkin  | Se agregaron los features de las User Story 11 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US13 gherkin  | Se agregaron los features de las User Story 13 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US15 gherkin  | Se agregaron los features de las User Story 15 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US16 gherkin  | Se agregaron los features de las User Story 16 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US18 gherkin  | Se agregaron los features de las User Story 18 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US19 gherkin  | Se agregaron los features de las User Story 19 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US20 gherkin  | Se agregaron los features de las User Story 20 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US21 gherkin  | Se agregaron los features de las User Story 21 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US26 gherkin  | Se agregaron los features de las User Story 26 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US27 gherkin  | Se agregaron los features de las User Story 27 | 03/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US29 gherkin  | Se agregaron los features de las User Story 29 | 03/11/2024|
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 

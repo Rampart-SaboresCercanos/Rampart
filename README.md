@@ -91,16 +91,23 @@ TB2:<br>
 ![alt text](assets/TP_images/Pull%20requests%20evidence.png)
 ![alt text](assets/TP_images/Pull%20requests%20evidence2.png)
 
+![alt text](assets/TB2_images/pull_request_evidence.png)
+![alt text](assets/TB2_images/pull_request_evidence_example.png)
+
 *Commits evidence:*
 
 ![alt text](assets/TP_images/Commits%20evidence.png)
 ![alt text](assets/TP_images/Commits%20evidence2.png)
 
+![alt text](assets/TB2_images/commits_evidence.png)
+![alt text](assets/TB2_images/commits_evidence_example.png)
 
 *Issues evidence:*
 
 ![alt text](assets/TP_images/Issues%20evidence.png)
 ![alt text](assets/TP_images/Issues%20evidence2.png)
+
+
 
 
 

@@ -2476,8 +2476,8 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
     **Edad**: 28<br>
     **Distrito**: Miraflores<br>
     **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-    **Inicio**: 14:21<br>
-    **Duración**: 14:25<br>
+    **Inicio**: 0:00<br>
+    **Duración**: 1:45<br>
     **Resumen**:<br>
     Durante la entrevista, Ana Lucía completó el flujo de creación de una nueva receta en la plataforma, desde la selección de categoría hasta la confirmación de publicación. Encontró el botón de "Crear nueva receta" de forma intuitiva, aunque sugirió que el ícono podría mejorarse para reflejar más claramente la acción de añadir contenido nuevo. Al interactuar con el formulario de receta, comentó que, aunque le pareció en general fácil de entender, tardó en ubicar el campo de "Descripción" y recomendó agregar una breve ayuda contextual para facilitar la comprensión de lo que se espera en cada campo. También experimentó un problema al intentar cargar varias imágenes, y sugirió que sería útil recibir una notificación si el archivo excede el límite de tamaño permitido. Al finalizar el proceso, encontró la confirmación de creación clara y tranquilizadora, ya que mostraba que la receta estaba publicada y que se podía editar si era necesario. Como sugerencia final, comentó que la experiencia de usuario podría mejorarse al incluir una guía visual o un paso a paso que indique el progreso de creación de la receta, permitiéndole ver cuánto le falta para terminar.
 
@@ -2488,8 +2488,8 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
     **Edad**: 25<br>
     **Distrito**: San Borja<br>
     **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-    **Inicio**: 12:33<br>
-    **Duración**: 12:40<br>
+    **Inicio**: 0:05<br>
+    **Duración**: 1:00<br>
     **Resumen**:<br>
     Durante la entrevista, Luis Fernando exploró el proceso de editar una receta ya creada, desde seleccionar una receta existente hasta guardar los cambios realizados. Inicialmente, encontró el menú de "Mis Recetas" de manera rápida, pero señaló que podría destacarse más visualmente para mejorar la navegación. Al editar, notó que los campos de la receta eran claros y fáciles de modificar, aunque sugirió que sería conveniente tener una opción de "Vista previa" antes de guardar los cambios finales. Además, comentó que el botón de "Guardar cambios" debería estar más resaltado para reducir la posibilidad de confusión con otras opciones cercanas. Al finalizar el proceso, confirmó que los cambios se guardaron correctamente y se reflejaron al instante en la vista pública de la receta. Como sugerencia final, Luis Fernando propuso que se incluyera una opción para deshacer los cambios en caso de error, lo cual consideró útil para evitar ediciones no deseadas y mejorar la flexibilidad del proceso de edición.
 
@@ -2500,8 +2500,8 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
     **Edad**: 29<br>
     **Distrito**: La Molina<br>
     **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-    **Inicio**: 15:03<br>
-    **Duración**: 15:10<br>
+    **Inicio**: 0:03<br>
+    **Duración**: 2:00<br>
     **Resumen**:<br>
     Durante la entrevista, Valeria actualizó su información personal y preferencias alimenticias en el perfil, incluyendo datos como su ubicación y sus preferencias en ingredientes y restricciones dietéticas. Encontró fácilmente la sección de edición de perfil, aunque comentó que la categoría de "Preferencias alimenticias" podría ser más visible, ya que es una de las opciones principales que desea ajustar. Al actualizar sus preferencias, notó que las opciones de ingredientes y restricciones eran completas, pero recomendó agregar un filtro para facilitar la búsqueda de ciertos ingredientes específicos. Luego de guardar los cambios, confirmó que sus opciones de menú reflejaban sus nuevas preferencias correctamente, mostrando platos adaptados a sus necesidades. Como comentario final, Valeria sugirió que sería útil incluir una opción para recibir recomendaciones de recetas basadas en sus gustos recientes, lo cual consideró que enriquecería la personalización del perfil.
 
@@ -2511,73 +2511,177 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
    **Apellidos**: [Apellidos del participante]<br>
    **Edad**: [Edad]<br>
    **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/ER69vILPTWpNotf953S-iEgBm86CkMbXZBgsH-yfAlLoFA?e=VQEPn7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
    **Inicio**: [Inicio de la entrevista]<br>
    **Duración**: [Duración de la entrevista]<br>
    **Resumen**:<br>
    [Descripción de las observaciones más relevantes de la entrevista].
+
+2. **Entrevista 2**:<br>
+   ![Imagen de entrevista 2](assets/images/TB3/video_2.png)<br>
+   **Nombre**: [Nombre del participante]<br>
+   **Apellidos**: [Apellidos del participante]<br>
+   **Edad**: [Edad]<br>
+   **Distrito**: [Distrito]<br>
+   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **Inicio**: [Inicio de la entrevista]<br>
+   **Duración**: [Duración de la entrevista]<br>
+   **Resumen**:<br>
+   [Descripción de las observaciones más relevantes de la entrevista].
+
+3. **Entrevista 3**:<br>
+   ![Imagen de entrevista 3](assets/images/TB3/video_3.png)<br>
+   **Nombre**: [Nombre del participante]<br>
+   **Apellidos**: [Apellidos del participante]<br>
+   **Edad**: [Edad]<br>
+   **Distrito**: [Distrito]<br>
+   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **Inicio**: [Inicio de la entrevista]<br>
+   **Duración**: [Duración de la entrevista]<br>
+   **Resumen**:<br>
+   [Descripción de las observaciones más relevantes de la entrevista].
+
+4. **Entrevista 4**:<br>
+   ![Imagen de entrevista 4](assets/images/TB3/video_4.png)<br>
+   **Nombre**: Juan<br>
+   **Apellidos**: Pérez López<br>
+   **Edad**: 28<br>
+   **Distrito**: Miraflores<br>
+   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/ER69vILPTWpNotf953S-iEgBm86CkMbXZBgsH-yfAlLoFA?e=VQEPn7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **Inicio**: 0:00<br>
+   **Duración**: 1:00<br>
+   **Resumen**:<br>
+    Durante la entrevista, Juan mencionó que la sección de favoritos es fundamental para su experiencia en la plataforma. Resaltó la importancia de poder acceder rápidamente a sus recetas y chefs preferidos. La facilidad de navegación fue un punto crítico. Además, mencionó que le gustaría ver un sistema de clasificación visual para sus favoritos, como estrellas o íconos, para identificar rápidamente sus preferencias. En general, expresó que la funcionalidad es útil, pero podría beneficiarse de una mejor organización visual y un sistema de búsqueda más robusto.
 
 5. **Entrevista 5**:<br>
    ![Imagen de entrevista 5](assets/images/TB3/video_5.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
+   **Nombre**: Laura<br>
+   **Apellidos**: Rodríguez Salas<br>
+   **Edad**: 26<br>
+   **Distrito**: San Isidro<br>
    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EcqP2k1DoNBElX6j0OKoF38BjegI1ukvp-GEkhqCihrpwQ?e=m26EeL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
+   **Inicio**: 0:00<br>
+   **Duración**: 1:30<br>
    **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
+   En la entrevista, Laura destacó la importancia de poder consultar el historial de pedidos y el estado actual de cada uno. Mencionó que encuentra útil la visualización clara de las órdenes, especialmente la indicación del estado (pendiente, en preparación, completado). Sin embargo, sugirió que sería beneficioso tener notificaciones en tiempo real sobre cambios de estado, lo que le permitiría estar al tanto de sus pedidos sin necesidad de refrescar la página. También comentó que sería útil poder filtrar el historial por fechas y estados de las órdenes, facilitando la búsqueda de pedidos anteriores. En general, Laura se sintió satisfecha con la funcionalidad, pero propuso mejoras en la interacción y la comunicación del estado de los pedidos.
 
 6. **Entrevista 6**:<br>
    ![Imagen de entrevista 6](assets/images/TB3/Landingpage_entrevista.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
+   **Nombre**: Javier<br>
+   **Apellidos**: Martínez Gómez<br>
+   **Edad**: 28<br>
+   **Distrito**: Miraflores<br>
    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQmHL-fuBVtJkSMTIx7e4tMBs9imIgqWP4MscZaadM5y_w?e=0Zzhdi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
+   **Inicio**: 0:10<br>
+   **Duración**: 2:00<br>
    **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
+   Javier expresó una impresión positiva del landing page de "Sabores Cercanos". Destacó que el diseño es atractivo y que las imágenes de los platos son muy llamativas, lo que despierta el interés en las ofertas. Comentó que la disposición de la información es clara y fácil de seguir, especialmente la sección de menús y precios. Sin embargo, mencionó que le gustaría ver más información sobre los chefs, como sus experiencias y especialidades, ya que esto podría influir en su decisión de compra. También sugirió que un botón de "volver al inicio" en la parte inferior de la página podría mejorar la navegación. En general, se sintió motivado a explorar más la plataforma, pero consideró que algunos elementos visuales podrían ser simplificados para no sobrecargar la vista.
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta.
 
-**ESCALA DE SEVERIDAD**
+# TABLA RESUMEN
 
-Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+| #  | Problema                                                                     | Escala de severidad | Heurística/Principio violado                               |
+|----|------------------------------------------------------------------------------|---------------------|-----------------------------------------------------------|
+| 1  | No hay un control que permita regresar a la tienda durante el trámite de compra | 3                   | Usabilidad: Libertad y control del usuario                  |
+| 2  | Se repiten constantemente algunas opciones                                     | 1                   | Usabilidad: Consistencia y estándares                       |
+| 3  | Imágenes sin atributo “alt”                                                  | 3                   | Diseño Inclusivo: Proporciona experiencias comparables      |
+| 4  | Incluye un botón “Ver más” pero no existe contenido al que dirigirse         | 3                   | Arquitectura de Información: Is it usable?                  |
+| 5  | No incluye información de los planes de servicio                              | 2                   | Arquitectura de Información: Is it findable?                |
+| 6  | Falta de notificaciones en tiempo real sobre el estado de pedidos             | 2                   | Usabilidad: Feedback del sistema                             |
+| 7  | Necesidad de un sistema de clasificación visual para favoritos                | 2                   | Usabilidad: Reconocimiento en lugar de recuerdo             |
+| 8  | Falta de información sobre los chefs en el landing page                      | 3                   | Arquitectura de Información: Is it findable?                |
 
-| Nivel | Descripción                                                                                      |
-|-------|--------------------------------------------------------------------------------------------------|
-| 1     | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
-| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
-| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
-| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+# DESCRIPCIÓN DE PROBLEMAS
 
-### TABLA RESUMEN:
-
-| #  | Problema                                             | Escala de severidad | Heurística/Principio violado                         |
-|----|-----------------------------------------------------|----------------------|------------------------------------------------------|
-| 1  | No hay un control que permita regresar a la tienda durante el trámite de compra | 3                    | Usability: Libertad y control del usuario            |
-| 2  | Se repiten constantemente algunas opciones          | 1                    | Usability: Consistencia y estándares                 |
-| 3  | Imágenes sin atributo “alt”                          | 3                    | Inclusive Design: Proporciona experiencias comparables|
-| 4  | Incluye un botón “Ver más” pero no existe contenido al que dirigirse | 3                    | Information Architecture: Is it usable?              |
-| 5  | No incluye información de los planes de servicio     | 2                    | Information Architecture: Is it findable?           |
-| ...| ...                                                 | ...                  | ...                                                  |
-
-### DESCRIPCIÓN DE PROBLEMAS:
-
-**PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra**  
-**Severidad**: 3  
-**Heurística violada**: Usabilidad - Libertad y control del usuario  
-**Problema**:  
-Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo deseemos. Una vez el cliente pase al trámite de compra, en caso de que este quiera regresar a la tienda, no hay un botón que lo envíe al inicio de la web, lo cual nos obliga a efectuar el trámite y al momento de elegir más productos, realizar otro, incrementándose así la cantidad de esfuerzo del usuario.  
+## PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Libertad y control del usuario  
+**Problema:**  
+Al momento de ingresar nuestros datos, no podemos regresar a la tienda en caso así lo deseemos. Una vez que el cliente pase al trámite de compra, no hay un botón que lo envíe al inicio de la web, lo cual nos obliga a completar el trámite. Si el usuario desea elegir más productos, debe iniciar un nuevo trámite, incrementándose así el esfuerzo necesario.  
 (Incluir además una captura de pantalla ilustrando el problema).
 
-**Recomendación**:  
-La más práctica es que al momento en que queramos realizar dicho trámite, el navegador lo abra en una ventana aparte para no perder los cambios realizados en nuestro carrito de compras.
+**Recomendación:**  
+La solución más práctica sería permitir que, al querer realizar el trámite, el navegador abra la tienda en una ventana aparte para no perder los cambios realizados en el carrito de compras.
+
+---
+
+## PROBLEMA #2: Se repiten constantemente algunas opciones
+**Severidad:** 1  
+**Heurística violada:** Usabilidad - Consistencia y estándares  
+**Problema:**  
+La repetición de opciones en diferentes secciones puede generar confusión en el usuario, haciendo que no se sienta seguro al navegar. Esto puede hacer que el proceso de selección sea menos eficiente.
+
+**Recomendación:**  
+Revisar las opciones y eliminar duplicaciones para mantener la consistencia en la presentación de la información.
+
+---
+
+## PROBLEMA #3: Imágenes sin atributo “alt”
+**Severidad:** 3  
+**Heurística violada:** Diseño Inclusivo - Proporciona experiencias comparables  
+**Problema:**  
+Las imágenes del sitio no cuentan con atributos "alt", lo que dificulta la accesibilidad para usuarios con discapacidades visuales. Sin descripciones, estas imágenes no pueden ser interpretadas por lectores de pantalla.
+
+**Recomendación:**  
+Incluir descripciones en el atributo "alt" de cada imagen para mejorar la accesibilidad del sitio.
+
+---
+
+## PROBLEMA #4: Incluye un botón “Ver más” pero no existe contenido al que dirigirse
+**Severidad:** 3  
+**Heurística violada:** Arquitectura de Información - Is it usable?  
+**Problema:**  
+El botón “Ver más” se presenta en varias secciones, pero al hacer clic en él, no hay contenido adicional disponible. Esto causa frustración en el usuario, ya que espera más información.
+
+**Recomendación:**  
+Eliminar el botón “Ver más” de las secciones donde no se proporciona contenido adicional o asegurarse de que cada botón dirija a un contenido relevante.
+
+---
+
+## PROBLEMA #5: No incluye información de los planes de servicio
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de Información - Is it findable?  
+**Problema:**  
+La falta de información clara sobre los planes de servicio puede generar incertidumbre en el usuario sobre las opciones disponibles. Esto puede llevar a la falta de confianza en la plataforma.
+
+**Recomendación:**  
+Agregar una sección dedicada a los planes de servicio con descripciones detalladas y precios para mejorar la transparencia.
+
+---
+
+## PROBLEMA #6: Falta de notificaciones en tiempo real sobre el estado de pedidos
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Feedback del sistema  
+**Problema:**  
+Los usuarios no reciben actualizaciones en tiempo real sobre el estado de sus pedidos, lo que puede llevar a la incertidumbre y la necesidad de refrescar la página constantemente.
+
+**Recomendación:**  
+Implementar un sistema de notificaciones que informe a los usuarios sobre cambios en el estado de sus pedidos de manera automática.
+
+---
+
+## PROBLEMA #7: Necesidad de un sistema de clasificación visual para favoritos
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Reconocimiento en lugar de recuerdo  
+**Problema:**  
+Los usuarios desean una forma rápida y visual de identificar sus recetas y chefs favoritos. La falta de un sistema de clasificación puede dificultar el acceso a sus preferencias.
+
+**Recomendación:**  
+Implementar un sistema de clasificación visual, como estrellas o íconos, para que los usuarios puedan identificar rápidamente sus favoritos.
+
+---
+
+## PROBLEMA #8: Falta de información sobre los chefs en el landing page
+**Severidad:** 3  
+**Heurística violada:** Arquitectura de Información - Is it findable?  
+**Problema:**  
+La información sobre los chefs no está presente en la plataforma, lo que puede influir negativamente en la decisión de compra de los usuarios, ya que desean conocer más sobre la experiencia y especialidades de los chefs.
+
+**Recomendación:**  
+Agregar perfiles de los chefs que incluyan información sobre su experiencia, especialidades y filosofía culinaria.
 
 ### 5.4. Video About-The-Team
 

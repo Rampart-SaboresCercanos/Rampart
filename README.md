@@ -50,7 +50,11 @@ Product: Sabores Cercanos
 |TP| 26/09/2024 | Diego Alonso Rosado Iporre | Trabajé en Project Report Collaboration Insights, Sprint Backlog 1, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Bounded Context Plan Alimenticio y Conclusiones. |
 |TP| 26/09/2024 | Sebastián Omar Real Calderón | Re alice el Team Collaboration Insights during Sprint, ademas de la implementacion de mi bounded context Cocineros para Sabores Cercanos|
 |TP|26/09/2024|Jose Antonio Alejo Cardenas|Bounded Context de Pedidos,Sprint Backlog 1, Testing Suite Evidence for Sprint Review, Execution Evidence for Sprint Review y Software Deployment Evidence for Sprint Review|
-|TP| 26/09/2024 | Maria Jose Pezo | Desarrollé el Sprint Backlog 1, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Bounded Context de Platos, Bibliografía y Conclusiones. |
+|TP| 26/09/2024 | Mario Jose Pezo Castilla | Desarrollé el Sprint Backlog 1, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Bounded Context de Platos, Bibliografía y Conclusiones. |
+|TB2| 03/11/2024 | Diego Alonso Rosado Iporre | Actualizacion del Entrevistas, Software Configuration Management, Validation Interviews, Video About the Product, Development Evidence for Sprint Review sprint 3, Execution Evidence for Sprint Review sprint 3  |
+|TB2| 03/11/2024 | Sebastián Omar Real Calderón | Actualizacion To-Be Scenario Mapping, Needfinding, Style Guidelines, Web Applications UX/UI Design, Team Collaboration Insights during Sprint 3, Services Documentation Evidence for Sprint Review sprint 3 |
+|TB2|03/11/2024|Jose Antonio Alejo Cardenas| Actualizacion de las User Stories, Product Backlog, Impact Mapping, Information Architecture, Sprint Planing 1, Sprint Planing 2, Sprint Planing 3, Sprint Backlog 1, Sprint Backlog 2, Sprint Backlog 3,Testing Suite Evidence for Sprint Review 1, Testing Suite Evidence for Sprint Review 2, Testing Suite Evidence for Sprint Review 3, Registro de Versiones del Informe, Project Report Collaboration Insights|
+|TB2|03/11/2024|Estefano Oscar Jaque Peña| Actualizacion de Software Deployment Evidence for Sprint Review, Keynote, Trello, Pivotal, Competidores, Lean UX Process, Software Object-Oriented Design, Data Design, Video About-The-Product |
 
 
 ## Project Report Collaboration Insights
@@ -74,21 +78,36 @@ TP:<br>
 |Jaque Peña, Estefano Oscar|En el Sprint Planing 1 se pudo redactar los apartados importantes de la reunion para la realizacion de este, como la separacion de bounded context.En el Sprint Backlog 1 se especifico la funcionalidad añadidad a cada bounded contexct respecto a las user stories. Ademas en los apartados en lo que se debio realizar la evidencia del sprint como el Execution Evidence for Sprint Review,Software Deployment Evidence for Sprint Review,Team Collaboration Insights during Sprint se añadio las evidencias especificando mi apartado del bounded context.|
 |Alejo Cárdenas, Jose Antonio|Bounded Context de Pedidos: Define y gestiona todas las funcionalidades relacionadas con los pedidos, asegurando la separación de responsabilidades dentro del sistema.<br>Sprint Backlog 1:Lista priorizada de tareas y funcionalidades que serán desarrolladas durante el Sprint.<br>Testing Suite Evidence for Sprint Review:Evidencia de pruebas realizadas para validar que las funcionalidades cumplen con los requisitos, incluyendo resultados documentados.<br>Execution Evidence for Sprint Review:Demostración de la ejecución de las funcionalidades desarrolladas, con evidencia visual o en video.<br>Software Deployment Evidence for Sprint Review: Comprobación de que el software fue desplegado exitosamente, con documentación del proceso y resultados.|
 
+TB2:<br>
+|Integrante|Tarea Asignada|
+|-|-|
+|Diego Alonso Rosado Iporre | Actualizé las entrevistas y el proceso de gestión de configuración de software, asegurando que todos los cambios en el software estuvieran documentados y organizados. Realizé entrevistas de validación para confirmar los requisitos del proyecto y creó un video explicativo sobre el producto para una comprensión clara del equipo. Además, presenté evidencias de desarrollo y ejecución para la revisión del sprint 3, mostrando los avances y funcionalidades implementadas. | 
+|Sebastián Omar Real Calderón | Redefiní el mapa de escenarios "To-Be" y llevó a cabo un proceso de needfinding para profundizar en las necesidades de los usuarios. Establecí guías de estilo para mantener consistencia visual y trabajó en el diseño UX/UI de la aplicación web. Documenté hallazgos sobre la colaboración del equipo durante el sprint 3 y presenté evidencias de servicios implementados para la revisión del sprint. |   
+|Jaque Peña, Estefano Oscar|Presenté evidencias del despliegue de software para la revisión del sprint, demostrando el avance en la entrega del producto. Utilizé herramientas como Keynote, Trello y Pivotal para organizar el trabajo y comparar competidores. Apliqué el proceso Lean UX y diseño orientado a objetos, además de crear un diseño de datos. Finalmente, desarrollé un video sobre el producto para presentar sus características y beneficios.|
+|Alejo Cárdenas, Jose Antonio| Actualizé las historias de usuario, el product backlog y el impact mapping para mantener alineados los objetivos del proyecto. Estructuré la arquitectura de información y planificó los sprints 1, 2 y 3, con sus respectivos backlogs, asegurando una planificación detallada. Documenté las pruebas realizadas en los tres sprints y colaboró en el informe del proyecto, proporcionando conocimientos clave sobre el progreso y versiones. |
+
 *Pull requests evidence:*
 
 ![alt text](assets/TP_images/Pull%20requests%20evidence.png)
 ![alt text](assets/TP_images/Pull%20requests%20evidence2.png)
+
+![alt text](assets/TB2_images/pull_request_evidence.png)
+![alt text](assets/TB2_images/pull_request_evidence_example.png)
 
 *Commits evidence:*
 
 ![alt text](assets/TP_images/Commits%20evidence.png)
 ![alt text](assets/TP_images/Commits%20evidence2.png)
 
+![alt text](assets/TB2_images/commits_evidence.png)
+![alt text](assets/TB2_images/commits_evidence_example.png)
 
 *Issues evidence:*
 
 ![alt text](assets/TP_images/Issues%20evidence.png)
 ![alt text](assets/TP_images/Issues%20evidence2.png)
+
+
 
 
 

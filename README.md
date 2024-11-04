@@ -1463,19 +1463,20 @@ El usuario puede elegir la opción de “Compartir” dentro de la sección de P
 
 ### 4.4.2. Web Applications Mock-ups
 
-![alt text](assets/images/Mockups/1.png)
+![Mockup Inicio](assets/images/Mockups/inicio.jpg)
 
-![alt text](assets/images/Mockups/2.png)
+![Mockup Perfil](assets/images/Mockups/perfil.jpg)
 
-![alt text](assets/images/Mockups/3.png)
+![Mockup Publicaciones](assets/images/Mockups/publicaciones.jpg)
 
-![alt text](assets/images/Mockups/4.png)
+![Mockup Prepublicaciones](assets/images/Mockups/prepublicaciones.jpg)
 
-![alt text](assets/images/Mockups/5.png)
+![Mockup Pedidos](assets/images/Mockups/mispedidos.jpg)
 
-![alt text](assets/images/Mockups/46.png)
+![Mockup Favoritos](assets/images/Mockups/favoritos.jpg)
 
-![alt text](assets/images/Mockups/123.png)
+![Mockup Recetas](assets/images/Mockups/recetas.jpg)
+
 ### 4.4.3. Web Applications User Flow Diagrams
 
 * #### Goal: El usuario se registra en la aplicación:

@@ -165,17 +165,6 @@ TP:<br>
     - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
     - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
     - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
-      - [Happy path:](#happy-path)
-      - [Unhappy path:](#unhappy-path)
-      - [Happy path:](#happy-path-1)
-      - [Happy path:](#happy-path-2)
-      - [Happy path:](#happy-path-3)
-      - [Unhappy path:](#unhappy-path-1)
-      - [Happy path:](#happy-path-4)
-      - [Unhappy path:](#unhappy-path-2)
-      - [Happy path:](#happy-path-5)
-      - [Unhappy path:](#unhappy-path-3)
-      - [Happy path:](#happy-path-6)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
     - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
@@ -2006,13 +1995,13 @@ En este Sprint 2 realizaremos la separacion del bounded context y la implementac
 |:--|:--|
 |Sprint Planning Background|---------|
 |Date|2024-09-06|
-|Time|10:10 PM|
+|Time|11:11 PM|
 |Location|Reunión virtual en Google Meet|
-|Prepared by|Maria Jose Pezo Castillam|
-|Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Maria Jose Pezo Castillam, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
+|Prepared by|José Antonio Alejo Cárdenas|
+|Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Maria Jose Pezo Castilla, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
 |Sprint Goal & User<br>stories|---------|
 |Sprint 2 Goal|Nuestro enfoque está en separar las tareas para cada integrante respecto al bounded context que elijan y finalizar el informe detallando el trabajo realizado por cada integrantepara para la aplicación web "Sabores Cercanos".|
-|Sprint 2 Velocity|11(US05,US15,US16,US04,US06,US03,US21,US19,US30)|
+|Sprint 2 Velocity|11(US17,US22,US30,US31,US32,US10,US09,US23,US24,US14,US12,US25,US28,TS42,TS41,TS39,TS37,TS36,TS35,TS34,TS33)|
 |Sum of story points|49|
 
 ### 5.2.2.2. Sprint Backlog 2

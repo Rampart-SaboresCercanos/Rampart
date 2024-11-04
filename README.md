@@ -1414,52 +1414,25 @@ Estas configuraciones aseguran que los usuarios de "Sabores Cercanos" puedan mov
 
 ### 4.4.1. Web Applications Wireframes
 
-![alt text](assets/images/TB1/WAwireframes1.png)
+![Wireframe Inicio](assets/images/Wireframes/inicio.png)
 
-![alt text](assets/images/TB1/WAwireframes2.png)
+![Wireframe Publicaciones](assets/images/Wireframes/publicaciones.png)
 
-![alt text](assets/images/TB1/WAwireframes3.png)
+![Wireframe Perfil](assets/images/Wireframes/perfil.png)
 
-![alt text](assets/images/TB1/WAwireframes4.png)
+![Wireframe Pedidos](assets/images/Wireframes/)
 
-![alt text](assets/images/TB1/WAwireframes5.png)
+![Wireframe Favoritos](assets/images/Wireframes/favoritos.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-* #### Goal: El usuario se registra en la aplicacion:
-El siguiente wireflow muestra la secuencia de pasos que un usuario sigue para crear una cuenta. Primero debe elegir el tipo de usuario, llenar todos los campos solicitados en el registro, hacer clic en “Siguiente” e ingresar el código de verificación enviado al correo electrónico proporcionado.
+* #### User Goal: Realizar un pedido a través de una publicación
 
-![Wireflow 1](assets/images/TB1/WAwireflow1.png)
+![Wireflow Realizar un pedido](assets/images/WireflowDiagrams/realizar-un-pedido.png)
 
-* #### Goal: El usuario inicia sesión con su cuenta de Google:
-Para iniciar sesión con una cuenta de Google, el usuario debe hacer clic en “Continuar con Google” y elegir una cuenta en la que previamente ha iniciado sesión en su dispositivo. Esto le redirigirá a la página de bienvenida.
+* ### User Goal: Filtrar pedidos por diferentes criterios
 
-![Wireflow 2](assets/images/TB1/WAwireflow2.png)
-
-* #### Goal: El usuario restablece su contraseña:
-Para lograr este goal, el usuario hace clic en “¿Olvidaste tu contraseña?” y será redirigido a un formulario en el cual debe ingresar el correo electrónico con el que se registró. Al hacer clic en “Enviar”, se le enviará un correo electrónico con un enlace para cambiar la contraseña. Una vez en esta sección, el usuario deberá ingresar una contraseña nueva y hacer clic en “Aceptar”.
-
-![Wireflow 3](assets/images/TB1/WAwireflow3.png)
-
-* #### Goal: El usuario recibe recomendaciones personalizadas:
-El usuario inicia en la página de su cuenta. Al  hacer clic en la sección de “Preferencias dietéticas” es redirigido a un formulario donde deberá indicar sus gustos, alergias, etc. Una vez guardados los cambios, el usuario se dirige a la página “Recetas” y aparecerán sugerencias personalizadas, de lo contrario, aparecerá un mensaje de “No tienes recomendaciones”.
-
-![Wireflow 4](assets/images/TB1/WAwireflow4.png)
-
-* #### Goal: El usuario añade una receta a su plan de alimentación de un día específico:
-El usuario inicia en la sección de “Recetas”. Aquí, puede dar clic en “Ver receta” para visualizar la información y agregarla a su plan de alimentación. Al momento de agregar, se solicitará elegir en qué fecha desea agregar la receta y en qué tiempo de comida. Una vez seleccionadas las opciones, el usuario podrá visualizar la receta en el apartado de “Recetas”.
-
-![Wireflow 5](assets/images/TB1/WAwireflow5.png)
-
-* #### Goal: El usuario exporta su plan alimenticio en pdf:
-En este goal, el usuario se dirige a la sección “Plan alimenticio”, hace clic en el menú desplegable y selecciona la opción “Exportar a PDF”. La descarga se confirma mediante un mensaje.
-
-![Wireflow 6](assets/images/TB1/WAwireflow6.png)
-
-* #### Goal: El usuario comparte su plan alimenticio con familiares o amigos:
-El usuario puede elegir la opción de “Compartir” dentro de la sección de Plan Alimenticio. Luego deberá elegir a quién desea enviar el archivo.
-
-![Wireflow 7](assets/images/TB1/WAwireflow7.png)
+![Wireflow Filtrar pedidos](assets/images/WireflowDiagrams/filtrar-pedidos.png)
 
 ### 4.4.2. Web Applications Mock-ups
 
@@ -1479,60 +1452,29 @@ El usuario puede elegir la opción de “Compartir” dentro de la sección de P
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
-* #### Goal: El usuario se registra en la aplicación:
+* #### Goal: El usuario realiza un pedido a través de una publicación
 
-#### Happy path: 
-El usuario ingresa sus datos correctamente en la pantalla de registro y valida la creación de su cuenta con un código de seguridad.
-#### Unhappy path:
-El usuario no ingresa sus datos correctamente y recibe una advertencia.
+![Flujo de realizar un pedido](assets/images/UserFlowDiagrams/realizar-un-pedido.png)
 
-![alt text](assets/images/Mockups/1.png)
+* #### Goal: El usuario encuentra un pedido de acuerdo a criterios de búsqueda
 
-* #### Goal: El usuario inica sesión con su cuenta de Google:
+![Flujo de filtrar publicaciones](assets/images/UserFlowDiagrams/filtrar-publicaciones.png)
 
-#### Happy path: 
-El usuario selecciona una cuenta de Google de su dispositivo e inicia sesión en la aplicación.
+* #### Goal: El usuario filtra órdenes por id
 
-![alt text](assets/images/Mockups/2.png)
+![Flujo de filtrar órdenes por id](assets/images/UserFlowDiagrams/filtrar-ordenes-por-id.png)
 
+* #### Goal: El usuario filtra órdenes por intervalo de fechas
 
-* #### Goal: El usuario restablece su contraseña:
+![Flujo de filtrar órdenes por intervalo de fechas](assets/images/UserFlowDiagrams/filtrar-ordenes-por-intervalo-fechas.png)
 
-#### Happy path: 
-El usuario ingresa su correo electrónico y recibe el enlace para reestablecer su contraseña.
+* #### Goal: El usuario filtra órdenes por estado
 
-![alt text](assets/images/Mockups/3.png)
+![Flujo de filtrar órdenes por estado](assets/images/UserFlowDiagrams/filtrar-ordenes-por-estado.png)
 
-* #### Goal: El usuario recibe recomendaciones personalizadas:
+* #### Goal: El usuario filtra órdenes por método de pago
 
-#### Happy path: 
-El usuario agrega su información de dieta y salud. Al dirigirse a la sección de de Recetas, visualiza las recomendaciones de la aplicación según sus preferencias.
-#### Unhappy path:
-El usuario, al no agregar su información personal, no recibe recomendaciones de recetas y debe buscarlas manualmente.
-
-![alt text](assets/images/Mockups/4.png)
-
-* #### Goal: El usuario añade una receta a su plan de alimentación de un día específico:
-
-#### Happy path: 
-El usuario quiere agregar una receta a su plan de alimentación, así que coloca una fecha en la que debe añadirse y el tiempo de comida. Luego, visualiza sus recetas añadidas al plan de alimentación en “Plan”.
-#### Unhappy path:
-El usuario no selecciona la fecha ni tiempo de comida, por lo tanto, la receta no se agrega.
-
-![alt text](assets/images/Mockups/123.png)
-* #### Goal: El usuario exporta su plan alimenticio en pdf:
-
-#### Happy path: 
-El usuario selecciona la opción de “Exportar a PDF” y el plan se descarga en el formato elegido.
-#### Unhappy path:
-El usuario no puede descargar el plan debido a errores.
-
-![alt text](assets/images/Mockups/46.png)
-* #### Goal: El usuario comparte su plan alimenticio con amigos o familiares:
-
-#### Happy path: 
-El usuario selecciona la opción “Compartir” y elige mediante qué aplicación desea compartir su plan de alimentación a uno de sus contactos.
-![alt text](assets/images/Mockups/46.png)
+![Flujo de filtrar órdenes por método de pago](assets/images/UserFlowDiagrams/filtrar-ordenes-por-metodo-pago.png)
 
 ### 4.5. Web Applications Prototyping
 

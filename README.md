@@ -2469,41 +2469,41 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
 ### 5.3.2. Registro de Entrevistas.
 
-1. **Entrevista 1**:<br>
-   ![Imagen de entrevista 1](assets/images/TB3/video_1.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
-   **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
+**Entrevista 1**:<br>
+    ![Imagen de entrevista 1](assets/images/TB3/video_1.png)<br>
+    **Nombre**: Ana Lucía<br>
+    **Apellidos**: González Paredes<br>
+    **Edad**: 28<br>
+    **Distrito**: Miraflores<br>
+    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+    **Inicio**: 14:21<br>
+    **Duración**: 14:25<br>
+    **Resumen**:<br>
+    Durante la entrevista, Ana Lucía completó el flujo de creación de una nueva receta en la plataforma, desde la selección de categoría hasta la confirmación de publicación. Encontró el botón de "Crear nueva receta" de forma intuitiva, aunque sugirió que el ícono podría mejorarse para reflejar más claramente la acción de añadir contenido nuevo. Al interactuar con el formulario de receta, comentó que, aunque le pareció en general fácil de entender, tardó en ubicar el campo de "Descripción" y recomendó agregar una breve ayuda contextual para facilitar la comprensión de lo que se espera en cada campo. También experimentó un problema al intentar cargar varias imágenes, y sugirió que sería útil recibir una notificación si el archivo excede el límite de tamaño permitido. Al finalizar el proceso, encontró la confirmación de creación clara y tranquilizadora, ya que mostraba que la receta estaba publicada y que se podía editar si era necesario. Como sugerencia final, comentó que la experiencia de usuario podría mejorarse al incluir una guía visual o un paso a paso que indique el progreso de creación de la receta, permitiéndole ver cuánto le falta para terminar.
 
-2. **Entrevista 2**:<br>
-   ![Imagen de entrevista 2](assets/images/TB3/video_2.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
-   **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
+**Entrevista 2**:<br>
+    ![Imagen de entrevista 2](assets/images/TB3/video_2.png)<br>
+    **Nombre**: Luis Fernando<br>
+    **Apellidos**: Ramos Velásquez<br>
+    **Edad**: 25<br>
+    **Distrito**: San Borja<br>
+    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+    **Inicio**: 12:33<br>
+    **Duración**: 12:40<br>
+    **Resumen**:<br>
+    Durante la entrevista, Luis Fernando exploró el proceso de editar una receta ya creada, desde seleccionar una receta existente hasta guardar los cambios realizados. Inicialmente, encontró el menú de "Mis Recetas" de manera rápida, pero señaló que podría destacarse más visualmente para mejorar la navegación. Al editar, notó que los campos de la receta eran claros y fáciles de modificar, aunque sugirió que sería conveniente tener una opción de "Vista previa" antes de guardar los cambios finales. Además, comentó que el botón de "Guardar cambios" debería estar más resaltado para reducir la posibilidad de confusión con otras opciones cercanas. Al finalizar el proceso, confirmó que los cambios se guardaron correctamente y se reflejaron al instante en la vista pública de la receta. Como sugerencia final, Luis Fernando propuso que se incluyera una opción para deshacer los cambios en caso de error, lo cual consideró útil para evitar ediciones no deseadas y mejorar la flexibilidad del proceso de edición.
 
-3. **Entrevista 3**:<br>
-   ![Imagen de entrevista 3](assets/images/TB3/video_3.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
-   **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
+**Entrevista 3**:<br>
+    ![Imagen de entrevista 3](assets/images/TB3/video_3.png)<br>
+    **Nombre**: Valeria<br>
+    **Apellidos**: Martínez Díaz<br>
+    **Edad**: 29<br>
+    **Distrito**: La Molina<br>
+    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+    **Inicio**: 15:03<br>
+    **Duración**: 15:10<br>
+    **Resumen**:<br>
+    Durante la entrevista, Valeria actualizó su información personal y preferencias alimenticias en el perfil, incluyendo datos como su ubicación y sus preferencias en ingredientes y restricciones dietéticas. Encontró fácilmente la sección de edición de perfil, aunque comentó que la categoría de "Preferencias alimenticias" podría ser más visible, ya que es una de las opciones principales que desea ajustar. Al actualizar sus preferencias, notó que las opciones de ingredientes y restricciones eran completas, pero recomendó agregar un filtro para facilitar la búsqueda de ciertos ingredientes específicos. Luego de guardar los cambios, confirmó que sus opciones de menú reflejaban sus nuevas preferencias correctamente, mostrando platos adaptados a sus necesidades. Como comentario final, Valeria sugirió que sería útil incluir una opción para recibir recomendaciones de recetas basadas en sus gustos recientes, lo cual consideró que enriquecería la personalización del perfil.
 
 4. **Entrevista 4**:<br>
    ![Imagen de entrevista 4](assets/images/TB3/video_4.png)<br>

@@ -2294,13 +2294,13 @@ Durante el tercer sprint, nos enfocamos en implementar las funcionalidades clave
 
 | **Repository**                 | **Branch**         | **Commit Id** | **Author**                  | **Type**  | **Commit Message**                                                        | **Committed on (Date)** |
 |-------------------------------|--------------------|---------------|-----------------------------|-----------|-------------------------------------------------------------------------|--------------------------|
-| `Rampart-SaboresCercanos`    | `develop`          | `e4494d4`     | sebastianrealcalderon       | authored   | Merge pull request #7 from Rampart-SaboresCercanos/posting-crud       | 2 days ago               |
-| `Rampart-SaboresCercanos`    | `develop`          | `bf80d62`     | diegoroip                   | committed  | Feat: erasing language switcher                                          | 3 days ago               |
-| `Rampart-SaboresCercanos`    | `develop`          | `2f05d82`     | MariaJosePezoCastilla       | authored   | Merge pull request #6 from Rampart-SaboresCercanos/feature/chefs-and-favorites | 4 days ago               |
-| `Rampart-SaboresCercanos`    | `develop`          | `5334534`     | sebastianrealcalderon       | authored   | Merge pull request #5 from Rampart-SaboresCercanos/feature/posting     | 4 days ago               |
-| `Rampart-SaboresCercanos`    | `develop`          | `3c0f869`     | Firtness                    | authored   | Merge pull request #4 from Rampart-SaboresCercanos/feature/dbjson_bcorders | 4 days ago               |
-| `Rampart-SaboresCercanos`    | `develop`          | `0f9f7b8`     | estefanojaque               | authored   | Merge pull request #3 from Rampart-SaboresCercanos/feature/recipes-of-dishes | 4 days ago               |
-| `Rampart-SaboresCercanos`    | `develop`          | `62f1758`     | estefanojaque               | authored   | Merge pull request #2 from Rampart-SaboresCercanos/fix/update-frontend | 4 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `e4494d4`     | sebastianrealcalderon       | authored   | Merge pull request #7 from Rampart-SaboresCercanos/posting-crud       | 03/11/2024               |
+| `Rampart-SaboresCercanos`    | `develop`          | `bf80d62`     | diegoroip                   | committed  | Feat: erasing language switcher                                          | 03/11/2024                |
+| `Rampart-SaboresCercanos`    | `develop`          | `2f05d82`     | MariaJosePezoCastilla       | authored   | Merge pull request #6 from Rampart-SaboresCercanos/feature/chefs-and-favorites | 03/11/2024               |
+| `Rampart-SaboresCercanos`    | `develop`          | `5334534`     | sebastianrealcalderon       | authored   | Merge pull request #5 from Rampart-SaboresCercanos/feature/posting     | 03/11/2024               |
+| `Rampart-SaboresCercanos`    | `develop`          | `3c0f869`     | Firtness                    | authored   | Merge pull request #4 from Rampart-SaboresCercanos/feature/dbjson_bcorders | 03/11/2024               |
+| `Rampart-SaboresCercanos`    | `develop`          | `0f9f7b8`     | estefanojaque               | authored   | Merge pull request #3 from Rampart-SaboresCercanos/feature/recipes-of-dishes | 03/11/2024               |
+| `Rampart-SaboresCercanos`    | `develop`          | `62f1758`     | estefanojaque               | authored   | Merge pull request #2 from Rampart-SaboresCercanos/fix/update-frontend | 03/11/2024               |
 
 
 ### 5.2.3.4. Testing Suite Evidence for Sprint Review
@@ -2346,7 +2346,7 @@ En este sprint, hemos logrado avances significativos en el desarrollo del fronte
 - Sección Favoritos: ![Screenshot7](assets/images/TB3/frontend_7.png)
 
 **Enlace a Video**
-[Visualización y Navegación de Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb)
 
 Además, puedes ver la evidencia de despliegue de la landing page en el siguiente enlace: [Despliegue del FrontEnd](https://saborescercanos-frontend.web.app/home).
 
@@ -2443,7 +2443,7 @@ En este sprint, hemos logrado importantes avances en el desarrollo del backend d
 - **UpdateUserProfileCommand**
 - **UserProfileResource**
 
-Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace: [Despliegue del Backend](#).
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace: [Despliegue del Backend](https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html).
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -2763,21 +2763,22 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 ### Pauta de Secuencias de Contenido
 A continuación se detalla la pauta de secuencias de contenido del video, incluyendo el tiempo de inicio de cada sección (hh:mm:ss):
 
-| Sección                         | Tiempo de Inicio (hh:mm:ss) |
-|---------------------------------|------------------------------|
-| Introducción al equipo          | 00:00:00                     |
-| Descripción de actividades       | 00:00:10                     |
-| Escenas de trabajo en equipo     | 00:01:00                     |
-| Testimonios de participantes    | 00:02:15                     |
-| Resultados y logros            | 00:03:00                     |
-| Cierre y conclusiones           | 00:03:30                     |
-
 ### Cuadro Representativo del Video
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Versión en Microsoft Stream**: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+### 5.5. Video About-The-Product
+
+### Resumen del Video
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Product". El video documenta las características y funcionalidades clave del producto, mostrando cómo se alinea con las necesidades de nuestros usuarios. A través de una narración, se complementa el proceso con demostraciones visuales del producto en acción, así como testimonios de usuarios que destacan su experiencia y los beneficios obtenidos al utilizarlo.
+
+### Cuadro Representativo del Video
+![Video About-The-Product](assets/images/TB3/About_the_product.png)
+
+### URLs de la Versión Publicada
+- **Versión en Microsoft Stream**: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb)
 
 ## Conclusiones
 

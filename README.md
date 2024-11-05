@@ -2243,7 +2243,8 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto
 tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo
 determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
-En este Sprint 3 realizaremos la separacion del bounded context y la implementacion de lo aprendido en clase a cada uno de ellos.
+
+En este Sprint 3, realizaremos la separación del bounded context y la implementación de lo aprendido en clase a cada uno de ellos. Hasta ahora, hemos trabajado en el frontend y el backend de la aplicación.
 
 |Sprint#|Srint 3|
 |:--|:--|
@@ -2259,7 +2260,7 @@ En este Sprint 3 realizaremos la separacion del bounded context y la implementac
 |Sum of story points|94|
 
 ### 5.2.3.2. Sprint Backlog 3
-En el segundo sprint backlog, enfocamos los esfuerzos en historias de usuario relacionadas con la personalización de búsqueda y filtros avanzados, la gestión de pedidos anticipados y programados, la optimización de seguridad y escalabilidad de la plataforma, y el desarrollo de funcionalidades de favoritos y perfil personalizado. Estas historias se desglosaron en tareas más pequeñas, asignando cada una a los miembros del equipo para asegurar un flujo de trabajo ordenado y colaborativo.
+En el tercer sprint backlog, enfocamos los esfuerzos en historias de usuario relacionadas con la personalización de búsqueda y filtros avanzados, la gestión de pedidos anticipados y programados, la optimización de seguridad y escalabilidad de la plataforma, y el desarrollo de funcionalidades de favoritos y perfil personalizado. Estas historias se desglosaron en tareas más pequeñas, asignando cada una a los miembros del equipo para asegurar un flujo de trabajo ordenado y colaborativo. Hasta este punto, hemos avanzado en el desarrollo tanto del frontend como del backend.
 
 Entre las principales funcionalidades desarrolladas en este sprint, destacamos la implementación de filtros avanzados para la búsqueda de platos según ubicación, precio, popularidad y preferencias dietéticas, además de la habilitación de pedidos anticipados y la programación de entregas desde prepublicaciones. También se trabajó en la seguridad de datos mediante encriptación y en la creación de un sistema de verificación de cocineros, así como en la gestión segura de transacciones. A nivel de experiencia del usuario, se desarrollaron las opciones de guardar recetas y cocineros en favoritos, y se implementaron ajustes en el perfil para facilitar la personalización. El progreso se monitoreó regularmente, permitiéndonos alcanzar los objetivos trazados para este sprint y optimizar el rendimiento general de la plataforma.
 
@@ -2289,21 +2290,17 @@ Link Trello: https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba1033
 | TS38  | Implementar Sección de Recetas Compartidas | *TA017* | Implementación de Recetas Compartidas | Implicar solicitudes GET para recuperar las recetas compartidas y solicitudes POST para permitir a los chefs añadir nuevas recetas a la plataforma. | 3 horas | Estefano Jaque | Done |
 
 ### 5.2.3.3. Development Evidence for Sprint Review
-Durante el segundo sprint, nos enfocamos en implementar las funcionalidades clave relacionadas con la publicación de recetas, gestión de pedidos y la mejora de la experiencia del usuario. El desarrollo se llevó a cabo en múltiples ramas del repositorio, con un enfoque colaborativo en la gestión de commits para asegurar un flujo de trabajo ágil y organizado. A continuación, se presenta un resumen de los commits realizados durante este sprint, que evidencian los avances alcanzados en el desarrollo del proyecto.
+Durante el tercer sprint, nos enfocamos en implementar las funcionalidades clave relacionadas con la publicación de recetas, gestión de pedidos y la mejora de la experiencia del usuario. El desarrollo se llevó a cabo en múltiples ramas del repositorio, con un enfoque colaborativo en la gestión de commits para asegurar un flujo de trabajo ágil y organizado. A continuación, se presenta un resumen de los commits realizados durante este sprint, que evidencian los avances alcanzados en el desarrollo del proyecto.
 
-| **Repository** | **Branch**       | **Commit Id** | **Commit Message**       | **Commit Message Body**                                    | **Committed on (Date)** |
-|----------------|------------------|---------------|--------------------------|------------------------------------------------------------|--------------------------|
-|`Rampart-SaboresCercanos`|`feature/sprintBacklog2`|`bb4c62652ffae7438109c1a3971d372e5e03f80f`|`feature: Add SprintBacklog and ExecutionEvidence`|`feature: Add SprintBacklog and ExecutionEvidence`|`28/09/2024`|
-|`Rampart-SaboresCercanos`|`development`|`380b432ec4048c6eaebe9a2869507af1f470bf54`|`fix:Project Report Collaboration Insights`|`fix:Project Report Collaboration Insights`|`28/09/2024`|
-|`Rampart-SaboresCercanos`|`docs/team-collaboration-insights-during-sprint`|`b1f28545277d89fc097889260457c20205d2b039`|`feature: added content to team collaboration insights durign sprint section`|`feature: added content to team collaboration insights durign sprint section`|`28/09/2024`|
-|`Rampart-SaboresCercanos`|`Feature/Update-landing-page`|`4125fe74fdf0a07f1749faa291d21d2e9f3842bd`|`Updating Landing Page Commits`|`Updating Landing Page Commits`|`28/09/2024`|
-|`Rampart-SaboresCercanos`|`development`|`279e28fb8a1702bd5e83bf0924ea5d3a38566f6f`|`feature:Testing Suite Evidence for Sprint Review`|`feature:Testing Suite Evidence for Sprint Review`|`28/09/2024`|
-|`Rampart-SaboresCercanos`|`Feature/Update-landing-page`|`b0a481d8a7a38556ae0095cdbde7247e9f2ad934`|`Updating Landing Page images`|`Actualizando imagenes de la nueva landing page y video de demostracion`|`28/09/2024`|
-| `Landing-page`      | `main`           | `6b31206`  | `Initial commit`          | `Created the README file.`        | `2024-09-06`             |
-| `Landing-page`      | `main` | `9286067`  | `Added initial project files and structured the repository.`| `Implemented user authentication with JWT.`               | `2024-09-06`             |
-| `Landing-page`      | `main`         | `27eda4a`  | `Feat: add landing page design`          | `Added initial project files and structured the repository.` | `2024-09-06`             |
-| `Landing-page`      | `main`         | `k1l2m3n4o5`  | `Feat: add files and repository structure`          | `Implemented the design for the landing page, including layout and styles.` | `2024-09-07`             |
-| `Landing-page`      | `main`         | `06c098c`  | `Fix: link images`          | `Corrected the links for images on the landing page.` | `2024-09-07`             |
+| **Repository**                 | **Branch**         | **Commit Id** | **Author**                  | **Type**  | **Commit Message**                                                        | **Committed on (Date)** |
+|-------------------------------|--------------------|---------------|-----------------------------|-----------|-------------------------------------------------------------------------|--------------------------|
+| `Rampart-SaboresCercanos`    | `develop`          | `e4494d4`     | sebastianrealcalderon       | authored   | Merge pull request #7 from Rampart-SaboresCercanos/posting-crud       | 2 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `bf80d62`     | diegoroip                   | committed  | Feat: erasing language switcher                                          | 3 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `2f05d82`     | MariaJosePezoCastilla       | authored   | Merge pull request #6 from Rampart-SaboresCercanos/feature/chefs-and-favorites | 4 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `5334534`     | sebastianrealcalderon       | authored   | Merge pull request #5 from Rampart-SaboresCercanos/feature/posting     | 4 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `3c0f869`     | Firtness                    | authored   | Merge pull request #4 from Rampart-SaboresCercanos/feature/dbjson_bcorders | 4 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `0f9f7b8`     | estefanojaque               | authored   | Merge pull request #3 from Rampart-SaboresCercanos/feature/recipes-of-dishes | 4 days ago               |
+| `Rampart-SaboresCercanos`    | `develop`          | `62f1758`     | estefanojaque               | authored   | Merge pull request #2 from Rampart-SaboresCercanos/fix/update-frontend | 4 days ago               |
 
 
 ### 5.2.3.4. Testing Suite Evidence for Sprint Review
@@ -2335,103 +2332,210 @@ Se diseñaron y automatizaron pruebas para un total de 21/35 archivos .feature, 
 
 ### 5.2.3.5. Execution Evidence for Sprint Review
 
-En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la landing page. Nos hemos enfocado en implementar el diseño y la funcionalidad básica, incluyendo las principales vistas y elementos interactivos. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado, junto con un enlace a un video que muestra la visualización y navegación logradas durante este Sprint.
+#### Sección Frontend
+
+En este sprint, hemos logrado avances significativos en el desarrollo del frontend de nuestra landing page. Nos hemos concentrado en implementar tanto el diseño visual como la funcionalidad básica, asegurando que las principales vistas y elementos interactivos estén en su lugar. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado:
 
 **Capturas de Pantalla**
-- Seccion navbar: ![Screenshot1](assets/images/Landingpage/Navbar.png)
-- Seccion home: ![Screenshot2](assets/images/Landingpage/Home.png)
-- Seccion about us: ![Screenshot3](assets/images/Landingpage/About_us.png)
-- Seccion services: ![Screenshot5](assets/images/Landingpage/Services.png)
-- Seccion contact us: ![Screenshot6](assets/images/Landingpage/Contact_us.png)
-- Seccion footer: ![Screenshot7](assets/images/Landingpage/Footer.png)
+- Sección Inicio: ![Screenshot1](assets/images/TB3/frontend_1.png)
+- Sección Cocineros: ![Screenshot2](assets/images/TB3/frontend_2.png)
+- Sección Publicaciones: ![Screenshot3](assets/images/TB3/frontend_3.png)
+- Sección Pedidos: ![Screenshot4](assets/images/TB3/frontend_4.png)
+- Sección Recetas: ![Screenshot5](assets/images/TB3/frontend_5.png)
+- Sección Perfil: ![Screenshot6](assets/images/TB3/frontend_6.png)
+- Sección Favoritos: ![Screenshot7](assets/images/TB3/frontend_7.png)
 
 **Enlace a Video**
-[Visualización y Navegación de Landing Page](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Visualización y Navegación de Frontend](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb)
 
-Bounded context:  
+Además, puedes ver la evidencia de despliegue de la landing page en el siguiente enlace: [Despliegue del FrontEnd](https://saborescercanos-frontend.web.app/home).
 
-* Jose Alejo    
-![alt text](assets/TP_images/ALEJOBC.png)
+#### Sección Backend
 
-Link_video_Orders: https://drive.google.com/file/d/1RpMsI-kr2CqZcSMzFNyIAyT0LErAnYm5/view?usp=sharing
+En este sprint, hemos logrado importantes avances en el desarrollo del backend de nuestra landing page. Nos hemos enfocado en implementar la lógica del servidor, la gestión de datos y las API necesarias para soportar las funcionalidades del frontend. A continuación, presentamos un resumen de los bounded contexts y sus respectivas API.
 
-* Estefano Jaque   
-![alt text](assets/TP_images/JAQUEBC.png)
+**Backend en Rider**
 
-Link_Video_Recetas: https://drive.google.com/drive/folders/141kHB31hOD-6zzTjcswAdu-bNQJYvzDN?usp=sharing 
+![Backend Context](assets/images/TB3/Backend_1.png) 
 
-* Maria Jose Pezo  
-![alt text](assets/TP_images/MAJOBC.jpg)
+#### Bounded Contexts
 
-Link_Video_Platos: https://drive.google.com/drive/folders/10TSidDpkkNhTG6r1WnQEyWYK6RtaF3Nh?usp=drive_link 
+##### Dishes
 
-* Diego Rosado  
+**Endpoints:**
+- **POST** `/api/v1/dishes`  
+  Crear un plato.
 
-![alt text](assets/TP_images/DIEGOBC.jpg)
+- **GET** `/api/v1/dishes/{id}`  
+  Obtener un plato por ID.
 
-Link_Video_Informacion_Nutricional: https://drive.google.com/drive/folders/1ZY1xnS6dxgx5AG8TgEjwMiySludq87qI
+- **PUT** `/api/v1/dishes/{id}`  
+  Actualizar un plato.
 
+- **DELETE** `/api/v1/dishes/{id}`  
+  Eliminar un plato.
 
-* Sebastian Caderon  
-![alt text](assets/TP_images/SEBASBC.jpg)
+![Dishes Context](assets/images/TB3/Backend_2.png) 
 
-Link_Video_Cocineros: https://drive.google.com/drive/folders/1H70KFOuePRKs8zIt25T2UNWOX__KWu1q?usp=sharing
+##### Orders
 
+**Endpoints:**
+- **POST** `/api/v1/orders`  
+  Crear un pedido.
 
-Deploy evidence: https://saborescercanos-78ff1.web.app/orders
+- **GET** `/api/v1/orders/{id}`  
+  Obtener un pedido por ID.
+
+- **PUT** `/api/v1/orders/{id}`  
+  Actualizar un pedido.
+
+- **DELETE** `/api/v1/orders/{id}`  
+  Eliminar un pedido.
+
+![Orders Context](assets/images/TB3/Backend_3.png) 
+
+##### Posts
+
+**Endpoints:**
+- **POST** `/api/v1/posts`  
+  Crear una publicación.
+
+- **GET** `/api/v1/posts/{id}`  
+  Obtener una publicación por ID.
+
+- **PUT** `/api/v1/posts/{id}`  
+  Actualizar una publicación.
+
+- **DELETE** `/api/v1/posts/{id}`  
+  Eliminar una publicación.
+
+![Posts Context](assets/images/TB3/Backend_4.png) 
+
+##### User Profiles
+
+**Endpoints:**
+- **POST** `/api/v1/user-profiles`  
+  Crear un perfil de usuario.
+
+- **GET** `/api/v1/user-profiles/{id}`  
+  Obtener un perfil de usuario por ID.
+
+- **PUT** `/api/v1/user-profiles/{id}`  
+  Actualizar un perfil de usuario.
+
+- **DELETE** `/api/v1/user-profiles/{id}`  
+  Eliminar un perfil de usuario.
+
+![User Profiles Context](assets/images/TB3/Backend_5.png) 
+
+#### Schemas
+
+- **CreateDishResource**
+- **CreateOrderResource**
+- **CreatePostResource**
+- **CreateUserProfileResource**
+- **DishResource**
+- **OrderResource**
+- **Post**
+- **UpdateDishCommand**
+- **UpdateOrderCommand**
+- **UpdatePostCommand**
+- **UpdateUserProfileCommand**
+- **UserProfileResource**
+
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace: [Despliegue del Backend](#).
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-En este Sprint, nuestro enfoque principal ha sido el desarrollo y diseño de la landing page. Debido a que aún no hemos implementado Web Services, no contamos con documentación de endpoints en esta fase. En lugar de eso, hemos documentado el desarrollo y diseño de la landing page.
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. Se resumen los logros alcanzados en relación con la Documentación de Web Services para este Sprint.
+
+| Endpoint                     | HTTP Verb | Acción Implementada    |
+|------------------------------|-----------|------------------------|
+| /api/v1/dishes               | POST      | Crear un plato         |
+| /api/v1/dishes/{id}         | GET       | Obtener un plato por ID|
+| /api/v1/dishes/{id}         | PUT       | Actualizar un plato    |
+| /api/v1/dishes/{id}         | DELETE    | Eliminar un plato      |
+| /api/v1/orders               | POST      | Crear un pedido        |
+| /api/v1/orders/{id}         | GET       | Obtener un pedido por ID|
+| /api/v1/orders/{id}         | PUT       | Actualizar un pedido    |
+| /api/v1/orders/{id}         | DELETE    | Eliminar un pedido      |
+| /api/v1/posts                | POST      | Crear un post          |
+| /api/v1/posts/{id}          | GET       | Obtener un post por ID |
+| /api/v1/posts/{id}          | PUT       | Actualizar un post     |
+| /api/v1/posts/{id}          | DELETE    | Eliminar un post       |
+| /api/v1/user-profiles        | POST      | Crear un perfil de usuario |
+| /api/v1/user-profiles/{id}   | GET       | Obtener un perfil por ID |
+| /api/v1/user-profiles/{id}   | PUT       | Actualizar un perfil   |
+| /api/v1/user-profiles/{id}   | DELETE    | Eliminar un perfil     |
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-**Resumen**
-Durante este Sprint, nos hemos enfocado en el despliegue de la landing page. Las actividades realizadas incluyen la configuración del entorno de desarrollo y el despliegue inicial del sitio. A continuación, se detalla el proceso seguido para el despliegue de la landing page.
+Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfocándonos en el frontend. Las actividades realizadas incluyen la configuración del entorno de desarrollo en Firebase, la creación de cuentas en proveedores de servicios en la nube y la automatización del proceso de despliegue.
 
 **Actividades Realizadas**
-- Creación de Cuentas y Configuración de Recursos:
 
-Proveedor de Hosting: Selección y configuración de la cuenta en el proveedor de hosting para desplegar la landing page.
-Configuración del Entorno: Establecimiento del entorno de desarrollo y producción para la landing page.
+- **Creación de Cuentas y Configuración de Recursos:**
+  - **Proveedor de Hosting:** Configuración de cuentas en Firebase para el despliegue del frontend.
+  - **Configuración del Entorno:** Establecimiento de entornos de desarrollo y producción.
 
-- Configuración de Proyectos para Integración:
+- **Configuración de Proyectos para Integración:**
+  - **Repositorio de Código:** Integración del repositorio en GitHub para CI/CD.
+  - **Automatización:** Implementación de scripts para el despliegue automático del frontend.
 
-Repositorio de Código: Configuración del repositorio en GitHub para la integración continua y despliegue automático.
-Automatización: Configuración de scripts y herramientas para la automatización del despliegue.
+- **Despliegue de la Landing Page:**
+  - **Subida de Archivos:** Transferencia de archivos y recursos a Firebase.
+  - **Verificación:** Asegurarse de que el frontend esté accesible y funcionando correctamente.
 
-- Despliegue de la Landing Page:
+**Pasos Realizados Durante el Despliegue del Frontend en Firebase:**
 
-Subida de Archivos: Transferencia de archivos y recursos al servidor de hosting.
-Verificación: Comprobación de que la landing page se despliega correctamente y está accesible en la web.
+1. **Creación de la Cuenta en Firebase**
+   - Captura de Pantalla:
+   ![Paso 1: Creación de Cuenta en Firebase](assets/images/TB3/deploy_1.png)
 
-**Capturas de Pantalla**
-- Repositorio de Landing Page: ![Screenshot8](assets/images/Landingpage/Repository.png)
-- Demostración de despliegue en Github: ![Screenshot9](assets/images/Landingpage/Landing_page_deployment.png)
-- Landing Page desplegado: ![Screenshot10](assets/images/Landingpage/Deployment.png)
+2. **Configuración del Proyecto en Firebase**
+   - Captura de Pantalla:
+   ![Paso 2: Configuración del Proyecto](assets/images/TB3/deploy_2.png)
 
-**Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/Landing-page
+3. **Integración del Repositorio en GitHub**
+   - Captura de Pantalla:
+   ![Paso 3: Integración en GitHub](assets/images/TB3/deploy_3.png)
 
-**Link de landing page**: https://rampart-saborescercanos.github.io/Landing-page/
+4. **Automatización del Despliegue**
+   - Captura de Pantalla:
+   ![Paso 4: Automatización](assets/images/TB3/deploy_4.png)
 
-Bounded context:  
+5. **Verificación del Despliegue**
+   - Captura de Pantalla:
+   ![Paso 5: Verificación](assets/images/TB3/deploy_6.png)
 
-* Jose Alejo    
-![alt text](assets/TP_images/ALEJOBC.png)
+6. **Evidencia de la Base de Datos en JSON Server**
+   - Captura de Pantalla de `db.json` utilizado en JSON Server:
+   ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
 
-* Estefano Jaque   
-![alt text](assets/TP_images/JAQUEBC.png)
+7. **Enlace al Frontend Desplegado:**
+[Ver Frontend Desplegado](https://saborescercanos-frontend.web.app/home)
 
-* Maria Jose Pezo  
-![alt text](assets/TP_images/MAJOBC.jpg)
+**Conclusiones**
+El proceso de despliegue del frontend en Firebase se realizó con éxito, asegurando que todos los elementos estén disponibles y funcionando correctamente en el entorno de producción. Se verificó la accesibilidad de la landing page y se realizaron pruebas para confirmar que todos los enlaces y funciones están operativos.
 
-* Diego Rosado  
-![alt text](assets/TP_images/DIEGOBC.jpg)
+**Resumen del Despliegue del Backend**
+Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación backend utilizando Azure. Este proceso incluye la configuración del entorno en Azure, la carga de la aplicación y la verificación de su funcionalidad.
 
-* Sebastian Caderon  
-![alt text](assets/TP_images/SEBASBC.jpg)
+**Actividades Realizadas**
+- **Creación de Cuenta y Configuración de Recursos**: 
+  - Se creó una cuenta en Azure y se configuraron los recursos necesarios para el despliegue del backend.
 
-Deploy evidence: https://saborescercanos-78ff1.web.app/orders
+- **Configuración de Proyectos para Integración**: 
+  - Se configuró el proyecto en Azure para permitir la integración continua y el despliegue automático.
+
+- **Despliegue del Backend**: 
+  - Se subieron los archivos y se verificó que la aplicación backend se desplegó correctamente y está accesible.
+
+**Enlace a la Aplicación Backend Desplegada**
+[Despliegue del Backend en Azure](<https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html >)
+
+**Captura del JSON Server**
+  ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -2443,9 +2547,13 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 | Sebastián Omar Real Calderón | Desarrollo del bounded context de Cocineros |
 | Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Pedidos |
 
-![Project Insights De La Landing Page](assets/TP_images/1insightsSprint2.png)
+**Contribucion en el repositorio del Frontend**
 
-![Project Insights Del Frontend](assets/TP_images/2insightsSprint2.png)
+![Project Insights Del Frontend](assets/images/TB3/contri_frontend.png)
+
+**Contribucion en el repositorio del Backend**
+
+![Project Insights Del Backend](assets/images/TB3/contri_backend.png)
 
 ### 5.3. Validation Interviews.
 
@@ -2469,7 +2577,7 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
 ### 5.3.2. Registro de Entrevistas.
 
-**Entrevista 1**:<br>
+1. **Entrevista 1**:<br>
     ![Imagen de entrevista 1](assets/images/TB3/video_1.png)<br>
     **Nombre**: Ana Lucía<br>
     **Apellidos**: González Paredes<br>
@@ -2481,7 +2589,7 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
     **Resumen**:<br>
     Durante la entrevista, Ana Lucía completó el flujo de creación de una nueva receta en la plataforma, desde la selección de categoría hasta la confirmación de publicación. Encontró el botón de "Crear nueva receta" de forma intuitiva, aunque sugirió que el ícono podría mejorarse para reflejar más claramente la acción de añadir contenido nuevo. Al interactuar con el formulario de receta, comentó que, aunque le pareció en general fácil de entender, tardó en ubicar el campo de "Descripción" y recomendó agregar una breve ayuda contextual para facilitar la comprensión de lo que se espera en cada campo. También experimentó un problema al intentar cargar varias imágenes, y sugirió que sería útil recibir una notificación si el archivo excede el límite de tamaño permitido. Al finalizar el proceso, encontró la confirmación de creación clara y tranquilizadora, ya que mostraba que la receta estaba publicada y que se podía editar si era necesario. Como sugerencia final, comentó que la experiencia de usuario podría mejorarse al incluir una guía visual o un paso a paso que indique el progreso de creación de la receta, permitiéndole ver cuánto le falta para terminar.
 
-**Entrevista 2**:<br>
+2. **Entrevista 2**:<br>
     ![Imagen de entrevista 2](assets/images/TB3/video_2.png)<br>
     **Nombre**: Luis Fernando<br>
     **Apellidos**: Ramos Velásquez<br>
@@ -2493,7 +2601,7 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
     **Resumen**:<br>
     Durante la entrevista, Luis Fernando exploró el proceso de editar una receta ya creada, desde seleccionar una receta existente hasta guardar los cambios realizados. Inicialmente, encontró el menú de "Mis Recetas" de manera rápida, pero señaló que podría destacarse más visualmente para mejorar la navegación. Al editar, notó que los campos de la receta eran claros y fáciles de modificar, aunque sugirió que sería conveniente tener una opción de "Vista previa" antes de guardar los cambios finales. Además, comentó que el botón de "Guardar cambios" debería estar más resaltado para reducir la posibilidad de confusión con otras opciones cercanas. Al finalizar el proceso, confirmó que los cambios se guardaron correctamente y se reflejaron al instante en la vista pública de la receta. Como sugerencia final, Luis Fernando propuso que se incluyera una opción para deshacer los cambios en caso de error, lo cual consideró útil para evitar ediciones no deseadas y mejorar la flexibilidad del proceso de edición.
 
-**Entrevista 3**:<br>
+3. **Entrevista 3**:<br>
     ![Imagen de entrevista 3](assets/images/TB3/video_3.png)<br>
     **Nombre**: Valeria<br>
     **Apellidos**: Martínez Díaz<br>
@@ -2504,42 +2612,6 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
     **Duración**: 2:00<br>
     **Resumen**:<br>
     Durante la entrevista, Valeria actualizó su información personal y preferencias alimenticias en el perfil, incluyendo datos como su ubicación y sus preferencias en ingredientes y restricciones dietéticas. Encontró fácilmente la sección de edición de perfil, aunque comentó que la categoría de "Preferencias alimenticias" podría ser más visible, ya que es una de las opciones principales que desea ajustar. Al actualizar sus preferencias, notó que las opciones de ingredientes y restricciones eran completas, pero recomendó agregar un filtro para facilitar la búsqueda de ciertos ingredientes específicos. Luego de guardar los cambios, confirmó que sus opciones de menú reflejaban sus nuevas preferencias correctamente, mostrando platos adaptados a sus necesidades. Como comentario final, Valeria sugirió que sería útil incluir una opción para recibir recomendaciones de recetas basadas en sus gustos recientes, lo cual consideró que enriquecería la personalización del perfil.
-
-4. **Entrevista 4**:<br>
-   ![Imagen de entrevista 4](assets/images/TB3/video_4.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
-   **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
-
-2. **Entrevista 2**:<br>
-   ![Imagen de entrevista 2](assets/images/TB3/video_2.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
-   **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
-
-3. **Entrevista 3**:<br>
-   ![Imagen de entrevista 3](assets/images/TB3/video_3.png)<br>
-   **Nombre**: [Nombre del participante]<br>
-   **Apellidos**: [Apellidos del participante]<br>
-   **Edad**: [Edad]<br>
-   **Distrito**: [Distrito]<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
-   **Inicio**: [Inicio de la entrevista]<br>
-   **Duración**: [Duración de la entrevista]<br>
-   **Resumen**:<br>
-   [Descripción de las observaciones más relevantes de la entrevista].
 
 4. **Entrevista 4**:<br>
    ![Imagen de entrevista 4](assets/images/TB3/video_4.png)<br>
@@ -2704,7 +2776,7 @@ A continuación se detalla la pauta de secuencias de contenido del video, incluy
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: [[Ver video]](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Versión en Microsoft Stream**: [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ## Conclusiones
@@ -2781,10 +2853,3 @@ Anexo E:  https://lucid.app/lucidchart/de7494c8-ca20-4b78-8732-fb0986780e5e/edit
 ANEFO F: https://drive.google.com/drive/folders/14X--cRiq700Ryxi1WeZE7CM0riqFNCae?usp=sharing
 
 ANEXO G: https://drive.google.com/drive/folders/1aIE_Dj5v-rLgMxIZl-rMrsUlPqoVnidZ?usp=sharing
-
-ANEXO H:
-ANEXO I:
-ANEXO J:
-ANEXO K:
-ANEXO L:
-ANEXO M:

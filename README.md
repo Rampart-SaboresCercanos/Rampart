@@ -2449,7 +2449,9 @@ En este sprint, hemos logrado importantes avances en el desarrollo del backend d
 - **UpdateUserProfileCommand**
 - **UserProfileResource**
 
-Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace: [https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html](https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html).
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:
+
+rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html   
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -2519,8 +2521,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfo
    ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
 
 7. **Enlace al Frontend Desplegado:**
-[https://saborescercanos-frontend.web.app/home](https://saborescercanos-frontend.web.app/home)
-
+https://saborescercanos-frontend.web.app/home
 **Conclusiones**
 El proceso de despliegue del frontend en Firebase se realizó con éxito, asegurando que todos los elementos estén disponibles y funcionando correctamente en el entorno de producción. Se verificó la accesibilidad de la landing page y se realizaron pruebas para confirmar que todos los enlaces y funciones están operativos.
 

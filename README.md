@@ -25,13 +25,15 @@ Product: Sabores Cercanos
 
 ### **Integrantes:**
 
-- Estefano Oscar Jaque Peña - u202225466
+- Estefano Oscar Jaque Peña - u202225466s
 - Maria Jose Pezo Castilla - u20221c590
 - Jose Antonio Alejo Cardenas - u202122484
 - Diego Alonso Rosado Iporre - u201620127
 - Sebastian Omar Real Calderón - u20221d964
 
 ### Agosto, 2024
+
+**Url del proyecto**: https://github.com/Rampart-SaboresCercanos 
 
 ## Registro de Versiones del Informe
 |Version|Fecha|Autor|Descripcion|
@@ -57,7 +59,15 @@ Product: Sabores Cercanos
 |TB2|03/11/2024|Estefano Oscar Jaque Peña| Actualizacion de Software Deployment Evidence for Sprint Review, Keynote, Trello, Pivotal, Competidores, Lean UX Process, Software Object-Oriented Design, Data Design, Video About-The-Product |
 
 
-## Project Report Collaboration Insights
+## Project Report Collaboration Insights  
+
+|  URL de la organización del proyecto  |          URL del repositorio del reporte          |
+| :-----------------------------------: | :-----------------------------------------------: | 
+| https://github.com/Rampart-SaboresCercanos | https://github.com/Rampart-SaboresCercanos/Rampart.git |
+
+| URL del repositorio del backend | URL del repositorio del Frontend| URL del repositorio de la landing page |
+|  :-----------------------------------------------: | :-----------------------------------------------: |:-----------------------------------------------:|
+| https://github.com/Rampart-SaboresCercanos/BackEnd.git | https://github.com/Rampart-SaboresCercanos/FrontEnd.git | https://github.com/Rampart-SaboresCercanos/LandingPage.git |
 
 TB1:<br>
 |Integrante|Tarea Asignada|
@@ -106,10 +116,6 @@ TB2:<br>
 
 ![alt text](assets/TP_images/Issues%20evidence.png)
 ![alt text](assets/TP_images/Issues%20evidence2.png)
-
-
-
-
 
 ## Contenido
 

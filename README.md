@@ -2138,7 +2138,7 @@ En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la l
 - Seccion footer: ![Screenshot7](assets/images/Landingpage/Footer.png)
 
 **Enlace a Video**
-[Visualización y Navegación de Landing Page](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Bounded context:  
 
@@ -2345,10 +2345,10 @@ En este sprint, hemos logrado avances significativos en el desarrollo del fronte
 - Sección Perfil: ![Screenshot6](assets/images/TB3/frontend_6.png)
 - Sección Favoritos: ![Screenshot7](assets/images/TB3/frontend_7.png)
 
-**Enlace a Video**
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb)
+**Enlace a Video About the product **
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb
 
-Además, puedes ver la evidencia de despliegue de la landing page en el siguiente enlace: [Despliegue del FrontEnd](https://saborescercanos-frontend.web.app/home).
+Además, puedes ver la evidencia de despliegue de la landing page en el siguiente enlace: [https://rampart-saborescercanos.github.io/LandingPage/](https://rampart-saborescercanos.github.io/LandingPage/).
 
 #### Sección Backend
 
@@ -2443,7 +2443,7 @@ En este sprint, hemos logrado importantes avances en el desarrollo del backend d
 - **UpdateUserProfileCommand**
 - **UserProfileResource**
 
-Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace: [Despliegue del Backend](https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html).
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace: [https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html](https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html).
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -2513,7 +2513,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfo
    ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
 
 7. **Enlace al Frontend Desplegado:**
-[Ver Frontend Desplegado](https://saborescercanos-frontend.web.app/home)
+[https://saborescercanos-frontend.web.app/home](https://saborescercanos-frontend.web.app/home)
 
 **Conclusiones**
 El proceso de despliegue del frontend en Firebase se realizó con éxito, asegurando que todos los elementos estén disponibles y funcionando correctamente en el entorno de producción. Se verificó la accesibilidad de la landing page y se realizaron pruebas para confirmar que todos los enlaces y funciones están operativos.
@@ -2532,7 +2532,8 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
   - Se subieron los archivos y se verificó que la aplicación backend se desplegó correctamente y está accesible.
 
 **Enlace a la Aplicación Backend Desplegada**
-[Despliegue del Backend en Azure](<https://rampart-apddegesahd5agey.eastus2-01.azurewebsites.net/index.html >)
+
+rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 
 **Captura del JSON Server**
   ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
@@ -2583,7 +2584,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
     **Apellidos**: González Paredes<br>
     **Edad**: 28<br>
     **Distrito**: Miraflores<br>
-    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+    **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
     **Inicio**: 0:00<br>
     **Duración**: 1:45<br>
     **Resumen**:<br>
@@ -2595,7 +2596,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
     **Apellidos**: Ramos Velásquez<br>
     **Edad**: 25<br>
     **Distrito**: San Borja<br>
-    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+    **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
     **Inicio**: 0:05<br>
     **Duración**: 1:00<br>
     **Resumen**:<br>
@@ -2607,7 +2608,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
     **Apellidos**: Martínez Díaz<br>
     **Edad**: 29<br>
     **Distrito**: La Molina<br>
-    **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+    **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
     **Inicio**: 0:03<br>
     **Duración**: 2:00<br>
     **Resumen**:<br>
@@ -2619,7 +2620,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
    **Apellidos**: Pérez López<br>
    **Edad**: 28<br>
    **Distrito**: Miraflores<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/ER69vILPTWpNotf953S-iEgBm86CkMbXZBgsH-yfAlLoFA?e=VQEPn7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/ER69vILPTWpNotf953S-iEgBm86CkMbXZBgsH-yfAlLoFA?e=VQEPn7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
    **Inicio**: 0:00<br>
    **Duración**: 1:00<br>
    **Resumen**:<br>
@@ -2631,7 +2632,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
    **Apellidos**: Rodríguez Salas<br>
    **Edad**: 26<br>
    **Distrito**: San Isidro<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EcqP2k1DoNBElX6j0OKoF38BjegI1ukvp-GEkhqCihrpwQ?e=m26EeL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EcqP2k1DoNBElX6j0OKoF38BjegI1ukvp-GEkhqCihrpwQ?e=m26EeL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D <br>
    **Inicio**: 0:00<br>
    **Duración**: 1:30<br>
    **Resumen**:<br>
@@ -2643,7 +2644,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
    **Apellidos**: Martínez Gómez<br>
    **Edad**: 28<br>
    **Distrito**: Miraflores<br>
-   **URL**: [Link de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQmHL-fuBVtJkSMTIx7e4tMBs9imIgqWP4MscZaadM5y_w?e=0Zzhdi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)<br>
+   **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQmHL-fuBVtJkSMTIx7e4tMBs9imIgqWP4MscZaadM5y_w?e=0Zzhdi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
    **Inicio**: 0:10<br>
    **Duración**: 2:00<br>
    **Resumen**:<br>
@@ -2767,7 +2768,7 @@ A continuación se detalla la pauta de secuencias de contenido del video, incluy
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Versión en Microsoft Stream**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 ### 5.5. Video About-The-Product
 
@@ -2778,7 +2779,7 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 ![Video About-The-Product](assets/images/TB3/About_the_product.png)
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb)
+- **Versión en Microsoft Stream**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb
 
 ## Conclusiones
 

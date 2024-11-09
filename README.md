@@ -2782,10 +2782,11 @@ A continuación se detalla la pauta de secuencias de contenido del video, incluy
 ### Resumen del Video
 En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Product". El video documenta las características y funcionalidades clave del producto, mostrando cómo se alinea con las necesidades de nuestros usuarios. A través de una narración, se complementa el proceso con demostraciones visuales del producto en acción, así como testimonios de usuarios que destacan su experiencia y los beneficios obtenidos al utilizarlo.
 
-### Cuadro Representativo del Video
+**Cuadro Representativo del Video**
 ![Video About-The-Product](assets/images/TB3/About_the_product.png)
 
-### URLs de la Versión Publicada
+**URLs de la Versión Publicada**
+
 - **Versión en Microsoft Stream**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb
 
 ## Conclusiones

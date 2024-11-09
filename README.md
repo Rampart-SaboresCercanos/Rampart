@@ -2790,53 +2790,16 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 
 ## Conclusiones
 
- * José Antonio Alejo Cárdenas:<br>
-   - TB1:<br>
-   En conclusión, el proyecto reflejó una sólida capacidad de liderazgo compartido y trabajo en equipo, donde las actividades clave como la creación del Lean UX Canvas, Impact Mapping y el desarrollo de User Stories permitieron una participación equitativa y una toma de decisiones colaborativa. Al mismo tiempo, se estableció un entorno inclusivo y bien planificado, donde las metas y tareas, como la definición de Segmentos objetivo, SEO Tags, y Navigation Systems, fueron organizadas de manera efectiva, lo que resultó en el cumplimiento exitoso de los objetivos planteados. Esto resalta una gestión eficiente y un enfoque claro en la coordinación y ejecución de proyectos complejos.<br><br>
- * Maria Jose Pezo Castilla:<br>
-   - TB1:<br>
-   En conclusión, el proyecto demostró una excelente capacidad de colaboración y planificación, donde actividades clave como la elaboración de la Descripción de la Startup, Solution Profile, y el diseño de la Landing Page y la aplicación web se llevaron a cabo de manera conjunta y organizada. El equipo creó un entorno inclusivo y estructurado, permitiendo una asignación clara de responsabilidades y el cumplimiento efectivo de los objetivos. La capacidad de coordinar y tomar decisiones estratégicas en equipo fue esencial para avanzar con éxito en el desarrollo del proyecto.<br><br>
+Aquí tienes el resumen de las conclusiones por grupo:
 
-* Diego Alonso Rosado Iporre:<br>
-   - TB1:<br>
-   En el desarrollo de "Sabores Cercanos," hemos logrado definir una sólida arquitectura de software que facilita la escalabilidad y el mantenimiento del sistema, gracias a los detallados diagramas de contexto, contenedores y componentes. El análisis de competidores ha resaltado nuestras ventajas, como la autenticidad en las comidas caseras y la conexión directa con cocineros locales, diferenciándonos de plataformas que priorizan la eficiencia. Además, el exitoso despliegue de la landing page marca un hito importante, mostrando nuestros avances y proporcionando una base sólida para futuras integraciones y despliegues de otros componentes del proyecto. A medida que avanzamos, el compromiso del equipo y la atención a las áreas de oportunidad identificadas asegurarán el éxito continuo del proye<br><br>
-   
-* Sebastián Omar Real Calderón:<br>
-  - TB1:<br>
-   Durante las primeras etapas del desarrollo de la aplicación "Sabores Cercanos", hemos establecido las bases para el correcto funcionamiento del proyecto. Hemos analizado las necesidades de los usuarios a través de las entrevistas y el proceso de needfinding, y posteriormente aprovechamos la información recabada para armar un producto que satisfaga las necesidades de nuestros consumidores. Como grupo, nos dedicamos a realizar nuestras tareas de forma eficiente, y nuestro compromiso se solidificará conforme avance el proceso del proyecto, y eso llevará a que el éxito del proyecto sea más probable.<br><br>
+- TB1:<br> 
+El proyecto "Sabores Cercanos" evidenció un trabajo colaborativo bien estructurado, donde se implementaron herramientas como Lean UX, Impact Mapping y User Stories. Estas permitieron la creación de una arquitectura de software sólida, una landing page funcional y un análisis de competidores, destacando la autenticidad en la conexión directa con cocineros locales. A lo largo del proceso, se identificaron y organizaron claramente las metas, objetivos y responsabilidades, fortaleciendo el liderazgo compartido y una toma de decisiones eficiente. El análisis de necesidades de los usuarios y el empleo de metodologías de gestión y diseño contribuyeron a que el equipo avanzara con éxito en cada etapa del desarrollo.<br>
 
-* Estefano Oscar Jaque Peña:<br>
-   - TB1:<br>
-   En el desarrollo de "Sabores Cercanos", se utilizaron varias metodologías y herramientas de gestión de proyectos, incluido Lean UX, a lo largo del proyecto, lo que permitió definir claramente los problemas y las hipótesis a validar. Para garantizar que los requerimientos del usuario se alinearan con las soluciones propuestas, se debieron desarrollar User Stories, Product Backlog y Sprints. Los diagramas de clases y las bases de datos también brindaron una base sólida para la implementación del sistema. Este proceso permitió optimizar la organización y el flujo de trabajo dentro del equipo, lo que permitió la entrega de un producto eficiente y adaptable a las necesidades del mercado.<br><br>
+- TP:<br>
+En el TP, el equipo continuó desarrollando "Sabores Cercanos" mediante una arquitectura basada en Bounded Contexts, dividiendo de manera efectiva las funcionalidades del sistema. Se abordaron actividades de planificación como el Sprint Backlog 2 y se reforzaron las prácticas de colaboración a través de la documentación y la organización de tareas. Además, se implementaron estrategias como entrevistas con usuarios y análisis de antecedentes para comprender mejor el mercado. Esto permitió una alineación clara en la misión del proyecto y estableció una base para un sistema culinario robusto, enfocado en conectar cocineros locales con consumidores de manera significativa.<br>
 
-
-* <br>Sebastián Omar Real Calderón<br>  
-   - TP: A través del Bounded Context de Cocineros, logré definir de manera precisa las responsabilidades en la gestión de los cocineros, lo que promovió una colaboración fluida entre todos los miembros del equipo. El trabajo realizado en el Sprint Backlog 2 me permitió organizar y priorizar las tareas de manera eficiente, asegurando que cada integrante tomara un papel activo y contribuyera al liderazgo compartido en el desarrollo de las funcionalidades. Además, la preparación de Team Collaboration Insights during Sprint fue clave, ya que brindó una visión clara de cómo el equipo trabajó en conjunto para cumplir los objetivos, y la Execution Evidence for Sprint Review mostró cómo se ejecutaron eficazmente las tareas asignadas por el equipo.<br><br>
-
-* <br>Diego Alonso Rosado Iporre<br>
-
-   - TP: En el desarrollo de "Sabores Cercanos," hemos avanzado significativamente en la definición de una arquitectura de software sólida. La utilización de Bounded Contexts ha sido muy beneficiosa, permitiendo una clara segmentación de las funcionalidades. Además, la estructura por componentes, modelos y servicios facilita el entendimiento del código y mejora la mantenibilidad del sistema.  
-   El análisis de competidores ha resaltado nuestras ventajas, como la autenticidad en las comidas caseras y la conexión directa con cocineros locales, diferenciándonos de plataformas que priorizan la eficiencia. También, el exitoso despliegue de la landing page marca un hito importante, proporcionando una base sólida para futuras integraciones. El compromiso del equipo y la atención a las áreas de oportunidad identificadas asegurarán el éxito continuo del proyecto.<br><br>
-
-* <br>Maria Jose Pezo Castilla:<br>
-   - TP:<br>
-   En conclusión, "Sabores Cercanos" ha evolucionado de manera significativa gracias a un enfoque estructurado y colaborativo en su desarrollo. La descripción de la startup, el perfil de la solución y el análisis de antecedentes permitieron al equipo alineal su visión y comprender la problemática del mercado. Las entrevistas con usuarios y el diseño de la landing page, junto con la aplicación web, aseguraron que se abordaran las necesidades de los consumidores de manera efectiva. Además, la implementación del Sprint Backlog 2 y la documentación del progreso, junto con el Bounded Context de Platos, fortalecieron la estructura del sistema y facilitaron la comunicación dentro del equipo. Estas actividades no solo respaldan la misión de conectar cocineros con consumidores, sino que también establecen una base sólida para un ecosistema culinario dinámico. <br><br>
-  
- * José Antonio Alejo Cárdenas:<br>
-   - TB2:<br>
-   En el desarrollo de "Sabores Cercanos", he participado en la implementación de la funcionalidad para cancelar la programación de pedidos (TA005) y en la gestión de pedidos por estado (TA011). Este proceso destacó la importancia de un liderazgo compartido y un trabajo en equipo efectivo. La colaboración en la definición y ejecución de User Stories permitió al equipo mantener un enfoque claro en las metas y tareas, lo que resultó en un cumplimiento exitoso de los objetivos del sprint y una mejora notable en la experiencia del usuario.<br><br>
-
-* Diego Alonso Rosado Iporre:<br>
-   - TB2:<br>
-   En este sprint, trabajé en la verificación de identidad de cocineros (TA013) y en el resumen de transacciones financieras (TA012). La implementación de una arquitectura de software sólida y bien definida ha sido crucial para la escalabilidad del sistema. El análisis de la competencia resaltó nuestras ventajas únicas y la respuesta del equipo a las áreas de oportunidad identificadas contribuirá al éxito continuo del proyecto. La comunicación efectiva y la colaboración en tareas específicas fueron determinantes para alcanzar nuestros objetivos.<br><br>
-
-* Sebastián Omar Real Calderón:<br>
-  - TB2:<br>
-   Participé en el desarrollo de la funcionalidad de optimización de rendimiento de la carga de imágenes (TA015) y en el filtrado de pedidos por método de pago (TA009). La implementación de estas características ha establecido una base sólida para el rendimiento de la aplicación. La colaboración en la organización del Sprint Backlog y la claridad en las tareas asignadas han permitido que cada miembro del equipo desempeñe un papel activo en el desarrollo. A medida que avanzamos, el compromiso del equipo es fundamental para asegurar el éxito del proyecto.<br><br>
-
-* Estefano Oscar Jaque Peña:<br>
-   - TB2:<br>
-   Durante este sprint, trabajé en la implementación de la creación y edición de recetas (TA004 y TA003), lo que subraya la importancia de alinear los requisitos del usuario con las soluciones propuestas. La utilización de metodologías como Lean UX ha facilitado la organización y flujo de trabajo del equipo, permitiendo entregar un producto adaptado a las necesidades del mercado. Este enfoque colaborativo y estructurado ha sido esencial para el avance del proyecto "Sabores Cercanos".<br><br>
+- TB2:<br>
+Durante el TB2, el equipo avanzó en la implementación de funcionalidades específicas, como la gestión de pedidos, la verificación de identidad de cocineros, la optimización de rendimiento de imágenes y la creación y edición de recetas. Se mantuvo un enfoque en la escalabilidad y mantenibilidad del sistema, apoyado por una arquitectura de software sólida y una comunicación eficiente dentro del equipo. Este sprint destacó la importancia de la colaboración, la claridad en la asignación de tareas y el compromiso para seguir optimizando el proyecto, orientando el desarrollo hacia una plataforma eficiente y adaptable a las necesidades del mercado.<br>
 
 ## Bibliografia
    - Biblioteca UPC. (2024). _Biblioteca virtual de la Universidad Peruana de Ciencias Aplicadas_. https://biblioteca.upc.edu.pe
@@ -2862,3 +2825,24 @@ Anexo E:  https://lucid.app/lucidchart/de7494c8-ca20-4b78-8732-fb0986780e5e/edit
 ANEFO F: https://drive.google.com/drive/folders/14X--cRiq700Ryxi1WeZE7CM0riqFNCae?usp=sharing
 
 ANEXO G: https://drive.google.com/drive/folders/1aIE_Dj5v-rLgMxIZl-rMrsUlPqoVnidZ?usp=sharing
+
+URL de la organización del proyecto:  https://github.com/Rampart-SaboresCercanos
+
+URL del repositorio del reporte: https://github.com/Rampart-SaboresCercanos/Rampart.git 
+
+URL del repositorio de la landing page: https://github.com/Rampart-SaboresCercanos/LandingPage.git
+
+URL del repositorio del Frontend: https://github.com/Rampart-SaboresCercanos/FrontEnd.git
+
+URL del repositorio del backend: https://github.com/Rampart-SaboresCercanos/BackEnd.git
+
+URL deploy Landing Page:  https://rampart-saborescercanos.github.io/LandingPage/
+
+URL deploy Fronted: https://saborescercanos-frontend.web.app/home
+
+URL deploy  Backend : https://rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
+
+Link de Pivotal tracker(Product Backlog): https://www.pivotaltracker.com/n/projects/2723742
+
+Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba103332d73ab459b9c9963c0ade138D7652/mi-tablero-de-trello
+

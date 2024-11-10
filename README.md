@@ -2336,105 +2336,109 @@ Se diseñaron y automatizaron pruebas para un total de 21/35 archivos .feature, 
 | Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US27 gherkin  | Se agregaron los features de las User Story 27 | 03/11/2024|
 | Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US29 gherkin  | Se agregaron los features de las User Story 29 | 03/11/2024|
 
-### 5.2.3.5. Execution Evidence for Sprint Review
-
-#### Sección Frontend
-
-En este sprint, hemos logrado avances significativos en el desarrollo del frontend de nuestra landing page. Nos hemos concentrado en implementar tanto el diseño visual como la funcionalidad básica, asegurando que las principales vistas y elementos interactivos estén en su lugar. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado:
+### 5.2.3.5. Execution Evidence for Sprint Review  
+En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la landing page. Nos hemos enfocado en implementar el diseño y la funcionalidad básica, incluyendo las principales vistas y elementos interactivos. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado, junto con un enlace a un video que muestra la visualización y navegación logradas durante este Sprint.
 
 **Capturas de Pantalla**
+- Seccion navbar: ![Screenshot1](assets/images/Landingpage/Navbar.png)
+- Seccion home: ![Screenshot2](assets/images/Landingpage/Home.png)
+- Seccion about us: ![Screenshot3](assets/images/Landingpage/About_us.png)
+- Seccion services: ![Screenshot5](assets/images/Landingpage/Services.png)
+- Seccion contact us: ![Screenshot6](assets/images/Landingpage/Contact_us.png)
+- Seccion footer: ![Screenshot7](assets/images/Landingpage/Footer.png)
+
+**Enlace a Video**
+[DIEGO PON EL VIDEO DE EXPLICACION]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<h3>Frontend</h3>
+En este sprint, hemos logrado avances significativos en el desarrollo del frontend de nuestro producto. Nos hemos concentrado en implementar tanto el diseño visual como la funcionalidad básica, asegurando que las principales vistas y elementos interactivos estén en su lugar. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado:
+
+**Capturas de Pantalla**  
+En la seccion de incio se puede observar la invitacion al aplicativo, y ademas de los platos del dia mas famosos por rating.
 - Sección Inicio: ![Screenshot1](assets/images/TB3/frontend_1.png)
+En la seccion Cocineros se puede observar la opcion de añadir a favoritos y se puede observar el nombre de cada chef con su imagen respectiva  
 - Sección Cocineros: ![Screenshot2](assets/images/TB3/frontend_2.png)
+En la seccion publicaciones tenemos la opcion de añadir una nueva publicacion asi como tambien la opcion de poder generara una orden  
 - Sección Publicaciones: ![Screenshot3](assets/images/TB3/frontend_3.png)
+En la seccion de pedidos se puede observar las ordenes realizadas por los usuarios con datos importantes como el monto total , fecha de delivery , hora de delivery ,etc. 
 - Sección Pedidos: ![Screenshot4](assets/images/TB3/frontend_4.png)
+En la seccion recetas tenemos las opciones de añadir , editar y eliminar las recetas. Ademas tenemos la opcion de filtrar las recetas por el nombre para que de esta manera se pueda observar nuestra receta deseada.  
 - Sección Recetas: ![Screenshot5](assets/images/TB3/frontend_5.png)
 - Sección Perfil: ![Screenshot6](assets/images/TB3/frontend_6.png)
 - Sección Favoritos: ![Screenshot7](assets/images/TB3/frontend_7.png)
 
-**Enlace a Video About the product **
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb
+A continuacion se muestra la evidencia de despliegue del frontend entrando al siguiente enlace:   
+https://saborescercanos-frontend.web.app/home
 
-Además, puedes ver la evidencia de despliegue de la landing page en el siguiente enlace: [https://rampart-saborescercanos.github.io/LandingPage/](https://rampart-saborescercanos.github.io/LandingPage/).
+**Enlace a Video About the product**  
+Ademas presentamos un video explicativo de las funcionalidades en el Frontend:
+https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
 
-#### Sección Backend
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-En este sprint, hemos logrado importantes avances en el desarrollo del backend de nuestra landing page. Nos hemos enfocado en implementar la lógica del servidor, la gestión de datos y las API necesarias para soportar las funcionalidades del frontend. A continuación, presentamos un resumen de los bounded contexts y sus respectivas API.
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. Se resumen los logros alcanzados en relación con la Documentación de Web Services para este Sprint.
 
-**Backend en Rider**
+<h3>Backend en Rider</h3>
 
 ![Backend Context](assets/images/TB3/Backend_1.png) 
 
-#### Bounded Contexts
+<h2>Bounded Contexts</h2>
 
-##### Dishes
+<h3>Dishes Bounded Context</h3>
 
-**Endpoints:**
-- **POST** `/api/v1/dishes`  
-  Crear un plato.
+**DishesController**
 
-- **GET** `/api/v1/dishes/{id}`  
-  Obtener un plato por ID.
-
-- **PUT** `/api/v1/dishes/{id}`  
-  Actualizar un plato.
-
-- **DELETE** `/api/v1/dishes/{id}`  
-  Eliminar un plato.
+| Tag   | HTTP Verbs | Endpoint| Summary| Description| OperationId|
+|--|--|--|--|--|--|
+| Dishes| POST| /api/v1/dishes| Create a new dish| Create a new dish| CreateDish|
+| Dishes| GET| /api/v1/dishes/{id}| Get dish by ID| Retrieve a dish by its ID  | GetDishById|
+| Dishes| PUT| /api/v1/dishes/{id}| Update a dish| Update a specific dish| UpdateDish|
+| Dishes| DELETE| /api/v1/dishes/{id} | Delete a dish| Remove a specific dish| DeleteDish|
 
 ![Dishes Context](assets/images/TB3/Backend_2.png) 
 
-##### Orders
+<h3>Orders Bounded Context</h3>
 
-**Endpoints:**
-- **POST** `/api/v1/orders`  
-  Crear un pedido.
+**OrdersController**
 
-- **GET** `/api/v1/orders/{id}`  
-  Obtener un pedido por ID.
-
-- **PUT** `/api/v1/orders/{id}`  
-  Actualizar un pedido.
-
-- **DELETE** `/api/v1/orders/{id}`  
-  Eliminar un pedido.
+| Tag    | HTTP Verbs | Endpoint            | Summary             | Description                  | OperationId    |
+|--------|------------|---------------------|---------------------|------------------------------|----------------|
+| Orders | POST       | /api/v1/orders      | Create a new order | Create a new order           | CreateOrder    |
+| Orders | GET        | /api/v1/orders/{id} | Get order by ID    | Retrieve an order by its ID  | GetOrderById   |
+| Orders | PUT        | /api/v1/orders/{id} | Update an order    | Update a specific order      | UpdateOrder    |
+| Orders | DELETE     | /api/v1/orders/{id} | Delete an order    | Remove a specific order      | DeleteOrder    |
 
 ![Orders Context](assets/images/TB3/Backend_3.png) 
 
-##### Posts
+<h3>Posts Bounded Context</h3>  
 
-**Endpoints:**
-- **POST** `/api/v1/posts`  
-  Crear una publicación.
+**PostsController**
 
-- **GET** `/api/v1/posts/{id}`  
-  Obtener una publicación por ID.
-
-- **PUT** `/api/v1/posts/{id}`  
-  Actualizar una publicación.
-
-- **DELETE** `/api/v1/posts/{id}`  
-  Eliminar una publicación.
+| Tag   | HTTP Verbs | Endpoint           | Summary                   | Description                    | OperationId   |
+|-------|------------|--------------------|---------------------------|--------------------------------|---------------|
+| Posts | POST       | /api/v1/posts      | Create a new post         | Create a new post              | CreatePost    |
+| Posts | GET        | /api/v1/posts/{id} | Get post by ID            | Retrieve a post by its ID      | GetPostById   |
+| Posts | PUT        | /api/v1/posts/{id} | Update a post             | Update a specific post         | UpdatePost    |
+| Posts | DELETE     | /api/v1/posts/{id} | Delete a post             | Remove a specific post         | DeletePost    |
 
 ![Posts Context](assets/images/TB3/Backend_4.png) 
 
-##### User Profiles
+<h3>UserProfiles Bounded Context</h3>  
 
-**Endpoints:**
-- **POST** `/api/v1/user-profiles`  
-  Crear un perfil de usuario.
+**UserProfilesController**
 
-- **GET** `/api/v1/user-profiles/{id}`  
-  Obtener un perfil de usuario por ID.
-
-- **PUT** `/api/v1/user-profiles/{id}`  
-  Actualizar un perfil de usuario.
-
-- **DELETE** `/api/v1/user-profiles/{id}`  
-  Eliminar un perfil de usuario.
+| Tag            | HTTP Verbs | Endpoint                   | Summary                     | Description                       | OperationId         |
+|----------------|------------|----------------------------|-----------------------------|-----------------------------------|---------------------|
+| User Profiles  | POST       | /api/v1/user-profiles      | Create a user profile       | Create a new user profile         | CreateUserProfile   |
+| User Profiles  | GET        | /api/v1/user-profiles/{id} | Get user profile by ID      | Retrieve a user profile by its ID | GetUserProfileById  |
+| User Profiles  | PUT        | /api/v1/user-profiles/{id} | Update a user profile       | Update a specific user profile    | UpdateUserProfile   |
+| User Profiles  | DELETE     | /api/v1/user-profiles/{id} | Delete a user profile       | Remove a specific user profile    | DeleteUserProfile   |
 
 ![User Profiles Context](assets/images/TB3/Backend_5.png) 
 
-#### Schemas
+<h3>Schemas</h3>
 
 - **CreateDishResource**
 - **CreateOrderResource**
@@ -2449,111 +2453,111 @@ En este sprint, hemos logrado importantes avances en el desarrollo del backend d
 - **UpdateUserProfileCommand**
 - **UserProfileResource**
 
-Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:
-
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:  
 rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html   
 
-### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-En esta sección se incluye la relación de Endpoints documentados con OpenAPI, relacionados con el alcance del Sprint. Se resumen los logros alcanzados en relación con la Documentación de Web Services para este Sprint.
-
-| Endpoint                     | HTTP Verb | Acción Implementada    |
-|------------------------------|-----------|------------------------|
-| /api/v1/dishes               | POST      | Crear un plato         |
-| /api/v1/dishes/{id}         | GET       | Obtener un plato por ID|
-| /api/v1/dishes/{id}         | PUT       | Actualizar un plato    |
-| /api/v1/dishes/{id}         | DELETE    | Eliminar un plato      |
-| /api/v1/orders               | POST      | Crear un pedido        |
-| /api/v1/orders/{id}         | GET       | Obtener un pedido por ID|
-| /api/v1/orders/{id}         | PUT       | Actualizar un pedido    |
-| /api/v1/orders/{id}         | DELETE    | Eliminar un pedido      |
-| /api/v1/posts                | POST      | Crear un post          |
-| /api/v1/posts/{id}          | GET       | Obtener un post por ID |
-| /api/v1/posts/{id}          | PUT       | Actualizar un post     |
-| /api/v1/posts/{id}          | DELETE    | Eliminar un post       |
-| /api/v1/user-profiles        | POST      | Crear un perfil de usuario |
-| /api/v1/user-profiles/{id}   | GET       | Obtener un perfil por ID |
-| /api/v1/user-profiles/{id}   | PUT       | Actualizar un perfil   |
-| /api/v1/user-profiles/{id}   | DELETE    | Eliminar un perfil     |
+Link del repositorio del backend:   https://github.com/Rampart-SaboresCercanos/BackEnd.git  
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
+* Para poder realizar la sección del Sprint Se decidió usar la plataforma de Figma donde se realizaron los mockups, wireframes y demás de manera colaborativa por parte del equipo y, con esta misma plataforma, se realizó el prototipo de la aplicacion.
 
-Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfocándonos en el frontend. Las actividades realizadas incluyen la configuración del entorno de desarrollo en Firebase, la creación de cuentas en proveedores de servicios en la nube y la automatización del proceso de despliegue.
+* Para poder entrar al figma del grupo es necesario contar con una cuenta ya registrada y haber iniciado sesión en la plataforma mencionada.
 
-**Actividades Realizadas**
+* En este Sprint, hemos llevado a cabo diversas actividades relacionadas con el despliegue (Deployment) de nuestra plataforma, asegurando que todos los componentes estén correctamente configurados y listos para su uso. Las actividades de despliegue abarcan múltiples productos, incluyendo la Landing Page, aplicaciones web y servicios web. A continuación, se detallan los pasos realizados, junto con capturas de pantalla que ilustran el proceso y brindan una visión clara de cada etapa.
 
-- **Creación de Cuentas y Configuración de Recursos:**
-  - **Proveedor de Hosting:** Configuración de cuentas en Firebase para el despliegue del frontend.
-  - **Configuración del Entorno:** Establecimiento de entornos de desarrollo y producción.
+<h3>Landing Page</h3>     
+Para la Landing Page se ha implementado utilizando GitHub Pages, lo que facilita su acceso y gestión.
 
-- **Configuración de Proyectos para Integración:**
-  - **Repositorio de Código:** Integración del repositorio en GitHub para CI/CD.
-  - **Automatización:** Implementación de scripts para el despliegue automático del frontend.
+![alt text](assets/TB2_images/ladep2.png)  
 
-- **Despliegue de la Landing Page:**
-  - **Subida de Archivos:** Transferencia de archivos y recursos a Firebase.
-  - **Verificación:** Asegurarse de que el frontend esté accesible y funcionando correctamente.
+* En la seccion pages, dentro de la configuracion del repositorio, escoger la rama deseada y seleccionar save para hacer el deploy de esta.
 
-**Pasos Realizados Durante el Despliegue del Frontend en Firebase:**
+![alt text](assets/TB2_images/ladep2.png)  
 
-1. **Creación de la Cuenta en Firebase**
-   - Captura de Pantalla:
-   ![Paso 1: Creación de Cuenta en Firebase](assets/images/TB3/deploy_1.png)
+* Pasados unos minutos se generará el link para acceder a la landing page.
 
-2. **Configuración del Proyecto en Firebase**
-   - Captura de Pantalla:
-   ![Paso 2: Configuración del Proyecto](assets/images/TB3/deploy_2.png)
+![alt text](assets/images/TB3/ladep3.png)
 
-3. **Integración del Repositorio en GitHub**
-   - Captura de Pantalla:
-   ![Paso 3: Integración en GitHub](assets/images/TB3/deploy_3.png)
+* Adicionalmente Podemos seleccionar use your GitHub pages website en las opciones de about del repositorio, para poder acceder de una manera mas rapida al link.
 
-4. **Automatización del Despliegue**
-   - Captura de Pantalla:
-   ![Paso 4: Automatización](assets/images/TB3/deploy_4.png)
+Finalmente nos dará un link directo a la Landing page desplegada:  
+https://rampart-saborescercanos.github.io/LandingPage/
 
-5. **Verificación del Despliegue**
-   - Captura de Pantalla:
-   ![Paso 5: Verificación](assets/images/TB3/deploy_6.png)
+<h3>Frontend</h3>  
+Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfocándonos en el frontend. Las actividades realizadas incluyen la configuración del entorno de desarrollo en Firebase, la creación de cuentas en proveedores de servicios en la nube y la automatización del proceso de despliegue.<br><br>  
 
-6. **Evidencia de la Base de Datos en JSON Server**
-   - Captura de Pantalla de `db.json` utilizado en JSON Server:
-   ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
+**Levantamiento del FakeApi con My JSON Server**  
 
-7. **Enlace al Frontend Desplegado:**
-https://saborescercanos-frontend.web.app/home
+  ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)  
+
+  Se crea un repositorio , ponemos el bd.json en el repositorio para poder con este crear el link de My JSON Server    
+  Una vez puesto este link en los environments y comprobado que funciona el frontend con el link como fakeApi seguimos al siguiente paso.
+
+**Pasos Realizados para el espliegue del Frontend en Firebase Hosting**
+
+1. **Creación de la Cuenta en Firebase**  
+  Realizamos la creacion de la cuenta y del proyecto.
+
+    ![Creación de Cuenta en Firebase](assets/images/TB3/deploy_1.png)
+
+2. **Configuración del Proyecto en Firebase y en Webstorm**  
+  Seleccione Build y luego Hosting. Hicimos clic en Get Started o Comenzar en la sección de Hosting yaque era la primera vez que lo configurabamos en este proyecto
+
+    Se realizo los comandos necesarios en la terminal de nuestro proyecto.
+
+    > npm install -g firebase-tools
+
+    > firebase login
+
+    > firebase init
+
+    > npm run build
+
+    > firebase deploy
+
+    ![Configuración del Proyecto](assets/images/TB3/deploy_2.png)
+
+3. **Verficicacion**  
+  Firebase generó una URL pública que permite acceder al sitio en línea.
+  ![alt text](assets/TB2_images/frontdep.png)
+  Enlace al Frontend Desplegado:  
+  https://saborescercanos-frontend.web.app/home  
+
 **Conclusiones**
 El proceso de despliegue del frontend en Firebase se realizó con éxito, asegurando que todos los elementos estén disponibles y funcionando correctamente en el entorno de producción. Se verificó la accesibilidad de la landing page y se realizaron pruebas para confirmar que todos los enlaces y funciones están operativos.
 
-**Resumen del Despliegue del Backend**
+<h3>Backend</h3>  
+
 Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación backend utilizando Azure. Este proceso incluye la configuración del entorno en Azure, la carga de la aplicación y la verificación de su funcionalidad.
 
-**Actividades Realizadas**
-- **Creación de Cuenta y Configuración de Recursos**: 
-  - Se creó una cuenta en Azure y se configuraron los recursos necesarios para el despliegue del backend.
+**Despliegue del Backend en Azure**
 
-- **Configuración de Proyectos para Integración**: 
-  - Se configuró el proyecto en Azure para permitir la integración continua y el despliegue automático.
+1. **Acceso y Configuración Inicial**: Ingresé a la plataforma Azure utilizando mi cuenta de estudiante, que proporciona acceso gratuito a diversos servicios.  
+2. **Creación del Servicio de Backend**:  
+ Generé el entorno para el backend en Azure, seleccionando el servicio adecuado para el despliegue (como Azure App Service o Azure Functions, según sea el caso).
+3. **Integración con GitHub**:   Configuré una integración continua con GitHub vinculando mi repositorio al servicio de Azure. Esto permite que cada cambio en el repositorio de GitHub se refleje automáticamente en el servicio de Azure.  
+4. **Modificación de Archivos de Configuración**:  
+ Realicé ajustes en los archivos de configuración del backend (como `appsettings.json` o variables de entorno) dentro del repositorio para garantizar una conexión exitosa entre el backend y mi cuenta de Azure, configurando detalles como las credenciales y los endpoints necesarios.
+5. **Despliegue y Pruebas**: Una vez configurado, el backend fue desplegado en Azure. Verifiqué el despliegue accediendo al endpoint generado y comprobando que las funcionalidades del backend respondieran correctamente.
 
-- **Despliegue del Backend**: 
-  - Se subieron los archivos y se verificó que la aplicación backend se desplegó correctamente y está accesible.
+Este proceso asegura que el backend esté correctamente desplegado y funcional en Azure, con una conexión confiable y sincronizada a través de GitHub. 
 
-**Enlace a la Aplicación Backend Desplegada**
+**Evidencia de la Base de Datos en swagger(deploy)**
+   - Captura de Pantalla de `db.json` utilizado en JSON Server:
+    ![alt text](assets/TB2_images/swaggerdeployado1.png)
+    ![alt text](assets/TB2_images/swaggerdeployado2.png)  
 
+Enlace a la Aplicación Backend Desplegada:  
 rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
-
-**Captura del JSON Server**
-  ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
 
 | Integrante | Acciones realizadas durante el sprint |
 |-|-|
 | Estefano Oscar Jaque Peña | Desarrollo del bounded context de Recetas |
-| Maria Jose Pezo Castilla | Desarrollo del bounded context de Platillos |
-| Diego Alonso Rosado Iporre | Desarrollo del bounded context de Plan Alimenticio |
-| Sebastián Omar Real Calderón | Desarrollo del bounded context de Cocineros |
-| Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Pedidos |
+| Diego Alonso Rosado Iporre | Desarrollo del bounded context customer, perfil y home |
+| Sebastián Omar Real Calderón | Desarrollo del bounded context Post |
+| Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Orders |
 
 **Contribucion en el repositorio del Frontend**
 
@@ -2764,79 +2768,44 @@ La información sobre los chefs no está presente en la plataforma, lo que puede
 Agregar perfiles de los chefs que incluyan información sobre su experiencia, especialidades y filosofía culinaria.
 
 ### 5.4. Video About-The-Team
-
-### Resumen del Video
+**Resumen del Video**
 En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Team". El video documenta el proceso de trabajo realizado, incluyendo escenas que muestran imágenes o videos de sesiones de trabajo reales del equipo. A través de una narración, se complementa el proceso con los testimonios de cada participante, describiendo las actividades realizadas, los logros de los resultados (outcomes) y el desarrollo de competencias alcanzadas.
 
-### Pauta de Secuencias de Contenido
+**Pauta de Secuencias de Contenido**
 A continuación se detalla la pauta de secuencias de contenido del video, incluyendo el tiempo de inicio de cada sección (hh:mm:ss):
 
-### Cuadro Representativo del Video
+**Cuadro Representativo del Video**
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+- **Versión en Microsoft Stream**: [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 ### 5.5. Video About-The-Product
 
-### Resumen del Video
+**Resumen del Video**
 En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Product". El video documenta las características y funcionalidades clave del producto, mostrando cómo se alinea con las necesidades de nuestros usuarios. A través de una narración, se complementa el proceso con demostraciones visuales del producto en acción, así como testimonios de usuarios que destacan su experiencia y los beneficios obtenidos al utilizarlo.
 
-### Cuadro Representativo del Video
+**Cuadro Representativo del Video**
 ![Video About-The-Product](assets/images/TB3/About_the_product.png)
 
-### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202225466_upc_edu_pe/EXmvc_U0z_NNspivxuj2pmEBhwQwPhaUusiw9JYn4YTjTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CFenSb
+**URLs de la Versión Publicada**
+
+- **Versión en Microsoft Stream**: [https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing](https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing)
 
 ## Conclusiones
 
- * José Antonio Alejo Cárdenas:<br>
-   - TB1:<br>
-   En conclusión, el proyecto reflejó una sólida capacidad de liderazgo compartido y trabajo en equipo, donde las actividades clave como la creación del Lean UX Canvas, Impact Mapping y el desarrollo de User Stories permitieron una participación equitativa y una toma de decisiones colaborativa. Al mismo tiempo, se estableció un entorno inclusivo y bien planificado, donde las metas y tareas, como la definición de Segmentos objetivo, SEO Tags, y Navigation Systems, fueron organizadas de manera efectiva, lo que resultó en el cumplimiento exitoso de los objetivos planteados. Esto resalta una gestión eficiente y un enfoque claro en la coordinación y ejecución de proyectos complejos.<br><br>
- * Maria Jose Pezo Castilla:<br>
-   - TB1:<br>
-   En conclusión, el proyecto demostró una excelente capacidad de colaboración y planificación, donde actividades clave como la elaboración de la Descripción de la Startup, Solution Profile, y el diseño de la Landing Page y la aplicación web se llevaron a cabo de manera conjunta y organizada. El equipo creó un entorno inclusivo y estructurado, permitiendo una asignación clara de responsabilidades y el cumplimiento efectivo de los objetivos. La capacidad de coordinar y tomar decisiones estratégicas en equipo fue esencial para avanzar con éxito en el desarrollo del proyecto.<br><br>
+Aquí tienes el resumen de las conclusiones por grupo:
 
-* Diego Alonso Rosado Iporre:<br>
-   - TB1:<br>
-   En el desarrollo de "Sabores Cercanos," hemos logrado definir una sólida arquitectura de software que facilita la escalabilidad y el mantenimiento del sistema, gracias a los detallados diagramas de contexto, contenedores y componentes. El análisis de competidores ha resaltado nuestras ventajas, como la autenticidad en las comidas caseras y la conexión directa con cocineros locales, diferenciándonos de plataformas que priorizan la eficiencia. Además, el exitoso despliegue de la landing page marca un hito importante, mostrando nuestros avances y proporcionando una base sólida para futuras integraciones y despliegues de otros componentes del proyecto. A medida que avanzamos, el compromiso del equipo y la atención a las áreas de oportunidad identificadas asegurarán el éxito continuo del proye<br><br>
-   
-* Sebastián Omar Real Calderón:<br>
-  - TB1:<br>
-   Durante las primeras etapas del desarrollo de la aplicación "Sabores Cercanos", hemos establecido las bases para el correcto funcionamiento del proyecto. Hemos analizado las necesidades de los usuarios a través de las entrevistas y el proceso de needfinding, y posteriormente aprovechamos la información recabada para armar un producto que satisfaga las necesidades de nuestros consumidores. Como grupo, nos dedicamos a realizar nuestras tareas de forma eficiente, y nuestro compromiso se solidificará conforme avance el proceso del proyecto, y eso llevará a que el éxito del proyecto sea más probable.<br><br>
+- TB1:<br> 
+El proyecto "Sabores Cercanos" evidenció un trabajo colaborativo bien estructurado, donde se implementaron herramientas como Lean UX, Impact Mapping y User Stories. Estas permitieron la creación de una arquitectura de software sólida, una landing page funcional y un análisis de competidores, destacando la autenticidad en la conexión directa con cocineros locales. A lo largo del proceso, se identificaron y organizaron claramente las metas, objetivos y responsabilidades, fortaleciendo el liderazgo compartido y una toma de decisiones eficiente. El análisis de necesidades de los usuarios y el empleo de metodologías de gestión y diseño contribuyeron a que el equipo avanzara con éxito en cada etapa del desarrollo.<br>
 
-* Estefano Oscar Jaque Peña:<br>
-   - TB1:<br>
-   En el desarrollo de "Sabores Cercanos", se utilizaron varias metodologías y herramientas de gestión de proyectos, incluido Lean UX, a lo largo del proyecto, lo que permitió definir claramente los problemas y las hipótesis a validar. Para garantizar que los requerimientos del usuario se alinearan con las soluciones propuestas, se debieron desarrollar User Stories, Product Backlog y Sprints. Los diagramas de clases y las bases de datos también brindaron una base sólida para la implementación del sistema. Este proceso permitió optimizar la organización y el flujo de trabajo dentro del equipo, lo que permitió la entrega de un producto eficiente y adaptable a las necesidades del mercado.<br><br>
+- TP:<br>
+En el TP, el equipo continuó desarrollando "Sabores Cercanos" mediante una arquitectura basada en Bounded Contexts, dividiendo de manera efectiva las funcionalidades del sistema. Se abordaron actividades de planificación como el Sprint Backlog 2 y se reforzaron las prácticas de colaboración a través de la documentación y la organización de tareas. Además, se implementaron estrategias como entrevistas con usuarios y análisis de antecedentes para comprender mejor el mercado. Esto permitió una alineación clara en la misión del proyecto y estableció una base para un sistema culinario robusto, enfocado en conectar cocineros locales con consumidores de manera significativa.<br>
 
-
-* <br>Sebastián Omar Real Calderón<br>  
-   - TP: A través del Bounded Context de Cocineros, logré definir de manera precisa las responsabilidades en la gestión de los cocineros, lo que promovió una colaboración fluida entre todos los miembros del equipo. El trabajo realizado en el Sprint Backlog 2 me permitió organizar y priorizar las tareas de manera eficiente, asegurando que cada integrante tomara un papel activo y contribuyera al liderazgo compartido en el desarrollo de las funcionalidades. Además, la preparación de Team Collaboration Insights during Sprint fue clave, ya que brindó una visión clara de cómo el equipo trabajó en conjunto para cumplir los objetivos, y la Execution Evidence for Sprint Review mostró cómo se ejecutaron eficazmente las tareas asignadas por el equipo.<br><br>
-
-* <br>Diego Alonso Rosado Iporre<br>
-
-   - TP: En el desarrollo de "Sabores Cercanos," hemos avanzado significativamente en la definición de una arquitectura de software sólida. La utilización de Bounded Contexts ha sido muy beneficiosa, permitiendo una clara segmentación de las funcionalidades. Además, la estructura por componentes, modelos y servicios facilita el entendimiento del código y mejora la mantenibilidad del sistema.  
-   El análisis de competidores ha resaltado nuestras ventajas, como la autenticidad en las comidas caseras y la conexión directa con cocineros locales, diferenciándonos de plataformas que priorizan la eficiencia. También, el exitoso despliegue de la landing page marca un hito importante, proporcionando una base sólida para futuras integraciones. El compromiso del equipo y la atención a las áreas de oportunidad identificadas asegurarán el éxito continuo del proyecto.<br><br>
-
-* <br>Maria Jose Pezo Castilla:<br>
-   - TP:<br>
-   En conclusión, "Sabores Cercanos" ha evolucionado de manera significativa gracias a un enfoque estructurado y colaborativo en su desarrollo. La descripción de la startup, el perfil de la solución y el análisis de antecedentes permitieron al equipo alineal su visión y comprender la problemática del mercado. Las entrevistas con usuarios y el diseño de la landing page, junto con la aplicación web, aseguraron que se abordaran las necesidades de los consumidores de manera efectiva. Además, la implementación del Sprint Backlog 2 y la documentación del progreso, junto con el Bounded Context de Platos, fortalecieron la estructura del sistema y facilitaron la comunicación dentro del equipo. Estas actividades no solo respaldan la misión de conectar cocineros con consumidores, sino que también establecen una base sólida para un ecosistema culinario dinámico. <br><br>
-  
- * José Antonio Alejo Cárdenas:<br>
-   - TB2:<br>
-   En el desarrollo de "Sabores Cercanos", he participado en la implementación de la funcionalidad para cancelar la programación de pedidos (TA005) y en la gestión de pedidos por estado (TA011). Este proceso destacó la importancia de un liderazgo compartido y un trabajo en equipo efectivo. La colaboración en la definición y ejecución de User Stories permitió al equipo mantener un enfoque claro en las metas y tareas, lo que resultó en un cumplimiento exitoso de los objetivos del sprint y una mejora notable en la experiencia del usuario.<br><br>
-
-* Diego Alonso Rosado Iporre:<br>
-   - TB2:<br>
-   En este sprint, trabajé en la verificación de identidad de cocineros (TA013) y en el resumen de transacciones financieras (TA012). La implementación de una arquitectura de software sólida y bien definida ha sido crucial para la escalabilidad del sistema. El análisis de la competencia resaltó nuestras ventajas únicas y la respuesta del equipo a las áreas de oportunidad identificadas contribuirá al éxito continuo del proyecto. La comunicación efectiva y la colaboración en tareas específicas fueron determinantes para alcanzar nuestros objetivos.<br><br>
-
-* Sebastián Omar Real Calderón:<br>
-  - TB2:<br>
-   Participé en el desarrollo de la funcionalidad de optimización de rendimiento de la carga de imágenes (TA015) y en el filtrado de pedidos por método de pago (TA009). La implementación de estas características ha establecido una base sólida para el rendimiento de la aplicación. La colaboración en la organización del Sprint Backlog y la claridad en las tareas asignadas han permitido que cada miembro del equipo desempeñe un papel activo en el desarrollo. A medida que avanzamos, el compromiso del equipo es fundamental para asegurar el éxito del proyecto.<br><br>
-
-* Estefano Oscar Jaque Peña:<br>
-   - TB2:<br>
-   Durante este sprint, trabajé en la implementación de la creación y edición de recetas (TA004 y TA003), lo que subraya la importancia de alinear los requisitos del usuario con las soluciones propuestas. La utilización de metodologías como Lean UX ha facilitado la organización y flujo de trabajo del equipo, permitiendo entregar un producto adaptado a las necesidades del mercado. Este enfoque colaborativo y estructurado ha sido esencial para el avance del proyecto "Sabores Cercanos".<br><br>
+- TB2:<br>
+Durante el TB2, el equipo avanzó en la implementación de funcionalidades específicas, como la gestión de pedidos, la verificación de identidad de cocineros, la optimización de rendimiento de imágenes y la creación y edición de recetas. Se mantuvo un enfoque en la escalabilidad y mantenibilidad del sistema, apoyado por una arquitectura de software sólida y una comunicación eficiente dentro del equipo. Este sprint destacó la importancia de la colaboración, la claridad en la asignación de tareas y el compromiso para seguir optimizando el proyecto, orientando el desarrollo hacia una plataforma eficiente y adaptable a las necesidades del mercado.<br>
 
 ## Bibliografia
    - Biblioteca UPC. (2024). _Biblioteca virtual de la Universidad Peruana de Ciencias Aplicadas_. https://biblioteca.upc.edu.pe
@@ -2849,7 +2818,12 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 
 ## Anexos
 
-Anexo A: https://miro.com/welcomeonboard/OUlZbW1uR09XMWtSc0plSTJvdnlhOXUyZmdTTDZ1MkR1UTNxalRnQW1WMnJzR0ExYzg3blFQbG0zYW9oZGdFbnwzNDU4NzY0NTQzNjk5MTEyMTEwfDI=?share_link_id=824100007857
+Wireframes and Mockups: https://www.figma.com/design/5jRpYDUjHgwpGOIgfgKZLA/Wireframes-Web-App?node-id=24-2&t=6CYRjycdU5lEljAJ-1
+
+Diagrama de clases: https://lucid.app/lucidchart/c228e218-6d6b-484c-8557-0fae7cba2738/edit?viewport_loc=-216%2C49%2C4474%2C2081%2CHWEp-vi-RSFO&invitationId=inv_387afe2d-3886-4d53-a6e8-c42b2ae376e3
+
+Diagrama de base de datos: https://lucid.app/lucidchart/de7494c8-ca20-4b78-8732-fb0986780e5e/edit?viewport_loc=-5%2C469%2C2982%2C1387%2C0_0&invitationId=inv_df6f46c5-10c8-405e-8b2b-2a1a52ca42fa
+
 
 Anexo B:https://lucid.app/lucidchart/434db23b-883c-43b4-98ea-2da63e5366d5/edit?viewport_loc=-854%2C-13081%2C4706%2C2108%2C0_0&invitationId=inv_f9b021da-b3ba-42f7-b73a-b5085b472ce8
 
@@ -2862,3 +2836,29 @@ Anexo E:  https://lucid.app/lucidchart/de7494c8-ca20-4b78-8732-fb0986780e5e/edit
 ANEFO F: https://drive.google.com/drive/folders/14X--cRiq700Ryxi1WeZE7CM0riqFNCae?usp=sharing
 
 ANEXO G: https://drive.google.com/drive/folders/1aIE_Dj5v-rLgMxIZl-rMrsUlPqoVnidZ?usp=sharing
+
+URL de la organización del proyecto:  https://github.com/Rampart-SaboresCercanos
+
+URL del repositorio del reporte: https://github.com/Rampart-SaboresCercanos/Rampart.git 
+
+URL del repositorio de la landing page: https://github.com/Rampart-SaboresCercanos/LandingPage.git
+
+URL del repositorio del Frontend: https://github.com/Rampart-SaboresCercanos/FrontEnd.git
+
+URL del repositorio del backend: https://github.com/Rampart-SaboresCercanos/BackEnd.git
+
+URL deploy Landing Page:  https://rampart-saborescercanos.github.io/LandingPage/
+
+URL deploy Fronted: https://saborescercanos-frontend.web.app/home
+
+URL deploy  Backend : https://rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
+
+Link de Pivotal tracker(Product Backlog): https://www.pivotaltracker.com/n/projects/2723742
+
+Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba103332d73ab459b9c9963c0ade138D7652/mi-tablero-de-trello
+
+Video about the product(TB2): https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
+
+Video abotu the team(TB2): [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 

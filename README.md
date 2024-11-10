@@ -2336,10 +2336,23 @@ Se diseñaron y automatizaron pruebas para un total de 21/35 archivos .feature, 
 | Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US27 gherkin  | Se agregaron los features de las User Story 27 | 03/11/2024|
 | Rampart-SaboresCercanos/Testing | feature/TB2 | 41feda4385e1f1381776e94d1ac9cca81f6a2c7d |feature: added US29 gherkin  | Se agregaron los features de las User Story 29 | 03/11/2024|
 
-### 5.2.3.5. Execution Evidence for Sprint Review
+### 5.2.3.5. Execution Evidence for Sprint Review  
+En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la landing page. Nos hemos enfocado en implementar el diseño y la funcionalidad básica, incluyendo las principales vistas y elementos interactivos. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado, junto con un enlace a un video que muestra la visualización y navegación logradas durante este Sprint.
 
-<h2>Sección Frontend</h2>
+**Capturas de Pantalla**
+- Seccion navbar: ![Screenshot1](assets/images/Landingpage/Navbar.png)
+- Seccion home: ![Screenshot2](assets/images/Landingpage/Home.png)
+- Seccion about us: ![Screenshot3](assets/images/Landingpage/About_us.png)
+- Seccion services: ![Screenshot5](assets/images/Landingpage/Services.png)
+- Seccion contact us: ![Screenshot6](assets/images/Landingpage/Contact_us.png)
+- Seccion footer: ![Screenshot7](assets/images/Landingpage/Footer.png)
 
+**Enlace a Video**
+[DIEGO PON EL VIDEO DE EXPLICACION]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
+
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<h3>Frontend</h3>
 En este sprint, hemos logrado avances significativos en el desarrollo del frontend de nuestro producto. Nos hemos concentrado en implementar tanto el diseño visual como la funcionalidad básica, asegurando que las principales vistas y elementos interactivos estén en su lugar. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado:
 
 **Capturas de Pantalla**  
@@ -2517,23 +2530,24 @@ El proceso de despliegue del frontend en Firebase se realizó con éxito, asegur
 
 Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación backend utilizando Azure. Este proceso incluye la configuración del entorno en Azure, la carga de la aplicación y la verificación de su funcionalidad.
 
-**Actividades Realizadas**
-- **Creación de Cuenta y Configuración de Recursos**: 
-  - Se creó una cuenta en Azure y se configuraron los recursos necesarios para el despliegue del backend.
+**Despliegue del Backend en Azure**
 
-- **Configuración de Proyectos para Integración**: 
-  - Se configuró el proyecto en Azure para permitir la integración continua y el despliegue automático.
+1. **Acceso y Configuración Inicial**: Ingresé a la plataforma Azure utilizando mi cuenta de estudiante, que proporciona acceso gratuito a diversos servicios.  
+2. **Creación del Servicio de Backend**:  
+ Generé el entorno para el backend en Azure, seleccionando el servicio adecuado para el despliegue (como Azure App Service o Azure Functions, según sea el caso).
+3. **Integración con GitHub**:   Configuré una integración continua con GitHub vinculando mi repositorio al servicio de Azure. Esto permite que cada cambio en el repositorio de GitHub se refleje automáticamente en el servicio de Azure.  
+4. **Modificación de Archivos de Configuración**:  
+ Realicé ajustes en los archivos de configuración del backend (como `appsettings.json` o variables de entorno) dentro del repositorio para garantizar una conexión exitosa entre el backend y mi cuenta de Azure, configurando detalles como las credenciales y los endpoints necesarios.
+5. **Despliegue y Pruebas**: Una vez configurado, el backend fue desplegado en Azure. Verifiqué el despliegue accediendo al endpoint generado y comprobando que las funcionalidades del backend respondieran correctamente.
 
-- **Despliegue del Backend**: 
-  - Se subieron los archivos y se verificó que la aplicación backend se desplegó correctamente y está accesible.
+Este proceso asegura que el backend esté correctamente desplegado y funcional en Azure, con una conexión confiable y sincronizada a través de GitHub. 
 
 **Evidencia de la Base de Datos en swagger(deploy)**
    - Captura de Pantalla de `db.json` utilizado en JSON Server:
     ![alt text](assets/TB2_images/swaggerdeployado1.png)
     ![alt text](assets/TB2_images/swaggerdeployado2.png)  
 
-**Enlace a la Aplicación Backend Desplegada**
-
+Enlace a la Aplicación Backend Desplegada:  
 rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -2541,10 +2555,9 @@ rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 | Integrante | Acciones realizadas durante el sprint |
 |-|-|
 | Estefano Oscar Jaque Peña | Desarrollo del bounded context de Recetas |
-| Maria Jose Pezo Castilla | Desarrollo del bounded context de Platillos |
-| Diego Alonso Rosado Iporre | Desarrollo del bounded context de Plan Alimenticio |
-| Sebastián Omar Real Calderón | Desarrollo del bounded context de Cocineros |
-| Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Pedidos |
+| Diego Alonso Rosado Iporre | Desarrollo del bounded context customer, perfil y home |
+| Sebastián Omar Real Calderón | Desarrollo del bounded context Post |
+| Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Orders |
 
 **Contribucion en el repositorio del Frontend**
 
@@ -2755,18 +2768,19 @@ La información sobre los chefs no está presente en la plataforma, lo que puede
 Agregar perfiles de los chefs que incluyan información sobre su experiencia, especialidades y filosofía culinaria.
 
 ### 5.4. Video About-The-Team
-
-### Resumen del Video
+**Resumen del Video**
 En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Team". El video documenta el proceso de trabajo realizado, incluyendo escenas que muestran imágenes o videos de sesiones de trabajo reales del equipo. A través de una narración, se complementa el proceso con los testimonios de cada participante, describiendo las actividades realizadas, los logros de los resultados (outcomes) y el desarrollo de competencias alcanzadas.
 
-### Pauta de Secuencias de Contenido
+**Pauta de Secuencias de Contenido**
 A continuación se detalla la pauta de secuencias de contenido del video, incluyendo el tiempo de inicio de cada sección (hh:mm:ss):
 
-### Cuadro Representativo del Video
+**Cuadro Representativo del Video**
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+- **Versión en Microsoft Stream**: [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
 ### 5.5. Video About-The-Product
 
@@ -2845,5 +2859,6 @@ Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd
 
 Video about the product(TB2): https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
 
-Video abotu the team(TB2): 
+Video abotu the team(TB2): [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 

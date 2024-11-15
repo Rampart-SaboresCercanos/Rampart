@@ -247,17 +247,32 @@ TB2:<br>
     - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
     - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
     - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+    - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+    - [5.2.4.2. Sprint Backlog 3](#5242-sprint-backlog-3)
+    - [5.2.4.3. Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review)
+    - [5.2.4.4. Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews.](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-    - [TABLA RESUMEN:](#tabla-resumen)
-    - [DESCRIPCIÓN DE PROBLEMAS:](#descripción-de-problemas)
+- [TABLA RESUMEN](#tabla-resumen)
+- [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
+  - [PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra](#problema-1-no-hay-un-control-que-permita-regresar-a-la-tienda-durante-el-trámite-de-compra)
+  - [PROBLEMA #2: Se repiten constantemente algunas opciones](#problema-2-se-repiten-constantemente-algunas-opciones)
+  - [PROBLEMA #3: Imágenes sin atributo “alt”](#problema-3-imágenes-sin-atributo-alt)
+  - [PROBLEMA #4: Incluye un botón “Ver más” pero no existe contenido al que dirigirse](#problema-4-incluye-un-botón-ver-más-pero-no-existe-contenido-al-que-dirigirse)
+  - [PROBLEMA #5: No incluye información de los planes de servicio](#problema-5-no-incluye-información-de-los-planes-de-servicio)
+  - [PROBLEMA #6: Falta de notificaciones en tiempo real sobre el estado de pedidos](#problema-6-falta-de-notificaciones-en-tiempo-real-sobre-el-estado-de-pedidos)
+  - [PROBLEMA #7: Necesidad de un sistema de clasificación visual para favoritos](#problema-7-necesidad-de-un-sistema-de-clasificación-visual-para-favoritos)
+  - [PROBLEMA #8: Falta de información sobre los chefs en el landing page](#problema-8-falta-de-información-sobre-los-chefs-en-el-landing-page)
     - [5.4. Video About-The-Team](#54-video-about-the-team)
-    - [Resumen del Video](#resumen-del-video)
-    - [Pauta de Secuencias de Contenido](#pauta-de-secuencias-de-contenido)
-    - [Cuadro Representativo del Video](#cuadro-representativo-del-video)
     - [URLs de la Versión Publicada](#urls-de-la-versión-publicada)
+    - [5.5. Video About-The-Product](#55-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
   - [Anexos](#anexos)
@@ -1101,6 +1116,7 @@ EPICS:
 |08|Seguridad y Protección de Datos|Como usuario, quiero que la plataforma garantice la seguridad de mis datos personales, financieros y las transacciones, para tener confianza en que mi información está protegida y que mis interacciones son seguras.|
 |09|Gestión de Favoritos|Como usuario de Sabores Cercanos, quiero una sección de favoritos donde pueda acceder rápidamente a mis recetas favoritas, así como a los cocineros que más me gustan, para poder encontrarlos y realizar pedidos con mayor facilidad.|
 |10|Desarrollo de Funcionalidades de la Aplicación|Como equipo de desarrollo, queremos implementar una serie de funcionalidades clave en la aplicación, para mejorar la experiencia de los usuarios, permitir una interacción fluida y ofrecer características que les faciliten la búsqueda, gestión y consumo de contenido dentro de la plataforma.|
+|11|Desarrollo de Funcionalidades de la Aplicación|Como desarrollador, quiero implementar un sistema de gestión de identidad y acceso (IAM) robusto para garantizar que los usuarios tengan el nivel de acceso adecuado a los diferentes recursos y funcionalidades de la aplicación, mejorando la seguridad y control sobre los permisos.|
 
 
 |Story ID|Título|Descripción|Criterios de Aceptación|Epic ID|
@@ -1148,6 +1164,17 @@ EPICS:
 |TS-41|Implementar Funcionalidad de Favoritos|Como desarrollador, quiero permitir que los usuarios marquen a cocineros como favoritos para que puedan encontrarlos fácilmente en futuras ocasiones.|Dado que el usuario accede a la sección de favoritos, cuando selecciona un chef como favorito, entonces debería poder verlo en la lista de favoritos en futuras búsquedas.|EP-10|
 |TS-42|Implementar Funcionalidad de Notificaciones Push|Como desarrollador, quiero implementar notificaciones push para mantener a los usuarios informados sobre el estado de sus pedidos, nuevas publicaciones, y ofertas especiales.|Dado que el usuario tiene habilitadas las notificaciones push, cuando hay una actualización sobre un pedido o una nueva publicación, entonces el sistema debe enviar una notificación push al dispositivo del usuario.|EP-10|
 |TS-43|Optimizar el Rendimiento de la Carga de Imágenes|Como desarrollador, quiero optimizar la carga de imágenes para que las publicaciones de platos y las recetas se carguen rápidamente, mejorando la experiencia del usuario y reduciendo el tiempo de carga.|Dado que el usuario accede a una publicación con imágenes, cuando la página carga, entonces las imágenes deben cargarse de manera rápida y eficiente, utilizando técnicas como lazy loading y compresión de imágenes.|EP-10|
+|US-44|Autenticación de Usuarios con Multi-Factor Authentication (MFA)|Como usuario, quiero tener la opción de habilitar la autenticación multifactor para acceder a mi cuenta de manera segura, reduciendo el riesgo de acceso no autorizado.|Dado que el usuario accede a la aplicación, cuando inicie sesión, entonces debe poder habilitar y configurar MFA como segundo factor de autenticación, utilizando opciones como SMS o aplicaciones de autenticación.|EP-11|
+|US-45|Roles y Permisos Basados en Roles de Usuario|Como administrador, quiero asignar roles y permisos específicos a los usuarios para controlar su acceso a ciertas áreas y funciones de la aplicación, asegurando un control de acceso granular.|Dado que el usuario tiene un rol específico, cuando intente acceder a una funcionalidad restringida, entonces el sistema debe permitir o denegar el acceso en función de los permisos asignados a su rol|EP-11|
+|US-46|Gestión de Sesiones y Expiración Automática|Como usuario, quiero que la sesión expire automáticamente después de un tiempo de inactividad para mantener la seguridad de la cuenta.|Dado que el usuario está inactivo por un período prolongado, cuando se cumpla el tiempo configurado de inactividad, entonces la sesión debe cerrarse automáticamente y solicitar autenticación nuevamente al usuario para continuar.|EP-11|
+|US-47|Recuperación de Contraseña y Verificación de Identidad|Como usuario, quiero poder recuperar mi contraseña en caso de olvido, para que pueda restablecer mi acceso sin perder mi cuenta.|Dado que el usuario ha olvidado su contraseña, cuando inicie el proceso de recuperación, entonces debe recibir un correo electrónico con un enlace seguro para restablecer la contraseña, previa verificación de identidad.|EP-11|
+|US-48|Auditoría de Inicios de Sesión|Como administrador, quiero poder ver un historial de los inicios de sesión de cada usuario para detectar actividades sospechosas o no autorizadas.|Dado que el administrador necesita monitorear actividades, cuando acceda al registro de auditoría, entonces debe ver el historial de inicio de sesión de los usuarios con información como fecha, hora y ubicación aproximada.|EP-11|
+|US-49|Bloqueo de Cuenta después de Intentos Fallidos de Inicio de Sesión|Como usuario, quiero que mi cuenta se bloquee temporalmente después de varios intentos fallidos de inicio de sesión para protegerme de posibles ataques de fuerza bruta.|Dado que el usuario intenta iniciar sesión varias veces sin éxito, cuando se alcance el límite de intentos fallidos, entonces la cuenta debe bloquearse temporalmente y notificarse al usuario.|EP-11|
+|US-50|Control de Acceso Basado en Atributos (ABAC)|Como administrador, quiero poder asignar permisos específicos en función de atributos del usuario, como departamento o ubicación, para una gestión de acceso más detallada.|Dado que el administrador asigna permisos basados en atributos, cuando un usuario intente acceder a una funcionalidad, entonces el sistema debe permitir o denegar el acceso en función de sus atributos configurados.|EP-11|
+|US-51|Verificación de Email al Crear una Nueva Cuenta|Como usuario, quiero verificar mi dirección de correo electrónico al crear una cuenta para confirmar mi identidad y evitar cuentas falsas.|Dado que el usuario ha creado una cuenta, cuando se registre, entonces debe recibir un correo de verificación y completar el proceso para activar su cuenta.|EP-11|
+|US-52|Delegación de Acceso Temporal|Como usuario, quiero poder delegar temporalmente mi acceso a otro usuario en caso de que necesite compartir funciones de mi cuenta sin comprometer mi seguridad.|Dado que el usuario desea delegar acceso, cuando habilite la delegación temporal, entonces el sistema debe permitir la designación de otro usuario con un acceso limitado y revocar dicho acceso después del tiempo configurado.|EP-11|
+|US-53|Notificaciones de Seguridad en Tiempo Real|Como usuario, quiero recibir notificaciones en tiempo real de actividades de inicio de sesión no reconocidas para poder actuar rápidamente ante posibles amenazas.|Dado que el sistema detecta un inicio de sesión sospechoso, cuando este ocurra, entonces el usuario debe recibir una notificación en tiempo real con opciones para confirmar o bloquear el acceso.|EP-11|
+|US-54|Acceso Basado en el Principio de Menor Privilegio|Como administrador, quiero configurar el sistema para que, de forma predeterminada, los usuarios tengan los mínimos permisos necesarios para sus tareas, evitando accesos innecesarios.|Dado que un usuario es creado con un rol básico, cuando este acceda al sistema, entonces solo debe ver las opciones esenciales según el principio de menor privilegio.|EP-11|
 
 ### 3.3. Impact Mapping
 
@@ -1211,7 +1238,18 @@ EPICS:
 |41|TS35|Implementar Funcionalidad de Publicaciones de Platos|Como desarrollador, quiero implementar la funcionalidad de publicaciones para que los chefs puedan mostrar sus platos, incluyendo la imagen, el stock disponible y el precio.|3|
 |42|TS34|Implementar Landing Page| Como desarrollador, quiero implementar la landing page que muestre la información de la plataforma y guíe al usuario a descargar la app o acceder al sitio web.|5|
 |43|TS33|Configurar Entorno de Desarrollo|Como desarrollador, quiero configurar mi entorno de desarrollo para poder comenzar a trabajar en el proyecto de Sabores Cercanos.|5|
-
+|EP11|||||
+|44|US51|Verificación de Email al Crear una Nueva Cuenta|Como usuario, quiero verificar mi dirección de correo electrónico al crear una cuenta para confirmar mi identidad y evitar cuentas falsas.|1|
+|45|US47|Recuperación de Contraseña y Verificación de Identidad|Como usuario, quiero poder recuperar mi contraseña en caso de olvido, para que pueda restablecer mi acceso sin perder mi cuenta.|2|
+|46|US54|Acceso Basado en el Principio de Menor Privilegio|Como administrador, quiero configurar el sistema para que, de forma predeterminada, los usuarios tengan los mínimos permisos necesarios para sus tareas, evitando accesos innecesarios.|3|
+|47|US53|Notificaciones de Seguridad en Tiempo Real|Como usuario, quiero recibir notificaciones en tiempo real de actividades de inicio de sesión no reconocidas para poder actuar rápidamente ante posibles amenazas.|3|
+|48|US44|Autenticación de Usuarios con Multi-Factor Authentication (MFA)|Como usuario, quiero tener la opción de habilitar la autenticación multifactor para acceder a mi cuenta de manera segura, reduciendo el riesgo de acceso no autorizado.|5|
+|49|US45|Roles y Permisos Basados en Roles de Usuario|Como administrador, quiero asignar roles y permisos específicos a los usuarios para controlar su acceso a ciertas áreas y funciones de la aplicación, asegurando un control de acceso granular.|5|
+|50|US46|Gestión de Sesiones y Expiración Automática|Como usuario, quiero que la sesión expire automáticamente después de un tiempo de inactividad para mantener la seguridad de la cuenta.|8|
+|51|US48|Auditoría de Inicios de Sesión|Como administrador, quiero poder ver un historial de los inicios de sesión de cada usuario para detectar actividades sospechosas o no autorizadas.|8|
+|52|US49|Bloqueo de Cuenta después de Intentos Fallidos de Inicio de Sesión|Como usuario, quiero que mi cuenta se bloquee temporalmente después de varios intentos fallidos de inicio de sesión para protegerme de posibles ataques de fuerza bruta.|8|
+|53|US50|Control de Acceso Basado en Atributos (ABAC)|Dado que el administrador asigna permisos basados en atributos, cuando un usuario intente acceder a una funcionalidad, entonces el sistema debe permitir o denegar el acceso en función de sus atributos configurados.|13|
+|54|US52|Delegación de Acceso Temporal|Como usuario, quiero poder delegar temporalmente mi acceso a otro usuario en caso de que necesite compartir funciones de mi cuenta sin comprometer mi seguridad.|21|
 
 
 Link de Pivotal tracker: https://www.pivotaltracker.com/n/projects/2723742 
@@ -2550,6 +2588,68 @@ rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 **Contribucion en el repositorio del Backend**
 
 ![Project Insights Del Backend](assets/images/TB3/contri_backend.png)
+
+### 5.2.4. Sprint 4
+### 5.2.4.1. Sprint Planning 4
+El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto
+tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo
+determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
+
+En este Sprint 4, realizaremos la separación del bounded context y la implementación de lo aprendido en clase a cada uno de ellos. Hasta ahora, hemos trabajado en el frontend y el backend de la aplicación.
+
+|Sprint#|Srint 4|
+|:--|:--|
+|Sprint Planning Background|---------|
+|Date|2024-11-14|
+|Time|11:11 PM|
+|Location|Reunión virtual en Discord|
+|Prepared by|José Antonio Alejo Cárdenas|
+|Attendees (to <br>planning meeting)|Estefano Oscar Jaque Peña, Jose Antonio Alejo Cardenas, Diego Alonso Rosado Iporre, Sebastian Omar Real Calderón|
+|Sprint Goal & User<br>stories|---------|
+|Sprint 4 Goal|Nuestro enfoque está en separar las tareas para cada integrante respecto al bounded context que elijan y finalizar el informe detallando el trabajo realizado por cada integrantepara para la aplicación web "Sabores Cercanos".|
+|Sprint 4 Velocity|(US44,US43,US44,US45,US46,US47,US48,US49,US50,US51,US52,US53)|
+|Sum of story points|69|
+
+### 5.2.4.2. Sprint Backlog 3
+CONTENIDO
+
+### 5.2.4.3. Development Evidence for Sprint Review
+CONTENIDO
+
+
+### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+CONTENIDO
+
+### 5.2.4.5. Execution Evidence for Sprint Review
+
+CONTENIDO
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+CONTENIDO
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+CONTENIDO
+
+### 5.2.4.8. Team Collaboration Insights during Sprint
+
+| Integrante | Acciones realizadas durante el sprint |
+|-|-|
+| Estefano Oscar Jaque Peña | X |
+| Maria Jose Pezo Castilla | X |
+| Diego Alonso Rosado Iporre | X |
+| Sebastián Omar Real Calderón | X |
+| Jose Antonio Alejo Cardenas | X |
+
+**Contribucion en el repositorio del Frontend**
+
+![X](X)
+
+**Contribucion en el repositorio del Backend**
+
+![X](X)
 
 ### 5.3. Validation Interviews.
 

@@ -2619,7 +2619,24 @@ CONTENIDO
 
 ### 5.2.4.4. Testing Suite Evidence for Sprint Review
 
-CONTENIDO
+En esta sección se presenta la evidencia de las pruebas automatizadas desarrolladas durante el sprint, que incluyen Unit Tests, Integration Tests y Acceptance Tests, todos alineados con los User Stories especificados en el backlog del sprint. Se ha utilizado el lenguaje Gherkin para elaborar los archivos .feature que describen el comportamiento del sistema en base a las pruebas de Desarrollo Dirigido por el Comportamiento (BDD).
+
+Se diseñaron y automatizaron pruebas para un total de 10 archivos .feature, en los cuales se cubrieron User Stories como la US44 hasta la US54. En la siguiente tabla se muestran los commits relacionados con la creación y actualización de las pruebas para cada User Story, junto con las ramas y los IDs de commits asociados.
+
+| **Repository**| **Branch**| **Commit Id**| **Commit Message** | **Commit Message Body**| **Committed on (Date)** |
+|-|-|-|-|-|-|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |Initial commit  | Initial commit | 24/09/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US44 gherkin  | Se agregaron los features de las User Story  44 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US45 gherkin  | Se agregaron los features de las User Story  45 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US46 gherkin  | Se agregaron los features de las User Story  46 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US47 gherkin  | Se agregaron los features de las User Story 47 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US48 gherkin  | Se agregaron los features de las User Story 48 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US49 gherkin  | Se agregaron los features de las User Story 49 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US50 gherkin  | Se agregaron los features de las User Story 50 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US51 gherkin  | Se agregaron los features de las User Story 51 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US52 gherkin  | Se agregaron los features de las User Story 52 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US53 gherkin  | Se agregaron los features de las User Story 53 | 14/11/2024|
+| Rampart-SaboresCercanos/Testing | feature/TF | a8e92448d8646a3e29e5c7c64d23a97acc45ca58 |feature: added US54 gherkin  | Se agregaron los features de las User Story 14 | 14/11/2024|
 
 ### 5.2.4.5. Execution Evidence for Sprint Review
 

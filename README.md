@@ -2041,7 +2041,3 @@ Link de Pivotal tracker(Product Backlog): https://www.pivotaltracker.com/n/proje
 Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd79284/ATTI50beba103332d73ab459b9c9963c0ade138D7652/mi-tablero-de-trello
 
 Video about the product(TB2): https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
-
-Video abotu the team(TB2): [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 

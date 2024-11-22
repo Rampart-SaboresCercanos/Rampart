@@ -2698,7 +2698,49 @@ Se diseñaron y automatizaron pruebas para un total de 10 archivos .feature, en 
 
 ### 5.2.4.5. Execution Evidence for Sprint Review
 
-CONTENIDO
+**Orders**
+
+Primero agregamos una orden mediante el BackEnd, ya que nuestra logica de negocio no permite agregar una orden desde Orders sino desde Post:
+![alt text](assets/TF_images/EEOrdersAgregarOrden.png)
+
+Evidenciamos los cambios en el FrontEnd:
+![alt text](assets/TF_images/EEOrdersAgregarOrden1.png)
+
+Evidenciamos los cambios en la DB:
+![alt text](assets/TF_images/EEOrdersAgregarOrden2.png)
+
+Ahora podremos editar la orden mediante el boton en el FrontEnd "EditOrder":
+![alt text](assets/TF_images/EEOrdersEditarOrden.png)
+
+Evidenciamos los cambios en la DB:
+![alt text](assets/TF_images/EEOrdersEditarOrden1.png)
+
+Asi mismo, tambien podemos eliminar la orden mediante el boton en el FrontEnd "CancelOrder":
+![alt text](assets/TF_images/EEOrdersEliminarOrden.png)
+
+Evidenciamos los cambios en el FrontEnd:
+![alt text](assets/TF_images/EEOrdersEliminarOrden1.png)
+
+Evidenciamos los cambios en la DB:
+![alt text](assets/TF_images/EEOrdersEliminarOrden2.png)
+
+Ahora despues de agregar mas ordenes podemos empezar a filtrar las ordenes mediante los filtros OrderId, Status y Range of days del FrontEnd
+![alt text](assets/TF_images/EEOrdersFilters.png)
+![alt text](assets/TF_images/EEOrdersFilters1.png)
+![alt text](assets/TF_images/EEOrdersFilters2.png)
+
+Evidenciamos los cambios en el FrontEnd:
+![alt text](assets/TF_images/EEOrdersFilters3.png)
+
+Por OrderId:
+![alt text](assets/TF_images/EEOrdersFilters4.png)
+
+Por Status:
+![alt text](assets/TF_images/EEOrdersFilters5.png)
+
+Por Range of days:
+![alt text](assets/TF_images/EEOrdersFilters6.png)
+
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 

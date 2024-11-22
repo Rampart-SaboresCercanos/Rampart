@@ -2710,6 +2710,7 @@ Evidenciamos los cambios en la DB:
 ![alt text](assets/TF_images/EEOrdersAgregarOrden2.png)
 
 Ahora podremos editar la orden mediante el boton en el FrontEnd "EditOrder":
+![alt text](assets/TF_images/EEOrdersEditarOrden0.png)
 ![alt text](assets/TF_images/EEOrdersEditarOrden.png)
 
 Evidenciamos los cambios en la DB:

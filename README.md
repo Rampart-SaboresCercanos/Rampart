@@ -2745,8 +2745,8 @@ Por Range of days:
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
- URL FRONTEND Y BACKEND DESPLEGADO:
- URL FRONTEND: [link](https://saborescercanos-frontend.web.app/home)
+ URL FRONTEND Y BACKEND DESPLEGADO:<br>
+ URL FRONTEND: https://saborescercanos-frontend.web.app/home<br>
  URL BACKEND: rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 
  **Chef Bounded Context**

@@ -2800,19 +2800,54 @@ Por ingredientes:
 
  **Chef Bounded Context**
 
-  ![alt text](assets/TF_images/BEChef.png)
+Primero visualizamos nuestro FrontEnd vacío al igual que en el workbench
+![alt text](assets/TF_images/TF_Front1.png)
 
-  Nos ubicamos en nuestra ultima version del Backend del bounded context Chef:
+![alt text](assets/TF_images/TF_Back1.png)
 
-  ![alt text](assets/TF_images/BEChefPost1.png)
+Hacemos clic en el boton agregar chef de nuestro FrontEnd
+![alt text](assets/TF_images/TF_Front2.png)
 
-  Ejecutamos el post y corroboramos la respuesta:
+Agregamos a un nuevo chef
+![alt text](assets/TF_images/TF_Front3.png)
 
-  ![alt text](assets/TF_images/BEChefPost2.png)
+Visualizamos en nuestra DB que se agrega un nuevo chef
+![alt text](assets/TF_images/TF_Back2.png)
 
-  Verificamos la evidencia en la base de datos:
+Agregamos más chefs
+![alt text](assets/TF_images/TF_Back3.png)
 
-  ![alt text](assets/TF_images/BEChefPost3.png)
+Visualizamos que se agregan en nuestro FrontEnd
+![alt text](assets/TF_images/TF_Front4.png)
+
+Ahora probamos el servicio de editar un chef
+![alt text](assets/TF_images/TF_Front5.png)
+
+Cambiamos el nombre de Juan Perez a Juan Perez Mendoza y guardamos
+![alt text](assets/TF_images/TF_Front6.png)
+
+Visualizamos los cambios en nuestro DB
+![alt text](assets/TF_images/TF_Back4.png)
+
+Creamos un nuevo chef para probar el método Eliminar
+![alt text](assets/TF_images/TF_Front7.png)
+
+Lo visualizamos en el DB
+![alt text](assets/TF_images/TF_Back5.png)
+
+Confirmamos la elección de eliminar el chef
+![alt text](assets/TF_images/TF_Front8.png)
+
+Comprobamos en el DB
+![alt text](assets/TF_images/TF_Back6.png)
+
+Probamos el método de filtrado:
+
+Por nombre:
+![alt text](assets/TF_images/TF_Front9.png)
+
+Por rating:
+![alt text](assets/TF_images/TF_Front10.png)
 
  **Dish Bounded Context**
  
@@ -3218,7 +3253,7 @@ A continuación se detalla la pauta de secuencias de contenido del video, incluy
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
 
 ### URLs de la Versión Publicada
-- **Versión en Microsoft Stream**: [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
+- **Versión en Google Drive**: [https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link](https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link)
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
 
@@ -3232,7 +3267,7 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 
 **URLs de la Versión Publicada**
 
-- **Versión en Microsoft Stream**: [https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing](https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing)
+- **Versión en Google Drive**: [https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing](https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing)
 
 ## Conclusiones
 
@@ -3302,6 +3337,4 @@ Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd
 
 Video about the product(TB2): https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
 
-Video abotu the team(TB2): [DIEGO PON EL VIDEO DE ABOUT THE TEAM]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
-
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
+Video about the team(TB2): https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link

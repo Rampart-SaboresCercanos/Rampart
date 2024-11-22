@@ -2742,6 +2742,55 @@ Por Status:
 Por Range of days:
 ![alt text](assets/TF_images/EEOrdersFilters6.png)
 
+**Posts**
+
+Podemos agregar una nueva publicación, dado que existe un dish perteneciente a un chef:
+![Evidence Posts1](/assets/TF_images/EEPostAgregarPost1.png)
+
+Se agregan los datos para la nueva publicación, incluyendo el stock y el precio por unidad:
+![Evidence Posts1](/assets/TF_images/EEPostAgregarPost2.png)
+
+Se puede ver la totalidad de los posts en la pantalla:
+![Evidence Posts Display](/assets/TF_images/EEPostDisplayPosts1.png)
+
+Si se desmarca la casilla de "Show All", se pueden filtrar los posts por fecha de entrega:
+![Evidence Posts Filter By Date 1](/assets/TF_images/EEPostFilterByDate1.png)
+![Evidence Posts Filter By Date 2](/assets/TF_images/EEPostFilterByDate2.png)
+
+Si se selecciona la opción "Ver Ingredientes", se puede ver la lista de ingredientes del plato de la publicación:
+![Evidence Posts Show Ingredients](/assets/TF_images/EEPostShowIngredients.png)
+
+**Chefs**
+
+Se pueden visualizar todos los chefs:
+![Evidence Chefs Display](/assets/TF_images/EEChefsDisplay.png)
+
+Para crear un chef nuevo, se ingresan los datos:
+![Evidence Chefs Creation](/assets/TF_images/EEChefsAgregarChef.png)
+
+Se pueden filtrar los chefs
+
+Por Nombre:
+![Evidence Chefs Filtrado Por Nombre](/assets/TF_images/EEChefsFiltrarPorNombre.png)
+
+Por Rating:
+![Evidence Chefs Filtrado Por rating](/assets/TF_images/EEChefsFiltrarPorRating.png)
+
+**Dishes**
+
+Se pueden visualizar todas las recetas:
+![Evidence Dishes Display](/assets/TF_images/EEDishesDisplay1.png)
+
+Para crear un dish nuevo, se ingresan los datos requeridos, como el id del chef que lo publica, el nombre, los ingredientes y los pasos de preparación:
+![Evidence Dishes Creation](/assets/TF_images/EEDishesAgregarDish.png)
+
+Con la barra de búsqueda, se pueden filtrar los dishes
+
+Por nombre:
+![Evidence Dishes Filtrado por Nombre](/assets/TF_images/EEDishesFiltradoPorNombre.png)
+
+Por ingredientes:
+![Evidence Dishes Filtrado por Ingrediente](/assets/TF_images/EEDishesFiltradoPorIngrediente.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 

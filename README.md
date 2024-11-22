@@ -136,22 +136,6 @@ TF:<br>
 ## Contenido
 
 ### Tabla de contenidos
-- [Rampart](#rampart)
-- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
-  - [Ingenieria de Software](#ingenieria-de-software)
-  - [5to ciclo](#5to-ciclo)
-  - [Aplicaciones Web](#aplicaciones-web)
-    - [**Sección:** WS51](#sección-ws51)
-    - [**Profesor:** Hugo Allan Mori Paiva](#profesor-hugo-allan-mori-paiva)
-    - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - ["Rampart"](#rampart-1)
-    - ["Sabores Cercanos"](#sabores-cercanos)
-    - [**Integrantes:**](#integrantes)
-    - [Agosto, 2024](#agosto-2024)
-  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [Contenido](#contenido)
-    - [Tabla de contenidos](#tabla-de-contenidos)
   - [Student Outcome](#student-outcome)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
@@ -162,7 +146,6 @@ TF:<br>
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [Assumptions para "Sabores Cercanos"](#assumptions-para-sabores-cercanos)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
     - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
@@ -176,8 +159,6 @@ TF:<br>
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-  - [**User Persona del Segmento Objetivo 1: Cocineros Caseros**](#user-persona-del-segmento-objetivo-1-cocineros-caseros)
-  - [**User Persona del Segmento Objetivo 2: Estudiantes/Profesionales Ocupados**](#user-persona-del-segmento-objetivo-2-estudiantesprofesionales-ocupados)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
@@ -216,22 +197,10 @@ TF:<br>
     - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
     - [4.8.2. Database Dictionary](#482-database-dictionary)
-      - [User](#user)
-      - [Chef](#chef)
-      - [Order](#order)
-      - [Order-Details](#order-details)
-      - [Dish](#dish)
-      - [Publication](#publication)
-      - [Reviews](#reviews)
-      - [Category](#category)
-      - [Plans-Type](#plans-type)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [**Master o Main branch**](#master-o-main-branch)
-      - [Notación: master o main](#notación-master-o-main)
-    - [**Conventional Commits**](#conventional-commits)
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
@@ -242,7 +211,6 @@ TF:<br>
     - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
     - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
     - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-    - [Resumen de Acciones del Equipo](#resumen-de-acciones-del-equipo)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
     - [5.2.2. Sprint 2](#522-sprint-2)
@@ -276,18 +244,7 @@ TF:<br>
     - [5.3.1. Diseño de Entrevistas.](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
-- [TABLA RESUMEN](#tabla-resumen)
-- [DESCRIPCIÓN DE PROBLEMAS](#descripción-de-problemas)
-  - [PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra](#problema-1-no-hay-un-control-que-permita-regresar-a-la-tienda-durante-el-trámite-de-compra)
-  - [PROBLEMA #2: Se repiten constantemente algunas opciones](#problema-2-se-repiten-constantemente-algunas-opciones)
-  - [PROBLEMA #3: Imágenes sin atributo “alt”](#problema-3-imágenes-sin-atributo-alt)
-  - [PROBLEMA #4: Incluye un botón “Ver más” pero no existe contenido al que dirigirse](#problema-4-incluye-un-botón-ver-más-pero-no-existe-contenido-al-que-dirigirse)
-  - [PROBLEMA #5: No incluye información de los planes de servicio](#problema-5-no-incluye-información-de-los-planes-de-servicio)
-  - [PROBLEMA #6: Falta de notificaciones en tiempo real sobre el estado de pedidos](#problema-6-falta-de-notificaciones-en-tiempo-real-sobre-el-estado-de-pedidos)
-  - [PROBLEMA #7: Necesidad de un sistema de clasificación visual para favoritos](#problema-7-necesidad-de-un-sistema-de-clasificación-visual-para-favoritos)
-  - [PROBLEMA #8: Falta de información sobre los chefs en el landing page](#problema-8-falta-de-información-sobre-los-chefs-en-el-landing-page)
     - [5.4. Video About-The-Team](#54-video-about-the-team)
-    - [URLs de la Versión Publicada](#urls-de-la-versión-publicada)
     - [5.5. Video About-The-Product](#55-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
@@ -1470,8 +1427,6 @@ Estas configuraciones aseguran que los usuarios de "Sabores Cercanos" puedan mov
 
 ![Wireframe Publicaciones](assets/images/Wireframes/publicaciones.png)
 
-![Wireframe Perfil](assets/images/Wireframes/perfil.png)
-
 ![Wireframe Pedidos](assets/images/Wireframes/)
 
 ![Wireframe Favoritos](assets/images/Wireframes/favoritos.png)
@@ -1489,8 +1444,6 @@ Estas configuraciones aseguran que los usuarios de "Sabores Cercanos" puedan mov
 ### 4.4.2. Web Applications Mock-ups
 
 ![Mockup Inicio](assets/images/Mockups/inicio.jpg)
-
-![Mockup Perfil](assets/images/Mockups/perfil.jpg)
 
 ![Mockup Publicaciones](assets/images/Mockups/publicaciones.jpg)
 
@@ -2032,9 +1985,9 @@ Verificación: Comprobación de que la landing page se despliega correctamente y
 - Demostración de despliegue en Github: ![Screenshot9](assets/images/Landingpage/Landing_page_deployment.png)
 - Landing Page desplegado: ![Screenshot10](assets/images/Landingpage/Deployment.png)
 
-**Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/Landing-page
+**Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/LandingPage
 
-**Link de landing page**: https://rampart-saborescercanos.github.io/Landing-page/
+**Link de landing page**: https://rampart-saborescercanos.github.io/LandingPage/
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -2057,7 +2010,7 @@ Despliegue: Configuración del entorno de despliegue y transferencia de archivos
 - Commits Realizados: ![Screenshot12](assets/images/Landingpage/Commits_screen.png)
 
 **Participación del Equipo**
-- Diego: Aunque en este Sprint he sido el único que ha realizado los commits, es importante destacar que todos los miembros del equipo están comprometidos y participarán activamente en la siguiente entrega del proyecto.
+Aunque en este Sprint Diego ha sido el único que ha realizado los commits, es importante destacar que todos los miembros del equipo están comprometidos y participarán activamente en la siguiente entrega del proyecto.
 
 Para la próxima fase, cada miembro del equipo asumirá roles específicos que incluyen la realización de commits y la colaboración en la implementación de características y mejoras. Esto garantizará una distribución equitativa del trabajo y una integración más completa de las contribuciones de cada miembro.
 
@@ -2246,28 +2199,9 @@ Verificación: Comprobación de que la landing page se despliega correctamente y
 - Demostración de despliegue en Github: ![Screenshot9](assets/images/Landingpage/Landing_page_deployment.png)
 - Landing Page desplegado: ![Screenshot10](assets/images/Landingpage/Deployment.png)
 
-**Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/Landing-page
+**Enlace al Repositorio**: https://github.com/Rampart-SaboresCercanos/LandingPage
 
-**Link de landing page**: https://rampart-saborescercanos.github.io/Landing-page/
-
-Bounded context:  
-
-* Jose Alejo    
-![alt text](assets/TP_images/ALEJOBC.png)
-
-* Estefano Jaque   
-![alt text](assets/TP_images/JAQUEBC.png)
-
-* Maria Jose Pezo  
-![alt text](assets/TP_images/MAJOBC.jpg)
-
-* Diego Rosado  
-![alt text](assets/TP_images/DIEGOBC.jpg)
-
-* Sebastian Caderon  
-![alt text](assets/TP_images/SEBASBC.jpg)
-
-Deploy evidence: https://saborescercanos-78ff1.web.app/orders
+**Link de landing page**: https://rampart-saborescercanos.github.io/LandingPage/
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -2282,8 +2216,8 @@ Deploy evidence: https://saborescercanos-78ff1.web.app/orders
 
 ![Project Insights Del Frontend](assets/TP_images/2insightsSprint2.png)
 
-### 5.2.2. Sprint 3
-### 5.2.2.1. Sprint Planning 3
+### 5.2.3. Sprint 3
+### 5.2.3.1. Sprint Planning 3
 El sprint planning es una reunion antes de cada sprint en la metodologia Scrum donde el equipo elige las user stories que va a transformar en un producto
 tangible. Tambien define que como se van a separar los trabajos y quien sera responsable. Nuestro objetivo sera construir un plan resolubre en un tiempo
 determinado que sera lo que dure el sprint, para crearlo fomentaremos la colaboracion para que todos sepan y entiendas los objetivos y prioridades.
@@ -2386,9 +2320,7 @@ En este Sprint, hemos alcanzado un avance significativo en el desarrollo de la l
 - Seccion footer: ![Screenshot7](assets/images/Landingpage/Footer.png)
 
 **Enlace a Video**
-[DIEGO PON EL VIDEO DE EXPLICACION]---> el siguiente link de abajo pasalo a GOOGLE DRIVE Y REEMPLAZALO POR ESTE
-
-[https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQUpR24hsnpMqzCXf8KvZPsBC94OZ_ibAyiUAYzoLm7iiQ?e=czTgej&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://drive.google.com/file/d/1gWxzL2APXEM9x19NnaNDuHWkItKsC21p/view?usp=drive_link](https://drive.google.com/file/d/1gWxzL2APXEM9x19NnaNDuHWkItKsC21p/view?usp=drive_link)
 
 <h3>Frontend</h3>
 En este sprint, hemos logrado avances significativos en el desarrollo del frontend de nuestro producto. Nos hemos concentrado en implementar tanto el diseño visual como la funcionalidad básica, asegurando que las principales vistas y elementos interactivos estén en su lugar. A continuación, presentamos capturas de pantalla de las vistas principales que hemos desarrollado:
@@ -2404,7 +2336,6 @@ En la seccion de pedidos se puede observar las ordenes realizadas por los usuari
 - Sección Pedidos: ![Screenshot4](assets/images/TB3/frontend_4.png)
 En la seccion recetas tenemos las opciones de añadir , editar y eliminar las recetas. Ademas tenemos la opcion de filtrar las recetas por el nombre para que de esta manera se pueda observar nuestra receta deseada.  
 - Sección Recetas: ![Screenshot5](assets/images/TB3/frontend_5.png)
-- Sección Perfil: ![Screenshot6](assets/images/TB3/frontend_6.png)
 - Sección Favoritos: ![Screenshot7](assets/images/TB3/frontend_7.png)
 
 A continuacion se muestra la evidencia de despliegue del frontend entrando al siguiente enlace:   
@@ -2420,7 +2351,7 @@ En esta sección se incluye la relación de Endpoints documentados con OpenAPI, 
 
 <h3>Backend en Rider</h3>
 
-![Backend Context](assets/images/TB3/Backend_1.png) 
+![Backend Context](assets/images/TB3/Backend_1_up.png) 
 
 <h2>Bounded Contexts</h2>
 
@@ -2428,68 +2359,77 @@ En esta sección se incluye la relación de Endpoints documentados con OpenAPI, 
 
 **DishesController**
 
-| Tag   | HTTP Verbs | Endpoint| Summary| Description| OperationId|
-|--|--|--|--|--|--|
-| Dishes| POST| /api/v1/dishes| Create a new dish| Create a new dish| CreateDish|
-| Dishes| GET| /api/v1/dishes/{id}| Get dish by ID| Retrieve a dish by its ID  | GetDishById|
-| Dishes| PUT| /api/v1/dishes/{id}| Update a dish| Update a specific dish| UpdateDish|
-| Dishes| DELETE| /api/v1/dishes/{id} | Delete a dish| Remove a specific dish| DeleteDish|
+| Tag   | HTTP Verbs | Endpoint               | Summary            | Description                          | OperationId    |
+|-------|------------|------------------------|--------------------|--------------------------------------|----------------|
+| Dish  | POST       | /api/v1/dish          | Create a dish      | Add a new dish                       | CreateDish     |
+| Dish  | GET        | /api/v1/dish          | Get all dishes     | Retrieve a list of all dishes        | GetAllDishes   |
+| Dish  | GET        | /api/v1/dish/{dishId} | Get dish by ID     | Retrieve details of a specific dish  | GetDishById    |
+| Dish  | PUT        | /api/v1/dish/{dishId} | Update a dish      | Update details of a specific dish    | UpdateDish     |
+| Dish  | DELETE     | /api/v1/dish/{dishId} | Delete a dish      | Remove a specific dish               | DeleteDish     |
 
-![Dishes Context](assets/images/TB3/Backend_2.png) 
+![Dishes Context](assets/images/TB3/Backend_Dishes.png) 
 
 <h3>Orders Bounded Context</h3>
 
 **OrdersController**
 
-| Tag    | HTTP Verbs | Endpoint            | Summary             | Description                  | OperationId    |
-|--------|------------|---------------------|---------------------|------------------------------|----------------|
-| Orders | POST       | /api/v1/orders      | Create a new order | Create a new order           | CreateOrder    |
-| Orders | GET        | /api/v1/orders/{id} | Get order by ID    | Retrieve an order by its ID  | GetOrderById   |
-| Orders | PUT        | /api/v1/orders/{id} | Update an order    | Update a specific order      | UpdateOrder    |
-| Orders | DELETE     | /api/v1/orders/{id} | Delete an order    | Remove a specific order      | DeleteOrder    |
+| Tag    | HTTP Verbs | Endpoint             | Summary             | Description                          | OperationId     |
+|--------|------------|----------------------|---------------------|--------------------------------------|-----------------|
+| Orders | POST       | /api/v1/orders       | Create an order     | Add a new order                      | CreateOrder     |
+| Orders | GET        | /api/v1/orders       | Get all orders      | Retrieve a list of all orders        | GetAllOrders    |
+| Orders | PUT        | /api/v1/orders/{id}  | Update an order     | Update details of a specific order   | UpdateOrder     |
+| Orders | DELETE     | /api/v1/orders/{id}  | Delete an order     | Remove a specific order              | DeleteOrder     |
+| Orders | GET        | /api/v1/orders/{id}  | Get an order by ID  | Retrieve details of an order by ID   | GetOrderById    |
 
-![Orders Context](assets/images/TB3/Backend_3.png) 
+![Orders Context](assets/images/TB3/Backend_Orders.png) 
 
 <h3>Posts Bounded Context</h3>  
 
 **PostsController**
 
-| Tag   | HTTP Verbs | Endpoint           | Summary                   | Description                    | OperationId   |
-|-------|------------|--------------------|---------------------------|--------------------------------|---------------|
-| Posts | POST       | /api/v1/posts      | Create a new post         | Create a new post              | CreatePost    |
-| Posts | GET        | /api/v1/posts/{id} | Get post by ID            | Retrieve a post by its ID      | GetPostById   |
-| Posts | PUT        | /api/v1/posts/{id} | Update a post             | Update a specific post         | UpdatePost    |
-| Posts | DELETE     | /api/v1/posts/{id} | Delete a post             | Remove a specific post         | DeletePost    |
+| Tag   | HTTP Verbs | Endpoint            | Summary           | Description                     | OperationId    |
+|-------|------------|---------------------|-------------------|---------------------------------|----------------|
+| Posts | GET        | /api/v1/posts       | Get all posts     | Retrieve a list of all posts    | GetAllPosts    |
+| Posts | POST       | /api/v1/posts       | Create a post     | Add a new post                  | CreatePost     |
+| Posts | PUT        | /api/v1/posts/{id}  | Update a post     | Update details of a specific post | UpdatePost   |
+| Posts | DELETE     | /api/v1/posts/{id}  | Delete a post     | Remove a specific post          | DeletePost     |
+| Posts | GET        | /api/v1/posts/{id}  | Get a post by ID  | Retrieve details of a post by ID | GetPostById   |
 
-![Posts Context](assets/images/TB3/Backend_4.png) 
+![Posts Context](assets/images/TB3/Backend_Posts.png) 
 
-<h3>UserProfiles Bounded Context</h3>  
+<h3>Chefs Bounded Context</h3>  
 
-**UserProfilesController**
+**ChefsController**
 
-| Tag            | HTTP Verbs | Endpoint                   | Summary                     | Description                       | OperationId         |
-|----------------|------------|----------------------------|-----------------------------|-----------------------------------|---------------------|
-| User Profiles  | POST       | /api/v1/user-profiles      | Create a user profile       | Create a new user profile         | CreateUserProfile   |
-| User Profiles  | GET        | /api/v1/user-profiles/{id} | Get user profile by ID      | Retrieve a user profile by its ID | GetUserProfileById  |
-| User Profiles  | PUT        | /api/v1/user-profiles/{id} | Update a user profile       | Update a specific user profile    | UpdateUserProfile   |
-| User Profiles  | DELETE     | /api/v1/user-profiles/{id} | Delete a user profile       | Remove a specific user profile    | DeleteUserProfile   |
+| Tag   | HTTP Verbs | Endpoint            | Summary            | Description                       | OperationId    |
+|-------|------------|---------------------|--------------------|-----------------------------------|----------------|
+| Chefs | POST       | /api/v1/chefs       | Create a chef      | Add a new chef profile            | CreateChef     |
+| Chefs | GET        | /api/v1/chefs       | Get all chefs      | Retrieve a list of all chefs      | GetAllChefs    |
+| Chefs | GET        | /api/v1/chefs/{id}  | Get a chef by ID   | Retrieve details of a chef by ID  | GetChefById    |
+| Chefs | PUT        | /api/v1/chefs/{id}  | Update a chef      | Update details of a specific chef | UpdateChef     |
+| Chefs | DELETE     | /api/v1/chefs/{id}  | Delete a chef      | Remove a specific chef profile    | DeleteChef     |
 
-![User Profiles Context](assets/images/TB3/Backend_5.png) 
+![User Profiles Context](assets/images/TB3/Backend_Chefs.png) 
 
 <h3>Schemas</h3>
 
+- **AuthenticatedUserResource**
+- **ChefResource**
+- **CreateChefResource**
 - **CreateDishResource**
 - **CreateOrderResource**
 - **CreatePostResource**
-- **CreateUserProfileResource**
 - **DishResource**
 - **OrderResource**
 - **Post**
-- **UpdateDishCommand**
+- **SignInResource**
+- **SignUpResource**
+- **UpdateChefResource**
+- **UpdateDishResource**
 - **UpdateOrderCommand**
 - **UpdatePostCommand**
-- **UpdateUserProfileCommand**
-- **UserProfileResource**
+- **UserResource**
+
 
 Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:  
 rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html   
@@ -2581,9 +2521,12 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
 Este proceso asegura que el backend esté correctamente desplegado y funcional en Azure, con una conexión confiable y sincronizada a través de GitHub. 
 
 **Evidencia de la Base de Datos en swagger(deploy)**
-   - Captura de Pantalla de `db.json` utilizado en JSON Server:
-    ![alt text](assets/TB2_images/swaggerdeployado1.png)
-    ![alt text](assets/TB2_images/swaggerdeployado2.png)  
+   - Captura de Pantalla del swagger en Backend:
+    ![alt text](assets/TB2_images/Back_1.png)
+    ![alt text](assets/TB2_images/Back_2.png)
+    ![alt text](assets/TB2_images/Back_3.png)
+    ![alt text](assets/TB2_images/Back_4.png)
+
 
 Enlace a la Aplicación Backend Desplegada:  
 rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
@@ -2593,8 +2536,8 @@ rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 | Integrante | Acciones realizadas durante el sprint |
 |-|-|
 | Estefano Oscar Jaque Peña | Desarrollo del bounded context de Recetas |
-| Diego Alonso Rosado Iporre | Desarrollo del bounded context customer, perfil y home |
-| Sebastián Omar Real Calderón | Desarrollo del bounded context Post |
+| Diego Alonso Rosado Iporre | Desarrollo del bounded context Chefs y home |
+| Sebastián Omar Real Calderón | Desarrollo del bounded context Posts |
 | Jose Antonio Alejo Cardenas | Desarrollo del bounder context de Orders |
 
 **Contribucion en el repositorio del Frontend**
@@ -2762,44 +2705,6 @@ Si se selecciona la opción "Ver Ingredientes", se puede ver la lista de ingredi
 
 **Chefs**
 
-Se pueden visualizar todos los chefs:
-![Evidence Chefs Display](/assets/TF_images/EEChefsDisplay.png)
-
-Para crear un chef nuevo, se ingresan los datos:
-![Evidence Chefs Creation](/assets/TF_images/EEChefsAgregarChef.png)
-
-Se pueden filtrar los chefs
-
-Por Nombre:
-![Evidence Chefs Filtrado Por Nombre](/assets/TF_images/EEChefsFiltrarPorNombre.png)
-
-Por Rating:
-![Evidence Chefs Filtrado Por rating](/assets/TF_images/EEChefsFiltrarPorRating.png)
-
-**Dishes**
-
-Se pueden visualizar todas las recetas:
-![Evidence Dishes Display](/assets/TF_images/EEDishesDisplay1.png)
-
-Para crear un dish nuevo, se ingresan los datos requeridos, como el id del chef que lo publica, el nombre, los ingredientes y los pasos de preparación:
-![Evidence Dishes Creation](/assets/TF_images/EEDishesAgregarDish.png)
-
-Con la barra de búsqueda, se pueden filtrar los dishes
-
-Por nombre:
-![Evidence Dishes Filtrado por Nombre](/assets/TF_images/EEDishesFiltradoPorNombre.png)
-
-Por ingredientes:
-![Evidence Dishes Filtrado por Ingrediente](/assets/TF_images/EEDishesFiltradoPorIngrediente.png)
-
-### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
- URL FRONTEND Y BACKEND DESPLEGADO:<br>
- URL FRONTEND: https://saborescercanos-frontend.web.app/home<br>
- URL BACKEND: rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
-
- **Chef Bounded Context**
-
 Primero visualizamos nuestro FrontEnd vacío al igual que en el workbench
 ![alt text](assets/TF_images/TF_Front1.png)
 
@@ -2849,6 +2754,44 @@ Por nombre:
 Por rating:
 ![alt text](assets/TF_images/TF_Front10.png)
 
+**Dishes**
+
+Se pueden visualizar todas las recetas:
+![Evidence Dishes Display](/assets/TF_images/EEDishesDisplay1.png)
+
+Para crear un dish nuevo, se ingresan los datos requeridos, como el id del chef que lo publica, el nombre, los ingredientes y los pasos de preparación:
+![Evidence Dishes Creation](/assets/TF_images/EEDishesAgregarDish.png)
+
+Con la barra de búsqueda, se pueden filtrar los dishes
+
+Por nombre:
+![Evidence Dishes Filtrado por Nombre](/assets/TF_images/EEDishesFiltradoPorNombre.png)
+
+Por ingredientes:
+![Evidence Dishes Filtrado por Ingrediente](/assets/TF_images/EEDishesFiltradoPorIngrediente.png)
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+ URL FRONTEND Y BACKEND DESPLEGADO:<br>
+ URL FRONTEND: https://saborescercanos-frontend.web.app/home<br>
+ URL BACKEND: rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
+
+  **Chef Bounded Context**
+
+  ![alt text](assets/TF_images/BEChef.png)
+
+  Nos ubicamos en nuestra ultima version del Backend del bounded context Chef:
+
+  ![alt text](assets/TF_images/BEChefPost1.png)
+
+  Ejecutamos el post y corroboramos la respuesta:
+
+  ![alt text](assets/TF_images/BEChefPost2.png)
+
+  Verificamos la evidencia en la base de datos:
+
+  ![alt text](assets/TF_images/BEChefPost3.png)
+
  **Dish Bounded Context**
  
   ![alt text](assets/TF_images/BEDish.png)
@@ -2897,85 +2840,13 @@ Por rating:
 
   ![alt text](assets/TF_images/BEPostsPost3.png)
 
- **User Profiles Bounded Context**
- 
-  ![alt text](assets/TF_images/BEProfiles-Users.png)
-
-  Nos ubicamos en nuestra ultima version del Backend del bounded context Orders:
-
-  ![alt text](assets/TF_images/BEProfiles-UsersPost1.png)
-
-  Ejecutamos el post y corroboramos la respuesta:
-
-  ![alt text](assets/TF_images/BEProfiles-UsersPost2.png)
-
-  Verificamos la evidencia en la base de datos:
-
-  ![alt text](assets/TF_images/BEProfiles-UsersPost3.png)
-
-
-
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-* Para poder realizar la sección del Sprint Se decidió usar la plataforma de Figma donde se realizaron los mockups, wireframes y demás de manera colaborativa por parte del equipo y, con esta misma plataforma, se realizó el prototipo de la aplicacion.
-
-* Para poder entrar al figma del grupo es necesario contar con una cuenta ya registrada y haber iniciado sesión en la plataforma mencionada.
-
-* En este Sprint, hemos llevado a cabo diversas actividades relacionadas con el despliegue (Deployment) de nuestra plataforma, asegurando que todos los componentes estén correctamente configurados y listos para su uso. Las actividades de despliegue abarcan múltiples productos, incluyendo la Landing Page, aplicaciones web y servicios web. A continuación, se detallan los pasos realizados, junto con capturas de pantalla que ilustran el proceso y brindan una visión clara de cada etapa.
-
-<h3>Landing Page</h3>     
-Para la Landing Page se ha implementado utilizando GitHub Pages, lo que facilita su acceso y gestión.
-
-![alt text](assets/TB2_images/ladep2.png)  
-
-* En la seccion pages, dentro de la configuracion del repositorio, escoger la rama deseada y seleccionar save para hacer el deploy de esta.
-
-![alt text](assets/TB2_images/ladep2.png)  
-
-* Pasados unos minutos se generará el link para acceder a la landing page.
-
-![alt text](assets/images/TB3/ladep3.png)
-
-* Adicionalmente Podemos seleccionar use your GitHub pages website en las opciones de about del repositorio, para poder acceder de una manera mas rapida al link.
-
-Finalmente nos dará un link directo a la Landing page desplegada:  
-https://rampart-saborescercanos.github.io/LandingPage/
-
 <h3>Frontend</h3>  
-Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfocándonos en el frontend. Las actividades realizadas incluyen la configuración del entorno de desarrollo en Firebase, la creación de cuentas en proveedores de servicios en la nube y la automatización del proceso de despliegue.<br><br>  
+Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, <br><br>  
 
 **Pasos Realizados para el espliegue del Frontend en Firebase Hosting**
 
-1. **Creación de la Cuenta en Firebase**  
-  Realizamos la creacion de la cuenta y del proyecto.
-
-    ![Creación de Cuenta en Firebase](assets/images/TB3/deploy_1.png)
-
-2. **Configuración del Proyecto en Firebase y en Webstorm**  
-  Seleccione Build y luego Hosting. Hicimos clic en Get Started o Comenzar en la sección de Hosting yaque era la primera vez que lo configurabamos en este proyecto
-
-    Se realizo los comandos necesarios en la terminal de nuestro proyecto.
-
-    > npm install -g firebase-tools
-
-    > firebase login
-
-    > firebase init
-
-    > npm run build
-
-    > firebase deploy
-
-    ![Configuración del Proyecto](assets/images/TB3/deploy_2.png)
-
-3. **Verficicacion**  
-  Firebase generó una URL pública que permite acceder al sitio en línea.
-  ![alt text](assets/TB2_images/frontdep.png)
-  Enlace al Frontend Desplegado:  
-  https://saborescercanos-frontend.web.app/home  
-
-**Conclusiones**
-El proceso de despliegue del frontend en Firebase se realizó con éxito, asegurando que todos los elementos estén disponibles y funcionando correctamente en el entorno de producción. Se verificó la accesibilidad de la landing page y se realizaron pruebas para confirmar que todos los enlaces y funciones están operativos.
 
 <h3>Backend</h3>  
 
@@ -2994,11 +2865,14 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
 Este proceso asegura que el backend esté correctamente desplegado y funcional en Azure, con una conexión confiable y sincronizada a través de GitHub. 
 
 **Evidencia de la Base de Datos en swagger(deploy)**
+
+FALTA ACTUALIZAR, SE DEBE MOSTRAR EL LINK DEL DEPLOY DEL BACKEND EN LA IMAGEN
    - Captura de Pantalla de `db.json` utilizado en JSON Server:
     ![alt text](assets/TB2_images/swaggerdeployado1.png)
     ![alt text](assets/TB2_images/swaggerdeployado2.png)  
 
 Enlace a la Aplicación Backend Desplegada:  
+LINK DEL BACKEND
 rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint
@@ -3019,27 +2893,27 @@ rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
 
 ![alt text](assets/TF_images/LandingCommits1.png)
 
-Estefano Oscar Jaque Peña: 1
-Diego Alonso Rosado Iporre: 25
-Sebastián Omar Real Calderón: 1
+Estefano Oscar Jaque Peña: 1<br>
+Diego Alonso Rosado Iporre: 25<br>
+Sebastián Omar Real Calderón: 1<br>
 Jose Antonio Alejo Cardenas: 2
 
 **Contribucion en el repositorio del Frontend:**
 
 ![alt text](assets/TF_images/FrontEndCommits1.png)
 
-Estefano Oscar Jaque Peña: 1
-Diego Alonso Rosado Iporre: 1
-Sebastián Omar Real Calderón: 1
+Estefano Oscar Jaque Peña: 1<br>
+Diego Alonso Rosado Iporre: 1<br>
+Sebastián Omar Real Calderón: 1<br>
 Jose Antonio Alejo Cardenas: 1
 
 **Contribucion en el repositorio del Backend:**
 
 ![alt text](assets/TF_images/BackEndCommits1.png)
 
-Estefano Oscar Jaque Peña: 6
-Diego Alonso Rosado Iporre: 5
-Sebastián Omar Real Calderón: 7
+Estefano Oscar Jaque Peña: 6<br>
+Diego Alonso Rosado Iporre: 5<br>
+Sebastián Omar Real Calderón: 7<br>
 Jose Antonio Alejo Cardenas: 5
 
 ### 5.3. Validation Interviews.
@@ -3053,8 +2927,6 @@ Jose Antonio Alejo Cardenas: 5
 1. **Crear nueva receta**: Los usuarios navegarán por el proceso de añadir una nueva receta a la plataforma, desde el formulario inicial hasta la confirmación de creación.
    
 2. **Editar receta creada**: Los usuarios deberán seleccionar una receta existente y modificarla, revisando el proceso de actualización y asegurándose de que los cambios se guarden correctamente.
-
-3. **Actualizar información personal y preferencias alimenticias de un perfil creado**: Los participantes actualizarán su información personal en el perfil, incluyendo datos como nombre, ubicación y preferencias alimenticias. Esto asegurará que sus opciones de menú se ajusten a sus necesidades y gustos.
 
 4. **Ver mis favoritos (chefs y recetas)**: Los usuarios explorarán la sección donde pueden ver sus recetas y chefs favoritos, evaluando la facilidad de acceso y navegación.
 
@@ -3070,7 +2942,7 @@ Jose Antonio Alejo Cardenas: 5
     **Apellidos**: González Paredes<br>
     **Edad**: 28<br>
     **Distrito**: Miraflores<br>
-    **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EbhWLAhi3W1KiqidfdIzsPwBkoei9vzEo8Hh3sx4cwXXKA?e=53MsKE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
+    **URL**: [https://drive.google.com/file/d/1p6644wJfJzsbzKJNrk2Pgb96QXJoacZ1/view?usp=drive_link](https://drive.google.com/file/d/1p6644wJfJzsbzKJNrk2Pgb96QXJoacZ1/view?usp=drive_link)<br>
     **Inicio**: 0:00<br>
     **Duración**: 1:45<br>
     **Resumen**:<br>
@@ -3082,55 +2954,43 @@ Jose Antonio Alejo Cardenas: 5
     **Apellidos**: Ramos Velásquez<br>
     **Edad**: 25<br>
     **Distrito**: San Borja<br>
-    **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EUy-t8yUe8FGvM68BexZvOkBWPuvSYwZdZ9tcMpgcFmoxQ?e=hxeSIm&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
+    **URL**: [https://drive.google.com/file/d/1Jz-d6MM9ibocsR3iVw_EzREHXGQCcBmo/view?usp=drive_link](https://drive.google.com/file/d/1Jz-d6MM9ibocsR3iVw_EzREHXGQCcBmo/view?usp=drive_link)<br>
     **Inicio**: 0:05<br>
     **Duración**: 1:00<br>
     **Resumen**:<br>
     Durante la entrevista, Luis Fernando exploró el proceso de editar una receta ya creada, desde seleccionar una receta existente hasta guardar los cambios realizados. Inicialmente, encontró el menú de "Mis Recetas" de manera rápida, pero señaló que podría destacarse más visualmente para mejorar la navegación. Al editar, notó que los campos de la receta eran claros y fáciles de modificar, aunque sugirió que sería conveniente tener una opción de "Vista previa" antes de guardar los cambios finales. Además, comentó que el botón de "Guardar cambios" debería estar más resaltado para reducir la posibilidad de confusión con otras opciones cercanas. Al finalizar el proceso, confirmó que los cambios se guardaron correctamente y se reflejaron al instante en la vista pública de la receta. Como sugerencia final, Luis Fernando propuso que se incluyera una opción para deshacer los cambios en caso de error, lo cual consideró útil para evitar ediciones no deseadas y mejorar la flexibilidad del proceso de edición.
 
 3. **Entrevista 3**:<br>
-    ![Imagen de entrevista 3](assets/images/TB3/video_3.png)<br>
-    **Nombre**: Valeria<br>
-    **Apellidos**: Martínez Díaz<br>
-    **Edad**: 29<br>
-    **Distrito**: La Molina<br>
-    **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/Eer_aC5CYxhOuqtuOXLS1YQBpri19xuJCMXEmjOQR-ThgA?e=8pQJTz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
-    **Inicio**: 0:03<br>
-    **Duración**: 2:00<br>
-    **Resumen**:<br>
-    Durante la entrevista, Valeria actualizó su información personal y preferencias alimenticias en el perfil, incluyendo datos como su ubicación y sus preferencias en ingredientes y restricciones dietéticas. Encontró fácilmente la sección de edición de perfil, aunque comentó que la categoría de "Preferencias alimenticias" podría ser más visible, ya que es una de las opciones principales que desea ajustar. Al actualizar sus preferencias, notó que las opciones de ingredientes y restricciones eran completas, pero recomendó agregar un filtro para facilitar la búsqueda de ciertos ingredientes específicos. Luego de guardar los cambios, confirmó que sus opciones de menú reflejaban sus nuevas preferencias correctamente, mostrando platos adaptados a sus necesidades. Como comentario final, Valeria sugirió que sería útil incluir una opción para recibir recomendaciones de recetas basadas en sus gustos recientes, lo cual consideró que enriquecería la personalización del perfil.
-
-4. **Entrevista 4**:<br>
-   ![Imagen de entrevista 4](assets/images/TB3/video_4.png)<br>
+   ![Imagen de entrevista 3](assets/images/TB3/video_4.png)<br>
    **Nombre**: Juan<br>
    **Apellidos**: Pérez López<br>
    **Edad**: 28<br>
    **Distrito**: Miraflores<br>
-   **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/ER69vILPTWpNotf953S-iEgBm86CkMbXZBgsH-yfAlLoFA?e=VQEPn7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
+   **URL**: [https://drive.google.com/file/d/1bxCly9afERin1Pu8NaNC2jBCVb-xtuiI/view?usp=drive_link](https://drive.google.com/file/d/1bxCly9afERin1Pu8NaNC2jBCVb-xtuiI/view?usp=drive_link)<br>
    **Inicio**: 0:00<br>
    **Duración**: 1:00<br>
    **Resumen**:<br>
     Durante la entrevista, Juan mencionó que la sección de favoritos es fundamental para su experiencia en la plataforma. Resaltó la importancia de poder acceder rápidamente a sus recetas y chefs preferidos. La facilidad de navegación fue un punto crítico. Además, mencionó que le gustaría ver un sistema de clasificación visual para sus favoritos, como estrellas o íconos, para identificar rápidamente sus preferencias. En general, expresó que la funcionalidad es útil, pero podría beneficiarse de una mejor organización visual y un sistema de búsqueda más robusto.
 
-5. **Entrevista 5**:<br>
-   ![Imagen de entrevista 5](assets/images/TB3/video_5.png)<br>
+4. **Entrevista 4**:<br>
+   ![Imagen de entrevista 4](assets/images/TB3/video_5.png)<br>
    **Nombre**: Laura<br>
    **Apellidos**: Rodríguez Salas<br>
    **Edad**: 26<br>
    **Distrito**: San Isidro<br>
-   **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EcqP2k1DoNBElX6j0OKoF38BjegI1ukvp-GEkhqCihrpwQ?e=m26EeL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D <br>
+   **URL**: [https://drive.google.com/file/d/1LG2V23kugIz4iPAkKTO5ZkPbFiyUv8ud/view?usp=drive_link](https://drive.google.com/file/d/1LG2V23kugIz4iPAkKTO5ZkPbFiyUv8ud/view?usp=drive_link)<br>
    **Inicio**: 0:00<br>
    **Duración**: 1:30<br>
    **Resumen**:<br>
    En la entrevista, Laura destacó la importancia de poder consultar el historial de pedidos y el estado actual de cada uno. Mencionó que encuentra útil la visualización clara de las órdenes, especialmente la indicación del estado (pendiente, en preparación, completado). Sin embargo, sugirió que sería beneficioso tener notificaciones en tiempo real sobre cambios de estado, lo que le permitiría estar al tanto de sus pedidos sin necesidad de refrescar la página. También comentó que sería útil poder filtrar el historial por fechas y estados de las órdenes, facilitando la búsqueda de pedidos anteriores. En general, Laura se sintió satisfecha con la funcionalidad, pero propuso mejoras en la interacción y la comunicación del estado de los pedidos.
 
-6. **Entrevista 6**:<br>
-   ![Imagen de entrevista 6](assets/images/TB3/Landingpage_entrevista.png)<br>
+5. **Entrevista 5**:<br>
+   ![Imagen de entrevista 5](assets/images/TB3/Landingpage_entrevista.png)<br>
    **Nombre**: Javier<br>
    **Apellidos**: Martínez Gómez<br>
    **Edad**: 28<br>
    **Distrito**: Miraflores<br>
-   **URL**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EQmHL-fuBVtJkSMTIx7e4tMBs9imIgqWP4MscZaadM5y_w?e=0Zzhdi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D<br>
+   **URL**: [https://drive.google.com/file/d/1eP_XvUx--n4racYlED3YoOBUjyTsSmRw/view?usp=drive_link](https://drive.google.com/file/d/1eP_XvUx--n4racYlED3YoOBUjyTsSmRw/view?usp=drive_link)<br>
    **Inicio**: 0:10<br>
    **Duración**: 2:00<br>
    **Resumen**:<br>
@@ -3140,7 +3000,7 @@ Jose Antonio Alejo Cardenas: 5
 
 Esta sección contiene el proceso de evaluación de las sesiones de validación basado en heurísticas, considerando heurísticas de usabilidad, arquitectura de información e inclusive design de la experiencia propuesta.
 
-# TABLA RESUMEN
+<h2>TABLA RESUMEN</h2>
 
 | #  | Problema                                                                     | Escala de severidad | Heurística/Principio violado                               |
 |----|------------------------------------------------------------------------------|---------------------|-----------------------------------------------------------|
@@ -3153,9 +3013,9 @@ Esta sección contiene el proceso de evaluación de las sesiones de validación 
 | 7  | Necesidad de un sistema de clasificación visual para favoritos                | 2                   | Usabilidad: Reconocimiento en lugar de recuerdo             |
 | 8  | Falta de información sobre los chefs en el landing page                      | 3                   | Arquitectura de Información: Is it findable?                |
 
-# DESCRIPCIÓN DE PROBLEMAS
+<h2>DESCRIPCIÓN DE PROBLEMAS</h2>
 
-## PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra
+PROBLEMA #1: No hay un control que permita regresar a la tienda durante el trámite de compra<br>
 **Severidad:** 3  
 **Heurística violada:** Usabilidad - Libertad y control del usuario  
 **Problema:**  
@@ -3167,7 +3027,7 @@ La solución más práctica sería permitir que, al querer realizar el trámite,
 
 ---
 
-## PROBLEMA #2: Se repiten constantemente algunas opciones
+PROBLEMA #2: Se repiten constantemente algunas opciones<br>
 **Severidad:** 1  
 **Heurística violada:** Usabilidad - Consistencia y estándares  
 **Problema:**  
@@ -3178,7 +3038,7 @@ Revisar las opciones y eliminar duplicaciones para mantener la consistencia en l
 
 ---
 
-## PROBLEMA #3: Imágenes sin atributo “alt”
+PROBLEMA #3: Imágenes sin atributo “alt”<br>
 **Severidad:** 3  
 **Heurística violada:** Diseño Inclusivo - Proporciona experiencias comparables  
 **Problema:**  
@@ -3189,7 +3049,7 @@ Incluir descripciones en el atributo "alt" de cada imagen para mejorar la accesi
 
 ---
 
-## PROBLEMA #4: Incluye un botón “Ver más” pero no existe contenido al que dirigirse
+PROBLEMA #4: Incluye un botón “Ver más” pero no existe contenido al que dirigirse<br>
 **Severidad:** 3  
 **Heurística violada:** Arquitectura de Información - Is it usable?  
 **Problema:**  
@@ -3200,7 +3060,7 @@ Eliminar el botón “Ver más” de las secciones donde no se proporciona conte
 
 ---
 
-## PROBLEMA #5: No incluye información de los planes de servicio
+PROBLEMA #5: No incluye información de los planes de servicio<br>
 **Severidad:** 2  
 **Heurística violada:** Arquitectura de Información - Is it findable?  
 **Problema:**  
@@ -3211,7 +3071,7 @@ Agregar una sección dedicada a los planes de servicio con descripciones detalla
 
 ---
 
-## PROBLEMA #6: Falta de notificaciones en tiempo real sobre el estado de pedidos
+PROBLEMA #6: Falta de notificaciones en tiempo real sobre el estado de pedidos<br>
 **Severidad:** 2  
 **Heurística violada:** Usabilidad - Feedback del sistema  
 **Problema:**  
@@ -3222,7 +3082,7 @@ Implementar un sistema de notificaciones que informe a los usuarios sobre cambio
 
 ---
 
-## PROBLEMA #7: Necesidad de un sistema de clasificación visual para favoritos
+PROBLEMA #7: Necesidad de un sistema de clasificación visual para favoritos<br>
 **Severidad:** 2  
 **Heurística violada:** Usabilidad - Reconocimiento en lugar de recuerdo  
 **Problema:**  
@@ -3233,7 +3093,7 @@ Implementar un sistema de clasificación visual, como estrellas o íconos, para 
 
 ---
 
-## PROBLEMA #8: Falta de información sobre los chefs en el landing page
+PROBLEMA #8: Falta de información sobre los chefs en el landing page<br>
 **Severidad:** 3  
 **Heurística violada:** Arquitectura de Información - Is it findable?  
 **Problema:**  
@@ -3244,10 +3104,7 @@ Agregar perfiles de los chefs que incluyan información sobre su experiencia, es
 
 ### 5.4. Video About-The-Team
 **Resumen del Video**
-En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Team". El video documenta el proceso de trabajo realizado, incluyendo escenas que muestran imágenes o videos de sesiones de trabajo reales del equipo. A través de una narración, se complementa el proceso con los testimonios de cada participante, describiendo las actividades realizadas, los logros de los resultados (outcomes) y el desarrollo de competencias alcanzadas.
-
-**Pauta de Secuencias de Contenido**
-A continuación se detalla la pauta de secuencias de contenido del video, incluyendo el tiempo de inicio de cada sección (hh:mm:ss):
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Team". El video documenta el proceso de trabajo realizado, incluyendo escenas que muestran imágenes o videos de sesiones de trabajo reales del equipo. 
 
 **Cuadro Representativo del Video**
 ![Video About-The-Team](assets/images/TB3/About_the_team.png) 
@@ -3255,12 +3112,10 @@ A continuación se detalla la pauta de secuencias de contenido del video, incluy
 ### URLs de la Versión Publicada
 - **Versión en Google Drive**: [https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link](https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link)
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u201620127_upc_edu_pe/EXUK3OML4FpBgXV_5BnEmZ0B_p7odYVAqrTorjWdhX3RtQ?e=r58kQu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
-
 ### 5.5. Video About-The-Product
 
 **Resumen del Video**
-En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Product". El video documenta las características y funcionalidades clave del producto, mostrando cómo se alinea con las necesidades de nuestros usuarios. A través de una narración, se complementa el proceso con demostraciones visuales del producto en acción, así como testimonios de usuarios que destacan su experiencia y los beneficios obtenidos al utilizarlo.
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About-The-Product". El video documenta las características y funcionalidades clave del producto, mostrando cómo se alinea con las necesidades de nuestros usuarios.
 
 **Cuadro Representativo del Video**
 ![Video About-The-Product](assets/images/TB3/About_the_product.png)
@@ -3338,3 +3193,7 @@ Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd
 Video about the product(TB2): https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
 
 Video about the team(TB2): https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link
+
+LINK FRONTEND TF
+
+LINK BACKEND TF

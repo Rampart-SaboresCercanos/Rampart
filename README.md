@@ -2787,19 +2787,28 @@ Por rating:
 
 **Dishes**
 
-Se pueden visualizar todas las recetas:
-![Evidence Dishes Display](/assets/TF_images/EEDishesDisplay1.png)
+Se pueden visualizar todas las recetas con sus ingredientes y los pasos de preparación:
+![Evidence Dishes Display](/assets/TF_images/EEDishesDisplay1.png)  
 
-Para crear un dish nuevo, se ingresan los datos requeridos, como el id del chef que lo publica, el nombre, los ingredientes y los pasos de preparación:
+Para crear un dish nuevo, se ingresan los datos requeridos, como el id del chef que publicará el plato con su receta, el nombre del plato, los ingredientes de este y los pasos de preparación, en la base de datos se configuró un ExistsByNameOfDishAndChefId para que no se pueda añadir un un Chef id con un plato del mismo nombre repetido para este chef Id:  
+
 ![Evidence Dishes Creation](/assets/TF_images/EEDishesAgregarDish.png)
 
-Con la barra de búsqueda, se pueden filtrar los dishes
-
-Por nombre:
+Con la barra de búsqueda, se pueden filtrar los dishes por nombre de plato:  
 ![Evidence Dishes Filtrado por Nombre](/assets/TF_images/EEDishesFiltradoPorNombre.png)
 
-Por ingredientes:
-![Evidence Dishes Filtrado por Ingrediente](/assets/TF_images/EEDishesFiltradoPorIngrediente.png)
+De la misma manera , con la barra de búsqueda, se pueden filtrar las recetas por algun nombre de los ingredientes en su receta:  
+![Evidence Dishes Filtrado por Ingrediente](/assets/TF_images/EEDishesFiltradoPorIngrediente.png)  
+
+Y cuando se agregue datos desde el front se pueden visualizar en el workbench:  
+![alt text](assets/TF_images/dishks.png)  
+
+**Favoritos**    
+Por ultimo se muestra la seccion de favoritos donde se puede dar click en el corazon tanto en recetas como en chefs y cuando le elija como favorito se visualizara en la seccion de favoritos y el corazon se ponga de color rojo 
+![alt text](assets/TF_images/favorites.png)
+
+Cuando quiera dejar de ponerlo en favoritos vuelves a apretar el boton solo sera un corazon con bordes rojos y dejaran de visualizarse en favoritos y se visualizaran en la seccion que les corresponde , por ejemplo recetas:     
+![alt text](assets/TF_images/favoritesno.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
@@ -3159,7 +3168,7 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 
 Aquí tienes el resumen de las conclusiones por grupo:
 
-- TB1:<br> 
+- TB1:<br>  
 El proyecto "Sabores Cercanos" evidenció un trabajo colaborativo bien estructurado, donde se implementaron herramientas como Lean UX, Impact Mapping y User Stories. Estas permitieron la creación de una arquitectura de software sólida, una landing page funcional y un análisis de competidores, destacando la autenticidad en la conexión directa con cocineros locales. A lo largo del proceso, se identificaron y organizaron claramente las metas, objetivos y responsabilidades, fortaleciendo el liderazgo compartido y una toma de decisiones eficiente. El análisis de necesidades de los usuarios y el empleo de metodologías de gestión y diseño contribuyeron a que el equipo avanzara con éxito en cada etapa del desarrollo.<br>
 
 - TP:<br>

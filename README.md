@@ -1185,7 +1185,6 @@ EPICS:
 ### 3.3. Impact Mapping
 
 ![alt text](assets/images/TB1/impactmapping.jpg) <br>
-[Anexo A](#anexos)<br><br>
 
 
 ### 3.4. Product Backlog

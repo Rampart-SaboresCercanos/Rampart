@@ -2375,7 +2375,7 @@ https://saborescercanos-frontend.web.app/home
 
 **Enlace a Video About the product**  
 Ademas presentamos un video explicativo de las funcionalidades en el Frontend:
-https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
+https://drive.google.com/file/d/1djNiLtgyAH9Q8-s33a6owRD7wQ_NSKfp/view?usp=sharing 
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -3233,6 +3233,8 @@ Link de Trello(Sprints Backlog): https://trello.com/invite/b/66e21f40286ffef6ecd
 Video about the product(TB2): https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
 
 Video about the team(TB2): https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1C7D9PstKxCV4/view?usp=drive_link
+
+Video about the product(TF): https://drive.google.com/file/d/1djNiLtgyAH9Q8-s33a6owRD7wQ_NSKfp/view?usp=sharing
 
 LINK FRONTEND TF
 

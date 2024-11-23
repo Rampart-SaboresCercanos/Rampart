@@ -136,22 +136,6 @@ TF:<br>
 ## Contenido
 
 ### Tabla de contenidos
-- [Rampart](#rampart)
-- [UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS](#universidad-peruana-de-ciencias-aplicadas)
-  - [Ingenieria de Software](#ingenieria-de-software)
-  - [5to ciclo](#5to-ciclo)
-  - [Aplicaciones Web](#aplicaciones-web)
-    - [**Sección:** WS51](#sección-ws51)
-    - [**Profesor:** Hugo Allan Mori Paiva](#profesor-hugo-allan-mori-paiva)
-    - [Informe de Trabajo Final](#informe-de-trabajo-final)
-    - ["Rampart"](#rampart-1)
-    - ["Sabores Cercanos"](#sabores-cercanos)
-    - [**Integrantes:**](#integrantes)
-    - [Agosto, 2024](#agosto-2024)
-  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [Contenido](#contenido)
-    - [Tabla de contenidos](#tabla-de-contenidos)
   - [Student Outcome](#student-outcome)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
@@ -162,7 +146,6 @@ TF:<br>
     - [1.2.2. Lean UX Process](#122-lean-ux-process)
     - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
     - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [Assumptions para "Sabores Cercanos"](#assumptions-para-sabores-cercanos)
     - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
     - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
@@ -174,10 +157,8 @@ TF:<br>
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
+    - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-  - [**User Persona del Segmento Objetivo 1: Cocineros Caseros**](#user-persona-del-segmento-objetivo-1-cocineros-caseros)
-  - [**User Persona del Segmento Objetivo 2: Estudiantes/Profesionales Ocupados**](#user-persona-del-segmento-objetivo-2-estudiantesprofesionales-ocupados)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
@@ -216,22 +197,10 @@ TF:<br>
     - [4.8. Database Design](#48-database-design)
     - [4.8.1. Database Diagram](#481-database-diagram)
     - [4.8.2. Database Dictionary](#482-database-dictionary)
-      - [User](#user)
-      - [Chef](#chef)
-      - [Order](#order)
-      - [Order-Details](#order-details)
-      - [Dish](#dish)
-      - [Publication](#publication)
-      - [Reviews](#reviews)
-      - [Category](#category)
-      - [Plans-Type](#plans-type)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [**Master o Main branch**](#master-o-main-branch)
-      - [Notación: master o main](#notación-master-o-main)
-    - [**Conventional Commits**](#conventional-commits)
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
@@ -242,7 +211,6 @@ TF:<br>
     - [5.2.1.4. Testing Suite Evidence for Sprint Review](#5214-testing-suite-evidence-for-sprint-review)
     - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
     - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-    - [Resumen de Acciones del Equipo](#resumen-de-acciones-del-equipo)
     - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
     - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
     - [5.2.2. Sprint 2](#522-sprint-2)
@@ -277,7 +245,6 @@ TF:<br>
     - [5.3.2. Registro de Entrevistas.](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas.](#533-evaluaciones-según-heurísticas)
     - [5.4. Video About-The-Team](#54-video-about-the-team)
-    - [URLs de la Versión Publicada](#urls-de-la-versión-publicada)
     - [5.5. Video About-The-Product](#55-video-about-the-product)
   - [Conclusiones](#conclusiones)
   - [Bibliografia](#bibliografia)
@@ -2496,13 +2463,6 @@ https://rampart-saborescercanos.github.io/LandingPage/
 <h3>Frontend</h3>  
 Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfocándonos en el frontend. Las actividades realizadas incluyen la configuración del entorno de desarrollo en Firebase, la creación de cuentas en proveedores de servicios en la nube y la automatización del proceso de despliegue.<br><br>  
 
-**Levantamiento del FakeApi con My JSON Server**  
-
-  ![db.json en JSON Server](assets/images/TB3/deploy_5.jpg)  
-
-  Se crea un repositorio , ponemos el bd.json en el repositorio para poder con este crear el link de My JSON Server    
-  Una vez puesto este link en los environments y comprobado que funciona el frontend con el link como fakeApi seguimos al siguiente paso.
-
 **Pasos Realizados para el espliegue del Frontend en Firebase Hosting**
 
 1. **Creación de la Cuenta en Firebase**  
@@ -2531,7 +2491,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestro sistema, enfo
   Firebase generó una URL pública que permite acceder al sitio en línea.
   ![alt text](assets/TB2_images/frontdep.png)
   Enlace al Frontend Desplegado:  
-  https://saborescercanos-frontend.web.app/home  
+  https://rampart-front-v3.web.app/sign-in   
 
 **Conclusiones**
 El proceso de despliegue del frontend en Firebase se realizó con éxito, asegurando que todos los elementos estén disponibles y funcionando correctamente en el entorno de producción. Se verificó la accesibilidad de la landing page y se realizaron pruebas para confirmar que todos los enlaces y funciones están operativos.
@@ -2552,7 +2512,7 @@ Durante este Sprint, hemos llevado a cabo el despliegue de nuestra aplicación b
 
 Este proceso asegura que el backend esté correctamente desplegado y funcional en Azure, con una conexión confiable y sincronizada a través de GitHub. 
 
-**Evidencia de la Base de Datos en swagger(deploy)**
+**Evidencia de la Base de Datos en swagger**
    - Captura de Pantalla del swagger en Backend:
     ![alt text](assets/TB2_images/Back_1.png)
     ![alt text](assets/TB2_images/Back_2.png)
@@ -2813,8 +2773,8 @@ Cuando quiera dejar de ponerlo en favoritos vuelves a apretar el boton solo sera
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
  URL FRONTEND Y BACKEND DESPLEGADO:<br>
- URL FRONTEND: https://saborescercanos-frontend.web.app/home<br>
- URL BACKEND: rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
+ URL FRONTEND: https://rampart-front-v3.web.app/sign-in<br>
+ URL BACKEND: [rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html](https://rampartupc-cpf0cfh3b6dpgpfb.eastus2-01.azurewebsites.net/index.html)
 
   **Chef Bounded Context**
 
@@ -2906,14 +2866,11 @@ Este proceso asegura que el backend esté correctamente desplegado y funcional e
 
 **Evidencia de la Base de Datos en swagger(deploy)**
 
-FALTA ACTUALIZAR, SE DEBE MOSTRAR EL LINK DEL DEPLOY DEL BACKEND EN LA IMAGEN
-   - Captura de Pantalla de `db.json` utilizado en JSON Server:
-    ![alt text](assets/TB2_images/swaggerdeployado1.png)
-    ![alt text](assets/TB2_images/swaggerdeployado2.png)  
+   - Captura de Pantalla de `RAMPART.API` desplegado utilizado en Azure Websites:
+    ![alt text](assets/TF_images/Back_Deploy.png) 
 
 Enlace a la Aplicación Backend Desplegada:  
-LINK DEL BACKEND
-rampartmanagewise-fva6azdtgqfjd9ca.canadacentral-01.azurewebsites.net/index.html
+https://rampartupc-cpf0cfh3b6dpgpfb.eastus2-01.azurewebsites.net/index.html 
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -3236,6 +3193,8 @@ Video about the team(TB2): https://drive.google.com/file/d/1UvphbEsHuKes3DNIQ8m1
 
 Video about the product(TF): https://drive.google.com/file/d/1djNiLtgyAH9Q8-s33a6owRD7wQ_NSKfp/view?usp=sharing
 
-LINK FRONTEND TF
+URL Deploy FrontEnd (TF): https://rampart-front-v3.web.app/sign-in 
 
-LINK BACKEND TF
+URL Deploy BackEnd (TF): https://rampartupc-cpf0cfh3b6dpgpfb.eastus2-01.azurewebsites.net/index.html 
+
+URL Deploy FrontEnd + BackEnd (TF): https://rampart-front-v3.web.app/sign-in

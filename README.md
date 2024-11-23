@@ -3119,7 +3119,7 @@ En esta sección, el equipo presenta un resumen de los aspectos más relevantes 
 
 **URLs de la Versión Publicada**
 
-- **Versión en Google Drive**: [https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing](https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing)
+- **Versión en Google Drive**: [https://drive.google.com/file/d/1djNiLtgyAH9Q8-s33a6owRD7wQ_NSKfp/view?usp=sharing](https://drive.google.com/file/d/1djNiLtgyAH9Q8-s33a6owRD7wQ_NSKfp/view?usp=sharing)
 
 ## Conclusiones
 
